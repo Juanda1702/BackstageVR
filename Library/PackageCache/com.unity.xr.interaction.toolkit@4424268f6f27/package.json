@@ -1,0 +1,84 @@
+{
+  "name": "com.unity.xr.interaction.toolkit",
+  "displayName": "XR Interaction Toolkit",
+  "version": "3.3.0",
+  "unity": "2021.3",
+  "description": "A high-level, component-based, interaction system for creating VR and AR experiences. It provides a framework that makes 3D and UI interactions available from Unity input events. The core of this system is a set of base Interactor and Interactable components, and an Interaction Manager that ties these two types of components together. It also contains components that you can use for locomotion and drawing visuals.",
+  "keywords": [
+    "XR",
+    "VR",
+    "toolkit",
+    "interaction"
+  ],
+  "category": "XR",
+  "dependencies": {
+    "com.unity.inputsystem": "1.8.1",
+    "com.unity.mathematics": "1.2.6",
+    "com.unity.ugui": "1.0.0",
+    "com.unity.xr.core-utils": "2.4.0",
+    "com.unity.modules.audio": "1.0.0",
+    "com.unity.modules.imgui": "1.0.0",
+    "com.unity.modules.physics": "1.0.0",
+    "com.unity.modules.xr": "1.0.0"
+  },
+  "samples": [
+    {
+      "displayName": "Starter Assets",
+      "description": "Assets to streamline setup of behaviors, including a default set of input actions and presets for use with XR Interaction Toolkit behaviors that use the Input System. Also contains a demo scene.\n<i>Dependencies:</i>\n • <a href=\"com.unity3d.kharma:upmpackage/com.unity.shadergraph\">Shader Graph</a>",
+      "path": "Samples~/Starter Assets"
+    },
+    {
+      "displayName": "Hands Interaction Demo",
+      "description": "Demo scene and other assets for hand-tracking integration with the XR Interaction Toolkit.\n<i>Dependencies:</i>\n • <a href=\"com.unity3d.kharma:upmpackage/com.unity.xr.hands\">XR Hands</a>\n • <a href=\"com.unity3d.kharma:upmpackage/com.unity.shadergraph\">Shader Graph</a>\n • Starter Assets sample",
+      "path": "Samples~/Hands Interaction Demo"
+    },
+    {
+      "displayName": "AR Starter Assets",
+      "description": "Assets to streamline setup when building for Mobile AR or Mixed Reality with the XR Interaction Toolkit. This includes prefabs and a demo scene to get you started.\n<i>Dependencies:</i>\n • <a href=\"com.unity3d.kharma:upmpackage/com.unity.xr.arfoundation\">AR Foundation</a>\n • Starter Assets sample",
+      "path": "Samples~/AR Starter Assets"
+    },
+    {
+      "displayName": "XR Interaction Simulator",
+      "description": "Assets related to the simulation of input for XR headsets, controllers, and hands.",
+      "path": "Samples~/XR Interaction Simulator"
+    },
+    {
+      "displayName": "XR Device Simulator",
+      "description": "(Legacy) Assets related to the simulation of input for XR headsets, controllers, and hands. This is the older \"classic\" version of the simulator that existed before the XR Interaction Simulator sample was introduced and lacks many of the newer features.",
+      "path": "Samples~/XR Device Simulator"
+    },
+    {
+      "displayName": "Spatial Keyboard",
+      "description": "Virtual spatial keyboard to allow for text entry in a world space UI. This interactable keyboard can be used in your app instead of the platform's system keyboard.\n<i>Dependencies:</i>\n • <a href=\"com.unity3d.kharma:upmpackage/com.unity.textmeshpro\">TextMeshPro</a>\n • Starter Assets sample",
+      "path": "Samples~/Spatial Keyboard"
+    },
+    {
+      "displayName": "World Space UI",
+      "description": "This sample provides a demo scene and prefabs demonstrating how to leverage UI Toolkit and UGUI in world space in conjunction with the XR Interaction Toolkit. \n<i>Dependencies:</i>\n • Starter Assets sample\n • Hands Interaction Demo sample\n • Unity 6.2 or newer (minimum 6000.2.0a9)",
+      "path": "Samples~/World Space UI"
+    },
+    {
+      "displayName": "Legacy XR Input Readers",
+      "description": "This sample provides ScriptableObjects to assist with migration from the older device-based controller input to be used with the new input readers introduced with version 3.0.0.",
+      "path": "Samples~/Legacy XR Input Readers"
+    },
+    {
+      "displayName": "visionOS",
+      "description": "This sample provides a demo scene and prefabs designed to to help you get started developing on visionOS with the XR Interaction Toolkit.\n<i>Dependencies:</i>\n • <a href=\"com.unity3d.kharma:upmpackage/com.unity.xr.arfoundation\">AR Foundation</a>\n • <a href=\"com.unity3d.kharma:upmpackage/com.unity.polyspatial.visionos\">PolySpatial visionOS</a>\n • <a href=\"com.unity3d.kharma:upmpackage/com.unity.polyspatial.xr\">PolySpatial XR</a>\n • <a href=\"com.unity3d.kharma:upmpackage/com.unity.shadergraph\">Shader Graph</a>\n • Starter Assets sample\n • Unity 2022.3 LTS or newer (minimum 2022.3.19f1)",
+      "path": "Samples~/visionOS"
+    }
+  ],
+  "_upm": {
+    "changelog": "### Added\n- Added `ToggleComponentZone` sample script to activate/deactivate the Gaze Interactor GameObjects when entering a trigger collider to prevent unintentional gaze-based selection in the rest of the scene. This component was added to the Starter Assets and implemented in the `DemoScene` at the re-added \"Gaze Interactable Objects\" station. (Forward port from 2.6.5)\n\n### Changed\n- Changed the Climb Provider component in the `XR Origin (XR Rig)` prefab in the Starter Assets sample to also disable the Move provider when climbing.\n- Changed the `DemoScene` in Starter Assets to disable the Gaze Interactor by default so it is not causing accidental selection of interactables based on head movement.\n\n### Fixed\n- Fixed an issue where pinching with the Hand Interaction Profile caused the Interactables to stick to the thumb longer than desired, moving the object after a pinch was released. The `ReleaseThresholdButtonReader` sample component was updated with new default values to ensure tighter press and release when pinching. ([XRIT-334](https://issuetracker.unity3d.com/product/unity/issues/guid/XRIT-334))\n- Fixed the Near-Far Interactor components to destroy the `Attach` and `Stabilization Cast Origin` GameObjects under the XR Origin that it creates when it is destroyed. This fix added new `OnDestroy` methods to [`InteractionCasterBase`](xref:UnityEngine.XR.Interaction.Toolkit.Interactors.Casters.InteractionCasterBase) and [`InteractionAttachController`](xref:UnityEngine.XR.Interaction.Toolkit.Attachment.InteractionAttachController). Users who had already implemented either method in derived classes will need to call the base method. ([XRIT-322](https://issuetracker.unity3d.com/product/unity/issues/guid/XRIT-322))\n- Fixed a compiler issue with the `KeyboardOptimizer` sample component that occurs when TextMeshPro or Unity UI packages are not installed.\n- Fixed an issue with the **AR Starter Assets** spawning components, where a compiler dependency on the `ObjectSpawner` component in **Starter Assets** was causing an inability to run Project Validation rules to import the required sample dependency.\n- Fixed hand prefabs in the `Hands Interaction Demo` sample that were based on the hand models from the XR Hands `HandVisualizer` sample. The new prefabs are built as a prefab variant, allowing smoother upgrade when the underlying models are updated. (Backport from 3.4.0-pre.1)"
+  },
+  "upmCi": {
+    "footprint": "fe78342ef871c0170e4e4b8dc0f99091a23c5684"
+  },
+  "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@3.3/manual/index.html",
+  "repository": {
+    "url": "https://github.com/Unity-Technologies/com.unity.xr.interaction.toolkit.git",
+    "type": "git",
+    "revision": "9b51c6c81a5799a07b93e26e17b760291608c9c9"
+  },
+  "_fingerprint": "4424268f6f279a8da3e9a4524cda7a4c5277050b"
+}
