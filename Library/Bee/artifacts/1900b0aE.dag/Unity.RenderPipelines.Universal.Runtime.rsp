@@ -135,6 +135,11 @@
 -define:USE_INPUT_SYSTEM_POSE_CONTROL
 -define:UNITY_POST_PROCESSING_STACK_V2
 -define:USE_STICK_CONTROL_THUMBSTICKS
+-define:INK_RUNTIME
+-define:INK_EDITOR
+-define:ADAPTIVE_PERFORMANCE_2_0_0_OR_NEWER
+-define:ADAPTIVE_PERFORMANCE_2_1_0_OR_NEWER
+-define:ADAPTIVE_PERFORMANCE_4_0_0_OR_NEWER
 -define:ENABLE_BURST_1_0_0_OR_NEWER
 -define:ENABLE_VR_MODULE
 -define:ENABLE_XR_MODULE
@@ -411,6 +416,7 @@
 -r:"Library/PackageCache/com.unity.nuget.mono-cecil@d78732e851eb/Mono.Cecil.dll"
 -r:"Library/PackageCache/com.unity.nuget.newtonsoft-json@74deb55db2a0/Runtime/Newtonsoft.Json.dll"
 -r:"Library/PackageCache/com.unity.testtools.codecoverage@205a02cbcb39/lib/ReportGenerator/ReportGeneratorMerged.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.AdaptivePerformance.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Burst.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Mathematics.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.RenderPipeline.Universal.ShaderLibrary.ref.dll"

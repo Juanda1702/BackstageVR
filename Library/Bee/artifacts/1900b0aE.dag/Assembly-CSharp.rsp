@@ -135,6 +135,8 @@
 -define:USE_INPUT_SYSTEM_POSE_CONTROL
 -define:UNITY_POST_PROCESSING_STACK_V2
 -define:USE_STICK_CONTROL_THUMBSTICKS
+-define:INK_RUNTIME
+-define:INK_EDITOR
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"C:/Program Files/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.AccessibilityModule.dll"
@@ -394,10 +396,18 @@
 -r:"Library/PackageCache/com.unity.nuget.newtonsoft-json@74deb55db2a0/Runtime/Newtonsoft.Json.dll"
 -r:"Library/PackageCache/com.unity.testtools.codecoverage@205a02cbcb39/lib/ReportGenerator/ReportGeneratorMerged.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Analytics.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Ink-Libraries.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/InkEditor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/PPv2URPConverters.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Sprite.AIIntegration.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Sprite.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Tilemap.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.AdaptivePerformance.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.AdaptivePerformance.Profiler.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.AdaptivePerformance.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.AdaptivePerformance.Simulator.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.AdaptivePerformance.Simulator.Extension.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.AdaptivePerformance.UI.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Editor.ConversionSystem.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.ref.dll"
@@ -418,6 +428,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Profiling.Core.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Purchasing.Codeless.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Purchasing.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Purchasing.SecurityCore.ref.dll"
@@ -511,6 +522,19 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
+"Assets/Ink/Demos/Basic Demo/Scripts/BasicInkExample.cs"
+"Assets/Ink/Demos/Basic Demo/Scripts/QuitGameOnKeypress.cs"
+"Assets/Inkle/InkPresenter.cs"
+"Assets/Scripts/AcomodadorChecklist.cs"
+"Assets/Scripts/CrowdAgent.cs"
+"Assets/Scripts/CrowdSpawner.cs"
+"Assets/Scripts/InspectableInstrument.cs"
+"Assets/Scripts/InstrumentDefs.cs"
+"Assets/Scripts/InstrumentInspectionPanel.cs"
+"Assets/Scripts/InstrumentSnapTarget.cs"
+"Assets/Scripts/ReplacementService.cs"
+"Assets/Scripts/RoleManager.cs"
+"Assets/Scripts/WarningTool.cs"
 "Assets/VRTemplateAssets/Scripts/AnchorVisuals.cs"
 "Assets/VRTemplateAssets/Scripts/BezierCurve.cs"
 "Assets/VRTemplateAssets/Scripts/BooleanToggleVisualsController.cs"

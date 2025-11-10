@@ -135,6 +135,8 @@
 -define:USE_INPUT_SYSTEM_POSE_CONTROL
 -define:UNITY_POST_PROCESSING_STACK_V2
 -define:USE_STICK_CONTROL_THUMBSTICKS
+-define:INK_RUNTIME
+-define:INK_EDITOR
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"C:/Program Files/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed/UnityEditor.Graphs.dll"

@@ -5,6 +5,12 @@ Library\Bee\artifacts\mvdfrm\Unity.AI.Navigation.Editor.ConversionSystem.ref.dll
 Library\Bee\artifacts\mvdfrm\Unity.AI.Navigation.Editor.ref.dll_7989A1C8D57EF9BF.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.AI.Navigation.Updater.ref.dll_34B8D5B7DED6E76D.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.AI.Navigation.ref.dll_407F07063643C512.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.AdaptivePerformance.Editor.ref.dll_1218CB6667898C7F.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.AdaptivePerformance.Profiler.Editor.ref.dll_3B6C3067B8E7C0C6.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.AdaptivePerformance.Simulator.Editor.ref.dll_6096FFAE7028E329.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.AdaptivePerformance.Simulator.Extension.ref.dll_22683F5ADFEFA389.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.AdaptivePerformance.UI.Editor.ref.dll_2F75AB27266799CB.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.AdaptivePerformance.ref.dll_F07A6251CDFF0652.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Analytics.DataPrivacy.ref.dll_B44BF53B55CD31DE.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Burst.Editor.ref.dll_E2F92DAB6C167CC9.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Burst.ref.dll_F30DFA20C0DD1968.mvfrm
@@ -21,6 +27,7 @@ Library\Bee\artifacts\mvdfrm\Unity.Multiplayer.Center.Common.ref.dll_EE36537354E
 Library\Bee\artifacts\mvdfrm\Unity.Multiplayer.Center.Editor.ref.dll_EB1F4B6E56116D4A.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Performance.Profile-Analyzer.Editor.ref.dll_65A192712782EB2B.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.PlasticSCM.Editor.ref.dll_257AEB342BE77856.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Profiling.Core.ref.dll_DDC12D7300735955.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Purchasing.Codeless.ref.dll_5DB2A2D5E8A2EDEE.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Purchasing.SecurityCore.ref.dll_192994C55A7CB477.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Purchasing.SecurityStub.ref.dll_645059B8FDE96FB6.mvfrm

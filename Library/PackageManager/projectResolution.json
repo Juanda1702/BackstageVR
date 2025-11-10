@@ -29,6 +29,16 @@
       "source": "builtin",
       "testable": false
     },
+    "com.unity.adaptiveperformance@5.1.6": {
+      "name": "com.unity.adaptiveperformance",
+      "displayName": "Adaptive Performance",
+      "resolvedPath": "C:\\Users\\juand\\Documents\\Proyectos Unity\\BackstageVR\\Library\\PackageCache\\com.unity.adaptiveperformance@de279be9c429",
+      "fingerprint": "de279be9c4293882b05e64612e641789bcfc5a00",
+      "editorCompatibility": "2022.3.0f1",
+      "version": "5.1.6",
+      "source": "registry",
+      "testable": false
+    },
     "com.unity.ads@4.16.3": {
       "name": "com.unity.ads",
       "displayName": "Advertisement Legacy",
@@ -637,6 +647,16 @@
       "fingerprint": "10a9ca5d56226d26b71614c3ee36a91aaa253b96",
       "editorCompatibility": "2021.3.0a1",
       "version": "6.1.0",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.profiling.core@1.0.2": {
+      "name": "com.unity.profiling.core",
+      "displayName": "Unity Profiling Core API",
+      "resolvedPath": "C:\\Users\\juand\\Documents\\Proyectos Unity\\BackstageVR\\Library\\PackageCache\\com.unity.profiling.core@aac7b93912bc",
+      "fingerprint": "aac7b93912bc5df5fe06b04ff1b758493cdc2346",
+      "editorCompatibility": "2020.1.0a1",
+      "version": "1.0.2",
       "source": "registry",
       "testable": false
     },
