@@ -1,0 +1,17 @@
+# Unity
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]serSettings/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ibrary/Bee/
+/[Ll]ibrary/il2cpp_cache/
+/[Ll]ibrary/PlayerDataCache/
+
+# Gradle/Android
+**/build/
+.gradle/
+*.apk
+*.aab

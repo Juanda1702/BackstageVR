@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638981631263644577
-    m_Hash: 1369153662
+      ticks: 638983391058985833
+    m_Hash: 3044903314
   m_LockFileStatus:
     m_FilePath: C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638981631263693487
-    m_Hash: 2972810581
+      ticks: 638983391059031206
+    m_Hash: 1627023353
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -361,6 +361,134 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 5.1.6
     minimumUnityVersion: 2022.3.0f1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.adaptiveperformance.google.android@5.1.6
+  testable: 0
+  isDirectDependency: 1
+  version: 5.1.6
+  source: 1
+  resolvedPath: C:\Users\juand\Documents\Proyectos Unity\BackstageVR\Library\PackageCache\com.unity.adaptiveperformance.google.android@071a1152d939
+  assetPath: Packages/com.unity.adaptiveperformance.google.android
+  name: com.unity.adaptiveperformance.google.android
+  displayName: Adaptive Performance Android
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: "The Adaptive Performance Android package provides the Adaptive Performance
+    subsystem for Android platforms and works in combination with Adaptive Performance.
+    \n\nBy installing this package, you agree to the terms and conditions of the
+    Unity End User License Agreement found under \"View licenses\" above."
+  errors: []
+  versions:
+    all:
+    - 1.0.0-pre.2
+    - 1.0.0-pre.3
+    - 1.0.0-pre.4
+    - 1.0.0
+    - 1.1.0
+    - 1.1.1
+    - 1.1.2
+    - 1.2.0
+    - 1.2.1
+    - 1.3.1
+    - 5.1.2
+    - 5.1.3
+    - 5.1.4
+    - 5.1.5
+    - 5.1.6
+    compatible:
+    - 5.1.6
+    recommended: 5.1.6
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.androidjni
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.adaptiveperformance
+    version: 5.1.0
+  resolvedDependencies:
+  - name: com.unity.modules.androidjni
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.adaptiveperformance
+    version: 5.1.6
+  - name: com.unity.profiling.core
+    version: 1.0.2
+  keywords:
+  - mobile
+  - adaptive
+  - performance
+  - utility
+  - utilities
+  - core
+  - google
+  - ap
+  - provider
+  - subsystem
+  - gamesdk
+  - VRR
+  - indexer
+  - scaler
+  - boost
+  - profiles
+  - cluster
+  - clusterinfo
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638926834523000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.adaptiveperformance.google.android@5.1/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.adaptiveperformance.google.android.git
+    revision: cb41e032be05a1b99c0ffc3d3d05580a57092d21
+    path: 
+  unityLifecycle:
+    version: 5.1.6
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+    isDiscoverable: 0
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Fixed\n* Fixed problem with native libraries manifests
+    when using this package with Unity 2022.3."}'
+  assetStore:
+    productId: 
+  fingerprint: 071a1152d939402bb92365549bca60e5da15f265
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 5.1.6
+    minimumUnityVersion: 2022.3.0a1
   compliance:
     status: 0
     violation:

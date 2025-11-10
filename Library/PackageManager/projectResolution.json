@@ -39,6 +39,16 @@
       "source": "registry",
       "testable": false
     },
+    "com.unity.adaptiveperformance.google.android@5.1.6": {
+      "name": "com.unity.adaptiveperformance.google.android",
+      "displayName": "Adaptive Performance Android",
+      "resolvedPath": "C:\\Users\\juand\\Documents\\Proyectos Unity\\BackstageVR\\Library\\PackageCache\\com.unity.adaptiveperformance.google.android@071a1152d939",
+      "fingerprint": "071a1152d939402bb92365549bca60e5da15f265",
+      "editorCompatibility": "2022.3.0a1",
+      "version": "5.1.6",
+      "source": "registry",
+      "testable": false
+    },
     "com.unity.ads@4.16.3": {
       "name": "com.unity.ads",
       "displayName": "Advertisement Legacy",
