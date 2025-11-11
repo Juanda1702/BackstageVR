@@ -100,6 +100,7 @@ struct StateChangeMonitorListenerU5BU5D_tEF042EA5E57858FE7C48A9F1AF7A55B249ADB5A
 struct RemoteInputDeviceU5BU5D_tB3C8B8C0AAE6347DB4E4D58D94254291C1FDD7F5;
 struct BitRegionU5BU5D_t6D477477F7EB84242BA07FA65BC1BD6DA74A3D39;
 struct DeviceJsonU5BU5D_tD8A3D5639BB87977D72F14C0AEDA8EBC7C625278;
+struct AccessibilityNode_t9998B596BE3A0232C1CFE3B2610DF52E0338A49A;
 struct Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07;
 struct ActionEvent_tFC934B0EAC602EBEF4E6F4A34EC21B329DE11444;
 struct Awaitable_t690337FEC1C411606E233EA36A41337B931C23CB;
@@ -177,6 +178,7 @@ struct TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09;
 struct TextReader_tB8D43017CB6BE1633E5A86D64E7757366507C1F7;
 struct Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700;
 struct Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4;
+struct TileBase_t07019BD771D35E8EA68118157D6EEE4C770CF0F9;
 struct Touchscreen_t5A3B494C10A53A822AEDB3508093860D142D84CE;
 struct Type_t;
 struct UIDocument_t4186BEBCC01278F63B895274AA08AD9ADFBF4C77;
@@ -1512,6 +1514,21 @@ struct TMP_Offset_t2262BE4E87D9662487777FF8FFE1B17B0E4438C6
 	float ___m_Right;
 	float ___m_Top;
 	float ___m_Bottom;
+};
+struct TelemetryDiagnosticParams_t69BC794FB4BFEF4DA451F7C0A015C56D07573BD5 
+{
+	String_t* ___name;
+	String_t* ___exception;
+};
+struct TelemetryDiagnosticParams_t69BC794FB4BFEF4DA451F7C0A015C56D07573BD5_marshaled_pinvoke
+{
+	char* ___name;
+	char* ___exception;
+};
+struct TelemetryDiagnosticParams_t69BC794FB4BFEF4DA451F7C0A015C56D07573BD5_marshaled_com
+{
+	Il2CppChar* ___name;
+	Il2CppChar* ___exception;
 };
 struct TerrainTileCoord_t2181DDF40A8A428A84817957CB7FB19A314F4F09 
 {
@@ -4279,6 +4296,10 @@ struct AccessFlags_tB7D400C853C05A1DB9C6B56DF14E43721F0B1739
 {
 	int32_t ___value__;
 };
+struct AccessibilityNotification_t3275B813A36874907C1B64627F8C8F8A9A6C77F4 
+{
+	int32_t ___value__;
+};
 struct Allocator_t996642592271AAD9EE688F142741D512C07B5824 
 {
 	int32_t ___value__;
@@ -4773,6 +4794,10 @@ struct TextureDimension_t8D7148B9168256EE1E9AF91378ABA148888CE642
 	int32_t ___value__;
 };
 struct TextureFormat_t87A73E4A3850D3410DC211676FC14B94226C1C1D 
+{
+	int32_t ___value__;
+};
+struct TileFlags_tDCEE980FCB6A2159202B4C8096C11452E318D2A9 
 {
 	int32_t ___value__;
 };
@@ -5765,6 +5790,10 @@ struct Frame_tE254B3BDA010B9114EF1F470C177342FAF3E8FFD_marshaled_com
 	SpriteSize_tF99BB7603AE2E6587E6184ACAB6CD209FE6569B3 ___sourceSize;
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___pivot;
 };
+struct ColliderType_t4C26FB284A330CAD69E47FFD734C9C778E077692 
+{
+	int32_t ___value__;
+};
 struct TZifType_t3ACBE0BB45077721E9D8DAF1414503F7990621D4 
 {
 	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___UtcOffset;
@@ -6395,6 +6424,33 @@ struct ValueTuple_2_tBC19AE73793D615D180F320AB46A541EF61AFBF9
 {
 	int32_t ___Item1;
 	RuntimeObject* ___Item2;
+};
+struct AccessibilityNotificationContext_t074DE74548FF9F28BB9D9A4A5714FCBD4F833059 
+{
+	int32_t ___U3CnotificationU3Ek__BackingField;
+	bool ___U3CisScreenReaderEnabledU3Ek__BackingField;
+	String_t* ___U3CannouncementU3Ek__BackingField;
+	bool ___U3CwasAnnouncementSuccessfulU3Ek__BackingField;
+	int32_t ___U3CcurrentNodeIdU3Ek__BackingField;
+	int32_t ___U3CnextNodeIdU3Ek__BackingField;
+};
+struct AccessibilityNotificationContext_t074DE74548FF9F28BB9D9A4A5714FCBD4F833059_marshaled_pinvoke
+{
+	int32_t ___U3CnotificationU3Ek__BackingField;
+	int32_t ___U3CisScreenReaderEnabledU3Ek__BackingField;
+	char* ___U3CannouncementU3Ek__BackingField;
+	int32_t ___U3CwasAnnouncementSuccessfulU3Ek__BackingField;
+	int32_t ___U3CcurrentNodeIdU3Ek__BackingField;
+	int32_t ___U3CnextNodeIdU3Ek__BackingField;
+};
+struct AccessibilityNotificationContext_t074DE74548FF9F28BB9D9A4A5714FCBD4F833059_marshaled_com
+{
+	int32_t ___U3CnotificationU3Ek__BackingField;
+	int32_t ___U3CisScreenReaderEnabledU3Ek__BackingField;
+	Il2CppChar* ___U3CannouncementU3Ek__BackingField;
+	int32_t ___U3CwasAnnouncementSuccessfulU3Ek__BackingField;
+	int32_t ___U3CcurrentNodeIdU3Ek__BackingField;
+	int32_t ___U3CnextNodeIdU3Ek__BackingField;
 };
 struct Glyph_t700CF8EBE04ED4AEAB520885AAA1B309E02A103F  : public RuntimeObject
 {
@@ -7087,6 +7143,15 @@ struct TextSpan_tD088342260A71C10DC0840BCA5D5E28139BA4219
 	int32_t ___fontWeight;
 	int32_t ___linkID;
 	int32_t ___alignment;
+};
+struct TileData_tFB814629D010ABD175127C0BE96FD96EA606E00F 
+{
+	int32_t ___m_Sprite;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_Color;
+	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___m_Transform;
+	int32_t ___m_GameObject;
+	int32_t ___m_Flags;
+	int32_t ___m_ColliderType;
 };
 struct TimeValue_t45AE43B219493F9459363F32C79E8986B5F82E0E 
 {
@@ -9136,6 +9201,45 @@ struct XRSaveAnchorResult_t30DC9C1CC8C9B5A35D3846C455096D08A6462DC8
 	TrackableId_t49EAE8AA4B9584E314518723DC22B66496D47AD7 ___trackableId;
 	SerializableGuid_tCEABDCED6CD954AC100159BDEFC5D414049C0378 ___savedAnchorGuid;
 };
+struct NotificationContext_tDD3427B7EC4DB358C79E077AEE029BBFE128AD2A 
+{
+	int32_t ___U3CnotificationU3Ek__BackingField;
+	bool ___U3CisScreenReaderEnabledU3Ek__BackingField;
+	String_t* ___U3CannouncementU3Ek__BackingField;
+	bool ___U3CwasAnnouncementSuccessfulU3Ek__BackingField;
+	AccessibilityNode_t9998B596BE3A0232C1CFE3B2610DF52E0338A49A* ___U3CcurrentNodeU3Ek__BackingField;
+	AccessibilityNode_t9998B596BE3A0232C1CFE3B2610DF52E0338A49A* ___U3CnextNodeU3Ek__BackingField;
+	float ___U3CfontScaleU3Ek__BackingField;
+	bool ___U3CisBoldTextEnabledU3Ek__BackingField;
+	bool ___U3CisClosedCaptioningEnabledU3Ek__BackingField;
+	AccessibilityNotificationContext_t074DE74548FF9F28BB9D9A4A5714FCBD4F833059 ___U3CnativeContextU3Ek__BackingField;
+};
+struct NotificationContext_tDD3427B7EC4DB358C79E077AEE029BBFE128AD2A_marshaled_pinvoke
+{
+	int32_t ___U3CnotificationU3Ek__BackingField;
+	int32_t ___U3CisScreenReaderEnabledU3Ek__BackingField;
+	char* ___U3CannouncementU3Ek__BackingField;
+	int32_t ___U3CwasAnnouncementSuccessfulU3Ek__BackingField;
+	AccessibilityNode_t9998B596BE3A0232C1CFE3B2610DF52E0338A49A* ___U3CcurrentNodeU3Ek__BackingField;
+	AccessibilityNode_t9998B596BE3A0232C1CFE3B2610DF52E0338A49A* ___U3CnextNodeU3Ek__BackingField;
+	float ___U3CfontScaleU3Ek__BackingField;
+	int32_t ___U3CisBoldTextEnabledU3Ek__BackingField;
+	int32_t ___U3CisClosedCaptioningEnabledU3Ek__BackingField;
+	AccessibilityNotificationContext_t074DE74548FF9F28BB9D9A4A5714FCBD4F833059_marshaled_pinvoke ___U3CnativeContextU3Ek__BackingField;
+};
+struct NotificationContext_tDD3427B7EC4DB358C79E077AEE029BBFE128AD2A_marshaled_com
+{
+	int32_t ___U3CnotificationU3Ek__BackingField;
+	int32_t ___U3CisScreenReaderEnabledU3Ek__BackingField;
+	Il2CppChar* ___U3CannouncementU3Ek__BackingField;
+	int32_t ___U3CwasAnnouncementSuccessfulU3Ek__BackingField;
+	AccessibilityNode_t9998B596BE3A0232C1CFE3B2610DF52E0338A49A* ___U3CcurrentNodeU3Ek__BackingField;
+	AccessibilityNode_t9998B596BE3A0232C1CFE3B2610DF52E0338A49A* ___U3CnextNodeU3Ek__BackingField;
+	float ___U3CfontScaleU3Ek__BackingField;
+	int32_t ___U3CisBoldTextEnabledU3Ek__BackingField;
+	int32_t ___U3CisClosedCaptioningEnabledU3Ek__BackingField;
+	AccessibilityNotificationContext_t074DE74548FF9F28BB9D9A4A5714FCBD4F833059_marshaled_com ___U3CnativeContextU3Ek__BackingField;
+};
 struct ParameterOverride_tC0D5877125AE0F07C6A1EF2110FB799B3DCB89BA 
 {
 	String_t* ___objectRegistrationName;
@@ -9344,6 +9448,24 @@ struct RandomWriteResourceInfo_t04214564685AADFC286AABE3C3254CE97ECEC34B_marshal
 {
 	ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C ___h;
 	int32_t ___preserveCounterValue;
+};
+struct SyncTile_t0F06ED3A2623F91411C6F4773D87AB58EAD4EC2C 
+{
+	Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 ___m_Position;
+	TileBase_t07019BD771D35E8EA68118157D6EEE4C770CF0F9* ___m_Tile;
+	TileData_tFB814629D010ABD175127C0BE96FD96EA606E00F ___m_TileData;
+};
+struct SyncTile_t0F06ED3A2623F91411C6F4773D87AB58EAD4EC2C_marshaled_pinvoke
+{
+	Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 ___m_Position;
+	TileBase_t07019BD771D35E8EA68118157D6EEE4C770CF0F9* ___m_Tile;
+	TileData_tFB814629D010ABD175127C0BE96FD96EA606E00F ___m_TileData;
+};
+struct SyncTile_t0F06ED3A2623F91411C6F4773D87AB58EAD4EC2C_marshaled_com
+{
+	Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 ___m_Position;
+	TileBase_t07019BD771D35E8EA68118157D6EEE4C770CF0F9* ___m_Tile;
+	TileData_tFB814629D010ABD175127C0BE96FD96EA606E00F ___m_TileData;
 };
 struct GlobalState_tFDD5D3FE93083EE02E4E8987E61A5D7D5F5CE61A 
 {
@@ -9861,6 +9983,10 @@ struct quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4_StaticFields
 {
 	quaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4 ___identity;
 };
+struct TileData_tFB814629D010ABD175127C0BE96FD96EA606E00F_StaticFields
+{
+	TileData_tFB814629D010ABD175127C0BE96FD96EA606E00F ___Default;
+};
 struct WorldSpaceData_t1F653E7DB8EA00BA1A22EC93964627BCB938E922_StaticFields
 {
 	Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 ___k_Empty3DBounds;
@@ -9943,6 +10069,15 @@ inline bool NativeArray_1_Equals_m94F8F7C99963338EFB73F75A9A8E7CBCFEE89464 (Nati
 inline bool NativeArray_1_Equals_m759CDD247C8157D8FC080AD4A5C8B0D30DE8F545 (NativeArray_1_tF9AAF96E0048E8B93F277A9EAD3955253C6B34C3* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method)
 {
 	return ((  bool (*) (NativeArray_1_tF9AAF96E0048E8B93F277A9EAD3955253C6B34C3*, RuntimeObject*, const RuntimeMethod*))NativeArray_1_Equals_m759CDD247C8157D8FC080AD4A5C8B0D30DE8F545_gshared)(__this, ___0_obj, method);
+}
+// Method Definition Index: 3226
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_Add_TisTelemetryDiagnosticParams_t69BC794FB4BFEF4DA451F7C0A015C56D07573BD5_m2312BC2C2DD88CD84AACD7577545DDCC81E31CF8_gshared (RuntimeArray* __this, TelemetryDiagnosticParams_t69BC794FB4BFEF4DA451F7C0A015C56D07573BD5 ___0_item, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_mE174750CF0247BBB47544FFD71D66BB89630945B(L_0, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralE609303EB41E0119BB804EB107C7CCDF29D97D5B)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, method);
+	}
 }
 // Method Definition Index: 3226
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_Add_TisTelemetryMetricParams_t2E8F02171EC287877B7A84BD581CA2947D3660C3_m54AEE74E3D5265EDB978F43AD8484CBE6506179B_gshared (RuntimeArray* __this, TelemetryMetricParams_t2E8F02171EC287877B7A84BD581CA2947D3660C3 ___0_item, const RuntimeMethod* method) 
@@ -10036,6 +10171,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_Add_Tis
 }
 // Method Definition Index: 3226
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_Add_TisTextureId_tFF4B4AAE53408AB10B0B89CCA5F7B50CF2535E58_m519D58F6E08854B87523588C554C1DE64D8D408C_gshared (RuntimeArray* __this, TextureId_tFF4B4AAE53408AB10B0B89CCA5F7B50CF2535E58 ___0_item, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_mE174750CF0247BBB47544FFD71D66BB89630945B(L_0, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralE609303EB41E0119BB804EB107C7CCDF29D97D5B)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, method);
+	}
+}
+// Method Definition Index: 3226
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_Add_TisTileData_tFB814629D010ABD175127C0BE96FD96EA606E00F_m18FBB0D9402C8971A087454BA5013407A58B2FD7_gshared (RuntimeArray* __this, TileData_tFB814629D010ABD175127C0BE96FD96EA606E00F ___0_item, const RuntimeMethod* method) 
 {
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
@@ -10702,6 +10846,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_Add_Tis
 }
 // Method Definition Index: 3226
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_Add_TisPointCloudRaycastInfo_t21F2232DA9CE91BB281F37151F58B97AE92436A4_m5EE9191A4BFDFAF46393F371369DE32EBEC9DAF9_gshared (RuntimeArray* __this, PointCloudRaycastInfo_t21F2232DA9CE91BB281F37151F58B97AE92436A4 ___0_item, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_mE174750CF0247BBB47544FFD71D66BB89630945B(L_0, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralE609303EB41E0119BB804EB107C7CCDF29D97D5B)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, method);
+	}
+}
+// Method Definition Index: 3226
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_Add_TisNotificationContext_tDD3427B7EC4DB358C79E077AEE029BBFE128AD2A_m5671677799F995152C0FB75DD3ACEADDCAEEA844_gshared (RuntimeArray* __this, NotificationContext_tDD3427B7EC4DB358C79E077AEE029BBFE128AD2A ___0_item, const RuntimeMethod* method) 
 {
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
@@ -11953,6 +12106,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_Add_Tis
 }
 // Method Definition Index: 3226
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_Add_TisTextureInfo_t581C305A0444F786E0E7405054714685BE3A5A5B_mA3AD285EAFB6667A5A6CC7DBC678E3B90C08D402_gshared (RuntimeArray* __this, TextureInfo_t581C305A0444F786E0E7405054714685BE3A5A5B ___0_item, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_mE174750CF0247BBB47544FFD71D66BB89630945B(L_0, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralE609303EB41E0119BB804EB107C7CCDF29D97D5B)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, method);
+	}
+}
+// Method Definition Index: 3226
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__ICollection_Add_TisSyncTile_t0F06ED3A2623F91411C6F4773D87AB58EAD4EC2C_mC63CE98AA8A12CAF9B68BA6843D2F9896B572DBB_gshared (RuntimeArray* __this, SyncTile_t0F06ED3A2623F91411C6F4773D87AB58EAD4EC2C ___0_item, const RuntimeMethod* method) 
 {
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));

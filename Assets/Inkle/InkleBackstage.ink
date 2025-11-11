@@ -1,5 +1,7 @@
+->inicio
+=== inicio ===
 BIENVENIDO A BACKSTAGEVR
- Puedes poder la motivación de este simulador o para poder jugar tienes que leer la descripción. 
+Puedes leer la motivación de este simulador o para poder jugar lee la descripción.
 * [Motivación] -> motivacion
 * [Descripción] -> descripcion
 
@@ -12,12 +14,12 @@ En la industria del entretenimiento, en especial conciertos masivos, se necesita
 === descripcion ===
 El simulador se enfoca en entrenar personal para conciertos o eventos. Dentro de este hay dos roles: acomodador y seguridad. El acomodador se encarga de revisar y colocar los intrumentos que se van a usar en el escenario, mientras que el de seguridad asegura las zonas del publico y mantiene el orden.
 + {not motivacion} [Motivación] -> motivacion
-* [Jugar] -> jugar
++ [Jugar] -> jugar
 
 === jugar ===
-Antes de inciar, hay aspectos básicos del simluador que tienes que saber.
+Antes de inciar, hay aspectos básicos del simulador que tienes que saber.
 + [Movimiento] -> movimiento
-+ [Interaccion] -> interaccion
++ [Interacción] -> interaccion
 + {movimiento and interaccion}[Escoger rol] -> roles
 
 
@@ -46,18 +48,23 @@ TODO:Poner imagenes o videos
 +[Siguiente]
 Luego de revisar los instrumentos, tendras que poner cada uno es su lugar. Se iluminara en el suelo un circulo azul que te indicara donde poner cada intrumento.
 TODO:Poner imagenes o videos
-+[Siguiente] -> fin
+++[Siguiente] -> fin
+++ [Ver de nuevo] -> acomodador
 Cuando termines de colocar los instrumentos te teletransportara a la pantalla del menú.
--> END
 
 === seguridad ===
 El rol de seguridad se encarga de organizar las cercas que limita la zona del público. La idea es asegurar la zona lo mejor posible.
 +[Siguiente]
-Cuando termines de colocar las cercas te teleportaras a la mitad del escenario, mirando al público. Tu objetivo es mantener el orden, es muy probable que 
-* [Siguiente]->fin
+Cuando termines de colocar las cercas te teleportaras a la mitad del escenario, mirando al público. Tu objetivo es mantener el orden, es muy probable que las personas se salten las cercas para llegar al escenario.
+++ [Siguiente]
+Cuando termines la simulación te teletransportara a la pantalla del menú.
++++ [Siguiente]->fin
++++ [Ver de nuevo] -> seguridad
 TODO:Poner imagenes o videos
 
 
 
 === fin ===
-->END
++[Volver a los roles]-> roles
++[Volver al inicio] -> inicio
+-> END

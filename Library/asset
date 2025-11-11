@@ -46,23 +46,23 @@ MonoBehaviour:
     - type: 0
       content: Poner imagenes o videos
       relativeFilePath: InkleBackstage.ink
-      lineNumber: 31
+      lineNumber: 33
     - type: 0
       content: Poner imagenes o videos
       relativeFilePath: InkleBackstage.ink
-      lineNumber: 38
+      lineNumber: 40
     - type: 0
       content: Poner imagenes o videos
       relativeFilePath: InkleBackstage.ink
-      lineNumber: 45
+      lineNumber: 47
     - type: 0
       content: Poner imagenes o videos
       relativeFilePath: InkleBackstage.ink
-      lineNumber: 48
+      lineNumber: 50
     - type: 0
       content: Poner imagenes o videos
       relativeFilePath: InkleBackstage.ink
-      lineNumber: 58
+      lineNumber: 63
     masterInkAssets: []
     localIncludePaths: []
     includes: []

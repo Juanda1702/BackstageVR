@@ -13,5 +13,4 @@
 # Gradle/Android
 **/build/
 .gradle/
-*.apk
 *.aab
