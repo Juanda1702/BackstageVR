@@ -73,7 +73,7 @@ public class InspectableInstrument : MonoBehaviour
     // ---------------- GRAB EVENTS ----------------
     void OnSelectEntered(SelectEnterEventArgs args)
     {
-        ShowUI(true, (args.interactorObject as Component)?.transform);
+        ShowUI(true && !IsApproved, (args.interactorObject as Component)?.transform);
     }
 
     void OnSelectExited(SelectExitEventArgs args)

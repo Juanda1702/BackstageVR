@@ -577,14 +577,14 @@ MonoBehaviour:
   actualCondition: 0
   defectiveProbability: 0.25
   randomizeOnStart: 0
-  reported: 0
+  reported: 1
   goodReplacementPrefab: {fileID: 0}
   fallbackParent: {fileID: 0}
   groundMask:
     serializedVersion: 2
     m_Bits: 4294967295
   dropClearance: 0.01
-  inspectionUIPrefab: {fileID: 0}
+  inspectionUIPrefab: {fileID: 6022895081757645587, guid: 6af65363a1036de45a7992d08067344d, type: 3}
   uiAnchor: {fileID: 0}
 --- !u!136 &4700059171696148618
 CapsuleCollider:
