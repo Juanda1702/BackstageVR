@@ -27712,7 +27712,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DataRelationCollection_tA8655ADC9
 		return L_0;
 	}
 }
-// Method Definition Index: 42477
+// Method Definition Index: 42478
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XmlSchemaAny_set_Namespace_m5C3C2843B6546F6850D8F7AFFBD3D3F873BAA9F3_inline (XmlSchemaAny_tDC4D6CE18918F8446C9B25A21E003CD7F28A65A1* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -27722,7 +27722,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XmlSchemaAny_set_Namespace_m
 		return;
 	}
 }
-// Method Definition Index: 42478
+// Method Definition Index: 42479
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XmlSchemaAny_set_ProcessContents_m07055837F6FD3CBFCAA27CF902DC6F18913D78D5_inline (XmlSchemaAny_tDC4D6CE18918F8446C9B25A21E003CD7F28A65A1* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -27731,7 +27731,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XmlSchemaAny_set_ProcessCont
 		return;
 	}
 }
-// Method Definition Index: 42628
+// Method Definition Index: 42629
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XmlSchemaComplexType_set_Particle_m27CD4DB30BB52F7F5F231BF7C35007E3C423425D_inline (XmlSchemaComplexType_t3C6B94A26B4C70D8780E4158E2A37D31BA88FEE0* __this, XmlSchemaParticle_t9A7544A3F66C6E4B8900456CF705A6F9D95655EE* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -27837,7 +27837,7 @@ IL_003c:
 		return;
 	}
 }
-// Method Definition Index: 11364
+// Method Definition Index: 11365
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) 
 {
 	{

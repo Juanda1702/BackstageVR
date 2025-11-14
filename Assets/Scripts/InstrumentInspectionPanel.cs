@@ -1,111 +1,259 @@
-// InstrumentInspectionPanel.cs (reemplaza)
+ï»¿using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-using Unity.XR.CoreUtils; // para hallar la cámara del XROrigin si no hay Camera.main
+using Unity.XR.CoreUtils;
 
 public class InstrumentInspectionPanel : MonoBehaviour
 {
-    [Header("Refs UI")]
+    [Header("UI principal")]
     public TextMeshProUGUI statusText;
-    public UnityEngine.UI.Button reportButton, replaceButton, closeButton, approveButton;
+    public Button reportButton;
+    public Button replaceButton;
+    public Button closeButton;
+    public Button approveButton;
 
-    [Header("Colocación cómoda")]
-    public float preferredDistance = 0.55f; // 50–60 cm delante de la vista
-    public float verticalOffset = 0.12f;    // un poquito arriba del centro
-    public float lateralOffset = 0.10f;     // a la derecha de la mano/rayo
-    public float followSmoothing = 12f;     // Lerp
+    [Header("Checklist UI")]
+    public Transform checklistContainer;        // Vertical Layout Group
+    public GameObject checklistItemPrefab;      // prefab con Toggle + Texto (TMP o Text)
+    public TextMeshProUGUI checklistTitleText;  // tÃ­tulo "Pruebas requeridas (...)"
 
-    Transform followTarget;        // el instrumento
-    Transform interactorTarget;    // mano/rayo que agarró
+    [Header("ColocaciÃ³n en el mundo")]
+    public float preferredDistance = 0.55f;
+    public float verticalOffset = 0.12f;
+    public float lateralOffset = 0.10f;
+    public float followSmoothing = 12f;
+
     InspectableInstrument target;
+    Transform followTarget;         // suele ser el instrumento
+    Transform interactorTarget;     // mano/rayo que agarrÃ³
 
+    readonly Dictionary<string, Toggle> uiChecks = new();
+
+    // ------------------------------------------------------
     public void Bind(InspectableInstrument instrument, Transform anchor, Transform interactor)
     {
         target = instrument;
         followTarget = anchor;
         interactorTarget = interactor;
+
+        if (target != null)
+        {
+            target.OnStateChanged += OnTargetStateChanged;
+            target.OnChecklistChanged += OnTargetChecklistChanged;
+        }
+
+        WireButtons();
+        BuildChecklistUI();
         Refresh();
-
-        reportButton.onClick.AddListener(OnReport);
-        replaceButton.onClick.AddListener(OnReplace);
-        closeButton.onClick.AddListener(OnClose);
-        if (approveButton) approveButton.onClick.AddListener(OnApprove);
-
-        target.OnStateChanged += OnTargetStateChanged;
-        target.OnReplaced += OnTargetReplaced;
     }
 
-    void LateUpdate()
+    void WireButtons()
     {
-        if (!followTarget) return;
-
-        var cam = Camera.main ? Camera.main.transform :
-                  FindFirstObjectByType<XROrigin>()?.Camera.transform;
-        if (!cam) return;
-
-        // base: frente a la cámara a distancia fija
-        Vector3 lookPos = cam.position + cam.forward * preferredDistance;
-        // desplazamiento lateral hacia la mano/rayo si lo tenemos
-        if (interactorTarget)
+        if (reportButton)
         {
-            Vector3 side = Vector3.ProjectOnPlane(interactorTarget.right, Vector3.up).normalized;
-            lookPos += side * lateralOffset;
+            reportButton.onClick.RemoveAllListeners();
+            reportButton.onClick.AddListener(OnReport);
         }
-        lookPos += Vector3.up * verticalOffset;
 
-        // suavizado
-        transform.position = Vector3.Lerp(transform.position, lookPos, Time.deltaTime * followSmoothing);
-        transform.rotation = Quaternion.Slerp(transform.rotation,
-            Quaternion.LookRotation(transform.position - cam.position, Vector3.up),
-            Time.deltaTime * followSmoothing);
+        if (replaceButton)
+        {
+            replaceButton.onClick.RemoveAllListeners();
+            replaceButton.onClick.AddListener(OnReplace);
+        }
+
+        if (closeButton)
+        {
+            closeButton.onClick.RemoveAllListeners();
+            closeButton.onClick.AddListener(OnClose);
+        }
+
+        if (approveButton)
+        {
+            approveButton.onClick.RemoveAllListeners();
+            approveButton.onClick.AddListener(OnApprove);
+        }
     }
 
     void OnDestroy()
     {
-        if (!target) return;
-        target.OnStateChanged -= OnTargetStateChanged;
-        target.OnReplaced -= OnTargetReplaced;
-
-        reportButton.onClick.RemoveListener(OnReport);
-        replaceButton.onClick.RemoveListener(OnReplace);
-        closeButton.onClick.RemoveListener(OnClose);
-        if (approveButton) approveButton.onClick.RemoveListener(OnApprove);
+        if (target != null)
+        {
+            target.OnStateChanged -= OnTargetStateChanged;
+            target.OnChecklistChanged -= OnTargetChecklistChanged;
+        }
     }
 
+    // ------------------------------------------------------
+    void BuildChecklistUI()
+    {
+        // Limpia items anteriores
+        foreach (Transform child in checklistContainer)
+            Destroy(child.gameObject);
+        uiChecks.Clear();
+
+        if (target == null || target.checks == null)
+        {
+            UpdateChecklistTitle();
+            return;
+        }
+
+        foreach (var check in target.checks)
+        {
+            var go = Instantiate(checklistItemPrefab, checklistContainer);
+
+            // 1) Texto: primero intentamos con TextMeshProUGUI
+            var tmpLabel = go.GetComponentInChildren<TextMeshPro>();
+            if (tmpLabel != null)
+            {
+                tmpLabel.text = check.displayName;
+            }
+            else
+            {
+                // 2) Fallback a Text normal si el prefab no usa TMP
+                var legacyLabel = go.GetComponentInChildren<Text>();
+                if (legacyLabel != null)
+                    legacyLabel.text = check.displayName;
+            }
+
+            // 3) Toggle
+            var toggle = go.GetComponentInChildren<Toggle>();
+            if (toggle)
+            {
+                toggle.isOn = check.done;
+                toggle.interactable = false; // los marca la simulaciÃ³n, no el jugador
+                uiChecks[check.id] = toggle;
+            }
+        }
+
+        UpdateChecklistTitle();
+    }
+
+    void OnTargetChecklistChanged(InspectableInstrument inst)
+    {
+        if (target == null || target.checks == null) return;
+
+        foreach (var check in target.checks)
+        {
+            if (uiChecks.TryGetValue(check.id, out var t))
+                t.isOn = check.done;
+        }
+
+        UpdateChecklistTitle();
+        Refresh();
+    }
+
+    void OnTargetStateChanged(InspectableInstrument inst)
+    {
+        Refresh();
+    }
+
+    // ------------------------------------------------------
     void Refresh()
     {
-        if (!statusText || !target) return;
+        if (!statusText || target == null) return;
 
-        string estadoTxt = target.Reported switch
+        if (!target.Inspected)
         {
-            ReportedState.Unknown => "Por inspeccionar",
-            ReportedState.Good => "Aprobado",
-            ReportedState.ReportedDamaged => "Reportado (dañado)",
-            _ => "Por inspeccionar"
-        };
+            statusText.text =
+                $"{target.type}\n" +
+                $"No inspeccionado";
+        }
+        else
+        {
+            statusText.text =
+                $"{target.type}\n" +
+                $"Inspeccionado";
+        }
 
-        statusText.text =
-            $"Estado: <b>{estadoTxt}</b>\n" +
-            $"Instrumento: {target.type}\n" +
-            $"Inspeccionado: <b>{(target.Inspected ? "Sí" : "No")}</b>";
+        // Botones
+        if (reportButton)
+            reportButton.interactable = target.Reported != ReportedState.Good;
 
-        // Habilitaciones:
-        // - Reportar: si aún no aprobó (si ya aprobó no tiene sentido reportar)
-        reportButton.interactable = target.Reported != ReportedState.Good;
+        if (replaceButton)
+            replaceButton.interactable = target.Reported == ReportedState.ReportedDamaged;
 
-        // - Reemplazar: SOLO si fue reportado dañado
-        replaceButton.interactable = target.Reported == ReportedState.ReportedDamaged;
+        if (approveButton)
+            approveButton.interactable =
+                target.Reported != ReportedState.Good &&
+                target.AllRequiredChecksDone;
 
-        // - Aprobar: si aún no aprobó
-        if (approveButton) approveButton.interactable = target.Reported != ReportedState.Good;
+        UpdateChecklistTitle();
     }
 
-    void OnReport() { target.ReportDamaged(); }
-    void OnReplace() { target.ReplaceNow(); }
-    void OnClose() { Destroy(gameObject); }
-    void OnApprove() { target.ConfirmGood(); }
+    void UpdateChecklistTitle()
+    {
+        if (!checklistTitleText || target == null || target.checks == null || target.checks.Count == 0)
+        {
+            if (checklistTitleText) checklistTitleText.text = "";
+            return;
+        }
 
-    void OnTargetStateChanged(InspectableInstrument _) { Refresh(); }
-    void OnTargetReplaced(InspectableInstrument _) { Destroy(gameObject); }
+        string estadoChecks = target.AllRequiredChecksDone ? "completas" : "pendientes";
+        checklistTitleText.text = $"Pruebas {estadoChecks}";
+    }
+
+    // ------------------------------------------------------
+    void LateUpdate()
+    {
+        if (!followTarget) return;
+
+        var camTransform = GetCameraTransform();
+        if (!camTransform) return;
+
+        // base: frente a la cÃ¡mara
+        Vector3 lookPos = camTransform.position + camTransform.forward * preferredDistance;
+
+        if (interactorTarget)
+        {
+            // desplazamiento lateral hacia la mano/rayo
+            Vector3 side = Vector3.ProjectOnPlane(interactorTarget.right, Vector3.up).normalized;
+            lookPos += side * lateralOffset;
+        }
+
+        lookPos += Vector3.up * verticalOffset;
+
+        transform.position = Vector3.Lerp(transform.position, lookPos, Time.deltaTime * followSmoothing);
+        transform.rotation = Quaternion.Slerp(
+            transform.rotation,
+            Quaternion.LookRotation(transform.position - camTransform.position, Vector3.up),
+            Time.deltaTime * followSmoothing);
+    }
+
+    Transform GetCameraTransform()
+    {
+        if (Camera.main) return Camera.main.transform;
+
+        var origin = FindFirstObjectByType<XROrigin>();
+        if (origin && origin.Camera) return origin.Camera.transform;
+
+        return null;
+    }
+
+    // ------------------------------------------------------
+    void OnReport()
+    {
+        if (target == null) return;
+        target.ReportDamaged();
+        Refresh();
+    }
+
+    void OnReplace()
+    {
+        if (target == null) return;
+        target.ReplaceNow();
+        Destroy(gameObject); // este panel pertenece al objeto viejo
+    }
+
+    void OnClose()
+    {
+        Destroy(gameObject);
+    }
+
+    void OnApprove()
+    {
+        if (target == null) return;
+        target.ConfirmGood();
+        Refresh();
+    }
 }

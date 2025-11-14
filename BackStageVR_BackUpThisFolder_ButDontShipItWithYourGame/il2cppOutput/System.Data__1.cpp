@@ -31330,7 +31330,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XmlDataLoader_set_FromInfere
 		return;
 	}
 }
-// Method Definition Index: 41760
+// Method Definition Index: 41761
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XmlSchemaInference_set_Occurrence_m9363E542E8CDA8362D5568149C7D9A6084643D40_inline (XmlSchemaInference_t875BAFD8A1ECEA427C795C1EED540F4341CC0CCC* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -31339,7 +31339,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XmlSchemaInference_set_Occur
 		return;
 	}
 }
-// Method Definition Index: 41762
+// Method Definition Index: 41763
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XmlSchemaInference_set_TypeInference_m6819648A727ED073B1C923E106CBE8ABB4539466_inline (XmlSchemaInference_t875BAFD8A1ECEA427C795C1EED540F4341CC0CCC* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -31415,7 +31415,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DataRelation_tCB36A11AB39874353B0
 		return L_0;
 	}
 }
-// Method Definition Index: 42477
+// Method Definition Index: 42478
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XmlSchemaAny_set_Namespace_m5C3C2843B6546F6850D8F7AFFBD3D3F873BAA9F3_inline (XmlSchemaAny_tDC4D6CE18918F8446C9B25A21E003CD7F28A65A1* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -31425,7 +31425,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XmlSchemaAny_set_Namespace_m
 		return;
 	}
 }
-// Method Definition Index: 42478
+// Method Definition Index: 42479
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XmlSchemaAny_set_ProcessContents_m07055837F6FD3CBFCAA27CF902DC6F18913D78D5_inline (XmlSchemaAny_tDC4D6CE18918F8446C9B25A21E003CD7F28A65A1* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -31434,7 +31434,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XmlSchemaAny_set_ProcessCont
 		return;
 	}
 }
-// Method Definition Index: 42628
+// Method Definition Index: 42629
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XmlSchemaComplexType_set_Particle_m27CD4DB30BB52F7F5F231BF7C35007E3C423425D_inline (XmlSchemaComplexType_t3C6B94A26B4C70D8780E4158E2A37D31BA88FEE0* __this, XmlSchemaParticle_t9A7544A3F66C6E4B8900456CF705A6F9D95655EE* ___0_value, const RuntimeMethod* method) 
 {
 	{

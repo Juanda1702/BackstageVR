@@ -1,12 +1,8 @@
+using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
-using UnityEngine.XR.Interaction.Toolkit;                 // SelectEnter/ExitEventArgs
-using UnityEngine.XR.Interaction.Toolkit.Interactables;   // XRGrabInteractable (XRI 3)
-
-// Enums en tu InstrumentDefs.cs:
-// public enum InstrumentType { ... }
-// public enum ReportedState { Unknown, Good, ReportedDamaged }
-// public enum ActualCondition { Good, Defective }
+using UnityEngine.XR.Interaction.Toolkit;
+using UnityEngine.XR.Interaction.Toolkit.Interactables;
 
 [RequireComponent(typeof(Rigidbody))]
 [RequireComponent(typeof(XRGrabInteractable))]
@@ -20,11 +16,21 @@ public class InspectableInstrument : MonoBehaviour
     [Range(0, 1)] public float defectiveProbability = 0.25f;
     public bool randomizeOnStart = false;
 
-    // Estado declarado por el jugador (UI / lógica)
+    // Estado declarado por el jugador
     [SerializeField] ReportedState reported = ReportedState.Unknown;
     public ReportedState Reported => reported;
+
+    // Checklist de pruebas simples
+    public List<InstrumentCheck> checks = new List<InstrumentCheck>();
+
     public bool Inspected => reported != ReportedState.Unknown;
-    public bool IsApproved => reported == ReportedState.Good;
+    public bool AllRequiredChecksDone =>
+        checks == null || checks.Count == 0
+            ? true
+            : checks.TrueForAll(c => !c.required || c.done);
+
+    // Aprobado sólo si el jugador marcó "Good" Y todas las pruebas requeridas están hechas
+    public bool IsApproved => reported == ReportedState.Good && AllRequiredChecksDone;
 
     [Header("Reemplazo")]
     public GameObject goodReplacementPrefab;  // si es null, usa ReplacementService
@@ -37,11 +43,19 @@ public class InspectableInstrument : MonoBehaviour
     public Transform uiAnchor;                // punto de referencia en el instrumento
     GameObject uiInstance;
 
+    [Header("Audio de pruebas")]
+    public AudioSource testAudioSource;
+    public List<InstrumentTestSound> testSounds = new List<InstrumentTestSound>();
+
+    [Tooltip("Si no está vacío, al pulsar 'Activate/Trigger' mientras el instrumento está agarrado se dispara esta prueba")]
+    public string activateCheckId;            // ej. "mic_hit" para el micrófono
+
     XRGrabInteractable grab;
 
-    // Eventos
+    // Eventos que puede escuchar el checklist general, etc.
     public System.Action<InspectableInstrument> OnReplaced;
     public System.Action<InspectableInstrument> OnStateChanged;
+    public System.Action<InspectableInstrument> OnChecklistChanged;
 
     // ---------------- LIFECYCLE ----------------
     void Awake()
@@ -49,6 +63,7 @@ public class InspectableInstrument : MonoBehaviour
         grab = GetComponent<XRGrabInteractable>();
         grab.selectEntered.AddListener(OnSelectEntered);
         grab.selectExited.AddListener(OnSelectExited);
+        grab.activated.AddListener(OnActivated);   // <- disparar prueba con gatillo
     }
 
     void Start()
@@ -57,8 +72,16 @@ public class InspectableInstrument : MonoBehaviour
             actualCondition = (Random.value < defectiveProbability)
                 ? ActualCondition.Defective : ActualCondition.Good;
 
+        // Checklist arranca sin pruebas hechas
+        if (checks != null)
+        {
+            foreach (var c in checks)
+                c.done = false;
+        }
+
         reported = ReportedState.Unknown;
         OnStateChanged?.Invoke(this);
+        OnChecklistChanged?.Invoke(this);
     }
 
     void OnDestroy()
@@ -67,18 +90,28 @@ public class InspectableInstrument : MonoBehaviour
         {
             grab.selectEntered.RemoveListener(OnSelectEntered);
             grab.selectExited.RemoveListener(OnSelectExited);
+            grab.activated.RemoveListener(OnActivated);
         }
     }
 
     // ---------------- GRAB EVENTS ----------------
     void OnSelectEntered(SelectEnterEventArgs args)
     {
-        ShowUI(true && !IsApproved, (args.interactorObject as Component)?.transform);
+        ShowUI(true, (args.interactorObject as Component)?.transform);
     }
 
     void OnSelectExited(SelectExitEventArgs args)
     {
         ShowUI(false, null);
+    }
+
+    void OnActivated(ActivateEventArgs args)
+    {
+        // Esto se lanza cuando se pulsa la acción "Activate" (normalmente el gatillo)
+        if (!string.IsNullOrEmpty(activateCheckId))
+        {
+            RunTest(activateCheckId, "Activate (gatillo mientras está agarrado)");
+        }
     }
 
     void ShowUI(bool on, Transform interactorTf = null)
@@ -91,10 +124,71 @@ public class InspectableInstrument : MonoBehaviour
             var panel = uiInstance.GetComponent<InstrumentInspectionPanel>();
             var anchor = uiAnchor ? uiAnchor : transform;
 
-            // Bind(inst, anchor, interactor) → panel se coloca frente a la cámara
-            if (panel != null) panel.Bind(this, anchor, interactorTf);
+            if (panel != null)
+                panel.Bind(this, anchor, interactorTf);
         }
-        else if (uiInstance) Destroy(uiInstance);
+        else if (uiInstance)
+        {
+            Destroy(uiInstance);
+            uiInstance = null;
+        }
+    }
+
+    // ---------------- CHECKLIST ----------------
+    public void MarkCheckDone(string id)
+    {
+        if (checks == null) return;
+        var c = checks.Find(ch => ch.id == id);
+        if (c == null || c.done) return;
+
+        c.done = true;
+        Debug.Log($"[InspectableInstrument:{name}] Check '{id}' marcado como done.");
+        OnChecklistChanged?.Invoke(this);
+    }
+
+    public bool IsActuallyDefective() => actualCondition == ActualCondition.Defective;
+
+    // Método central para TODAS las pruebas (UI, zonas, botón Activate, etc.)
+    public void RunTest(string checkId, string reason = null)
+    {
+        Debug.Log($"[InspectableInstrument:{name}] RunTest '{checkId}'. Motivo: {reason}");
+
+        // 1. Buscar la configuración de sonido para este check
+        InstrumentTestSound ts = null;
+        if (testSounds != null)
+            ts = testSounds.FirstOrDefault(t => t.checkId == checkId);
+
+        AudioClip clip = null;
+        if (ts != null)
+        {
+            if (IsActuallyDefective() && ts.defectiveClip != null)
+            {
+                clip = ts.defectiveClip;
+            }
+            else if (ts.goodClip != null)
+            {
+                clip = ts.goodClip;
+            }
+        }
+
+        // 2. Reproducir audio (si hay)
+        if (!testAudioSource)
+        {
+            Debug.LogWarning($"[InspectableInstrument:{name}] testAudioSource no asignado.");
+        }
+        else if (clip == null)
+        {
+            Debug.LogWarning($"[InspectableInstrument:{name}] No hay clip para '{checkId}' y la condición actual.");
+        }
+        else
+        {
+            testAudioSource.PlayOneShot(clip);
+            Debug.Log($"[InspectableInstrument:{name}] Reproduciendo clip '{clip.name}' para prueba '{checkId}'.");
+        }
+
+        // 3. Marcar el check correspondiente
+        if (!string.IsNullOrEmpty(checkId))
+            MarkCheckDone(checkId);
     }
 
     // ---------------- ACCIONES UI ----------------
@@ -102,19 +196,22 @@ public class InspectableInstrument : MonoBehaviour
     {
         reported = ReportedState.ReportedDamaged;
         OnStateChanged?.Invoke(this);
-        // No iluminamos socket todavía; la guía aparece al reemplazar o si aprueba.
     }
 
     public void ConfirmGood()
     {
+        if (!AllRequiredChecksDone)
+        {
+            Debug.Log($"[{name}] No se puede aprobar: faltan pruebas.");
+            return;
+        }
+
         reported = ReportedState.Good;
         OnStateChanged?.Invoke(this);
 
         // Enciende la guía del socket correspondiente
         InstrumentSnapTarget.HighlightFor(type, true);
     }
-
-    public bool IsActuallyDefective() => actualCondition == ActualCondition.Defective;
 
     public void ReplaceNow()
     {
@@ -153,13 +250,14 @@ public class InspectableInstrument : MonoBehaviour
 
         var replacedHandlers = OnReplaced;
 
-        // 4) Destruir el dañado e instanciar el nuevo como hijo de 'Instrumentos'
+        // 4) Destruir el dañado
         Destroy(gameObject);
 
-        var newGo = Instantiate(prefab, pos, rot, parent);
-        newGo.name = prefab.name; // opcional, evita "(Clone)"
+        // 5) Instanciar nuevo hijo de 'Instrumentos'
+        var newGo = Object.Instantiate(prefab, pos, rot, parent);
+        newGo.name = prefab.name;
 
-        // 5) Reposicionar para que no quede hundido
+        // 6) Asegurar que no quede hundido
         var rb = newGo.GetComponent<Rigidbody>();
         if (rb) rb.isKinematic = true;
 
@@ -176,20 +274,26 @@ public class InspectableInstrument : MonoBehaviour
             rb.interpolation = RigidbodyInterpolation.Interpolate;
         }
 
-        // 6) El nuevo está bueno y aprobado
+        // 7) Marcar nuevo como bueno y checklist completo por defecto
         var newIns = newGo.GetComponent<InspectableInstrument>();
         if (newIns)
         {
             newIns.type = type;
             newIns.actualCondition = ActualCondition.Good;
+
+            if (newIns.checks != null)
+                foreach (var c in newIns.checks)
+                    c.done = true; // asumimos que el reemplazo viene probado
+
             newIns.reported = ReportedState.Good;
+            newIns.OnChecklistChanged?.Invoke(newIns);
             newIns.OnStateChanged?.Invoke(newIns);
         }
 
-        // 7) Enciende guía en el socket correspondiente
+        // 8) Enciende guía en el socket correspondiente
         InstrumentSnapTarget.HighlightFor(type, true);
 
-        // 8) Notificar reemplazo
+        // 9) Notificar reemplazo
         replacedHandlers?.Invoke(newIns);
     }
 
@@ -202,12 +306,14 @@ public class InspectableInstrument : MonoBehaviour
         foreach (var c in go.GetComponentsInChildren<Collider>())
         {
             if (!c.enabled) continue;
-            if (!has) { b = c.bounds; has = true; } else b.Encapsulate(c.bounds);
+            if (!has) { b = c.bounds; has = true; }
+            else b.Encapsulate(c.bounds);
         }
         foreach (var r in go.GetComponentsInChildren<Renderer>())
         {
             if (!r.enabled) continue;
-            if (!has) { b = r.bounds; has = true; } else b.Encapsulate(r.bounds);
+            if (!has) { b = r.bounds; has = true; }
+            else b.Encapsulate(r.bounds);
         }
 
         if (!has) b = new Bounds(go.transform.position, Vector3.one * 0.1f);

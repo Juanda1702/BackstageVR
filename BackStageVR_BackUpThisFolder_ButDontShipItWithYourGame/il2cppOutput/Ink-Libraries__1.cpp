@@ -39115,7 +39115,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Nullable_1_get_HasValue_mCF2
 		return L_0;
 	}
 }
-// Method Definition Index: 11364
+// Method Definition Index: 11365
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -39224,7 +39224,7 @@ IL_003c:
 		return;
 	}
 }
-// Method Definition Index: 11364
+// Method Definition Index: 11365
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR KeyValuePair_2_t7D8C557329C8B49DE28442300F007059366FAB28 Enumerator_get_Current_mC0A9E409360D265F30BA56E6DE7965FAE848AF12_gshared_inline (Enumerator_tA4F2B17BBF8E8BB9F8F636C5091E0615F6EB5A27* __this, const RuntimeMethod* method) 
 {
 	{
@@ -39367,7 +39367,7 @@ IL_0034:
 		return;
 	}
 }
-// Method Definition Index: 11364
+// Method Definition Index: 11365
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR StepDetails_tA73CB8C160AA6E4297D2BC5120B1DF95ECF6B27B Enumerator_get_Current_m57079A955AC9DE9E2FB15945BD9708800A426F75_gshared_inline (Enumerator_tBE0341220D4F9E4E8DAC4B1FE22F5B3FE196FEC4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -39397,7 +39397,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mF2422B2DD29
 	typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_obj, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 11431
+// Method Definition Index: 11432
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Stack_1_get_Count_m83E2B608EE8624744244AB0B8709F98C16DCF45F_gshared_inline (Stack_1_t71FFD554EC578441D0D54FF2FFF619A1881497AD* __this, const RuntimeMethod* method) 
 {
 	{
