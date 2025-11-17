@@ -15,27 +15,30 @@ public class InstrumentInspectionPanel : MonoBehaviour
 
     [Header("Checklist UI")]
     public Transform checklistContainer;        // Vertical Layout Group
-    public GameObject checklistItemPrefab;      // prefab con Toggle + Texto (TMP o Text)
-    public TextMeshProUGUI checklistTitleText;  // título "Pruebas requeridas (...)"
+    public GameObject checklistItemPrefab;      // Prefab con Toggle + TMP_Text
+    public TextMeshProUGUI checklistTitleText;  // "Pruebas pendientes / completas"
 
     [Header("Colocación en el mundo")]
-    public float preferredDistance = 0.55f;
-    public float verticalOffset = 0.12f;
-    public float lateralOffset = 0.10f;
-    public float followSmoothing = 12f;
+    [Tooltip("Desplazamiento lateral respecto al instrumento (hacia la derecha desde el punto de vista de la cámara).")]
+    public float lateralOffset = 0.35f;
+
+    [Tooltip("Desplazamiento extra por encima de la parte alta del instrumento.")]
+    public float extraVerticalOffset = 0.05f;
 
     InspectableInstrument target;
-    Transform followTarget;         // suele ser el instrumento
-    Transform interactorTarget;     // mano/rayo que agarró
+
+    // Pose anclada en el mundo
+    Vector3 anchoredPosition;
+    Quaternion anchoredRotation;
+    bool hasAnchorPose;
 
     readonly Dictionary<string, Toggle> uiChecks = new();
 
-    // ------------------------------------------------------
+    // --------------------------------------------------------------------
+    // Llamado por InspectableInstrument.ShowUI(...)
     public void Bind(InspectableInstrument instrument, Transform anchor, Transform interactor)
     {
         target = instrument;
-        followTarget = anchor;
-        interactorTarget = interactor;
 
         if (target != null)
         {
@@ -46,6 +49,9 @@ public class InstrumentInspectionPanel : MonoBehaviour
         WireButtons();
         BuildChecklistUI();
         Refresh();
+
+        // Calcula la posición fija del panel al lado del instrumento
+        SetupWorldAnchor(anchor);
     }
 
     void WireButtons()
@@ -81,10 +87,13 @@ public class InstrumentInspectionPanel : MonoBehaviour
         {
             target.OnStateChanged -= OnTargetStateChanged;
             target.OnChecklistChanged -= OnTargetChecklistChanged;
+            // Avisar al instrumento que este panel ya no existe
+            target.NotifyInspectionPanelClosed();
         }
     }
 
-    // ------------------------------------------------------
+    // --------------------------------------------------------------------
+    // CHECKLIST
     void BuildChecklistUI()
     {
         // Limpia items anteriores
@@ -92,9 +101,9 @@ public class InstrumentInspectionPanel : MonoBehaviour
             Destroy(child.gameObject);
         uiChecks.Clear();
 
-        if (target == null || target.checks == null)
+        if (target == null || target.checks == null || target.checks.Count == 0)
         {
-            UpdateChecklistTitle();
+            if (checklistTitleText) checklistTitleText.text = "";
             return;
         }
 
@@ -102,21 +111,25 @@ public class InstrumentInspectionPanel : MonoBehaviour
         {
             var go = Instantiate(checklistItemPrefab, checklistContainer);
 
-            // 1) Texto: primero intentamos con TextMeshProUGUI
-            var tmpLabel = go.GetComponentInChildren<TextMeshPro>();
+            // 1) Texto: usamos TMP_Text para cubrir TextMeshPro/TextMeshProUGUI
+            var tmpLabel = go.GetComponentInChildren<TMP_Text>();
             if (tmpLabel != null)
             {
                 tmpLabel.text = check.displayName;
+                tmpLabel.enableCulling = false;
+                // Pequeño offset en Z para evitar z-fighting
+                var t = tmpLabel.transform;
+                t.localPosition += new Vector3(0f, 0f, -0.001f);
             }
             else
             {
-                // 2) Fallback a Text normal si el prefab no usa TMP
+                // Fallback a Text normal si el prefab no usa TMP
                 var legacyLabel = go.GetComponentInChildren<Text>();
                 if (legacyLabel != null)
                     legacyLabel.text = check.displayName;
             }
 
-            // 3) Toggle
+            // 2) Toggle
             var toggle = go.GetComponentInChildren<Toggle>();
             if (toggle)
             {
@@ -148,7 +161,8 @@ public class InstrumentInspectionPanel : MonoBehaviour
         Refresh();
     }
 
-    // ------------------------------------------------------
+    // --------------------------------------------------------------------
+    // ESTADO / TEXTOS
     void Refresh()
     {
         if (!statusText || target == null) return;
@@ -166,17 +180,23 @@ public class InstrumentInspectionPanel : MonoBehaviour
                 $"Inspeccionado";
         }
 
-        // Botones
+        // ⬇⬇⬇ LÓGICA DE BOTONES EXCLUYENTE ⬇⬇⬇
+
+        // Solo se puede reportar cuando aún no hay decisión
         if (reportButton)
-            reportButton.interactable = target.Reported != ReportedState.Good;
+            reportButton.interactable = target.Reported == ReportedState.Unknown;
 
-        if (replaceButton)
-            replaceButton.interactable = target.Reported == ReportedState.ReportedDamaged;
-
+        // Solo se puede aprobar si:
+        // - Sigue en Unknown (no se ha reportado ni aprobado)
+        // - Todas las pruebas requeridas están hechas
         if (approveButton)
             approveButton.interactable =
-                target.Reported != ReportedState.Good &&
+                target.Reported == ReportedState.Unknown &&
                 target.AllRequiredChecksDone;
+
+        // Reemplazar solo si ya fue reportado como dañado
+        if (replaceButton)
+            replaceButton.interactable = target.Reported == ReportedState.ReportedDamaged;
 
         UpdateChecklistTitle();
     }
@@ -193,31 +213,82 @@ public class InstrumentInspectionPanel : MonoBehaviour
         checklistTitleText.text = $"Pruebas {estadoChecks}";
     }
 
-    // ------------------------------------------------------
-    void LateUpdate()
+    // --------------------------------------------------------------------
+    // COLOCACIÓN EN EL MUNDO
+    void SetupWorldAnchor(Transform anchor)
     {
-        if (!followTarget) return;
-
         var camTransform = GetCameraTransform();
-        if (!camTransform) return;
 
-        // base: frente a la cámara
-        Vector3 lookPos = camTransform.position + camTransform.forward * preferredDistance;
+        // Punto base: parte alta del instrumento, centrada en XZ
+        Vector3 top = GetInstrumentTopCenter(anchor);
 
-        if (interactorTarget)
+        if (!camTransform)
         {
-            // desplazamiento lateral hacia la mano/rayo
-            Vector3 side = Vector3.ProjectOnPlane(interactorTarget.right, Vector3.up).normalized;
-            lookPos += side * lateralOffset;
+            anchoredPosition = top + Vector3.right * lateralOffset + Vector3.up * extraVerticalOffset;
+            anchoredRotation = Quaternion.identity;
+        }
+        else
+        {
+            // Dirección cámara -> instrumento en el plano horizontal
+            Vector3 camToInstrument = top - camTransform.position;
+            camToInstrument.y = 0f;
+            if (camToInstrument.sqrMagnitude < 0.001f)
+                camToInstrument = camTransform.forward;
+            camToInstrument.Normalize();
+
+            // Derecha desde el punto de vista de la cámara
+            Vector3 right = Vector3.Cross(Vector3.up, camToInstrument);
+            right.Normalize();
+
+            // Posición final: al lado y un poco por encima de la parte alta
+            anchoredPosition = top + right * lateralOffset + Vector3.up * extraVerticalOffset;
+
+            // Dirección cámara -> panel solo en horizontal
+            Vector3 camToPanel = anchoredPosition - camTransform.position;
+            camToPanel.y = 0f;
+            if (camToPanel.sqrMagnitude < 0.001f)
+                camToPanel = camTransform.forward;
+            camToPanel.Normalize();
+
+            anchoredRotation = Quaternion.LookRotation(camToPanel, Vector3.up);
         }
 
-        lookPos += Vector3.up * verticalOffset;
+        hasAnchorPose = true;
 
-        transform.position = Vector3.Lerp(transform.position, lookPos, Time.deltaTime * followSmoothing);
-        transform.rotation = Quaternion.Slerp(
-            transform.rotation,
-            Quaternion.LookRotation(transform.position - camTransform.position, Vector3.up),
-            Time.deltaTime * followSmoothing);
+        transform.position = anchoredPosition;
+        transform.rotation = anchoredRotation;
+    }
+
+    Vector3 GetInstrumentTopCenter(Transform fallbackAnchor)
+    {
+        if (target != null)
+        {
+            var renderers = target.GetComponentsInChildren<Renderer>();
+            if (renderers.Length > 0)
+            {
+                var bounds = renderers[0].bounds;
+                for (int i = 1; i < renderers.Length; i++)
+                    bounds.Encapsulate(renderers[i].bounds);
+
+                return new Vector3(bounds.center.x, bounds.max.y, bounds.center.z);
+            }
+
+            return target.transform.position;
+        }
+
+        if (fallbackAnchor != null)
+            return fallbackAnchor.position;
+
+        return transform.position;
+    }
+
+    void LateUpdate()
+    {
+        if (!hasAnchorPose) return;
+
+        // Mantiene el panel quieto en la pose calculada
+        transform.position = anchoredPosition;
+        transform.rotation = anchoredRotation;
     }
 
     Transform GetCameraTransform()
@@ -230,7 +301,8 @@ public class InstrumentInspectionPanel : MonoBehaviour
         return null;
     }
 
-    // ------------------------------------------------------
+    // --------------------------------------------------------------------
+    // BOTONES
     void OnReport()
     {
         if (target == null) return;

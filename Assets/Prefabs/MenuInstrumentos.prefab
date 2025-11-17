@@ -958,14 +958,14 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6022895081757645587}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0.000050405237}
   m_LocalScale: {x: 0.002, y: 0.002, z: 0.002}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1797775284637610308}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 28.571716, y: 2.2113037}
@@ -1073,10 +1073,8 @@ MonoBehaviour:
   checklistContainer: {fileID: 5724996508015935421}
   checklistItemPrefab: {fileID: 7544258446663139598, guid: 7a801f7c6d3512f428d67875db877cf0, type: 3}
   checklistTitleText: {fileID: 1917014441546689055}
-  preferredDistance: 1
-  verticalOffset: 0.12
   lateralOffset: 0.1
-  followSmoothing: 12
+  verticalOffset: 0.12
 --- !u!1 &6996778569425881398
 GameObject:
   m_ObjectHideFlags: 0

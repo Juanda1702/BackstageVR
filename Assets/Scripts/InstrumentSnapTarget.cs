@@ -172,7 +172,7 @@ public class InstrumentSnapTarget : MonoBehaviour
         SetColor(okColor);
 
         // notificar a otros scripts (ej. AcomodadorChecklist)
-        SendMessage("OnInstrumentSnapped", this, SendMessageOptions.DontRequireReceiver);
+        SendMessageUpwards("OnInstrumentSnapped", this, SendMessageOptions.DontRequireReceiver);
     }
 
     void ErrorFlash()
