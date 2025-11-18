@@ -1,18 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\juand\\Documents\\Proyectos Unity\\BackstageVR\\",
+  "WorkspaceRootPath": "C:\\Users\\juand\\Documents\\BackstageVR\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\juand\\Documents\\Proyectos Unity\\BackstageVR\\Library\\PackageCache\\com.unity.xr.interaction.toolkit@4424268f6f27\\Runtime\\Locomotion\\Teleportation\\TeleportationArea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.xr.interaction.toolkit@4424268f6f27\\Runtime\\Locomotion\\Teleportation\\TeleportationArea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04AC56D0-AEB2-F876-E5A1-44BF55635723}|Assembly-CSharp.csproj|C:\\Users\\juand\\Documents\\Proyectos Unity\\BackstageVR\\assets\\scripts\\inspectableinstrument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{04AC56D0-AEB2-F876-E5A1-44BF55635723}|Assembly-CSharp.csproj|c:\\users\\juand\\documents\\backstagevr\\assets\\scripts\\inspectableinstrument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{04AC56D0-AEB2-F876-E5A1-44BF55635723}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inspectableinstrument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04AC56D0-AEB2-F876-E5A1-44BF55635723}|Assembly-CSharp.csproj|C:\\Users\\juand\\Documents\\Proyectos Unity\\BackstageVR\\assets\\scripts\\instrumentinspectionpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{04AC56D0-AEB2-F876-E5A1-44BF55635723}|Assembly-CSharp.csproj|c:\\users\\juand\\documents\\backstagevr\\assets\\scripts\\instrumentinspectionpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{04AC56D0-AEB2-F876-E5A1-44BF55635723}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\instrumentinspectionpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04AC56D0-AEB2-F876-E5A1-44BF55635723}|Assembly-CSharp.csproj|c:\\users\\juand\\documents\\backstagevr\\assets\\scripts\\instrumenthitzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04AC56D0-AEB2-F876-E5A1-44BF55635723}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\instrumenthitzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04AC56D0-AEB2-F876-E5A1-44BF55635723}|Assembly-CSharp.csproj|c:\\users\\juand\\documents\\backstagevr\\assets\\scripts\\instrumentcollisiontestzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04AC56D0-AEB2-F876-E5A1-44BF55635723}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\instrumentcollisiontestzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04AC56D0-AEB2-F876-E5A1-44BF55635723}|Assembly-CSharp.csproj|c:\\users\\juand\\documents\\backstagevr\\assets\\inkle\\inkpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04AC56D0-AEB2-F876-E5A1-44BF55635723}|Assembly-CSharp.csproj|solutionrelative:assets\\inkle\\inkpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TeleportationArea.cs",
-              "DocumentMoniker": "C:\\Users\\juand\\Documents\\Proyectos Unity\\BackstageVR\\Library\\PackageCache\\com.unity.xr.interaction.toolkit@4424268f6f27\\Runtime\\Locomotion\\Teleportation\\TeleportationArea.cs",
-              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.xr.interaction.toolkit@4424268f6f27\\Runtime\\Locomotion\\Teleportation\\TeleportationArea.cs",
-              "ToolTip": "C:\\Users\\juand\\Documents\\Proyectos Unity\\BackstageVR\\Library\\PackageCache\\com.unity.xr.interaction.toolkit@4424268f6f27\\Runtime\\Locomotion\\Teleportation\\TeleportationArea.cs",
-              "RelativeToolTip": "Library\\PackageCache\\com.unity.xr.interaction.toolkit@4424268f6f27\\Runtime\\Locomotion\\Teleportation\\TeleportationArea.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "InstrumentInspectionPanel.cs",
+              "DocumentMoniker": "C:\\Users\\juand\\Documents\\BackstageVR\\Assets\\Scripts\\InstrumentInspectionPanel.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\InstrumentInspectionPanel.cs",
+              "ToolTip": "C:\\Users\\juand\\Documents\\BackstageVR\\Assets\\Scripts\\InstrumentInspectionPanel.cs",
+              "RelativeToolTip": "Assets\\Scripts\\InstrumentInspectionPanel.cs",
+              "ViewState": "AgIAAFEBAAAAAAAAAADwv38BAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T00:47:06.998Z",
+              "WhenOpened": "2025-11-18T21:08:27.349Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "InspectableInstrument.cs",
-              "DocumentMoniker": "C:\\Users\\juand\\Documents\\Proyectos Unity\\BackstageVR\\Assets\\Scripts\\InspectableInstrument.cs",
+              "DocumentMoniker": "C:\\Users\\juand\\Documents\\BackstageVR\\Assets\\Scripts\\InspectableInstrument.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\InspectableInstrument.cs",
-              "ToolTip": "C:\\Users\\juand\\Documents\\Proyectos Unity\\BackstageVR\\Assets\\Scripts\\InspectableInstrument.cs",
+              "ToolTip": "C:\\Users\\juand\\Documents\\BackstageVR\\Assets\\Scripts\\InspectableInstrument.cs",
               "RelativeToolTip": "Assets\\Scripts\\InspectableInstrument.cs",
-              "ViewState": "AgIAAMYAAAAAAAAAAAAjwPgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAKYBAAAAAAAAAADwv7ABAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T22:51:35.355Z",
+              "WhenOpened": "2025-11-18T20:37:00.046Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "InstrumentInspectionPanel.cs",
-              "DocumentMoniker": "C:\\Users\\juand\\Documents\\Proyectos Unity\\BackstageVR\\Assets\\Scripts\\InstrumentInspectionPanel.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\InstrumentInspectionPanel.cs",
-              "ToolTip": "C:\\Users\\juand\\Documents\\Proyectos Unity\\BackstageVR\\Assets\\Scripts\\InstrumentInspectionPanel.cs",
-              "RelativeToolTip": "Assets\\Scripts\\InstrumentInspectionPanel.cs",
-              "ViewState": "AgIAABYBAAAAAAAAAAAAwEsBAAAAAAAAAAAAAA==",
+              "Title": "InstrumentHitZone.cs",
+              "DocumentMoniker": "C:\\Users\\juand\\Documents\\BackstageVR\\Assets\\Scripts\\InstrumentHitZone.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\InstrumentHitZone.cs",
+              "ToolTip": "C:\\Users\\juand\\Documents\\BackstageVR\\Assets\\Scripts\\InstrumentHitZone.cs",
+              "RelativeToolTip": "Assets\\Scripts\\InstrumentHitZone.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T22:12:52.252Z",
+              "WhenOpened": "2025-11-18T19:50:50.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InstrumentCollisionTestZone.cs",
+              "DocumentMoniker": "C:\\Users\\juand\\Documents\\BackstageVR\\Assets\\Scripts\\InstrumentCollisionTestZone.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\InstrumentCollisionTestZone.cs",
+              "ToolTip": "C:\\Users\\juand\\Documents\\BackstageVR\\Assets\\Scripts\\InstrumentCollisionTestZone.cs",
+              "RelativeToolTip": "Assets\\Scripts\\InstrumentCollisionTestZone.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAA5wEoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T19:50:29.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InkPresenter.cs",
+              "DocumentMoniker": "C:\\Users\\juand\\Documents\\BackstageVR\\Assets\\Inkle\\InkPresenter.cs",
+              "RelativeDocumentMoniker": "Assets\\Inkle\\InkPresenter.cs",
+              "ToolTip": "C:\\Users\\juand\\Documents\\BackstageVR\\Assets\\Inkle\\InkPresenter.cs",
+              "RelativeToolTip": "Assets\\Inkle\\InkPresenter.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAgwEQAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T19:22:33.69Z",
               "EditorCaption": ""
             }
           ]

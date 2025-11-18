@@ -42,27 +42,7 @@ MonoBehaviour:
     recursiveIncludeErrorPaths: []
     errors: []
     warnings: []
-    todos:
-    - type: 0
-      content: Poner imagenes o videos
-      relativeFilePath: InkleBackstage.ink
-      lineNumber: 33
-    - type: 0
-      content: Poner imagenes o videos
-      relativeFilePath: InkleBackstage.ink
-      lineNumber: 40
-    - type: 0
-      content: Poner imagenes o videos
-      relativeFilePath: InkleBackstage.ink
-      lineNumber: 47
-    - type: 0
-      content: Poner imagenes o videos
-      relativeFilePath: InkleBackstage.ink
-      lineNumber: 50
-    - type: 0
-      content: Poner imagenes o videos
-      relativeFilePath: InkleBackstage.ink
-      lineNumber: 63
+    todos: []
     masterInkAssets: []
     localIncludePaths: []
     includes: []

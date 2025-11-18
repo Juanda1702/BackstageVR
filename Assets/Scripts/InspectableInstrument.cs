@@ -33,6 +33,19 @@ public class InspectableInstrument : MonoBehaviour
     // Aprobado sólo si el jugador marcó "Good" Y todas las pruebas requeridas están hechas
     public bool IsApproved => reported == ReportedState.Good && AllRequiredChecksDone;
 
+    [Header("Inspección obligatoria / resaltado")]
+    [Tooltip("Si está activo, este instrumento forma parte de la lista de instrumentos que el acomodador DEBE probar.")]
+    public bool mustBeInspected = false;
+
+    [Tooltip("Renderers que se van a teñir cuando el instrumento sea obligatorio de probar.")]
+    public Renderer[] highlightRenderers;
+
+    [Tooltip("Color de resaltado para instrumentos que deben probarse.")]
+    public Color requiredHighlightColor = new Color(0f, 1f, 1f, 1f);
+
+    bool highlightCached = false;
+    Color[] highlightBaseColors;
+
     [Header("Reemplazo (con prefab)")]
     [Tooltip("Prefab bueno que reemplaza a este instrumento cuando se reporta como dañado. Si es null, se le pedirá a ReplacementService.")]
     public GameObject goodReplacementPrefab;
@@ -45,8 +58,13 @@ public class InspectableInstrument : MonoBehaviour
 
     [Header("UI de inspección")]
     public GameObject inspectionUIPrefab;
-    public Transform uiAnchor;   // punto de referencia en el instrumento
+    [Tooltip("Punto de referencia en el instrumento para colocar el panel. Si es null, se usa el propio instrumento.")]
+    public Transform uiAnchor;
     GameObject uiInstance;
+
+    [Header("Posición del panel de inspección")]
+    [Tooltip("Offset local aplicado sobre el uiAnchor (o el instrumento) para ajustar dónde aparece el panel.")]
+    public Vector3 inspectionPanelLocalOffset = new Vector3(0.3f, 0.2f, 0f);
 
     [Header("Audio de pruebas")]
     public AudioSource testAudioSource;
@@ -90,6 +108,9 @@ public class InspectableInstrument : MonoBehaviour
 
         reported = ReportedState.Unknown;
 
+        // Resaltado inicial
+        UpdateInspectionHighlight();
+
         OnStateChanged?.Invoke(this);
         OnChecklistChanged?.Invoke(this);
     }
@@ -118,7 +139,7 @@ public class InspectableInstrument : MonoBehaviour
     void OnSelectExited(SelectExitEventArgs args)
     {
         // El panel NO se cierra al soltar el instrumento.
-        // Solo se cierra con el botón "Cerrar" o al pulsar "Reemplazar".
+        // Solo se cierra con el botón "Cerrar" o al pulsar "Reemplazar" en el panel.
     }
 
     void OnActivated(ActivateEventArgs args)
@@ -165,7 +186,6 @@ public class InspectableInstrument : MonoBehaviour
     void ShowUI(bool on, Transform interactorTf = null)
     {
         if (!on) return;
-
         if (!inspectionUIPrefab || uiInstance) return;
 
         uiInstance = Instantiate(inspectionUIPrefab);
@@ -247,12 +267,13 @@ public class InspectableInstrument : MonoBehaviour
         MarkCheckDone(checkId);
     }
 
-
     // ---------------- ESTADO / REPORTES ----------------
     public void ReportDamaged()
     {
         reported = ReportedState.ReportedDamaged;
         Debug.Log($"[InspectableInstrument:{name}] Reportado como dañado.");
+
+        UpdateInspectionHighlight();
         OnStateChanged?.Invoke(this);
     }
 
@@ -273,6 +294,8 @@ public class InspectableInstrument : MonoBehaviour
 
         reported = ReportedState.Good;
         Debug.Log($"[InspectableInstrument:{name}] Aprobado por el acomodador.");
+
+        UpdateInspectionHighlight();
         OnStateChanged?.Invoke(this);
 
         InstrumentSnapTarget.HighlightFor(type, true);
@@ -311,6 +334,7 @@ public class InspectableInstrument : MonoBehaviour
         var newInspectable = newGO.GetComponent<InspectableInstrument>();
         if (newInspectable)
         {
+            // El nuevo instrumento ya llega en buen estado
             newInspectable.actualCondition = ActualCondition.Good;
 
             if (newInspectable.checks != null)
@@ -321,6 +345,7 @@ public class InspectableInstrument : MonoBehaviour
 
             newInspectable.reported = ReportedState.Good;
 
+            newInspectable.UpdateInspectionHighlight();
             newInspectable.OnStateChanged?.Invoke(newInspectable);
             newInspectable.OnChecklistChanged?.Invoke(newInspectable);
         }
@@ -329,6 +354,87 @@ public class InspectableInstrument : MonoBehaviour
 
         // Destruir el instrumento dañado
         Destroy(gameObject);
+    }
+
+    // ---------------- RESALTADO DE INSTRUMENTOS OBLIGATORIOS ----------------
+    void CacheHighlightColors()
+    {
+        if (highlightCached)
+            return;
+
+        if (highlightRenderers == null || highlightRenderers.Length == 0)
+            return;
+
+        var colors = new List<Color>();
+
+        foreach (var r in highlightRenderers)
+        {
+            if (!r) continue;
+
+            // Forzar instancia de materiales para no afectar a otros objetos
+            var mats = r.materials;
+            for (int i = 0; i < mats.Length; i++)
+            {
+                var m = mats[i];
+                if (!m) continue;
+
+                Color baseColor;
+                if (m.HasProperty("_BaseColor"))
+                    baseColor = m.GetColor("_BaseColor");
+                else if (m.HasProperty("_Color"))
+                    baseColor = m.GetColor("_Color");
+                else
+                    baseColor = m.color;
+
+                colors.Add(baseColor);
+            }
+            r.materials = mats;
+        }
+
+        highlightBaseColors = colors.ToArray();
+        highlightCached = true;
+    }
+
+    void SetInspectionHighlight(bool on)
+    {
+        if (highlightRenderers == null || highlightRenderers.Length == 0)
+            return;
+
+        CacheHighlightColors();
+        if (highlightBaseColors == null || highlightBaseColors.Length == 0)
+            return;
+
+        int colorIndex = 0;
+
+        foreach (var r in highlightRenderers)
+        {
+            if (!r) continue;
+
+            var mats = r.materials;
+            for (int i = 0; i < mats.Length && colorIndex < highlightBaseColors.Length; i++, colorIndex++)
+            {
+                var m = mats[i];
+                if (!m) continue;
+
+                Color targetColor = on ? requiredHighlightColor : highlightBaseColors[colorIndex];
+
+                if (m.HasProperty("_BaseColor"))
+                    m.SetColor("_BaseColor", targetColor);
+                else if (m.HasProperty("_Color"))
+                    m.SetColor("_Color", targetColor);
+                else
+                    m.color = targetColor;
+            }
+
+            r.materials = mats;
+        }
+    }
+
+    void UpdateInspectionHighlight()
+    {
+        // Solo resaltamos mientras el instrumento no ha sido aún clasificado (Reported == Unknown)
+        bool shouldHighlight = mustBeInspected && reported == ReportedState.Unknown;
+        SetInspectionHighlight(shouldHighlight);
     }
 
     // ---------------- HELPERS ----------------

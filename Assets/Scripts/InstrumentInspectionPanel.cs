@@ -3,6 +3,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using Unity.XR.CoreUtils;
+using UnityEngine.XR.Interaction.Toolkit;
+using UnityEngine.XR.Interaction.Toolkit.Interactables;
 
 public class InstrumentInspectionPanel : MonoBehaviour
 {
@@ -19,11 +21,15 @@ public class InstrumentInspectionPanel : MonoBehaviour
     public TextMeshProUGUI checklistTitleText;  // "Pruebas pendientes / completas"
 
     [Header("Colocación en el mundo")]
-    [Tooltip("Desplazamiento lateral respecto al instrumento (hacia la derecha desde el punto de vista de la cámara).")]
-    public float lateralOffset = 0.35f;
+    [Tooltip("Desplazamiento lateral respecto a la posición base del panel (hacia la derecha desde el punto de vista de la cámara).")]
+    public float lateralOffset = 0.0f;
 
-    [Tooltip("Desplazamiento extra por encima de la parte alta del instrumento.")]
-    public float extraVerticalOffset = 0.05f;
+    [Tooltip("Desplazamiento extra por encima de la posición base del panel.")]
+    public float extraVerticalOffset = 0.0f;
+
+    [Header("Movimiento manual del panel")]
+    [Tooltip("Si está activo, el usuario puede agarrar y reposicionar el panel libremente.")]
+    public bool allowUserReposition = true;
 
     InspectableInstrument target;
 
@@ -31,6 +37,10 @@ public class InstrumentInspectionPanel : MonoBehaviour
     Vector3 anchoredPosition;
     Quaternion anchoredRotation;
     bool hasAnchorPose;
+
+    // Movimiento manual
+    XRGrabInteractable grabInteractable;
+    bool userHasRepositioned = false;
 
     readonly Dictionary<string, Toggle> uiChecks = new();
 
@@ -46,11 +56,18 @@ public class InstrumentInspectionPanel : MonoBehaviour
             target.OnChecklistChanged += OnTargetChecklistChanged;
         }
 
+        // Buscar XRGrabInteractable si existe en el panel
+        grabInteractable = GetComponent<XRGrabInteractable>();
+        if (grabInteractable != null)
+        {
+            grabInteractable.selectEntered.AddListener(OnGrabbed);
+        }
+
         WireButtons();
         BuildChecklistUI();
         Refresh();
 
-        // Calcula la posición fija del panel al lado del instrumento
+        // Calcula la posición fija inicial del panel al lado del instrumento
         SetupWorldAnchor(anchor);
     }
 
@@ -90,6 +107,22 @@ public class InstrumentInspectionPanel : MonoBehaviour
             // Avisar al instrumento que este panel ya no existe
             target.NotifyInspectionPanelClosed();
         }
+
+        if (grabInteractable != null)
+        {
+            grabInteractable.selectEntered.RemoveListener(OnGrabbed);
+        }
+    }
+
+    // --------------------------------------------------------------------
+    // EVENTO CUANDO EL USUARIO AGARRA EL PANEL
+    void OnGrabbed(SelectEnterEventArgs args)
+    {
+        if (!allowUserReposition)
+            return;
+
+        // Desde este momento dejamos de forzar la posición/rotación anclada
+        userHasRepositioned = true;
     }
 
     // --------------------------------------------------------------------
@@ -180,21 +213,15 @@ public class InstrumentInspectionPanel : MonoBehaviour
                 $"Inspeccionado";
         }
 
-        // ⬇⬇⬇ LÓGICA DE BOTONES EXCLUYENTE ⬇⬇⬇
-
-        // Solo se puede reportar cuando aún no hay decisión
+        // LÓGICA DE BOTONES EXCLUYENTE
         if (reportButton)
             reportButton.interactable = target.Reported == ReportedState.Unknown;
 
-        // Solo se puede aprobar si:
-        // - Sigue en Unknown (no se ha reportado ni aprobado)
-        // - Todas las pruebas requeridas están hechas
         if (approveButton)
             approveButton.interactable =
                 target.Reported == ReportedState.Unknown &&
                 target.AllRequiredChecksDone;
 
-        // Reemplazar solo si ya fue reportado como dañado
         if (replaceButton)
             replaceButton.interactable = target.Reported == ReportedState.ReportedDamaged;
 
@@ -215,35 +242,67 @@ public class InstrumentInspectionPanel : MonoBehaviour
 
     // --------------------------------------------------------------------
     // COLOCACIÓN EN EL MUNDO
+    /// <summary>
+    /// Calcula una pose inicial en el mundo para el panel:
+    /// - Usa el uiAnchor (o el instrumento) como base.
+    /// - Le aplica el offset local definido en el InspectableInstrument.
+    /// - Opcionalmente aplica un desplazamiento lateral y vertical en función de la cámara.
+    /// </summary>
     void SetupWorldAnchor(Transform anchor)
     {
         var camTransform = GetCameraTransform();
 
-        // Punto base: parte alta del instrumento, centrada en XZ
-        Vector3 top = GetInstrumentTopCenter(anchor);
+        // 1) Posición base: uiAnchor (si existe) o instrumento
+        Vector3 basePos;
+        Transform offsetRef = null;
 
+        if (anchor != null)
+        {
+            basePos = anchor.position;
+            offsetRef = anchor;
+        }
+        else if (target != null)
+        {
+            basePos = target.transform.position;
+            offsetRef = target.transform;
+        }
+        else
+        {
+            basePos = transform.position;
+        }
+
+        // 2) Offset local por instrumento
+        Vector3 customOffsetWorld = Vector3.zero;
+        if (target != null && offsetRef != null)
+        {
+            customOffsetWorld = offsetRef.TransformVector(target.inspectionPanelLocalOffset);
+        }
+
+        Vector3 rawPos = basePos + customOffsetWorld;
+
+        // 3) Ajuste en función de la cámara
         if (!camTransform)
         {
-            anchoredPosition = top + Vector3.right * lateralOffset + Vector3.up * extraVerticalOffset;
+            anchoredPosition = rawPos + Vector3.right * lateralOffset + Vector3.up * extraVerticalOffset;
             anchoredRotation = Quaternion.identity;
         }
         else
         {
-            // Dirección cámara -> instrumento en el plano horizontal
-            Vector3 camToInstrument = top - camTransform.position;
-            camToInstrument.y = 0f;
-            if (camToInstrument.sqrMagnitude < 0.001f)
-                camToInstrument = camTransform.forward;
-            camToInstrument.Normalize();
+            // Dirección cámara -> punto base en el plano horizontal
+            Vector3 camToRaw = rawPos - camTransform.position;
+            camToRaw.y = 0f;
+            if (camToRaw.sqrMagnitude < 0.001f)
+                camToRaw = camTransform.forward;
+            camToRaw.Normalize();
 
             // Derecha desde el punto de vista de la cámara
-            Vector3 right = Vector3.Cross(Vector3.up, camToInstrument);
+            Vector3 right = Vector3.Cross(Vector3.up, camToRaw);
             right.Normalize();
 
-            // Posición final: al lado y un poco por encima de la parte alta
-            anchoredPosition = top + right * lateralOffset + Vector3.up * extraVerticalOffset;
+            // Posición final: rawPos + offset lateral / vertical
+            anchoredPosition = rawPos + right * lateralOffset + Vector3.up * extraVerticalOffset;
 
-            // Dirección cámara -> panel solo en horizontal
+            // Orientar el panel hacia la cámara en horizontal
             Vector3 camToPanel = anchoredPosition - camTransform.position;
             camToPanel.y = 0f;
             if (camToPanel.sqrMagnitude < 0.001f)
@@ -259,36 +318,29 @@ public class InstrumentInspectionPanel : MonoBehaviour
         transform.rotation = anchoredRotation;
     }
 
-    Vector3 GetInstrumentTopCenter(Transform fallbackAnchor)
-    {
-        if (target != null)
-        {
-            var renderers = target.GetComponentsInChildren<Renderer>();
-            if (renderers.Length > 0)
-            {
-                var bounds = renderers[0].bounds;
-                for (int i = 1; i < renderers.Length; i++)
-                    bounds.Encapsulate(renderers[i].bounds);
-
-                return new Vector3(bounds.center.x, bounds.max.y, bounds.center.z);
-            }
-
-            return target.transform.position;
-        }
-
-        if (fallbackAnchor != null)
-            return fallbackAnchor.position;
-
-        return transform.position;
-    }
-
     void LateUpdate()
     {
-        if (!hasAnchorPose) return;
+        if (!hasAnchorPose)
+            return;
 
-        // Mantiene el panel quieto en la pose calculada
-        transform.position = anchoredPosition;
-        transform.rotation = anchoredRotation;
+        // Si no permitimos reposicionamiento manual, mantener anclado siempre
+        if (!allowUserReposition)
+        {
+            transform.position = anchoredPosition;
+            transform.rotation = anchoredRotation;
+            return;
+        }
+
+        // Si permitimos reposicionamiento pero el usuario todavía no lo ha movido,
+        // mantenemos el panel en la posición inicial para que no se desplace solo.
+        if (!userHasRepositioned)
+        {
+            transform.position = anchoredPosition;
+            transform.rotation = anchoredRotation;
+        }
+
+        // Si userHasRepositioned == true, no tocamos posición/rotación:
+        // el panel se queda donde el usuario lo dejó.
     }
 
     Transform GetCameraTransform()

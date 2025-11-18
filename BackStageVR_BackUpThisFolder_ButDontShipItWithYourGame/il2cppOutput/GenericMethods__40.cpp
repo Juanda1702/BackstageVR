@@ -15086,7 +15086,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* RuntimePropertyInfo_StaticGett
 		return L_2;
 	}
 }
-// Method Definition Index: 55557
+// Method Definition Index: 55563
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ScriptableObject_CreateInstance_TisRuntimeObject_mC07BE383F5EF546F4191035A679930852BC19BDA_gshared (const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -15217,7 +15217,7 @@ IL_0064:
 		return L_12;
 	}
 }
-// Method Definition Index: 113222
+// Method Definition Index: 113232
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ServiceManager_GetService_TisRuntimeObject_mCF50A0038278469A11C74F40ECA8AE0B27AE52F7_gshared (ServiceManager_t34B31F2EDF42C15BBD978EDCC6B759539743DEDF* __this, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -15250,7 +15250,7 @@ IL_0024:
 		return L_6;
 	}
 }
-// Method Definition Index: 113222
+// Method Definition Index: 113232
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServiceManager_GetService_TisIl2CppFullySharedGenericAny_mFE75687EFA3BBB6BAF2733D312FE10F9F7194707_gshared (ServiceManager_t34B31F2EDF42C15BBD978EDCC6B759539743DEDF* __this, Il2CppFullySharedGenericAny* il2cppRetVal, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -15289,7 +15289,7 @@ IL_0024:
 		return;
 	}
 }
-// Method Definition Index: 113223
+// Method Definition Index: 113233
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServiceManager_StopService_TisRuntimeObject_mEC39D4B04053482BE39A07BB6ABFAECF9464D139_gshared (ServiceManager_t34B31F2EDF42C15BBD978EDCC6B759539743DEDF* __this, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -15330,7 +15330,7 @@ IL_003b:
 		return;
 	}
 }
-// Method Definition Index: 113223
+// Method Definition Index: 113233
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServiceManager_StopService_TisIl2CppFullySharedGenericAny_m86C233BC1F6625D12D6CC7794E9C4A436491B241_gshared (ServiceManager_t34B31F2EDF42C15BBD978EDCC6B759539743DEDF* __this, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -15375,7 +15375,7 @@ IL_003b:
 		return;
 	}
 }
-// Method Definition Index: 109385
+// Method Definition Index: 109391
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServiceRegistry_GetService_TisIl2CppFullySharedGenericAny_m262D9EA35C9DA36E2A22AEA484A478616E8B04C6_gshared (ServiceRegistry_t3B9BF30406B8019544A9D08DEBDBA3425C92B1D6* __this, Il2CppFullySharedGenericAny* il2cppRetVal, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -15429,7 +15429,7 @@ IL_002a:
 		return;
 	}
 }
-// Method Definition Index: 109384
+// Method Definition Index: 109390
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServiceRegistry_RegisterService_TisIl2CppFullySharedGenericAny_m0C038ED4BC3C1664AD8A5289EF4851F3B31DBEE4_gshared (ServiceRegistry_t3B9BF30406B8019544A9D08DEBDBA3425C92B1D6* __this, Il2CppFullySharedGenericAny ___0_service, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -15487,7 +15487,7 @@ IL_002b:
 		return;
 	}
 }
-// Method Definition Index: 84134
+// Method Definition Index: 84140
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SetPropertyUtility_SetClass_TisRuntimeObject_m01819E5BCB283FECD09F412899624B68D23D408F_gshared (RuntimeObject** ___0_currentValue, RuntimeObject* ___1_newValue, const RuntimeMethod* method) 
 {
 	{
@@ -15545,7 +15545,7 @@ IL_0038:
 		return (bool)1;
 	}
 }
-// Method Definition Index: 84132
+// Method Definition Index: 84138
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SetPropertyUtility_SetEquatableStruct_TisIl2CppFullySharedGenericAny_m46B9D6D20F31E6CD9CA6AEBE837E7124D0FCED6F_gshared (Il2CppFullySharedGenericAny* ___0_currentValue, Il2CppFullySharedGenericAny ___1_newValue, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -15580,7 +15580,7 @@ IL_0011:
 		return (bool)1;
 	}
 }
-// Method Definition Index: 84133
+// Method Definition Index: 84139
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SetPropertyUtility_SetStruct_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_mFC5853627DE5D7B57CA91271BE9B87C37468C5B0_gshared (bool* ___0_currentValue, bool ___1_newValue, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -15613,7 +15613,7 @@ IL_0016:
 		return (bool)1;
 	}
 }
-// Method Definition Index: 84133
+// Method Definition Index: 84139
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SetPropertyUtility_SetStruct_TisChar_t521A6F19B456D956AF452D926C32709DC03D6B17_m092CE7A99757F329A043C95552E8B3B423FCCC3C_gshared (Il2CppChar* ___0_currentValue, Il2CppChar ___1_newValue, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -15646,7 +15646,7 @@ IL_0016:
 		return (bool)1;
 	}
 }
-// Method Definition Index: 84133
+// Method Definition Index: 84139
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SetPropertyUtility_SetStruct_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mE6315CF1CE5FA8F8C0132CCC9F41080CF201D0AB_gshared (int32_t* ___0_currentValue, int32_t ___1_newValue, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -15678,7 +15678,7 @@ IL_0016:
 		return (bool)1;
 	}
 }
-// Method Definition Index: 84133
+// Method Definition Index: 84139
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SetPropertyUtility_SetStruct_TisInt32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C_m6625DA5A19FE58FF1A311A17DF1531C080135BF4_gshared (int32_t* ___0_currentValue, int32_t ___1_newValue, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -15711,7 +15711,7 @@ IL_0016:
 		return (bool)1;
 	}
 }
-// Method Definition Index: 84133
+// Method Definition Index: 84139
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SetPropertyUtility_SetStruct_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m1695F711101D5AC5A1F63CE010CF455DDA1627CC_gshared (float* ___0_currentValue, float ___1_newValue, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -15743,7 +15743,7 @@ IL_0016:
 		return (bool)1;
 	}
 }
-// Method Definition Index: 84133
+// Method Definition Index: 84139
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SetPropertyUtility_SetStruct_TisIl2CppFullySharedGenericStruct_m02A4246793C5C70B3AEE28C1B34979AE4CF52035_gshared (Il2CppFullySharedGenericStruct* ___0_currentValue, Il2CppFullySharedGenericStruct ___1_newValue, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -15779,7 +15779,7 @@ IL_0016:
 		return (bool)1;
 	}
 }
-// Method Definition Index: 93076
+// Method Definition Index: 93082
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SetPropertyUtility_SetClass_TisRuntimeObject_m0AB9B5D3D06FCB75E487FA73ADF780D2A90F22DC_gshared (RuntimeObject** ___0_currentValue, RuntimeObject* ___1_newValue, const RuntimeMethod* method) 
 {
 	{
@@ -15837,7 +15837,7 @@ IL_0038:
 		return (bool)1;
 	}
 }
-// Method Definition Index: 93075
+// Method Definition Index: 93081
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SetPropertyUtility_SetStruct_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m8D96C8077BB7384F3CE2D22D7F7432CD43DDDC77_gshared (bool* ___0_currentValue, bool ___1_newValue, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -15871,7 +15871,7 @@ IL_0015:
 		return (bool)1;
 	}
 }
-// Method Definition Index: 93075
+// Method Definition Index: 93081
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SetPropertyUtility_SetStruct_TisChar_t521A6F19B456D956AF452D926C32709DC03D6B17_m18A822ED66C0EDFFF967DD2EE9848945B34E87B5_gshared (Il2CppChar* ___0_currentValue, Il2CppChar ___1_newValue, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -15905,7 +15905,7 @@ IL_0015:
 		return (bool)1;
 	}
 }
-// Method Definition Index: 93075
+// Method Definition Index: 93081
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SetPropertyUtility_SetStruct_TisColorBlock_tDD7C62E7AFE442652FC98F8D058CE8AE6BFD7C11_m9C058D0B8344122080B4EA792AD0A489EB927099_gshared (ColorBlock_tDD7C62E7AFE442652FC98F8D058CE8AE6BFD7C11* ___0_currentValue, ColorBlock_tDD7C62E7AFE442652FC98F8D058CE8AE6BFD7C11 ___1_newValue, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -15939,7 +15939,7 @@ IL_0015:
 		return (bool)1;
 	}
 }
-// Method Definition Index: 93075
+// Method Definition Index: 93081
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SetPropertyUtility_SetStruct_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m2ED6D8023FCEE74764642E262219A183C576362A_gshared (int32_t* ___0_currentValue, int32_t ___1_newValue, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -15973,7 +15973,7 @@ IL_0015:
 		return (bool)1;
 	}
 }
-// Method Definition Index: 93075
+// Method Definition Index: 93081
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SetPropertyUtility_SetStruct_TisInt32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C_m25D8BCECB38D1D07CD8BCEDE0739A0F7EF955150_gshared (int32_t* ___0_currentValue, int32_t ___1_newValue, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -16007,7 +16007,7 @@ IL_0015:
 		return (bool)1;
 	}
 }
-// Method Definition Index: 93075
+// Method Definition Index: 93081
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SetPropertyUtility_SetStruct_TisNavigation_t4D2E201D65749CF4E104E8AC1232CF1D6F14795C_m3647C557CFFC5721FAAC342AC4C9613B69F15F6B_gshared (Navigation_t4D2E201D65749CF4E104E8AC1232CF1D6F14795C* ___0_currentValue, Navigation_t4D2E201D65749CF4E104E8AC1232CF1D6F14795C ___1_newValue, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -16051,7 +16051,7 @@ IL_0015:
 		return (bool)1;
 	}
 }
-// Method Definition Index: 93075
+// Method Definition Index: 93081
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SetPropertyUtility_SetStruct_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mEF97FFCC58933AFC108E72BFF17641AA1305A628_gshared (float* ___0_currentValue, float ___1_newValue, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -16085,7 +16085,7 @@ IL_0015:
 		return (bool)1;
 	}
 }
-// Method Definition Index: 93075
+// Method Definition Index: 93081
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SetPropertyUtility_SetStruct_TisSpriteState_tC8199570BE6337FB5C49347C97892B4222E5AACD_mE16632C284B9E24D8747A1D0A25CE4C3D5B102EC_gshared (SpriteState_tC8199570BE6337FB5C49347C97892B4222E5AACD* ___0_currentValue, SpriteState_tC8199570BE6337FB5C49347C97892B4222E5AACD ___1_newValue, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -16129,7 +16129,7 @@ IL_0015:
 		return (bool)1;
 	}
 }
-// Method Definition Index: 93075
+// Method Definition Index: 93081
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SetPropertyUtility_SetStruct_TisIl2CppFullySharedGenericStruct_m53D5867BC66A8AE3BF6ED2A7515C83C8EA8DB375_gshared (Il2CppFullySharedGenericStruct* ___0_currentValue, Il2CppFullySharedGenericStruct ___1_newValue, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -22048,7 +22048,7 @@ IL_028b:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 86111
+// Method Definition Index: 86117
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StackGuard_RunOnEmptyStack_TisRuntimeObject_TisRuntimeObject_mC23100B698AB9A1B11BFEE5A72D03A209CCC0D11_gshared (StackGuard_t6F37D81861288F2039A29A88A6287419F220E849* __this, Action_2_t156C43F079E7E68155FCDCD12DC77DD11AEF7E3C* ___0_action, RuntimeObject* ___1_arg1, RuntimeObject* ___2_arg2, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -22099,7 +22099,7 @@ IL_0020:
 		return;
 	}
 }
-// Method Definition Index: 86111
+// Method Definition Index: 86117
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StackGuard_RunOnEmptyStack_TisIl2CppFullySharedGenericAny_TisIl2CppFullySharedGenericAny_m42C4C26F7654B2912AA14A7D05145D7E2CB1A73E_gshared (StackGuard_t6F37D81861288F2039A29A88A6287419F220E849* __this, Action_2_t1D42C7D8DCD2DEB7C556FB3783F0EDAFF694E5E8* ___0_action, Il2CppFullySharedGenericAny ___1_arg1, Il2CppFullySharedGenericAny ___2_arg2, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -22154,7 +22154,7 @@ IL_0020:
 		return;
 	}
 }
-// Method Definition Index: 86112
+// Method Definition Index: 86118
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* StackGuard_RunOnEmptyStackCore_TisRuntimeObject_m3E82B5CE8F4D3419B7B2926F61607D2901037384_gshared (StackGuard_t6F37D81861288F2039A29A88A6287419F220E849* __this, Func_2_tACBF5A1656250800CE861707354491F0611F6624* ___0_action, RuntimeObject* ___1_state, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -22244,7 +22244,7 @@ IL_005b:
 		return L_15;
 	}
 }
-// Method Definition Index: 86112
+// Method Definition Index: 86118
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StackGuard_RunOnEmptyStackCore_TisIl2CppFullySharedGenericAny_m99455F2A5D798D61FF08E150B8841AC821D862D4_gshared (StackGuard_t6F37D81861288F2039A29A88A6287419F220E849* __this, Func_2_t288DA7A3E2791C58B262D9D1F46FF6BB6F6D31F9* ___0_action, RuntimeObject* ___1_state, Il2CppFullySharedGenericAny* il2cppRetVal, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -22449,7 +22449,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StateEvent_GetState_TisIl2CppFullyShared
 		return;
 	}
 }
-// Method Definition Index: 95586
+// Method Definition Index: 95592
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Story_BindExternalFunction_TisIl2CppFullySharedGenericAny_mEF23CC3BDB4A38D6C89CAC3FF47BD065EF4C8A43_gshared (Story_t1FA227B6D8459FDD55218768DFAA17D93B2D057A* __this, String_t* ___0_funcName, Action_1_t923A20D1D4F6B55B2ED5AE21B90F1A0CE0450D99* ___1_act, bool ___2_lookaheadSafe, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -22473,29 +22473,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Story_BindExternalFunction_TisIl2CppFull
 		NullCheck(L_2);
 		L_2->___act = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&L_2->___act), (void*)L_3);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2193>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2193>
 		U3CU3Ec__DisplayClass107_0_1_t8FDD3B9E16B4DAC4ED34D47A63ED5785162E7FC6* L_4 = V_0;
 		NullCheck(L_4);
 		Action_1_t923A20D1D4F6B55B2ED5AE21B90F1A0CE0450D99* L_5 = L_4->___act;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6;
 		L_6 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
 		Story_Assert_m204635D7E2F245E60BD757E2465B2F39B13F5A9E(__this, (bool)((!(((RuntimeObject*)(Action_1_t923A20D1D4F6B55B2ED5AE21B90F1A0CE0450D99*)L_5) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0), _stringLiteral446560301100B966CC5F58F29EBD21161B6DC50D, L_6, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2195>
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2196>
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2197>
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2198>
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2199>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2195>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2196>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2197>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2198>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2199>
 		String_t* L_7 = ___0_funcName;
 		U3CU3Ec__DisplayClass107_0_1_t8FDD3B9E16B4DAC4ED34D47A63ED5785162E7FC6* L_8 = V_0;
 		ExternalFunction_t492F21FC3E31309C2D8B31ED5AF556B93525CB75* L_9 = (ExternalFunction_t492F21FC3E31309C2D8B31ED5AF556B93525CB75*)il2cpp_codegen_object_new(ExternalFunction_t492F21FC3E31309C2D8B31ED5AF556B93525CB75_il2cpp_TypeInfo_var);
 		ExternalFunction__ctor_m2D5087C57A83616BA972D2F0C8D79F25D054C809(L_9, (RuntimeObject*)L_8, (intptr_t)((void*)il2cpp_rgctx_method(method->rgctx_data, 3)), NULL);
 		bool L_10 = ___2_lookaheadSafe;
 		Story_BindExternalFunctionGeneral_mE6F3591FBEE4D80F890EB0683510598F4A5EB331(__this, L_7, L_9, L_10, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2200>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2200>
 		return;
 	}
 }
-// Method Definition Index: 95585
+// Method Definition Index: 95591
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Story_BindExternalFunction_TisIl2CppFullySharedGenericAny_mFA91C513C3BA9309E8AB8ED11B6FF62E160D3E68_gshared (Story_t1FA227B6D8459FDD55218768DFAA17D93B2D057A* __this, String_t* ___0_funcName, Func_2_tED7CA67878EF0FB299872769153413F97964501A* ___1_func, bool ___2_lookaheadSafe, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -22519,28 +22519,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Story_BindExternalFunction_TisIl2CppFull
 		NullCheck(L_2);
 		L_2->___func = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&L_2->___func), (void*)L_3);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2169>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2169>
 		U3CU3Ec__DisplayClass106_0_1_t3EBAEB7438474775B6191BDF218F255B3CE6DCF8* L_4 = V_0;
 		NullCheck(L_4);
 		Func_2_tED7CA67878EF0FB299872769153413F97964501A* L_5 = L_4->___func;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6;
 		L_6 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
 		Story_Assert_m204635D7E2F245E60BD757E2465B2F39B13F5A9E(__this, (bool)((!(((RuntimeObject*)(Func_2_tED7CA67878EF0FB299872769153413F97964501A*)L_5) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0), _stringLiteral446560301100B966CC5F58F29EBD21161B6DC50D, L_6, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2171>
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2172>
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2173>
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2174>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2171>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2172>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2173>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2174>
 		String_t* L_7 = ___0_funcName;
 		U3CU3Ec__DisplayClass106_0_1_t3EBAEB7438474775B6191BDF218F255B3CE6DCF8* L_8 = V_0;
 		ExternalFunction_t492F21FC3E31309C2D8B31ED5AF556B93525CB75* L_9 = (ExternalFunction_t492F21FC3E31309C2D8B31ED5AF556B93525CB75*)il2cpp_codegen_object_new(ExternalFunction_t492F21FC3E31309C2D8B31ED5AF556B93525CB75_il2cpp_TypeInfo_var);
 		ExternalFunction__ctor_m2D5087C57A83616BA972D2F0C8D79F25D054C809(L_9, (RuntimeObject*)L_8, (intptr_t)((void*)il2cpp_rgctx_method(method->rgctx_data, 3)), NULL);
 		bool L_10 = ___2_lookaheadSafe;
 		Story_BindExternalFunctionGeneral_mE6F3591FBEE4D80F890EB0683510598F4A5EB331(__this, L_7, L_9, L_10, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2175>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2175>
 		return;
 	}
 }
-// Method Definition Index: 95588
+// Method Definition Index: 95594
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Story_BindExternalFunction_TisIl2CppFullySharedGenericAny_TisIl2CppFullySharedGenericAny_mE4E2542E5C3525B97FBDDE02253F2D0B5AD775D0_gshared (Story_t1FA227B6D8459FDD55218768DFAA17D93B2D057A* __this, String_t* ___0_funcName, Action_2_t1D42C7D8DCD2DEB7C556FB3783F0EDAFF694E5E8* ___1_act, bool ___2_lookaheadSafe, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -22564,32 +22564,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Story_BindExternalFunction_TisIl2CppFull
 		NullCheck(L_2);
 		L_2->___act = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&L_2->___act), (void*)L_3);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2246>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2246>
 		U3CU3Ec__DisplayClass109_0_2_tAAC156D0E85DFF3D9B96E9DC59AF9A21C7F92D2A* L_4 = V_0;
 		NullCheck(L_4);
 		Action_2_t1D42C7D8DCD2DEB7C556FB3783F0EDAFF694E5E8* L_5 = L_4->___act;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6;
 		L_6 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
 		Story_Assert_m204635D7E2F245E60BD757E2465B2F39B13F5A9E(__this, (bool)((!(((RuntimeObject*)(Action_2_t1D42C7D8DCD2DEB7C556FB3783F0EDAFF694E5E8*)L_5) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0), _stringLiteral446560301100B966CC5F58F29EBD21161B6DC50D, L_6, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2248>
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2249>
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2250>
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2251>
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2252>
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2253>
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2254>
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2255>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2248>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2249>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2250>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2251>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2252>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2253>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2254>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2255>
 		String_t* L_7 = ___0_funcName;
 		U3CU3Ec__DisplayClass109_0_2_tAAC156D0E85DFF3D9B96E9DC59AF9A21C7F92D2A* L_8 = V_0;
 		ExternalFunction_t492F21FC3E31309C2D8B31ED5AF556B93525CB75* L_9 = (ExternalFunction_t492F21FC3E31309C2D8B31ED5AF556B93525CB75*)il2cpp_codegen_object_new(ExternalFunction_t492F21FC3E31309C2D8B31ED5AF556B93525CB75_il2cpp_TypeInfo_var);
 		ExternalFunction__ctor_m2D5087C57A83616BA972D2F0C8D79F25D054C809(L_9, (RuntimeObject*)L_8, (intptr_t)((void*)il2cpp_rgctx_method(method->rgctx_data, 3)), NULL);
 		bool L_10 = ___2_lookaheadSafe;
 		Story_BindExternalFunctionGeneral_mE6F3591FBEE4D80F890EB0683510598F4A5EB331(__this, L_7, L_9, L_10, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2256>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2256>
 		return;
 	}
 }
-// Method Definition Index: 95587
+// Method Definition Index: 95593
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Story_BindExternalFunction_TisIl2CppFullySharedGenericAny_TisIl2CppFullySharedGenericAny_m5AEB5CEB5D2E84629CAAFCC78979FC0FEA04D268_gshared (Story_t1FA227B6D8459FDD55218768DFAA17D93B2D057A* __this, String_t* ___0_funcName, Func_3_t25B447CF436DB953972081F955DB9276B2A069AA* ___1_func, bool ___2_lookaheadSafe, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -22613,31 +22613,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Story_BindExternalFunction_TisIl2CppFull
 		NullCheck(L_2);
 		L_2->___func = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&L_2->___func), (void*)L_3);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2219>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2219>
 		U3CU3Ec__DisplayClass108_0_2_t315302BE84651AEA09CAC59475F2132C34CCE367* L_4 = V_0;
 		NullCheck(L_4);
 		Func_3_t25B447CF436DB953972081F955DB9276B2A069AA* L_5 = L_4->___func;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6;
 		L_6 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
 		Story_Assert_m204635D7E2F245E60BD757E2465B2F39B13F5A9E(__this, (bool)((!(((RuntimeObject*)(Func_3_t25B447CF436DB953972081F955DB9276B2A069AA*)L_5) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0), _stringLiteral446560301100B966CC5F58F29EBD21161B6DC50D, L_6, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2221>
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2222>
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2223>
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2224>
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2225>
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2226>
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2227>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2221>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2222>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2223>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2224>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2225>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2226>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2227>
 		String_t* L_7 = ___0_funcName;
 		U3CU3Ec__DisplayClass108_0_2_t315302BE84651AEA09CAC59475F2132C34CCE367* L_8 = V_0;
 		ExternalFunction_t492F21FC3E31309C2D8B31ED5AF556B93525CB75* L_9 = (ExternalFunction_t492F21FC3E31309C2D8B31ED5AF556B93525CB75*)il2cpp_codegen_object_new(ExternalFunction_t492F21FC3E31309C2D8B31ED5AF556B93525CB75_il2cpp_TypeInfo_var);
 		ExternalFunction__ctor_m2D5087C57A83616BA972D2F0C8D79F25D054C809(L_9, (RuntimeObject*)L_8, (intptr_t)((void*)il2cpp_rgctx_method(method->rgctx_data, 3)), NULL);
 		bool L_10 = ___2_lookaheadSafe;
 		Story_BindExternalFunctionGeneral_mE6F3591FBEE4D80F890EB0683510598F4A5EB331(__this, L_7, L_9, L_10, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2228>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2228>
 		return;
 	}
 }
-// Method Definition Index: 95590
+// Method Definition Index: 95596
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Story_BindExternalFunction_TisIl2CppFullySharedGenericAny_TisIl2CppFullySharedGenericAny_TisIl2CppFullySharedGenericAny_m9C3B217D9DDBB523D085FDF74EC7F3DAB4C3535F_gshared (Story_t1FA227B6D8459FDD55218768DFAA17D93B2D057A* __this, String_t* ___0_funcName, Action_3_t838D6B6BB4BFFC6E8430C389747DB008A0B26146* ___1_act, bool ___2_lookaheadSafe, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -22661,33 +22661,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Story_BindExternalFunction_TisIl2CppFull
 		NullCheck(L_2);
 		L_2->___act = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&L_2->___act), (void*)L_3);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2302>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2302>
 		U3CU3Ec__DisplayClass111_0_3_tFDA059B938943D09D3BA0BCC49B6697F634C2E55* L_4 = V_0;
 		NullCheck(L_4);
 		Action_3_t838D6B6BB4BFFC6E8430C389747DB008A0B26146* L_5 = L_4->___act;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6;
 		L_6 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
 		Story_Assert_m204635D7E2F245E60BD757E2465B2F39B13F5A9E(__this, (bool)((!(((RuntimeObject*)(Action_3_t838D6B6BB4BFFC6E8430C389747DB008A0B26146*)L_5) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0), _stringLiteral446560301100B966CC5F58F29EBD21161B6DC50D, L_6, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2304>
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2305>
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2306>
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2307>
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2308>
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2309>
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2310>
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2311>
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2312>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2304>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2305>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2306>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2307>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2308>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2309>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2310>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2311>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2312>
 		String_t* L_7 = ___0_funcName;
 		U3CU3Ec__DisplayClass111_0_3_tFDA059B938943D09D3BA0BCC49B6697F634C2E55* L_8 = V_0;
 		ExternalFunction_t492F21FC3E31309C2D8B31ED5AF556B93525CB75* L_9 = (ExternalFunction_t492F21FC3E31309C2D8B31ED5AF556B93525CB75*)il2cpp_codegen_object_new(ExternalFunction_t492F21FC3E31309C2D8B31ED5AF556B93525CB75_il2cpp_TypeInfo_var);
 		ExternalFunction__ctor_m2D5087C57A83616BA972D2F0C8D79F25D054C809(L_9, (RuntimeObject*)L_8, (intptr_t)((void*)il2cpp_rgctx_method(method->rgctx_data, 3)), NULL);
 		bool L_10 = ___2_lookaheadSafe;
 		Story_BindExternalFunctionGeneral_mE6F3591FBEE4D80F890EB0683510598F4A5EB331(__this, L_7, L_9, L_10, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2313>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2313>
 		return;
 	}
 }
-// Method Definition Index: 95589
+// Method Definition Index: 95595
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Story_BindExternalFunction_TisIl2CppFullySharedGenericAny_TisIl2CppFullySharedGenericAny_TisIl2CppFullySharedGenericAny_mFA928DFF4AA154BBA9EF580B26A132BCE7CC0B70_gshared (Story_t1FA227B6D8459FDD55218768DFAA17D93B2D057A* __this, String_t* ___0_funcName, Func_4_t521CD8912EFEE62170946B58389D77A9A38E8FF4* ___1_func, bool ___2_lookaheadSafe, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -22711,32 +22711,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Story_BindExternalFunction_TisIl2CppFull
 		NullCheck(L_2);
 		L_2->___func = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&L_2->___func), (void*)L_3);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2274>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2274>
 		U3CU3Ec__DisplayClass110_0_3_tE2859618127656FC847B98F292536783F8802A35* L_4 = V_0;
 		NullCheck(L_4);
 		Func_4_t521CD8912EFEE62170946B58389D77A9A38E8FF4* L_5 = L_4->___func;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6;
 		L_6 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
 		Story_Assert_m204635D7E2F245E60BD757E2465B2F39B13F5A9E(__this, (bool)((!(((RuntimeObject*)(Func_4_t521CD8912EFEE62170946B58389D77A9A38E8FF4*)L_5) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0), _stringLiteral446560301100B966CC5F58F29EBD21161B6DC50D, L_6, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2276>
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2277>
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2278>
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2279>
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2280>
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2281>
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2282>
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2283>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2276>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2277>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2278>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2279>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2280>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2281>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2282>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2283>
 		String_t* L_7 = ___0_funcName;
 		U3CU3Ec__DisplayClass110_0_3_tE2859618127656FC847B98F292536783F8802A35* L_8 = V_0;
 		ExternalFunction_t492F21FC3E31309C2D8B31ED5AF556B93525CB75* L_9 = (ExternalFunction_t492F21FC3E31309C2D8B31ED5AF556B93525CB75*)il2cpp_codegen_object_new(ExternalFunction_t492F21FC3E31309C2D8B31ED5AF556B93525CB75_il2cpp_TypeInfo_var);
 		ExternalFunction__ctor_m2D5087C57A83616BA972D2F0C8D79F25D054C809(L_9, (RuntimeObject*)L_8, (intptr_t)((void*)il2cpp_rgctx_method(method->rgctx_data, 3)), NULL);
 		bool L_10 = ___2_lookaheadSafe;
 		Story_BindExternalFunctionGeneral_mE6F3591FBEE4D80F890EB0683510598F4A5EB331(__this, L_7, L_9, L_10, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2284>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2284>
 		return;
 	}
 }
-// Method Definition Index: 95592
+// Method Definition Index: 95598
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Story_BindExternalFunction_TisIl2CppFullySharedGenericAny_TisIl2CppFullySharedGenericAny_TisIl2CppFullySharedGenericAny_TisIl2CppFullySharedGenericAny_mA7823CDFE67179CCD6DC4F15CB16AB92A80B9331_gshared (Story_t1FA227B6D8459FDD55218768DFAA17D93B2D057A* __this, String_t* ___0_funcName, Action_4_t6CEEB0D44B0B8BF2ADA36A44186B13F262FF63AC* ___1_act, bool ___2_lookaheadSafe, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -22760,34 +22760,34 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Story_BindExternalFunction_TisIl2CppFull
 		NullCheck(L_2);
 		L_2->___act = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&L_2->___act), (void*)L_3);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2360>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2360>
 		U3CU3Ec__DisplayClass113_0_4_tCA05477236A7E4CB19FB6DB9C6080D860FACFAF7* L_4 = V_0;
 		NullCheck(L_4);
 		Action_4_t6CEEB0D44B0B8BF2ADA36A44186B13F262FF63AC* L_5 = L_4->___act;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6;
 		L_6 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
 		Story_Assert_m204635D7E2F245E60BD757E2465B2F39B13F5A9E(__this, (bool)((!(((RuntimeObject*)(Action_4_t6CEEB0D44B0B8BF2ADA36A44186B13F262FF63AC*)L_5) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0), _stringLiteral446560301100B966CC5F58F29EBD21161B6DC50D, L_6, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2362>
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2363>
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2364>
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2365>
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2366>
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2367>
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2368>
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2369>
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2370>
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2371>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2362>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2363>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2364>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2365>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2366>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2367>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2368>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2369>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2370>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2371>
 		String_t* L_7 = ___0_funcName;
 		U3CU3Ec__DisplayClass113_0_4_tCA05477236A7E4CB19FB6DB9C6080D860FACFAF7* L_8 = V_0;
 		ExternalFunction_t492F21FC3E31309C2D8B31ED5AF556B93525CB75* L_9 = (ExternalFunction_t492F21FC3E31309C2D8B31ED5AF556B93525CB75*)il2cpp_codegen_object_new(ExternalFunction_t492F21FC3E31309C2D8B31ED5AF556B93525CB75_il2cpp_TypeInfo_var);
 		ExternalFunction__ctor_m2D5087C57A83616BA972D2F0C8D79F25D054C809(L_9, (RuntimeObject*)L_8, (intptr_t)((void*)il2cpp_rgctx_method(method->rgctx_data, 3)), NULL);
 		bool L_10 = ___2_lookaheadSafe;
 		Story_BindExternalFunctionGeneral_mE6F3591FBEE4D80F890EB0683510598F4A5EB331(__this, L_7, L_9, L_10, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2372>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2372>
 		return;
 	}
 }
-// Method Definition Index: 95591
+// Method Definition Index: 95597
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Story_BindExternalFunction_TisIl2CppFullySharedGenericAny_TisIl2CppFullySharedGenericAny_TisIl2CppFullySharedGenericAny_TisIl2CppFullySharedGenericAny_mD5D91A03E55DD2ADB3B162D7E9EC517CB68C807A_gshared (Story_t1FA227B6D8459FDD55218768DFAA17D93B2D057A* __this, String_t* ___0_funcName, Func_5_t2DA9E2EDBFD0D6640A8925FED2A3C8D262C486E3* ___1_func, bool ___2_lookaheadSafe, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -22811,33 +22811,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Story_BindExternalFunction_TisIl2CppFull
 		NullCheck(L_2);
 		L_2->___func = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&L_2->___func), (void*)L_3);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2331>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2331>
 		U3CU3Ec__DisplayClass112_0_4_tA513D9250DF3D8155D6C872F89C6FA0D8805BB36* L_4 = V_0;
 		NullCheck(L_4);
 		Func_5_t2DA9E2EDBFD0D6640A8925FED2A3C8D262C486E3* L_5 = L_4->___func;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6;
 		L_6 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
 		Story_Assert_m204635D7E2F245E60BD757E2465B2F39B13F5A9E(__this, (bool)((!(((RuntimeObject*)(Func_5_t2DA9E2EDBFD0D6640A8925FED2A3C8D262C486E3*)L_5) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0), _stringLiteral446560301100B966CC5F58F29EBD21161B6DC50D, L_6, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2333>
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2334>
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2335>
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2336>
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2337>
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2338>
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2339>
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2340>
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2341>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2333>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2334>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2335>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2336>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2337>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2338>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2339>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2340>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2341>
 		String_t* L_7 = ___0_funcName;
 		U3CU3Ec__DisplayClass112_0_4_tA513D9250DF3D8155D6C872F89C6FA0D8805BB36* L_8 = V_0;
 		ExternalFunction_t492F21FC3E31309C2D8B31ED5AF556B93525CB75* L_9 = (ExternalFunction_t492F21FC3E31309C2D8B31ED5AF556B93525CB75*)il2cpp_codegen_object_new(ExternalFunction_t492F21FC3E31309C2D8B31ED5AF556B93525CB75_il2cpp_TypeInfo_var);
 		ExternalFunction__ctor_m2D5087C57A83616BA972D2F0C8D79F25D054C809(L_9, (RuntimeObject*)L_8, (intptr_t)((void*)il2cpp_rgctx_method(method->rgctx_data, 3)), NULL);
 		bool L_10 = ___2_lookaheadSafe;
 		Story_BindExternalFunctionGeneral_mE6F3591FBEE4D80F890EB0683510598F4A5EB331(__this, L_7, L_9, L_10, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2342>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2342>
 		return;
 	}
 }
-// Method Definition Index: 95582
+// Method Definition Index: 95588
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Story_TryCoerce_TisIl2CppFullySharedGenericAny_m8B479AFEA825735B6E5A17D6F8493D4BA495DCD2_gshared (Story_t1FA227B6D8459FDD55218768DFAA17D93B2D057A* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -22853,7 +22853,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Story_TryCoerce_TisIl2CppFully
 	int32_t G_B15_0 = 0;
 	int32_t G_B21_0 = 0;
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2066>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2066>
 		RuntimeObject* L_0 = ___0_value;
 		if (L_0)
 		{
@@ -22861,13 +22861,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Story_TryCoerce_TisIl2CppFully
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2067>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2067>
 		return NULL;
 	}
 
 IL_0005:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2069>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2069>
 		RuntimeObject* L_1 = ___0_value;
 		if (!((RuntimeObject*)IsInst((RuntimeObject*)L_1, il2cpp_rgctx_data(method->rgctx_data, 0))))
 		{
@@ -22875,7 +22875,7 @@ IL_0005:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2070>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2070>
 		RuntimeObject* L_2 = ___0_value;
 		void* L_4 = UnBox_Any(L_2, il2cpp_rgctx_data(method->rgctx_data, 0), L_3);
 		RuntimeObject* L_5 = Box(il2cpp_rgctx_data_no_init(method->rgctx_data, 0), (((Il2CppFullySharedGenericAny)(Il2CppFullySharedGenericAny*)L_4)));
@@ -22884,7 +22884,7 @@ IL_0005:
 
 IL_0019:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2072>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2072>
 		RuntimeObject* L_6 = ___0_value;
 		if (!((RuntimeObject*)IsInstSealed((RuntimeObject*)L_6, il2cpp_defaults.single_class)))
 		{
@@ -22907,12 +22907,12 @@ IL_0019:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2073>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2073>
 		RuntimeObject* L_12 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
 		double L_13;
 		L_13 = bankers_round(((double)((*(float*)UnBox(L_12, il2cpp_defaults.single_class)))));
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2074>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2074>
 		int32_t L_14 = il2cpp_codegen_cast_double_to_int<int32_t>(L_13);
 		RuntimeObject* L_15 = Box(il2cpp_defaults.int32_class, &L_14);
 		return L_15;
@@ -22920,7 +22920,7 @@ IL_0019:
 
 IL_004f:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2077>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2077>
 		RuntimeObject* L_16 = ___0_value;
 		if (!((RuntimeObject*)IsInstSealed((RuntimeObject*)L_16, il2cpp_defaults.int32_class)))
 		{
@@ -22943,9 +22943,9 @@ IL_004f:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2078>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2078>
 		RuntimeObject* L_22 = ___0_value;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2079>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2079>
 		float L_23 = ((float)((*(int32_t*)UnBox(L_22, il2cpp_defaults.int32_class))));
 		RuntimeObject* L_24 = Box(il2cpp_defaults.single_class, &L_23);
 		return L_24;
@@ -22953,7 +22953,7 @@ IL_004f:
 
 IL_007f:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2082>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2082>
 		RuntimeObject* L_25 = ___0_value;
 		if (!((RuntimeObject*)IsInstSealed((RuntimeObject*)L_25, il2cpp_defaults.int32_class)))
 		{
@@ -22976,9 +22976,9 @@ IL_007f:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2083>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2083>
 		RuntimeObject* L_31 = ___0_value;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2084>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2084>
 		if (!((*(int32_t*)UnBox(L_31, il2cpp_defaults.int32_class))))
 		{
 			goto IL_00ad;
@@ -23003,7 +23003,7 @@ IL_00ae:
 
 IL_00b4:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2087>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2087>
 		RuntimeObject* L_34 = ___0_value;
 		if (!((RuntimeObject*)IsInstSealed((RuntimeObject*)L_34, il2cpp_defaults.boolean_class)))
 		{
@@ -23026,9 +23026,9 @@ IL_00b4:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2088>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2088>
 		RuntimeObject* L_40 = ___0_value;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2089>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2089>
 		if (((*(bool*)UnBox(L_40, il2cpp_defaults.boolean_class))))
 		{
 			goto IL_00e2;
@@ -23053,7 +23053,7 @@ IL_00e3:
 
 IL_00e9:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2092>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2092>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_43 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 1)) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		Type_t* L_44;
@@ -23069,7 +23069,7 @@ IL_00e9:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2093>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2093>
 		RuntimeObject* L_48 = ___0_value;
 		NullCheck(L_48);
 		String_t* L_49;
@@ -23079,7 +23079,7 @@ IL_00e9:
 
 IL_010b:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2096>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2096>
 		RuntimeObject* L_50 = ___0_value;
 		NullCheck(L_50);
 		Type_t* L_51;
@@ -23099,7 +23099,7 @@ IL_010b:
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_57;
 		L_57 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
 		Story_Assert_m204635D7E2F245E60BD757E2465B2F39B13F5A9E(__this, (bool)0, L_56, L_57, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2098>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Story.cs:2098>
 		return NULL;
 	}
 }
@@ -24464,7 +24464,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringBuilder_t* StringBuilder_AppendSpanForm
 		return L_3;
 	}
 }
-// Method Definition Index: 95742
+// Method Definition Index: 95748
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* StringExt_Join_TisRuntimeObject_mAD43D18EB2F30109EB82BDD426088C72F0E94E92_gshared (String_t* ___0_separator, List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* ___1_objects, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -24478,13 +24478,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* StringExt_Join_TisRuntimeObject_mAD
 	memset((&V_2), 0, sizeof(V_2));
 	RuntimeObject* V_3 = NULL;
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/StringJoinExtension.cs:11>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/StringJoinExtension.cs:11>
 		StringBuilder_t* L_0 = (StringBuilder_t*)il2cpp_codegen_object_new(StringBuilder_t_il2cpp_TypeInfo_var);
 		StringBuilder__ctor_m1D99713357DE05DAFA296633639DB55F8C30587D(L_0, NULL);
 		V_0 = L_0;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/StringJoinExtension.cs:13>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/StringJoinExtension.cs:13>
 		V_1 = (bool)1;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/StringJoinExtension.cs:14>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/StringJoinExtension.cs:14>
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_1 = ___1_objects;
 		NullCheck(L_1);
 		Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A L_2;
@@ -24509,11 +24509,11 @@ FINALLY_0045:
 
 IL_0011_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/StringJoinExtension.cs:14>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/StringJoinExtension.cs:14>
 				RuntimeObject* L_3;
 				L_3 = Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_inline((&V_2), il2cpp_rgctx_method(method->rgctx_data, 3));
 				V_3 = L_3;
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/StringJoinExtension.cs:16>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/StringJoinExtension.cs:16>
 				bool L_4 = V_1;
 				if (L_4)
 				{
@@ -24521,7 +24521,7 @@ IL_0011_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/StringJoinExtension.cs:17>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/StringJoinExtension.cs:17>
 				StringBuilder_t* L_5 = V_0;
 				String_t* L_6 = ___0_separator;
 				NullCheck(L_5);
@@ -24531,7 +24531,7 @@ IL_0011_1:
 
 IL_0024_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/StringJoinExtension.cs:19>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/StringJoinExtension.cs:19>
 				StringBuilder_t* L_8 = V_0;
 				NullCheck((V_3));
 				String_t* L_9;
@@ -24539,13 +24539,13 @@ IL_0024_1:
 				NullCheck(L_8);
 				StringBuilder_t* L_10;
 				L_10 = StringBuilder_Append_m08904D74E0C78E5F36DCD9C9303BDD07886D9F7D(L_8, L_9, NULL);
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/StringJoinExtension.cs:21>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/StringJoinExtension.cs:21>
 				V_1 = (bool)0;
 			}
 
 IL_003a_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/StringJoinExtension.cs:14>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/StringJoinExtension.cs:14>
 				bool L_11;
 				L_11 = Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB((&V_2), il2cpp_rgctx_method(method->rgctx_data, 7));
 				if (L_11)
@@ -24565,7 +24565,7 @@ IL_003a_1:
 
 IL_0053:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/StringJoinExtension.cs:24>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/StringJoinExtension.cs:24>
 		StringBuilder_t* L_12 = V_0;
 		NullCheck((RuntimeObject*)L_12);
 		String_t* L_13;
@@ -24573,7 +24573,7 @@ IL_0053:
 		return L_13;
 	}
 }
-// Method Definition Index: 95742
+// Method Definition Index: 95748
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* StringExt_Join_TisIl2CppFullySharedGenericAny_mCD467BC926D07CB98B76EE2E9840B6315CC944E3_gshared (String_t* ___0_separator, List_1_tDBA89B0E21BAC58CFBD3C1F76E4668E3B562761A* ___1_objects, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -24594,13 +24594,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* StringExt_Join_TisIl2CppFullyShared
 	Il2CppFullySharedGenericAny V_3 = alloca(SizeOf_T_t4E88052ECBD1ABE5B6C5DAADEADA95132137DD1A);
 	memset(V_3, 0, SizeOf_T_t4E88052ECBD1ABE5B6C5DAADEADA95132137DD1A);
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/StringJoinExtension.cs:11>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/StringJoinExtension.cs:11>
 		StringBuilder_t* L_0 = (StringBuilder_t*)il2cpp_codegen_object_new(StringBuilder_t_il2cpp_TypeInfo_var);
 		StringBuilder__ctor_m1D99713357DE05DAFA296633639DB55F8C30587D(L_0, NULL);
 		V_0 = L_0;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/StringJoinExtension.cs:13>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/StringJoinExtension.cs:13>
 		V_1 = (bool)1;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/StringJoinExtension.cs:14>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/StringJoinExtension.cs:14>
 		List_1_tDBA89B0E21BAC58CFBD3C1F76E4668E3B562761A* L_1 = ___1_objects;
 		NullCheck(L_1);
 		InvokerActionInvoker1< Enumerator_tF5AC6CD19D283FBD724440520CEE68FE2602F7AF* >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 1)), il2cpp_rgctx_method(method->rgctx_data, 1), L_1, (Enumerator_tF5AC6CD19D283FBD724440520CEE68FE2602F7AF*)L_2);
@@ -24624,10 +24624,10 @@ FINALLY_0045:
 
 IL_0011_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/StringJoinExtension.cs:14>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/StringJoinExtension.cs:14>
 				InvokerActionInvoker1< Il2CppFullySharedGenericAny* >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)), il2cpp_rgctx_method(method->rgctx_data, 3), (Enumerator_tF5AC6CD19D283FBD724440520CEE68FE2602F7AF*)V_2, (Il2CppFullySharedGenericAny*)L_4);
 				il2cpp_codegen_memcpy(V_3, L_4, SizeOf_T_t4E88052ECBD1ABE5B6C5DAADEADA95132137DD1A);
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/StringJoinExtension.cs:16>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/StringJoinExtension.cs:16>
 				bool L_5 = V_1;
 				if (L_5)
 				{
@@ -24635,7 +24635,7 @@ IL_0011_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/StringJoinExtension.cs:17>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/StringJoinExtension.cs:17>
 				StringBuilder_t* L_6 = V_0;
 				String_t* L_7 = ___0_separator;
 				NullCheck(L_6);
@@ -24645,20 +24645,20 @@ IL_0011_1:
 
 IL_0024_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/StringJoinExtension.cs:19>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/StringJoinExtension.cs:19>
 				StringBuilder_t* L_9 = V_0;
 				String_t* L_11;
 				L_11 = ConstrainedFuncInvoker0< String_t* >::Invoke(il2cpp_rgctx_data(method->rgctx_data, 5), il2cpp_rgctx_method(method->rgctx_data, 6), L_10, (void*)(Il2CppFullySharedGenericAny*)V_3);
 				NullCheck(L_9);
 				StringBuilder_t* L_12;
 				L_12 = StringBuilder_Append_m08904D74E0C78E5F36DCD9C9303BDD07886D9F7D(L_9, L_11, NULL);
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/StringJoinExtension.cs:21>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/StringJoinExtension.cs:21>
 				V_1 = (bool)0;
 			}
 
 IL_003a_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/StringJoinExtension.cs:14>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/StringJoinExtension.cs:14>
 				bool L_13;
 				L_13 = ((  bool (*) (Enumerator_tF5AC6CD19D283FBD724440520CEE68FE2602F7AF*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 7)))((Enumerator_tF5AC6CD19D283FBD724440520CEE68FE2602F7AF*)V_2, il2cpp_rgctx_method(method->rgctx_data, 7));
 				if (L_13)
@@ -24678,7 +24678,7 @@ IL_003a_1:
 
 IL_0053:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/StringJoinExtension.cs:24>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/StringJoinExtension.cs:24>
 		StringBuilder_t* L_14 = V_0;
 		NullCheck((RuntimeObject*)L_14);
 		String_t* L_15;
@@ -25918,7 +25918,7 @@ IL_00c1:
 		return L_45;
 	}
 }
-// Method Definition Index: 94933
+// Method Definition Index: 94939
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t5EBACF1B3C4814818A03FEF550E7FB1616694E2F* StringParser_Interleave_TisNullable_1_t163D49A1147F217B7BD43BE8ACC8A5CC6B846D14_m3E909A00C352BF74FA8CD0F56E7D33718997D28F_gshared (StringParser_t9CE85450E75A187F6D246AC980E896D6C977EC10* __this, ParseRule_tD74F8C44EC76C22C276021184E97DE9308AEE0F6* ___0_ruleA, ParseRule_tD74F8C44EC76C22C276021184E97DE9308AEE0F6* ___1_ruleB, ParseRule_tD74F8C44EC76C22C276021184E97DE9308AEE0F6* ___2_untilTerminator, bool ___3_flatten, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -25932,20 +25932,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t5EBACF1B3C4814818A03FEF550E7FB1616694
 	RuntimeObject* V_3 = NULL;
 	RuntimeObject* V_4 = NULL;
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:372>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:372>
 		int32_t L_0;
 		L_0 = StringParser_BeginRule_m10FB9DAFC6E81332FC107521F6CDFD4F1D983D8D(__this, NULL);
 		V_0 = L_0;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:374>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:374>
 		List_1_t5EBACF1B3C4814818A03FEF550E7FB1616694E2F* L_1 = (List_1_t5EBACF1B3C4814818A03FEF550E7FB1616694E2F*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->rgctx_data, 0));
 		List_1__ctor_m829A0FF5266C16EC1AF040C025553E4CD0335F7B(L_1, il2cpp_rgctx_method(method->rgctx_data, 1));
 		V_1 = L_1;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:377>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:377>
 		ParseRule_tD74F8C44EC76C22C276021184E97DE9308AEE0F6* L_2 = ___0_ruleA;
 		RuntimeObject* L_3;
 		L_3 = StringParser_ParseObject_m1699F8073A412CC3BCE31ACC8600FE9829378704(__this, L_2, NULL);
 		V_2 = L_3;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:378>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:378>
 		RuntimeObject* L_4 = V_2;
 		if (L_4)
 		{
@@ -25953,7 +25953,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t5EBACF1B3C4814818A03FEF550E7FB1616694
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:379>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:379>
 		int32_t L_5 = V_0;
 		RuntimeObject* L_6;
 		L_6 = StringParser_FailRule_m11FD3F962E2A74445EFCA58E1B7BE6758E642EB9(__this, L_5, NULL);
@@ -25962,20 +25962,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t5EBACF1B3C4814818A03FEF550E7FB1616694
 
 IL_0025:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:381>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:381>
 		RuntimeObject* L_7 = V_2;
 		List_1_t5EBACF1B3C4814818A03FEF550E7FB1616694E2F* L_8 = V_1;
 		bool L_9 = ___3_flatten;
 		StringParser_TryAddResultToList_TisNullable_1_t163D49A1147F217B7BD43BE8ACC8A5CC6B846D14_m7B0BD09CB0665D8D833BD58C38FFE7B586831719(__this, L_7, L_8, L_9, il2cpp_rgctx_method(method->rgctx_data, 2));
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:384>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:384>
 		V_3 = NULL;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:384>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:384>
 		V_4 = NULL;
 	}
 
 IL_0034:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:388>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:388>
 		ParseRule_tD74F8C44EC76C22C276021184E97DE9308AEE0F6* L_10 = ___2_untilTerminator;
 		if (!L_10)
 		{
@@ -25994,12 +25994,12 @@ IL_0034:
 
 IL_0040:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:393>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:393>
 		ParseRule_tD74F8C44EC76C22C276021184E97DE9308AEE0F6* L_13 = ___1_ruleB;
 		RuntimeObject* L_14;
 		L_14 = StringParser_ParseObject_m1699F8073A412CC3BCE31ACC8600FE9829378704(__this, L_13, NULL);
 		V_3 = L_14;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:394>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:394>
 		RuntimeObject* L_15 = V_3;
 		if (!L_15)
 		{
@@ -26007,14 +26007,14 @@ IL_0040:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:397>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:397>
 		RuntimeObject* L_16 = V_3;
 		List_1_t5EBACF1B3C4814818A03FEF550E7FB1616694E2F* L_17 = V_1;
 		bool L_18 = ___3_flatten;
 		StringParser_TryAddResultToList_TisNullable_1_t163D49A1147F217B7BD43BE8ACC8A5CC6B846D14_m7B0BD09CB0665D8D833BD58C38FFE7B586831719(__this, L_16, L_17, L_18, il2cpp_rgctx_method(method->rgctx_data, 2));
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:401>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:401>
 		V_4 = NULL;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:402>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:402>
 		RuntimeObject* L_19 = V_3;
 		if (!L_19)
 		{
@@ -26022,12 +26022,12 @@ IL_0040:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:403>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:403>
 		ParseRule_tD74F8C44EC76C22C276021184E97DE9308AEE0F6* L_20 = ___0_ruleA;
 		RuntimeObject* L_21;
 		L_21 = StringParser_ParseObject_m1699F8073A412CC3BCE31ACC8600FE9829378704(__this, L_20, NULL);
 		V_4 = L_21;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:404>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:404>
 		RuntimeObject* L_22 = V_4;
 		if (!L_22)
 		{
@@ -26035,7 +26035,7 @@ IL_0040:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:407>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:407>
 		RuntimeObject* L_23 = V_4;
 		List_1_t5EBACF1B3C4814818A03FEF550E7FB1616694E2F* L_24 = V_1;
 		bool L_25 = ___3_flatten;
@@ -26044,8 +26044,8 @@ IL_0040:
 
 IL_0073:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:412>
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:413>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:412>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:413>
 		RuntimeObject* L_26 = V_3;
 		if (L_26)
 		{
@@ -26092,7 +26092,7 @@ IL_008b:
 
 IL_0094:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:415>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:415>
 		List_1_t5EBACF1B3C4814818A03FEF550E7FB1616694E2F* L_33 = V_1;
 		NullCheck(L_33);
 		int32_t L_34;
@@ -26103,7 +26103,7 @@ IL_0094:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:416>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:416>
 		int32_t L_35 = V_0;
 		RuntimeObject* L_36;
 		L_36 = StringParser_FailRule_m11FD3F962E2A74445EFCA58E1B7BE6758E642EB9(__this, L_35, NULL);
@@ -26112,7 +26112,7 @@ IL_0094:
 
 IL_00a9:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:419>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:419>
 		int32_t L_37 = V_0;
 		List_1_t5EBACF1B3C4814818A03FEF550E7FB1616694E2F* L_38 = V_1;
 		RuntimeObject* L_39;
@@ -26120,7 +26120,7 @@ IL_00a9:
 		return ((List_1_t5EBACF1B3C4814818A03FEF550E7FB1616694E2F*)CastclassClass((RuntimeObject*)L_39, il2cpp_rgctx_data(method->rgctx_data, 0)));
 	}
 }
-// Method Definition Index: 94933
+// Method Definition Index: 94939
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* StringParser_Interleave_TisRuntimeObject_mFDE916B6BA40165B922B2AFC4EC77111B7469DA7_gshared (StringParser_t9CE85450E75A187F6D246AC980E896D6C977EC10* __this, ParseRule_tD74F8C44EC76C22C276021184E97DE9308AEE0F6* ___0_ruleA, ParseRule_tD74F8C44EC76C22C276021184E97DE9308AEE0F6* ___1_ruleB, ParseRule_tD74F8C44EC76C22C276021184E97DE9308AEE0F6* ___2_untilTerminator, bool ___3_flatten, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -26134,20 +26134,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9
 	RuntimeObject* V_3 = NULL;
 	RuntimeObject* V_4 = NULL;
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:372>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:372>
 		int32_t L_0;
 		L_0 = StringParser_BeginRule_m10FB9DAFC6E81332FC107521F6CDFD4F1D983D8D(__this, NULL);
 		V_0 = L_0;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:374>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:374>
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_1 = (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->rgctx_data, 0));
 		List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690(L_1, il2cpp_rgctx_method(method->rgctx_data, 1));
 		V_1 = L_1;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:377>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:377>
 		ParseRule_tD74F8C44EC76C22C276021184E97DE9308AEE0F6* L_2 = ___0_ruleA;
 		RuntimeObject* L_3;
 		L_3 = StringParser_ParseObject_m1699F8073A412CC3BCE31ACC8600FE9829378704(__this, L_2, NULL);
 		V_2 = L_3;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:378>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:378>
 		RuntimeObject* L_4 = V_2;
 		if (L_4)
 		{
@@ -26155,7 +26155,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:379>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:379>
 		int32_t L_5 = V_0;
 		RuntimeObject* L_6;
 		L_6 = StringParser_FailRule_m11FD3F962E2A74445EFCA58E1B7BE6758E642EB9(__this, L_5, NULL);
@@ -26164,20 +26164,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9
 
 IL_0025:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:381>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:381>
 		RuntimeObject* L_7 = V_2;
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_8 = V_1;
 		bool L_9 = ___3_flatten;
 		StringParser_TryAddResultToList_TisRuntimeObject_m0A0252C53BC514938EF5705FBE9A38115A97F22E(__this, L_7, L_8, L_9, il2cpp_rgctx_method(method->rgctx_data, 2));
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:384>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:384>
 		V_3 = NULL;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:384>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:384>
 		V_4 = NULL;
 	}
 
 IL_0034:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:388>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:388>
 		ParseRule_tD74F8C44EC76C22C276021184E97DE9308AEE0F6* L_10 = ___2_untilTerminator;
 		if (!L_10)
 		{
@@ -26196,12 +26196,12 @@ IL_0034:
 
 IL_0040:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:393>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:393>
 		ParseRule_tD74F8C44EC76C22C276021184E97DE9308AEE0F6* L_13 = ___1_ruleB;
 		RuntimeObject* L_14;
 		L_14 = StringParser_ParseObject_m1699F8073A412CC3BCE31ACC8600FE9829378704(__this, L_13, NULL);
 		V_3 = L_14;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:394>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:394>
 		RuntimeObject* L_15 = V_3;
 		if (!L_15)
 		{
@@ -26209,14 +26209,14 @@ IL_0040:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:397>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:397>
 		RuntimeObject* L_16 = V_3;
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_17 = V_1;
 		bool L_18 = ___3_flatten;
 		StringParser_TryAddResultToList_TisRuntimeObject_m0A0252C53BC514938EF5705FBE9A38115A97F22E(__this, L_16, L_17, L_18, il2cpp_rgctx_method(method->rgctx_data, 2));
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:401>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:401>
 		V_4 = NULL;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:402>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:402>
 		RuntimeObject* L_19 = V_3;
 		if (!L_19)
 		{
@@ -26224,12 +26224,12 @@ IL_0040:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:403>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:403>
 		ParseRule_tD74F8C44EC76C22C276021184E97DE9308AEE0F6* L_20 = ___0_ruleA;
 		RuntimeObject* L_21;
 		L_21 = StringParser_ParseObject_m1699F8073A412CC3BCE31ACC8600FE9829378704(__this, L_20, NULL);
 		V_4 = L_21;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:404>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:404>
 		RuntimeObject* L_22 = V_4;
 		if (!L_22)
 		{
@@ -26237,7 +26237,7 @@ IL_0040:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:407>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:407>
 		RuntimeObject* L_23 = V_4;
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_24 = V_1;
 		bool L_25 = ___3_flatten;
@@ -26246,8 +26246,8 @@ IL_0040:
 
 IL_0073:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:412>
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:413>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:412>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:413>
 		RuntimeObject* L_26 = V_3;
 		if (L_26)
 		{
@@ -26294,7 +26294,7 @@ IL_008b:
 
 IL_0094:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:415>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:415>
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_33 = V_1;
 		NullCheck(L_33);
 		int32_t L_34;
@@ -26305,7 +26305,7 @@ IL_0094:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:416>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:416>
 		int32_t L_35 = V_0;
 		RuntimeObject* L_36;
 		L_36 = StringParser_FailRule_m11FD3F962E2A74445EFCA58E1B7BE6758E642EB9(__this, L_35, NULL);
@@ -26314,7 +26314,7 @@ IL_0094:
 
 IL_00a9:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:419>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:419>
 		int32_t L_37 = V_0;
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_38 = V_1;
 		RuntimeObject* L_39;
@@ -26322,7 +26322,7 @@ IL_00a9:
 		return ((List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D*)CastclassClass((RuntimeObject*)L_39, il2cpp_rgctx_data(method->rgctx_data, 0)));
 	}
 }
-// Method Definition Index: 94933
+// Method Definition Index: 94939
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tDBA89B0E21BAC58CFBD3C1F76E4668E3B562761A* StringParser_Interleave_TisIl2CppFullySharedGenericAny_mD85D2924CFF10FAF30A0DB49B5202A810746477A_gshared (StringParser_t9CE85450E75A187F6D246AC980E896D6C977EC10* __this, ParseRule_tD74F8C44EC76C22C276021184E97DE9308AEE0F6* ___0_ruleA, ParseRule_tD74F8C44EC76C22C276021184E97DE9308AEE0F6* ___1_ruleB, ParseRule_tD74F8C44EC76C22C276021184E97DE9308AEE0F6* ___2_untilTerminator, bool ___3_flatten, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -26336,20 +26336,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tDBA89B0E21BAC58CFBD3C1F76E4668E3B5627
 	RuntimeObject* V_3 = NULL;
 	RuntimeObject* V_4 = NULL;
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:372>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:372>
 		int32_t L_0;
 		L_0 = StringParser_BeginRule_m10FB9DAFC6E81332FC107521F6CDFD4F1D983D8D(__this, NULL);
 		V_0 = L_0;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:374>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:374>
 		List_1_tDBA89B0E21BAC58CFBD3C1F76E4668E3B562761A* L_1 = (List_1_tDBA89B0E21BAC58CFBD3C1F76E4668E3B562761A*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->rgctx_data, 0));
 		((  void (*) (List_1_tDBA89B0E21BAC58CFBD3C1F76E4668E3B562761A*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 1)))(L_1, il2cpp_rgctx_method(method->rgctx_data, 1));
 		V_1 = L_1;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:377>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:377>
 		ParseRule_tD74F8C44EC76C22C276021184E97DE9308AEE0F6* L_2 = ___0_ruleA;
 		RuntimeObject* L_3;
 		L_3 = StringParser_ParseObject_m1699F8073A412CC3BCE31ACC8600FE9829378704(__this, L_2, NULL);
 		V_2 = L_3;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:378>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:378>
 		RuntimeObject* L_4 = V_2;
 		if (L_4)
 		{
@@ -26357,7 +26357,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tDBA89B0E21BAC58CFBD3C1F76E4668E3B5627
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:379>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:379>
 		int32_t L_5 = V_0;
 		RuntimeObject* L_6;
 		L_6 = StringParser_FailRule_m11FD3F962E2A74445EFCA58E1B7BE6758E642EB9(__this, L_5, NULL);
@@ -26366,20 +26366,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tDBA89B0E21BAC58CFBD3C1F76E4668E3B5627
 
 IL_0025:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:381>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:381>
 		RuntimeObject* L_7 = V_2;
 		List_1_tDBA89B0E21BAC58CFBD3C1F76E4668E3B562761A* L_8 = V_1;
 		bool L_9 = ___3_flatten;
 		((  void (*) (StringParser_t9CE85450E75A187F6D246AC980E896D6C977EC10*, RuntimeObject*, List_1_tDBA89B0E21BAC58CFBD3C1F76E4668E3B562761A*, bool, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 2)))(__this, L_7, L_8, L_9, il2cpp_rgctx_method(method->rgctx_data, 2));
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:384>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:384>
 		V_3 = NULL;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:384>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:384>
 		V_4 = NULL;
 	}
 
 IL_0034:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:388>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:388>
 		ParseRule_tD74F8C44EC76C22C276021184E97DE9308AEE0F6* L_10 = ___2_untilTerminator;
 		if (!L_10)
 		{
@@ -26398,12 +26398,12 @@ IL_0034:
 
 IL_0040:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:393>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:393>
 		ParseRule_tD74F8C44EC76C22C276021184E97DE9308AEE0F6* L_13 = ___1_ruleB;
 		RuntimeObject* L_14;
 		L_14 = StringParser_ParseObject_m1699F8073A412CC3BCE31ACC8600FE9829378704(__this, L_13, NULL);
 		V_3 = L_14;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:394>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:394>
 		RuntimeObject* L_15 = V_3;
 		if (!L_15)
 		{
@@ -26411,14 +26411,14 @@ IL_0040:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:397>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:397>
 		RuntimeObject* L_16 = V_3;
 		List_1_tDBA89B0E21BAC58CFBD3C1F76E4668E3B562761A* L_17 = V_1;
 		bool L_18 = ___3_flatten;
 		((  void (*) (StringParser_t9CE85450E75A187F6D246AC980E896D6C977EC10*, RuntimeObject*, List_1_tDBA89B0E21BAC58CFBD3C1F76E4668E3B562761A*, bool, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 2)))(__this, L_16, L_17, L_18, il2cpp_rgctx_method(method->rgctx_data, 2));
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:401>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:401>
 		V_4 = NULL;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:402>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:402>
 		RuntimeObject* L_19 = V_3;
 		if (!L_19)
 		{
@@ -26426,12 +26426,12 @@ IL_0040:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:403>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:403>
 		ParseRule_tD74F8C44EC76C22C276021184E97DE9308AEE0F6* L_20 = ___0_ruleA;
 		RuntimeObject* L_21;
 		L_21 = StringParser_ParseObject_m1699F8073A412CC3BCE31ACC8600FE9829378704(__this, L_20, NULL);
 		V_4 = L_21;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:404>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:404>
 		RuntimeObject* L_22 = V_4;
 		if (!L_22)
 		{
@@ -26439,7 +26439,7 @@ IL_0040:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:407>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:407>
 		RuntimeObject* L_23 = V_4;
 		List_1_tDBA89B0E21BAC58CFBD3C1F76E4668E3B562761A* L_24 = V_1;
 		bool L_25 = ___3_flatten;
@@ -26448,8 +26448,8 @@ IL_0040:
 
 IL_0073:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:412>
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:413>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:412>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:413>
 		RuntimeObject* L_26 = V_3;
 		if (L_26)
 		{
@@ -26496,7 +26496,7 @@ IL_008b:
 
 IL_0094:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:415>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:415>
 		List_1_tDBA89B0E21BAC58CFBD3C1F76E4668E3B562761A* L_33 = V_1;
 		NullCheck(L_33);
 		int32_t L_34;
@@ -26507,7 +26507,7 @@ IL_0094:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:416>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:416>
 		int32_t L_35 = V_0;
 		RuntimeObject* L_36;
 		L_36 = StringParser_FailRule_m11FD3F962E2A74445EFCA58E1B7BE6758E642EB9(__this, L_35, NULL);
@@ -26516,7 +26516,7 @@ IL_0094:
 
 IL_00a9:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:419>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:419>
 		int32_t L_37 = V_0;
 		List_1_tDBA89B0E21BAC58CFBD3C1F76E4668E3B562761A* L_38 = V_1;
 		RuntimeObject* L_39;
@@ -26524,7 +26524,7 @@ IL_00a9:
 		return ((List_1_tDBA89B0E21BAC58CFBD3C1F76E4668E3B562761A*)CastclassClass((RuntimeObject*)L_39, il2cpp_rgctx_data(method->rgctx_data, 0)));
 	}
 }
-// Method Definition Index: 94925
+// Method Definition Index: 94931
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* StringParser_Parse_TisRuntimeObject_mE0243C4689FCEAE36D1FD968563F6B50424C0CBF_gshared (StringParser_t9CE85450E75A187F6D246AC980E896D6C977EC10* __this, SpecificParseRule_1_t0167AED48A23FA174F2C3363B7230D46763DFB87* ___0_rule, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -26532,17 +26532,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* StringParser_Parse_TisRuntimeO
 	RuntimeObject* V_1 = NULL;
 	RuntimeObject* V_2 = NULL;
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:265>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:265>
 		int32_t L_0;
 		L_0 = StringParser_BeginRule_m10FB9DAFC6E81332FC107521F6CDFD4F1D983D8D(__this, NULL);
 		V_0 = L_0;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:267>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:267>
 		SpecificParseRule_1_t0167AED48A23FA174F2C3363B7230D46763DFB87* L_1 = ___0_rule;
 		NullCheck(L_1);
 		RuntimeObject* L_2;
 		L_2 = SpecificParseRule_1_Invoke_mAA89946B64741F863277C0DB4257F0186C9F4632_inline(L_1, il2cpp_rgctx_method(method->rgctx_data, 1));
 		V_1 = L_2;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:268>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:268>
 		RuntimeObject* L_3 = V_1;
 		if (L_3)
 		{
@@ -26550,11 +26550,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* StringParser_Parse_TisRuntimeO
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:269>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:269>
 		int32_t L_4 = V_0;
 		RuntimeObject* L_5;
 		L_5 = StringParser_FailRule_m11FD3F962E2A74445EFCA58E1B7BE6758E642EB9(__this, L_4, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:270>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:270>
 		il2cpp_codegen_initobj((&V_2), sizeof(RuntimeObject*));
 		RuntimeObject* L_6 = V_2;
 		return L_6;
@@ -26562,17 +26562,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* StringParser_Parse_TisRuntimeO
 
 IL_0028:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:273>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:273>
 		int32_t L_7 = V_0;
 		RuntimeObject* L_8 = V_1;
 		RuntimeObject* L_9;
 		L_9 = StringParser_SucceedRule_m757EB5049FC69D743BCE65C81F1ECE68333F88C6(__this, L_7, L_8, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:274>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:274>
 		RuntimeObject* L_10 = V_1;
 		return L_10;
 	}
 }
-// Method Definition Index: 94932
+// Method Definition Index: 94938
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StringParser_TryAddResultToList_TisNullable_1_t163D49A1147F217B7BD43BE8ACC8A5CC6B846D14_m7B0BD09CB0665D8D833BD58C38FFE7B586831719_gshared (StringParser_t9CE85450E75A187F6D246AC980E896D6C977EC10* __this, RuntimeObject* ___0_result, List_1_t5EBACF1B3C4814818A03FEF550E7FB1616694E2F* ___1_list, bool ___2_flatten, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -26591,7 +26591,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StringParser_TryAddResultToList_TisNulla
 	RuntimeObject* V_2 = NULL;
 	RuntimeObject* V_3 = NULL;
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:350>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:350>
 		RuntimeObject* L_0 = ___0_result;
 		il2cpp_codegen_runtime_class_init_inline(StringParser_t9CE85450E75A187F6D246AC980E896D6C977EC10_il2cpp_TypeInfo_var);
 		ParseSuccessStruct_t9C262B2C6470D03646ECCFA6C45B08B8DFE6F1F8* L_1 = ((StringParser_t9CE85450E75A187F6D246AC980E896D6C977EC10_StaticFields*)il2cpp_codegen_static_fields_for(StringParser_t9CE85450E75A187F6D246AC980E896D6C977EC10_il2cpp_TypeInfo_var))->___ParseSuccess;
@@ -26601,13 +26601,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StringParser_TryAddResultToList_TisNulla
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:351>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:351>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:354>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:354>
 		bool L_2 = ___2_flatten;
 		if (!L_2)
 		{
@@ -26615,10 +26615,10 @@ IL_0009:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:355>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:355>
 		RuntimeObject* L_3 = ___0_result;
 		V_0 = ((RuntimeObject*)IsInst((RuntimeObject*)L_3, ICollection_t37E7B9DC5B4EF41D190D607F92835BF1171C0E8E_il2cpp_TypeInfo_var));
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:356>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:356>
 		RuntimeObject* L_4 = V_0;
 		if (!L_4)
 		{
@@ -26626,7 +26626,7 @@ IL_0009:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:357>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:357>
 		RuntimeObject* L_5 = V_0;
 		NullCheck((RuntimeObject*)L_5);
 		RuntimeObject* L_6;
@@ -26668,13 +26668,13 @@ IL_004c:
 
 IL_001f_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:357>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:357>
 				RuntimeObject* L_10 = V_1;
 				NullCheck(L_10);
 				RuntimeObject* L_11;
 				L_11 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(1, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_10);
 				V_2 = L_11;
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:359>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:359>
 				List_1_t5EBACF1B3C4814818A03FEF550E7FB1616694E2F* L_12 = ___1_list;
 				RuntimeObject* L_13 = V_2;
 				UnBoxNullable(L_13, il2cpp_rgctx_data(method->rgctx_data, 1), L_14);
@@ -26684,7 +26684,7 @@ IL_001f_1:
 
 IL_0032_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:357>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:357>
 				RuntimeObject* L_15 = V_1;
 				NullCheck(L_15);
 				bool L_16;
@@ -26706,23 +26706,23 @@ IL_0032_1:
 
 IL_004d:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:361>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:361>
 		return;
 	}
 
 IL_004e:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:366>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:366>
 		List_1_t5EBACF1B3C4814818A03FEF550E7FB1616694E2F* L_17 = ___1_list;
 		RuntimeObject* L_18 = ___0_result;
 		UnBoxNullable(L_18, il2cpp_rgctx_data(method->rgctx_data, 1), L_19);
 		NullCheck(L_17);
 		List_1_Add_mFB18C12C82173ED9C22A88BCCA40B536D0D5359D_inline(L_17, ((*(Nullable_1_t163D49A1147F217B7BD43BE8ACC8A5CC6B846D14*)L_19)), il2cpp_rgctx_method(method->rgctx_data, 2));
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:367>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:367>
 		return;
 	}
 }
-// Method Definition Index: 94932
+// Method Definition Index: 94938
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StringParser_TryAddResultToList_TisRuntimeObject_m0A0252C53BC514938EF5705FBE9A38115A97F22E_gshared (StringParser_t9CE85450E75A187F6D246AC980E896D6C977EC10* __this, RuntimeObject* ___0_result, List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* ___1_list, bool ___2_flatten, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -26739,7 +26739,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StringParser_TryAddResultToList_TisRunti
 	RuntimeObject* V_2 = NULL;
 	RuntimeObject* V_3 = NULL;
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:350>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:350>
 		RuntimeObject* L_0 = ___0_result;
 		il2cpp_codegen_runtime_class_init_inline(StringParser_t9CE85450E75A187F6D246AC980E896D6C977EC10_il2cpp_TypeInfo_var);
 		ParseSuccessStruct_t9C262B2C6470D03646ECCFA6C45B08B8DFE6F1F8* L_1 = ((StringParser_t9CE85450E75A187F6D246AC980E896D6C977EC10_StaticFields*)il2cpp_codegen_static_fields_for(StringParser_t9CE85450E75A187F6D246AC980E896D6C977EC10_il2cpp_TypeInfo_var))->___ParseSuccess;
@@ -26749,13 +26749,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StringParser_TryAddResultToList_TisRunti
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:351>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:351>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:354>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:354>
 		bool L_2 = ___2_flatten;
 		if (!L_2)
 		{
@@ -26763,10 +26763,10 @@ IL_0009:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:355>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:355>
 		RuntimeObject* L_3 = ___0_result;
 		V_0 = ((RuntimeObject*)IsInst((RuntimeObject*)L_3, ICollection_t37E7B9DC5B4EF41D190D607F92835BF1171C0E8E_il2cpp_TypeInfo_var));
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:356>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:356>
 		RuntimeObject* L_4 = V_0;
 		if (!L_4)
 		{
@@ -26774,7 +26774,7 @@ IL_0009:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:357>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:357>
 		RuntimeObject* L_5 = V_0;
 		NullCheck((RuntimeObject*)L_5);
 		RuntimeObject* L_6;
@@ -26816,13 +26816,13 @@ IL_004c:
 
 IL_001f_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:357>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:357>
 				RuntimeObject* L_10 = V_1;
 				NullCheck(L_10);
 				RuntimeObject* L_11;
 				L_11 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(1, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_10);
 				V_2 = L_11;
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:359>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:359>
 				List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_12 = ___1_list;
 				RuntimeObject* L_13 = V_2;
 				NullCheck(L_12);
@@ -26831,7 +26831,7 @@ IL_001f_1:
 
 IL_0032_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:357>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:357>
 				RuntimeObject* L_14 = V_1;
 				NullCheck(L_14);
 				bool L_15;
@@ -26853,22 +26853,22 @@ IL_0032_1:
 
 IL_004d:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:361>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:361>
 		return;
 	}
 
 IL_004e:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:366>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:366>
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_16 = ___1_list;
 		RuntimeObject* L_17 = ___0_result;
 		NullCheck(L_16);
 		List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_inline(L_16, ((RuntimeObject*)Castclass((RuntimeObject*)L_17, il2cpp_rgctx_data(method->rgctx_data, 1))), il2cpp_rgctx_method(method->rgctx_data, 2));
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:367>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:367>
 		return;
 	}
 }
-// Method Definition Index: 94932
+// Method Definition Index: 94938
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StringParser_TryAddResultToList_TisIl2CppFullySharedGenericAny_mFCDD154C0604F2141BE50812EF249542D6311EF2_gshared (StringParser_t9CE85450E75A187F6D246AC980E896D6C977EC10* __this, RuntimeObject* ___0_result, List_1_tDBA89B0E21BAC58CFBD3C1F76E4668E3B562761A* ___1_list, bool ___2_flatten, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -26888,7 +26888,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StringParser_TryAddResultToList_TisIl2Cp
 	RuntimeObject* V_2 = NULL;
 	RuntimeObject* V_3 = NULL;
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:350>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:350>
 		RuntimeObject* L_0 = ___0_result;
 		il2cpp_codegen_runtime_class_init_inline(StringParser_t9CE85450E75A187F6D246AC980E896D6C977EC10_il2cpp_TypeInfo_var);
 		ParseSuccessStruct_t9C262B2C6470D03646ECCFA6C45B08B8DFE6F1F8* L_1 = ((StringParser_t9CE85450E75A187F6D246AC980E896D6C977EC10_StaticFields*)il2cpp_codegen_static_fields_for(StringParser_t9CE85450E75A187F6D246AC980E896D6C977EC10_il2cpp_TypeInfo_var))->___ParseSuccess;
@@ -26898,13 +26898,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StringParser_TryAddResultToList_TisIl2Cp
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:351>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:351>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:354>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:354>
 		bool L_2 = ___2_flatten;
 		if (!L_2)
 		{
@@ -26912,10 +26912,10 @@ IL_0009:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:355>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:355>
 		RuntimeObject* L_3 = ___0_result;
 		V_0 = ((RuntimeObject*)IsInst((RuntimeObject*)L_3, ICollection_t37E7B9DC5B4EF41D190D607F92835BF1171C0E8E_il2cpp_TypeInfo_var));
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:356>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:356>
 		RuntimeObject* L_4 = V_0;
 		if (!L_4)
 		{
@@ -26923,7 +26923,7 @@ IL_0009:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:357>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:357>
 		RuntimeObject* L_5 = V_0;
 		NullCheck((RuntimeObject*)L_5);
 		RuntimeObject* L_6;
@@ -26965,13 +26965,13 @@ IL_004c:
 
 IL_001f_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:357>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:357>
 				RuntimeObject* L_10 = V_1;
 				NullCheck(L_10);
 				RuntimeObject* L_11;
 				L_11 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(1, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_10);
 				V_2 = L_11;
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:359>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:359>
 				List_1_tDBA89B0E21BAC58CFBD3C1F76E4668E3B562761A* L_12 = ___1_list;
 				RuntimeObject* L_13 = V_2;
 				void* L_15 = UnBox_Any(L_13, il2cpp_rgctx_data(method->rgctx_data, 1), L_14);
@@ -26981,7 +26981,7 @@ IL_001f_1:
 
 IL_0032_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:357>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:357>
 				RuntimeObject* L_16 = V_1;
 				NullCheck(L_16);
 				bool L_17;
@@ -27003,23 +27003,23 @@ IL_0032_1:
 
 IL_004d:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:361>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:361>
 		return;
 	}
 
 IL_004e:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:366>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:366>
 		List_1_tDBA89B0E21BAC58CFBD3C1F76E4668E3B562761A* L_18 = ___1_list;
 		RuntimeObject* L_19 = ___0_result;
 		void* L_21 = UnBox_Any(L_19, il2cpp_rgctx_data(method->rgctx_data, 1), L_20);
 		NullCheck(L_18);
 		InvokerActionInvoker1< Il2CppFullySharedGenericAny >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 2)), il2cpp_rgctx_method(method->rgctx_data, 2), L_18, (il2cpp_codegen_class_is_value_type(il2cpp_rgctx_data_no_init(method->rgctx_data, 1)) ? (((Il2CppFullySharedGenericAny)(Il2CppFullySharedGenericAny*)L_21)): *(void**)(((Il2CppFullySharedGenericAny)(Il2CppFullySharedGenericAny*)L_21))));
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:367>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/StringParser/StringParser.cs:367>
 		return;
 	}
 }
-// Method Definition Index: 73869
+// Method Definition Index: 73875
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* StringUtils_ForgivingCaseSensitiveFind_TisRuntimeObject_m195410DEDDDC8B5F920825627EA95985B002B371_gshared (RuntimeObject* ___0_source, Func_2_t8A4E59735D50CEA34C30F6CD6B5804A38327CD0B* ___1_valueSelector, String_t* ___2_testValue, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -27104,7 +27104,7 @@ IL_0058:
 		return L_22;
 	}
 }
-// Method Definition Index: 73869
+// Method Definition Index: 73875
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StringUtils_ForgivingCaseSensitiveFind_TisIl2CppFullySharedGenericAny_mD725EDE7F863EEED09CA1D0D2908772E8A2B6839_gshared (RuntimeObject* ___0_source, Func_2_t3793651739D8B94095DFFF75C3BD348E5E2C455C* ___1_valueSelector, String_t* ___2_testValue, Il2CppFullySharedGenericAny* il2cppRetVal, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -27201,7 +27201,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_t2121653FB628940E808D105AD
 		return L_0;
 	}
 }
-// Method Definition Index: 109381
+// Method Definition Index: 109387
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Dictionary_2_tA75D1125AC9BE8F005BA9B868B373398E643C907* ServiceRegistry_get_ServiceTypeHashToInstance_m43D7C38487F32188AFBA41102852B8DA8F17B452_inline (ServiceRegistry_t3B9BF30406B8019544A9D08DEBDBA3425C92B1D6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -27604,7 +27604,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C
 		return L_0;
 	}
 }
-// Method Definition Index: 94953
+// Method Definition Index: 94959
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* SpecificParseRule_1_Invoke_mAA89946B64741F863277C0DB4257F0186C9F4632_gshared_inline (SpecificParseRule_1_t0167AED48A23FA174F2C3363B7230D46763DFB87* __this, const RuntimeMethod* method) 
 {
 	typedef RuntimeObject* (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);

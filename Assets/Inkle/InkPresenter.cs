@@ -53,7 +53,8 @@ public class InkPresenter : MonoBehaviour
             {
                 Choice choice = story.currentChoices[i];
                 Button btn = CreateChoiceView(choice.text.Trim());
-                btn.onClick.AddListener(() => {
+                btn.onClick.AddListener(() =>
+                {
                     story.ChooseChoiceIndex(choice.index);
                     RefreshView();
                 });
@@ -61,8 +62,13 @@ public class InkPresenter : MonoBehaviour
         }
         else
         {
-            Button restart = CreateChoiceView("Fin.\n¿Reiniciar?");
+            // Botón para reiniciar la historia
+            Button restart = CreateChoiceView("Volver al incio");
             restart.onClick.AddListener(StartStory);
+
+            // Botón para salir de la aplicación
+            Button quit = CreateChoiceView("Salir");
+            quit.onClick.AddListener(QuitGame);
         }
 
         // fuerza el layout para que no se monten
@@ -99,5 +105,15 @@ public class InkPresenter : MonoBehaviour
         Transform t = (contentRoot != null) ? (Transform)contentRoot : canvas.transform;
         for (int i = t.childCount - 1; i >= 0; --i)
             Destroy(t.GetChild(i).gameObject);
+    }
+
+    // cierra la aplicación (o sale del modo Play en el editor)
+    void QuitGame()
+    {
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#else
+        Application.Quit();
+#endif
     }
 }

@@ -21632,7 +21632,7 @@ IL_001c:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 97721
+// Method Definition Index: 97727
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryQueue_1__ctor_mD8762657DB7CFF54E221BCCDC16CB67414537715_gshared (TelemetryQueue_1_tF695414AC220D92042104DF42FECD4367D0CE287* __this, Action_1_tDFA07721F7B30D725AB3362A163481CA1213C478* ___0_sendTelemetryEvent, const RuntimeMethod* method) 
 {
 	{
@@ -21646,7 +21646,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryQueue_1__ctor_mD8762657DB7CFF54
 		return;
 	}
 }
-// Method Definition Index: 97722
+// Method Definition Index: 97728
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryQueue_1_QueueEvent_m16FF2E1808B5CF14F0EB49099492D8E4ECBBBAC6_gshared (TelemetryQueue_1_tF695414AC220D92042104DF42FECD4367D0CE287* __this, TelemetryDiagnosticParams_t69BC794FB4BFEF4DA451F7C0A015C56D07573BD5 ___0_telemetryEvent, const RuntimeMethod* method) 
 {
 	TelemetryDiagnosticParams_t69BC794FB4BFEF4DA451F7C0A015C56D07573BD5 V_0;
@@ -21697,7 +21697,7 @@ IL_003c:
 		return;
 	}
 }
-// Method Definition Index: 97723
+// Method Definition Index: 97729
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryQueue_1_SendQueuedEvents_m8580596CACF85E8BBF5E29230EF5D7D9BD374830_gshared (TelemetryQueue_1_tF695414AC220D92042104DF42FECD4367D0CE287* __this, const RuntimeMethod* method) 
 {
 	TelemetryDiagnosticParams_t69BC794FB4BFEF4DA451F7C0A015C56D07573BD5 V_0;
@@ -21760,7 +21760,7 @@ IL_002e:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 97721
+// Method Definition Index: 97727
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryQueue_1__ctor_m476C561CC4965A4906150F24CB67141DC5A801C1_gshared (TelemetryQueue_1_t6A9049A79DE676112D1E3C56AA0891710858E96C* __this, Action_1_t9F220133D9FF020AC08674697843E6AFC581294E* ___0_sendTelemetryEvent, const RuntimeMethod* method) 
 {
 	{
@@ -21774,7 +21774,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryQueue_1__ctor_m476C561CC4965A49
 		return;
 	}
 }
-// Method Definition Index: 97722
+// Method Definition Index: 97728
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryQueue_1_QueueEvent_mCE2AF3D0D3ECC9FD0C942018A739A0B05653502B_gshared (TelemetryQueue_1_t6A9049A79DE676112D1E3C56AA0891710858E96C* __this, TelemetryMetricParams_t2E8F02171EC287877B7A84BD581CA2947D3660C3 ___0_telemetryEvent, const RuntimeMethod* method) 
 {
 	TelemetryMetricParams_t2E8F02171EC287877B7A84BD581CA2947D3660C3 V_0;
@@ -21825,7 +21825,7 @@ IL_003c:
 		return;
 	}
 }
-// Method Definition Index: 97723
+// Method Definition Index: 97729
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryQueue_1_SendQueuedEvents_mDC0A3301BA17812B991E93801AF59E6902887B31_gshared (TelemetryQueue_1_t6A9049A79DE676112D1E3C56AA0891710858E96C* __this, const RuntimeMethod* method) 
 {
 	TelemetryMetricParams_t2E8F02171EC287877B7A84BD581CA2947D3660C3 V_0;
@@ -21888,7 +21888,7 @@ IL_002e:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 97721
+// Method Definition Index: 97727
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryQueue_1__ctor_m1E15185E66E838000E9203D7A9A0D97404445E95_gshared (TelemetryQueue_1_tAE34B594FCA2904B39C4530F3047B555445C2F7B* __this, Action_1_t923A20D1D4F6B55B2ED5AE21B90F1A0CE0450D99* ___0_sendTelemetryEvent, const RuntimeMethod* method) 
 {
 	{
@@ -21902,7 +21902,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryQueue_1__ctor_m1E15185E66E83800
 		return;
 	}
 }
-// Method Definition Index: 97722
+// Method Definition Index: 97728
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryQueue_1_QueueEvent_m879338950408AAE65774BBFFD745F08BF5BA5E97_gshared (TelemetryQueue_1_tAE34B594FCA2904B39C4530F3047B555445C2F7B* __this, Il2CppFullySharedGenericAny ___0_telemetryEvent, const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_TTelemetryEventParams_t8A71E5B35BD6D69D2B8866E1AF0605A717DD883D = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 4));
@@ -21955,7 +21955,7 @@ IL_003c:
 		return;
 	}
 }
-// Method Definition Index: 97723
+// Method Definition Index: 97729
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TelemetryQueue_1_SendQueuedEvents_m2B6D7B2020889CE1D851F61EEF84A3E1BD6257A3_gshared (TelemetryQueue_1_tAE34B594FCA2904B39C4530F3047B555445C2F7B* __this, const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_TTelemetryEventParams_t8A71E5B35BD6D69D2B8866E1AF0605A717DD883D = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 4));
@@ -27817,7 +27817,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Task_get_IsWaitNotificationE
 		return (bool)((((int32_t)((((int32_t)((int32_t)(L_0&((int32_t)285212672)))) == ((int32_t)((int32_t)16777216)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 54840
+// Method Definition Index: 54844
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Min_m888083F74FF5655778F0403BB5E9608BEFDEA8CB_inline (int32_t ___0_a, int32_t ___1_b, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -27854,7 +27854,7 @@ IL_000c:
 		return L_4;
 	}
 }
-// Method Definition Index: 54910
+// Method Definition Index: 54914
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27893,7 +27893,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Hierarchy_t4CF226F0EDE9C117C51C50
 		return L_0;
 	}
 }
-// Method Definition Index: 54907
+// Method Definition Index: 54911
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector2_op_Inequality_mBEA93B5A0E954FEFB863DC61CB209119980EC713_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_lhs, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_rhs, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -27989,7 +27989,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Rect_tA04E0F8A1830E767F40FB27ECD8
 		return L_0;
 	}
 }
-// Method Definition Index: 54906
+// Method Definition Index: 54910
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector2_op_Equality_m6F2E069A50E787D131261E5CB25FC9E03F95B5E1_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_lhs, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_rhs, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -28052,7 +28052,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 54839
+// Method Definition Index: 54843
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline (float ___0_a, float ___1_b, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -28089,7 +28089,7 @@ IL_000c:
 		return L_4;
 	}
 }
-// Method Definition Index: 54742
+// Method Definition Index: 54746
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector3_Equals_mEDEAF86793D229455BBF9BA5B30DDF438D6CABC1_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_other, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -28137,7 +28137,7 @@ IL_0031:
 		return L_9;
 	}
 }
-// Method Definition Index: 54841
+// Method Definition Index: 54845
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline (float ___0_a, float ___1_b, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -28174,7 +28174,7 @@ IL_000c:
 		return L_4;
 	}
 }
-// Method Definition Index: 54879
+// Method Definition Index: 54883
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, float ___0_x, float ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -28185,7 +28185,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFF
 		return;
 	}
 }
-// Method Definition Index: 54759
+// Method Definition Index: 54763
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;

@@ -4508,30 +4508,30 @@ inline EqualityComparer_1_t92563A67F1C1ECDC3FE387C46498E2E56B59F3C2* EqualityCom
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 95755
+// Method Definition Index: 95761
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Value_1_get_value_m444CD62806315AB4E50E94CA47860B4CA7E74FF1_gshared (Value_1_tCD86E7B774DEDB206A717596474F828A270A4B49* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:79>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:79>
 		bool L_0 = __this->___U3CvalueU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 95756
+// Method Definition Index: 95762
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Value_1_set_value_m541DC597598B80A13D07398FADC618931F790C89_gshared (Value_1_tCD86E7B774DEDB206A717596474F828A270A4B49* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:79>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:79>
 		bool L_0 = ___0_value;
 		__this->___U3CvalueU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 95757
+// Method Definition Index: 95763
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Value_1_get_valueObject_mF85C6D0E8AA6B3459C5E4B9FAD1E7BE28D670AE8_gshared (Value_1_tCD86E7B774DEDB206A717596474F828A270A4B49* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:83>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:83>
 		bool L_0;
 		L_0 = Value_1_get_value_m444CD62806315AB4E50E94CA47860B4CA7E74FF1_inline(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 2));
 		bool L_1 = L_0;
@@ -4539,25 +4539,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Value_1_get_valueObject_mF85C6
 		return L_2;
 	}
 }
-// Method Definition Index: 95758
+// Method Definition Index: 95764
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Value_1__ctor_mCC2EEE445BCA0403811CA0F658C982E7BFA43941_gshared (Value_1_tCD86E7B774DEDB206A717596474F828A270A4B49* __this, bool ___0_val, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:87>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:87>
 		Value__ctor_m92477BF9220566D1140BF3D78915F9307086D4D3((Value_t83388D9312CF9361C360A2BF2FB68504251BDF28*)__this, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:89>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:89>
 		bool L_0 = ___0_val;
 		Value_1_set_value_m541DC597598B80A13D07398FADC618931F790C89_inline(__this, L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:90>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:90>
 		return;
 	}
 }
-// Method Definition Index: 95759
+// Method Definition Index: 95765
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Value_1_ToString_mF6978519D78E9E1A18559CBAC024B32177112E2A_gshared (Value_1_tCD86E7B774DEDB206A717596474F828A270A4B49* __this, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:94>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:94>
 		bool L_0;
 		L_0 = Value_1_get_value_m444CD62806315AB4E50E94CA47860B4CA7E74FF1_inline(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 2));
 		V_0 = L_0;
@@ -4575,30 +4575,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Value_1_ToString_mF6978519D78E9E1A1
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 95755
+// Method Definition Index: 95761
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Value_1_get_value_m84DAA56027D29FCD6660CDC4C9B899A5B6A1D89F_gshared (Value_1_tAADB02C974EBAF60F1A32201EAABE50B26B1C080* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:79>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:79>
 		int32_t L_0 = __this->___U3CvalueU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 95756
+// Method Definition Index: 95762
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Value_1_set_value_mF99F613716ED16CFD59100C89B2B3CC10BBB1BF6_gshared (Value_1_tAADB02C974EBAF60F1A32201EAABE50B26B1C080* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:79>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:79>
 		int32_t L_0 = ___0_value;
 		__this->___U3CvalueU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 95757
+// Method Definition Index: 95763
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Value_1_get_valueObject_m69F8A683752AE14D7CF8608BD26C8A8E6AD4881C_gshared (Value_1_tAADB02C974EBAF60F1A32201EAABE50B26B1C080* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:83>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:83>
 		int32_t L_0;
 		L_0 = Value_1_get_value_m84DAA56027D29FCD6660CDC4C9B899A5B6A1D89F_inline(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 2));
 		int32_t L_1 = L_0;
@@ -4606,25 +4606,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Value_1_get_valueObject_m69F8A
 		return L_2;
 	}
 }
-// Method Definition Index: 95758
+// Method Definition Index: 95764
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Value_1__ctor_m50372939B5F4BD3AA9B5F9B3D25B59CC42B51540_gshared (Value_1_tAADB02C974EBAF60F1A32201EAABE50B26B1C080* __this, int32_t ___0_val, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:87>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:87>
 		Value__ctor_m92477BF9220566D1140BF3D78915F9307086D4D3((Value_t83388D9312CF9361C360A2BF2FB68504251BDF28*)__this, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:89>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:89>
 		int32_t L_0 = ___0_val;
 		Value_1_set_value_mF99F613716ED16CFD59100C89B2B3CC10BBB1BF6_inline(__this, L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:90>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:90>
 		return;
 	}
 }
-// Method Definition Index: 95759
+// Method Definition Index: 95765
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Value_1_ToString_m8E50F3D7D1EF23F2050332EDC02F86E0F136A28D_gshared (Value_1_tAADB02C974EBAF60F1A32201EAABE50B26B1C080* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:94>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:94>
 		int32_t L_0;
 		L_0 = Value_1_get_value_m84DAA56027D29FCD6660CDC4C9B899A5B6A1D89F_inline(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 2));
 		V_0 = L_0;
@@ -4641,55 +4641,55 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Value_1_ToString_m8E50F3D7D1EF23F20
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 95755
+// Method Definition Index: 95761
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Value_1_get_value_mEFC4444507A645A6C3891BC9A9A82955D253BB54_gshared (Value_1_tE5D55E3559ABD231F846B10A58FDAB68EADC3036* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:79>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:79>
 		RuntimeObject* L_0 = __this->___U3CvalueU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 95756
+// Method Definition Index: 95762
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Value_1_set_value_m5290C0668A79857CF44C15DC8C659B8E0945A447_gshared (Value_1_tE5D55E3559ABD231F846B10A58FDAB68EADC3036* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:79>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:79>
 		RuntimeObject* L_0 = ___0_value;
 		__this->___U3CvalueU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CvalueU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 95757
+// Method Definition Index: 95763
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Value_1_get_valueObject_m4F936CA010CDF75574812B0E5AFB06FC3B5FC267_gshared (Value_1_tE5D55E3559ABD231F846B10A58FDAB68EADC3036* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:83>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:83>
 		RuntimeObject* L_0;
 		L_0 = Value_1_get_value_mEFC4444507A645A6C3891BC9A9A82955D253BB54_inline(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 2));
 		return L_0;
 	}
 }
-// Method Definition Index: 95758
+// Method Definition Index: 95764
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Value_1__ctor_mBCECB6C1A182FBBBF112FC87EDA4EE94B30D28A9_gshared (Value_1_tE5D55E3559ABD231F846B10A58FDAB68EADC3036* __this, RuntimeObject* ___0_val, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:87>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:87>
 		Value__ctor_m92477BF9220566D1140BF3D78915F9307086D4D3((Value_t83388D9312CF9361C360A2BF2FB68504251BDF28*)__this, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:89>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:89>
 		RuntimeObject* L_0 = ___0_val;
 		Value_1_set_value_m5290C0668A79857CF44C15DC8C659B8E0945A447_inline(__this, L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:90>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:90>
 		return;
 	}
 }
-// Method Definition Index: 95759
+// Method Definition Index: 95765
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Value_1_ToString_mFED4900C96DDD48B9909276DDF056CD1B9E27106_gshared (Value_1_tE5D55E3559ABD231F846B10A58FDAB68EADC3036* __this, const RuntimeMethod* method) 
 {
 	RuntimeObject* V_0 = NULL;
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:94>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:94>
 		RuntimeObject* L_0;
 		L_0 = Value_1_get_value_mEFC4444507A645A6C3891BC9A9A82955D253BB54_inline(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 2));
 		V_0 = L_0;
@@ -4707,30 +4707,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Value_1_ToString_mFED4900C96DDD48B9
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 95755
+// Method Definition Index: 95761
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Value_1_get_value_m2B2BBE8A7CF1DE54A0CF1FD95EFEE0FA2B0EA853_gshared (Value_1_t19CBA11FD9333166699E991EE148A1F295ADA8B3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:79>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:79>
 		float L_0 = __this->___U3CvalueU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 95756
+// Method Definition Index: 95762
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Value_1_set_value_mC1263CAA23F6DAA94FABC827DEEBE886A26824D7_gshared (Value_1_t19CBA11FD9333166699E991EE148A1F295ADA8B3* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:79>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:79>
 		float L_0 = ___0_value;
 		__this->___U3CvalueU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 95757
+// Method Definition Index: 95763
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Value_1_get_valueObject_m0598E1AF453B374C079A7400CFCF509AA8DA2AB3_gshared (Value_1_t19CBA11FD9333166699E991EE148A1F295ADA8B3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:83>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:83>
 		float L_0;
 		L_0 = Value_1_get_value_m2B2BBE8A7CF1DE54A0CF1FD95EFEE0FA2B0EA853_inline(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 2));
 		float L_1 = L_0;
@@ -4738,25 +4738,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Value_1_get_valueObject_m0598E
 		return L_2;
 	}
 }
-// Method Definition Index: 95758
+// Method Definition Index: 95764
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Value_1__ctor_m97F337ED34EA133E1F9FA9915DBBF832465E76CA_gshared (Value_1_t19CBA11FD9333166699E991EE148A1F295ADA8B3* __this, float ___0_val, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:87>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:87>
 		Value__ctor_m92477BF9220566D1140BF3D78915F9307086D4D3((Value_t83388D9312CF9361C360A2BF2FB68504251BDF28*)__this, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:89>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:89>
 		float L_0 = ___0_val;
 		Value_1_set_value_mC1263CAA23F6DAA94FABC827DEEBE886A26824D7_inline(__this, L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:90>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:90>
 		return;
 	}
 }
-// Method Definition Index: 95759
+// Method Definition Index: 95765
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Value_1_ToString_mE4EE15A88D3BEE77D8CF38E843590B833B5FA461_gshared (Value_1_t19CBA11FD9333166699E991EE148A1F295ADA8B3* __this, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:94>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:94>
 		float L_0;
 		L_0 = Value_1_get_value_m2B2BBE8A7CF1DE54A0CF1FD95EFEE0FA2B0EA853_inline(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 2));
 		V_0 = L_0;
@@ -4773,58 +4773,58 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Value_1_ToString_mE4EE15A88D3BEE77D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 95755
+// Method Definition Index: 95761
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Value_1_get_value_m134DB6BB33BC3D002EFF02DF5607F9CD0A51DA6A_gshared (Value_1_tF0314B3BB4C840274EE17784E39EC3C599E971FB* __this, Il2CppFullySharedGenericAny* il2cppRetVal, const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_T_tB5C5A52524636526AD9F71C94C27452FF8273CEA = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 1));
 	const Il2CppFullySharedGenericAny L_0 = alloca(SizeOf_T_tB5C5A52524636526AD9F71C94C27452FF8273CEA);
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:79>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:79>
 		il2cpp_codegen_memcpy(L_0, il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),0)), SizeOf_T_tB5C5A52524636526AD9F71C94C27452FF8273CEA);
 		il2cpp_codegen_memcpy(il2cppRetVal, L_0, SizeOf_T_tB5C5A52524636526AD9F71C94C27452FF8273CEA);
 		return;
 	}
 }
-// Method Definition Index: 95756
+// Method Definition Index: 95762
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Value_1_set_value_mBB78BBE2A941716F11F19F063B4A521180665D45_gshared (Value_1_tF0314B3BB4C840274EE17784E39EC3C599E971FB* __this, Il2CppFullySharedGenericAny ___0_value, const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_T_tB5C5A52524636526AD9F71C94C27452FF8273CEA = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 1));
 	const Il2CppFullySharedGenericAny L_0 = alloca(SizeOf_T_tB5C5A52524636526AD9F71C94C27452FF8273CEA);
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:79>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:79>
 		il2cpp_codegen_memcpy(L_0, (il2cpp_codegen_class_is_value_type(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 1)) ? ___0_value : &___0_value), SizeOf_T_tB5C5A52524636526AD9F71C94C27452FF8273CEA);
 		il2cpp_codegen_write_instance_field_data(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),0), L_0, SizeOf_T_tB5C5A52524636526AD9F71C94C27452FF8273CEA);
 		return;
 	}
 }
-// Method Definition Index: 95757
+// Method Definition Index: 95763
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Value_1_get_valueObject_m6918E517D54550D1F0C9817BDD965732B4297BD7_gshared (Value_1_tF0314B3BB4C840274EE17784E39EC3C599E971FB* __this, const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_T_tB5C5A52524636526AD9F71C94C27452FF8273CEA = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 1));
 	const Il2CppFullySharedGenericAny L_0 = alloca(SizeOf_T_tB5C5A52524636526AD9F71C94C27452FF8273CEA);
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:83>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:83>
 		InvokerActionInvoker1< Il2CppFullySharedGenericAny* >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 2)), il2cpp_rgctx_method(method->klass->rgctx_data, 2), __this, (Il2CppFullySharedGenericAny*)L_0);
 		RuntimeObject* L_1 = Box(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 1), L_0);
 		return L_1;
 	}
 }
-// Method Definition Index: 95758
+// Method Definition Index: 95764
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Value_1__ctor_m90B3E9E82B8B39B3D4A4B667346B0BDC4336F12A_gshared (Value_1_tF0314B3BB4C840274EE17784E39EC3C599E971FB* __this, Il2CppFullySharedGenericAny ___0_val, const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_T_tB5C5A52524636526AD9F71C94C27452FF8273CEA = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 1));
 	const Il2CppFullySharedGenericAny L_0 = alloca(SizeOf_T_tB5C5A52524636526AD9F71C94C27452FF8273CEA);
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:87>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:87>
 		Value__ctor_m92477BF9220566D1140BF3D78915F9307086D4D3((Value_t83388D9312CF9361C360A2BF2FB68504251BDF28*)__this, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:89>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:89>
 		il2cpp_codegen_memcpy(L_0, (il2cpp_codegen_class_is_value_type(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 1)) ? ___0_val : &___0_val), SizeOf_T_tB5C5A52524636526AD9F71C94C27452FF8273CEA);
 		InvokerActionInvoker1< Il2CppFullySharedGenericAny >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 3)), il2cpp_rgctx_method(method->klass->rgctx_data, 3), __this, (il2cpp_codegen_class_is_value_type(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 1)) ? L_0: *(void**)L_0));
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:90>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:90>
 		return;
 	}
 }
-// Method Definition Index: 95759
+// Method Definition Index: 95765
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Value_1_ToString_mEABFD179E0953AB319C4D20BD4A2E150A81BF27D_gshared (Value_1_tF0314B3BB4C840274EE17784E39EC3C599E971FB* __this, const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_T_tB5C5A52524636526AD9F71C94C27452FF8273CEA = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 1));
@@ -4833,7 +4833,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Value_1_ToString_mEABFD179E0953AB31
 	Il2CppFullySharedGenericAny V_0 = alloca(SizeOf_T_tB5C5A52524636526AD9F71C94C27452FF8273CEA);
 	memset(V_0, 0, SizeOf_T_tB5C5A52524636526AD9F71C94C27452FF8273CEA);
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:94>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:94>
 		InvokerActionInvoker1< Il2CppFullySharedGenericAny* >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 2)), il2cpp_rgctx_method(method->klass->rgctx_data, 2), __this, (Il2CppFullySharedGenericAny*)L_0);
 		il2cpp_codegen_memcpy(V_0, L_0, SizeOf_T_tB5C5A52524636526AD9F71C94C27452FF8273CEA);
 		String_t* L_2;
@@ -23930,7 +23930,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void EventBase_set_elementTarget_
 		return;
 	}
 }
-// Method Definition Index: 54843
+// Method Definition Index: 54847
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Max_m7FA442918DE37E3A00106D1F2E789D65829792B8_inline (int32_t ___0_a, int32_t ___1_b, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -23967,7 +23967,7 @@ IL_000c:
 		return L_4;
 	}
 }
-// Method Definition Index: 54840
+// Method Definition Index: 54844
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Min_m888083F74FF5655778F0403BB5E9608BEFDEA8CB_inline (int32_t ___0_a, int32_t ___1_b, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -24004,7 +24004,7 @@ IL_000c:
 		return L_4;
 	}
 }
-// Method Definition Index: 54858
+// Method Definition Index: 54862
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline (float ___0_value, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -24052,7 +24052,7 @@ IL_002d:
 		return L_5;
 	}
 }
-// Method Definition Index: 54854
+// Method Definition Index: 54858
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_RoundToInt_m60F8B66CF27F1FA75AA219342BD184B75771EB4B_inline (float ___0_f, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24077,78 +24077,78 @@ IL_000c:
 		return L_2;
 	}
 }
-// Method Definition Index: 95755
+// Method Definition Index: 95761
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Value_1_get_value_m444CD62806315AB4E50E94CA47860B4CA7E74FF1_gshared_inline (Value_1_tCD86E7B774DEDB206A717596474F828A270A4B49* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:79>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:79>
 		bool L_0 = __this->___U3CvalueU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 95756
+// Method Definition Index: 95762
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Value_1_set_value_m541DC597598B80A13D07398FADC618931F790C89_gshared_inline (Value_1_tCD86E7B774DEDB206A717596474F828A270A4B49* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:79>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:79>
 		bool L_0 = ___0_value;
 		__this->___U3CvalueU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 95755
+// Method Definition Index: 95761
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Value_1_get_value_m84DAA56027D29FCD6660CDC4C9B899A5B6A1D89F_gshared_inline (Value_1_tAADB02C974EBAF60F1A32201EAABE50B26B1C080* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:79>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:79>
 		int32_t L_0 = __this->___U3CvalueU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 95756
+// Method Definition Index: 95762
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Value_1_set_value_mF99F613716ED16CFD59100C89B2B3CC10BBB1BF6_gshared_inline (Value_1_tAADB02C974EBAF60F1A32201EAABE50B26B1C080* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:79>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:79>
 		int32_t L_0 = ___0_value;
 		__this->___U3CvalueU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 95755
+// Method Definition Index: 95761
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Value_1_get_value_mEFC4444507A645A6C3891BC9A9A82955D253BB54_gshared_inline (Value_1_tE5D55E3559ABD231F846B10A58FDAB68EADC3036* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:79>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:79>
 		RuntimeObject* L_0 = __this->___U3CvalueU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 95756
+// Method Definition Index: 95762
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Value_1_set_value_m5290C0668A79857CF44C15DC8C659B8E0945A447_gshared_inline (Value_1_tE5D55E3559ABD231F846B10A58FDAB68EADC3036* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:79>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:79>
 		RuntimeObject* L_0 = ___0_value;
 		__this->___U3CvalueU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CvalueU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 95755
+// Method Definition Index: 95761
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Value_1_get_value_m2B2BBE8A7CF1DE54A0CF1FD95EFEE0FA2B0EA853_gshared_inline (Value_1_t19CBA11FD9333166699E991EE148A1F295ADA8B3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:79>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:79>
 		float L_0 = __this->___U3CvalueU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 95756
+// Method Definition Index: 95762
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Value_1_set_value_mC1263CAA23F6DAA94FABC827DEEBE886A26824D7_gshared_inline (Value_1_t19CBA11FD9333166699E991EE148A1F295ADA8B3* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:79>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Value.cs:79>
 		float L_0 = ___0_value;
 		__this->___U3CvalueU3Ek__BackingField = L_0;
 		return;

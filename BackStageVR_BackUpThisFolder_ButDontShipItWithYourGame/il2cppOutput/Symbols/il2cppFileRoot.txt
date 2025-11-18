@@ -1,1 +1,1 @@
-C:\Users\juand\Documents\Proyectos Unity\BackstageVR\Library\Bee\artifacts\Android\il2cppOutput\cpp
+C:\Users\juand\Documents\BackstageVR\Library\Bee\artifacts\Android\il2cppOutput\cpp

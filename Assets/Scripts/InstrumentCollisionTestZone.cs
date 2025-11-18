@@ -9,41 +9,58 @@ public class InstrumentCollisionTestZone : MonoBehaviour
     public string checkId = "mic_hit";
 
     [Header("Cuándo disparar")]
-    public bool useTriggerEnter = true;   // si el collider es IsTrigger
-    public bool useCollisionEnter = false; // si el collider NO es trigger
-    public LayerMask collisionLayers = ~0; // capas que cuentan como golpe
-    public bool onlyWhenInstrumentGrabbed = true; // solo cuando el instrumento esté agarrado
+    public bool useTriggerEnter = true;     // si el collider es IsTrigger
+    public bool useCollisionEnter = false;  // si el collider NO es trigger
+    public LayerMask collisionLayers = ~0;  // capas que cuentan como golpe
+
+    // ? IMPORTANTE:
+    // Por defecto se puede probar sin agarrar; si lo activas en el inspector,
+    // exige que el instrumento esté agarrado para disparar la prueba.
+    public bool onlyWhenInstrumentGrabbed = false;
 
     InspectableInstrument instrument;
     XRGrabInteractable grab;
+    Collider zoneCollider;
 
     void Awake()
     {
+        zoneCollider = GetComponent<Collider>();
+
         instrument = GetComponentInParent<InspectableInstrument>();
-        if (instrument)
+        if (!instrument)
+        {
+            Debug.LogWarning($"[InstrumentCollisionTestZone:{name}] No se encontró InspectableInstrument en padres.");
+        }
+        else
+        {
             grab = instrument.GetComponent<XRGrabInteractable>();
+        }
     }
 
-    // -------- TRIGGER ----------
+    bool LayerAllowed(GameObject go)
+    {
+        return (collisionLayers.value & (1 << go.layer)) != 0;
+    }
+
     void OnTriggerEnter(Collider other)
     {
-        if (!useTriggerEnter) return;
-        TryRunTestFromCollider(other.gameObject, "OnTriggerEnter");
+        if (!useTriggerEnter || !instrument || !zoneCollider.isTrigger)
+            return;
+
+        HandleCollision(other, "OnTriggerEnter");
     }
 
-    // -------- COLLISION ----------
     void OnCollisionEnter(Collision collision)
     {
-        if (!useCollisionEnter) return;
-        TryRunTestFromCollider(collision.collider.gameObject, "OnCollisionEnter");
+        if (!useCollisionEnter || !instrument || zoneCollider.isTrigger)
+            return;
+
+        HandleCollision(collision.collider, "OnCollisionEnter");
     }
 
-    void TryRunTestFromCollider(GameObject other, string source)
+    void HandleCollision(Collider other, string source)
     {
-        if (!instrument || string.IsNullOrEmpty(checkId)) return;
-
-        // Comprobar capas
-        if (((1 << other.layer) & collisionLayers) == 0)
+        if (!LayerAllowed(other.gameObject))
             return;
 
         // Opcional: solo cuando el instrumento está agarrado
@@ -52,7 +69,8 @@ public class InstrumentCollisionTestZone : MonoBehaviour
 
         // Ignorar colisión con el propio instrumento
         var otherInstrument = other.GetComponentInParent<InspectableInstrument>();
-        if (otherInstrument == instrument) return;
+        if (otherInstrument == instrument)
+            return;
 
         // Ejecutar prueba
         string reason = $"{source} en '{name}' con '{other.name}'";

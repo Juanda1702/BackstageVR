@@ -2846,7 +2846,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Clear_m50BAA3751899858B097D3FF2ED3
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 96126
+// Method Definition Index: 96132
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Path_get_baseTargetLevel_m302A790B35D368EC94AF754E9EA037BDBC5A2AA2 (Path_t45F133F0FD37FBD473A956AF05F18E1EB5BD54CC* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2856,7 +2856,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Path_get_baseTargetLevel_m302A790B35D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:11>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:11>
 		bool L_0;
 		L_0 = Path_get_baseLevelIsAmbiguous_m03B3365985E0AFF96FF2EA9F0305BF33FB1334CB(__this, NULL);
 		if (!L_0)
@@ -2865,20 +2865,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Path_get_baseTargetLevel_m302A790B35D
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:12>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:12>
 		return (int32_t)(0);
 	}
 
 IL_000a:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:14>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:14>
 		Nullable_1_tF3A63852D98AB80CE81E0997F1EB4A764E6B9BCC* L_1 = (Nullable_1_tF3A63852D98AB80CE81E0997F1EB4A764E6B9BCC*)(&__this->____baseTargetLevel);
 		int32_t L_2;
 		L_2 = Nullable_1_get_Value_mF6F4E83D0080A7E6A1384B94FCA8295260938273(L_1, Nullable_1_get_Value_mF6F4E83D0080A7E6A1384B94FCA8295260938273_RuntimeMethod_var);
 		return L_2;
 	}
 }
-// Method Definition Index: 96127
+// Method Definition Index: 96133
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Path_get_baseLevelIsAmbiguous_m03B3365985E0AFF96FF2EA9F0305BF33FB1334CB (Path_t45F133F0FD37FBD473A956AF05F18E1EB5BD54CC* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2888,14 +2888,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Path_get_baseLevelIsAmbiguous_m03B336598
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:20>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:20>
 		Nullable_1_tF3A63852D98AB80CE81E0997F1EB4A764E6B9BCC* L_0 = (Nullable_1_tF3A63852D98AB80CE81E0997F1EB4A764E6B9BCC*)(&__this->____baseTargetLevel);
 		bool L_1;
 		L_1 = Nullable_1_get_HasValue_m45FF4EC1B2A358D173EBA31B28C7414D10F43861_inline(L_0, Nullable_1_get_HasValue_m45FF4EC1B2A358D173EBA31B28C7414D10F43861_RuntimeMethod_var);
 		return (bool)((((int32_t)L_1) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 96128
+// Method Definition Index: 96134
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Path_get_firstComponent_mF0DB92EC3C5CCA852966F18FBE6E3CD181AC6F2B (Path_t45F133F0FD37FBD473A956AF05F18E1EB5BD54CC* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2906,7 +2906,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Path_get_firstComponent_mF0DB92EC3C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:26>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:26>
 		List_1_tE7E36179A9D3C4E72F64C06CD94D5C27DC690F08* L_0;
 		L_0 = Path_get_components_m2175B7004024210CFF9479814652E73144748420_inline(__this, NULL);
 		if (!L_0)
@@ -2928,13 +2928,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Path_get_firstComponent_mF0DB92EC3C
 
 IL_0015:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:27>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:27>
 		return (String_t*)NULL;
 	}
 
 IL_0017:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:29>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:29>
 		List_1_tE7E36179A9D3C4E72F64C06CD94D5C27DC690F08* L_3;
 		L_3 = Path_get_components_m2175B7004024210CFF9479814652E73144748420_inline(__this, NULL);
 		NullCheck(L_3);
@@ -2945,7 +2945,7 @@ IL_0017:
 		return L_5;
 	}
 }
-// Method Definition Index: 96129
+// Method Definition Index: 96135
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Path_get_numberOfComponents_mFCD833E89443B20CCC91375BF9F0318C77951DFD (Path_t45F133F0FD37FBD473A956AF05F18E1EB5BD54CC* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2955,7 +2955,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Path_get_numberOfComponents_mFCD833E8
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:35>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:35>
 		List_1_tE7E36179A9D3C4E72F64C06CD94D5C27DC690F08* L_0;
 		L_0 = Path_get_components_m2175B7004024210CFF9479814652E73144748420_inline(__this, NULL);
 		NullCheck(L_0);
@@ -2964,7 +2964,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Path_get_numberOfComponents_mFCD833E8
 		return L_1;
 	}
 }
-// Method Definition Index: 96130
+// Method Definition Index: 96136
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Path_get_dotSeparatedComponents_mBB7D9A23856A701D60A4A2B9D1625925622A4BEC (Path_t45F133F0FD37FBD473A956AF05F18E1EB5BD54CC* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2986,7 +2986,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Path_get_dotSeparatedComponents_mBB
 	String_t* G_B2_2 = NULL;
 	Path_t45F133F0FD37FBD473A956AF05F18E1EB5BD54CC* G_B2_3 = NULL;
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:41>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:41>
 		String_t* L_0 = __this->____dotSeparatedComponents;
 		if (L_0)
 		{
@@ -2994,7 +2994,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Path_get_dotSeparatedComponents_mBB
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:42>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:42>
 		List_1_tE7E36179A9D3C4E72F64C06CD94D5C27DC690F08* L_1;
 		L_1 = Path_get_components_m2175B7004024210CFF9479814652E73144748420_inline(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t4DE2A1738C6795E49209FBEE47FB37511ECCC70E_il2cpp_TypeInfo_var);
@@ -3040,21 +3040,21 @@ IL_0033:
 
 IL_0042:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:45>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:45>
 		String_t* L_9 = __this->____dotSeparatedComponents;
 		return L_9;
 	}
 }
-// Method Definition Index: 96131
+// Method Definition Index: 96137
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tE7E36179A9D3C4E72F64C06CD94D5C27DC690F08* Path_get_components_m2175B7004024210CFF9479814652E73144748420 (Path_t45F133F0FD37FBD473A956AF05F18E1EB5BD54CC* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:50>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:50>
 		List_1_tE7E36179A9D3C4E72F64C06CD94D5C27DC690F08* L_0 = __this->___U3CcomponentsU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 96132
+// Method Definition Index: 96138
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Path__ctor_m2C8AD20C68FDC1AFDDC68D53A3E4A95EE6BD1622 (Path_t45F133F0FD37FBD473A956AF05F18E1EB5BD54CC* __this, int32_t ___0_baseFlowLevel, List_1_tE7E36179A9D3C4E72F64C06CD94D5C27DC690F08* ___1_components, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3064,40 +3064,40 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Path__ctor_m2C8AD20C68FDC1AFDDC68D53A3E4
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:52>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:52>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:54>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:54>
 		int32_t L_0 = ___0_baseFlowLevel;
 		Nullable_1_tF3A63852D98AB80CE81E0997F1EB4A764E6B9BCC L_1;
 		memset((&L_1), 0, sizeof(L_1));
 		Nullable_1__ctor_m3FCF32E15AB33459D20EC525DDCFC0C602BC378A((&L_1), L_0, Nullable_1__ctor_m3FCF32E15AB33459D20EC525DDCFC0C602BC378A_RuntimeMethod_var);
 		__this->____baseTargetLevel = L_1;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:55>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:55>
 		List_1_tE7E36179A9D3C4E72F64C06CD94D5C27DC690F08* L_2 = ___1_components;
 		__this->___U3CcomponentsU3Ek__BackingField = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CcomponentsU3Ek__BackingField), (void*)L_2);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:56>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:56>
 		return;
 	}
 }
-// Method Definition Index: 96133
+// Method Definition Index: 96139
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Path__ctor_m1FA0634AFC2CCF3487EE1E3F27F2236655C8AB25 (Path_t45F133F0FD37FBD473A956AF05F18E1EB5BD54CC* __this, List_1_tE7E36179A9D3C4E72F64C06CD94D5C27DC690F08* ___0_components, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:58>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:58>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:60>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:60>
 		Nullable_1_tF3A63852D98AB80CE81E0997F1EB4A764E6B9BCC* L_0 = (Nullable_1_tF3A63852D98AB80CE81E0997F1EB4A764E6B9BCC*)(&__this->____baseTargetLevel);
 		il2cpp_codegen_initobj(L_0, sizeof(Nullable_1_tF3A63852D98AB80CE81E0997F1EB4A764E6B9BCC));
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:61>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:61>
 		List_1_tE7E36179A9D3C4E72F64C06CD94D5C27DC690F08* L_1 = ___0_components;
 		__this->___U3CcomponentsU3Ek__BackingField = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CcomponentsU3Ek__BackingField), (void*)L_1);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:62>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:62>
 		return;
 	}
 }
-// Method Definition Index: 96134
+// Method Definition Index: 96140
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Path__ctor_m628CF348ABC9C3AB26F4D235A5E212BB05233A47 (Path_t45F133F0FD37FBD473A956AF05F18E1EB5BD54CC* __this, Identifier_t0F346C00621758823B8D81B08308C6B9C24089DD* ___0_ambiguousName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3109,27 +3109,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Path__ctor_m628CF348ABC9C3AB26F4D235A5E2
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:64>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:64>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:66>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:66>
 		Nullable_1_tF3A63852D98AB80CE81E0997F1EB4A764E6B9BCC* L_0 = (Nullable_1_tF3A63852D98AB80CE81E0997F1EB4A764E6B9BCC*)(&__this->____baseTargetLevel);
 		il2cpp_codegen_initobj(L_0, sizeof(Nullable_1_tF3A63852D98AB80CE81E0997F1EB4A764E6B9BCC));
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:67>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:67>
 		List_1_tE7E36179A9D3C4E72F64C06CD94D5C27DC690F08* L_1 = (List_1_tE7E36179A9D3C4E72F64C06CD94D5C27DC690F08*)il2cpp_codegen_object_new(List_1_tE7E36179A9D3C4E72F64C06CD94D5C27DC690F08_il2cpp_TypeInfo_var);
 		List_1__ctor_mD3B873D7DF952D0E566E1D7C8DBB61D8FCBDD0B6(L_1, List_1__ctor_mD3B873D7DF952D0E566E1D7C8DBB61D8FCBDD0B6_RuntimeMethod_var);
 		__this->___U3CcomponentsU3Ek__BackingField = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CcomponentsU3Ek__BackingField), (void*)L_1);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:68>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:68>
 		List_1_tE7E36179A9D3C4E72F64C06CD94D5C27DC690F08* L_2;
 		L_2 = Path_get_components_m2175B7004024210CFF9479814652E73144748420_inline(__this, NULL);
 		Identifier_t0F346C00621758823B8D81B08308C6B9C24089DD* L_3 = ___0_ambiguousName;
 		NullCheck(L_2);
 		List_1_Add_m9D5476A26C0E25EA2F030DE559BEC98CF3DE6E84_inline(L_2, L_3, List_1_Add_m9D5476A26C0E25EA2F030DE559BEC98CF3DE6E84_RuntimeMethod_var);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:69>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:69>
 		return;
 	}
 }
-// Method Definition Index: 96135
+// Method Definition Index: 96141
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Path_ToString_m336A2D126CF8ABE46E29FB1480BF60EE2116CBEE (Path_t45F133F0FD37FBD473A956AF05F18E1EB5BD54CC* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3142,7 +3142,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Path_ToString_m336A2D126CF8ABE46E29
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:73>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:73>
 		List_1_tE7E36179A9D3C4E72F64C06CD94D5C27DC690F08* L_0;
 		L_0 = Path_get_components_m2175B7004024210CFF9479814652E73144748420_inline(__this, NULL);
 		if (!L_0)
@@ -3164,7 +3164,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Path_ToString_m336A2D126CF8ABE46E29
 
 IL_0015:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:74>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:74>
 		int32_t L_3;
 		L_3 = Path_get_baseTargetLevel_m302A790B35D368EC94AF754E9EA037BDBC5A2AA2(__this, NULL);
 		if ((!(((uint32_t)L_3) == ((uint32_t)3))))
@@ -3173,19 +3173,19 @@ IL_0015:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:75>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:75>
 		return _stringLiteralE8C4A72F529A8F05A6993B83DBA0A7D4C6EDA140;
 	}
 
 IL_0024:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:77>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:77>
 		return _stringLiteral2437997BAF8FA7A4A8655553ED6B4212ED7CA684;
 	}
 
 IL_002a:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:80>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:80>
 		String_t* L_4;
 		L_4 = Path_get_dotSeparatedComponents_mBB7D9A23856A701D60A4A2B9D1625925622A4BEC(__this, NULL);
 		String_t* L_5;
@@ -3193,7 +3193,7 @@ IL_002a:
 		return L_5;
 	}
 }
-// Method Definition Index: 96136
+// Method Definition Index: 96142
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* Path_ResolveFromContext_m2E7745228A2131E2474943DDB9BE94219BE1AF60 (Path_t45F133F0FD37FBD473A956AF05F18E1EB5BD54CC* __this, Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* ___0_context, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3204,7 +3204,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98
 	}
 	Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* V_0 = NULL;
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:85>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:85>
 		List_1_tE7E36179A9D3C4E72F64C06CD94D5C27DC690F08* L_0;
 		L_0 = Path_get_components_m2175B7004024210CFF9479814652E73144748420_inline(__this, NULL);
 		if (!L_0)
@@ -3226,18 +3226,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98
 
 IL_0015:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:86>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:86>
 		return (Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7*)NULL;
 	}
 
 IL_0017:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:91>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:91>
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_3 = ___0_context;
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_4;
 		L_4 = Path_ResolveBaseTarget_m08575D981E3A2A951376C0480B9D91AABD1FEF81(__this, L_3, NULL);
 		V_0 = L_4;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:92>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:92>
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_5 = V_0;
 		bool L_6;
 		L_6 = Object_op_Equality_m109E112ACAA3627F5E1EF2BD8C13110F2493CB4D(L_5, (Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7*)NULL, NULL);
@@ -3247,13 +3247,13 @@ IL_0017:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:93>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:93>
 		return (Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7*)NULL;
 	}
 
 IL_002a:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:99>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:99>
 		List_1_tE7E36179A9D3C4E72F64C06CD94D5C27DC690F08* L_7;
 		L_7 = Path_get_components_m2175B7004024210CFF9479814652E73144748420_inline(__this, NULL);
 		NullCheck(L_7);
@@ -3265,7 +3265,7 @@ IL_002a:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:100>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:100>
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_9 = V_0;
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_10;
 		L_10 = Path_ResolveTailComponents_m26B7D1F85B2F0610935E7D1C78796C233F5B2E7D(__this, L_9, NULL);
@@ -3274,12 +3274,12 @@ IL_002a:
 
 IL_0040:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:103>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:103>
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_11 = V_0;
 		return L_11;
 	}
 }
-// Method Definition Index: 96137
+// Method Definition Index: 96143
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* Path_ResolveBaseTarget_m08575D981E3A2A951376C0480B9D91AABD1FEF81 (Path_t45F133F0FD37FBD473A956AF05F18E1EB5BD54CC* __this, Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* ___0_originalContext, const RuntimeMethod* method) 
 {
 	String_t* V_0 = NULL;
@@ -3289,11 +3289,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98
 	Nullable_1_tF3A63852D98AB80CE81E0997F1EB4A764E6B9BCC V_4;
 	memset((&V_4), 0, sizeof(V_4));
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:110>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:110>
 		String_t* L_0;
 		L_0 = Path_get_firstComponent_mF0DB92EC3C5CCA852966F18FBE6E3CD181AC6F2B(__this, NULL);
 		V_0 = L_0;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:113>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:113>
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_1 = ___0_originalContext;
 		V_1 = L_1;
 		goto IL_0039;
@@ -3301,13 +3301,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98
 
 IL_000b:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:124>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:124>
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_2 = V_1;
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_3 = ___0_originalContext;
 		bool L_4;
 		L_4 = Object_op_Equality_m109E112ACAA3627F5E1EF2BD8C13110F2493CB4D(L_2, L_3, NULL);
 		V_2 = L_4;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:126>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:126>
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_5 = V_1;
 		String_t* L_6 = V_0;
 		il2cpp_codegen_initobj((&V_4), sizeof(Nullable_1_tF3A63852D98AB80CE81E0997F1EB4A764E6B9BCC));
@@ -3316,7 +3316,7 @@ IL_000b:
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_9;
 		L_9 = Path_TryGetChildFromContext_m422034BAA43ADE6D750CAC3482BCB19481F4CC7A(__this, L_5, L_6, L_7, L_8, NULL);
 		V_3 = L_9;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:127>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:127>
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_10 = V_3;
 		bool L_11;
 		L_11 = Object_op_Inequality_m6C3277742792FF570027EC4C9C13C8F9CA9382B5(L_10, (Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7*)NULL, NULL);
@@ -3326,14 +3326,14 @@ IL_000b:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:128>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:128>
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_12 = V_3;
 		return L_12;
 	}
 
 IL_0032:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:130>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:130>
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_13 = V_1;
 		NullCheck(L_13);
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_14;
@@ -3343,7 +3343,7 @@ IL_0032:
 
 IL_0039:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:114>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:114>
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_15 = V_1;
 		bool L_16;
 		L_16 = Object_op_Inequality_m6C3277742792FF570027EC4C9C13C8F9CA9382B5(L_15, (Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7*)NULL, NULL);
@@ -3353,11 +3353,11 @@ IL_0039:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:133>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:133>
 		return (Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7*)NULL;
 	}
 }
-// Method Definition Index: 96138
+// Method Definition Index: 96144
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* Path_ResolveTailComponents_m26B7D1F85B2F0610935E7D1C78796C233F5B2E7D (Path_t45F133F0FD37FBD473A956AF05F18E1EB5BD54CC* __this, Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* ___0_rootTarget, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3375,17 +3375,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98
 	int32_t V_3 = 0;
 	FlowBase_tC404CD82693644CCF6B95E73D16916F34439E822* V_4 = NULL;
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:140>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:140>
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_0 = ___0_rootTarget;
 		V_0 = L_0;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:141>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:141>
 		V_1 = 1;
 		goto IL_0055;
 	}
 
 IL_0006:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:142>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:142>
 		List_1_tE7E36179A9D3C4E72F64C06CD94D5C27DC690F08* L_1;
 		L_1 = Path_get_components_m2175B7004024210CFF9479814652E73144748420_inline(__this, NULL);
 		int32_t L_2 = V_1;
@@ -3395,10 +3395,10 @@ IL_0006:
 		NullCheck(L_3);
 		String_t* L_4 = L_3->___name;
 		V_2 = L_4;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:145>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:145>
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_5 = V_0;
 		V_4 = ((FlowBase_tC404CD82693644CCF6B95E73D16916F34439E822*)IsInstClass((RuntimeObject*)L_5, FlowBase_tC404CD82693644CCF6B95E73D16916F34439E822_il2cpp_TypeInfo_var));
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:146>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:146>
 		FlowBase_tC404CD82693644CCF6B95E73D16916F34439E822* L_6 = V_4;
 		bool L_7;
 		L_7 = Object_op_Inequality_m6C3277742792FF570027EC4C9C13C8F9CA9382B5(L_6, (Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7*)NULL, NULL);
@@ -3408,7 +3408,7 @@ IL_0006:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:147>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:147>
 		FlowBase_tC404CD82693644CCF6B95E73D16916F34439E822* L_8 = V_4;
 		NullCheck(L_8);
 		int32_t L_9;
@@ -3419,13 +3419,13 @@ IL_0006:
 
 IL_0036:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:149>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:149>
 		V_3 = 3;
 	}
 
 IL_0038:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:152>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:152>
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_10 = V_0;
 		String_t* L_11 = V_2;
 		int32_t L_12 = V_3;
@@ -3435,7 +3435,7 @@ IL_0038:
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_14;
 		L_14 = Path_TryGetChildFromContext_m422034BAA43ADE6D750CAC3482BCB19481F4CC7A(__this, L_10, L_11, L_13, (bool)0, NULL);
 		V_0 = L_14;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:153>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:153>
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_15 = V_0;
 		bool L_16;
 		L_16 = Object_op_Equality_m109E112ACAA3627F5E1EF2BD8C13110F2493CB4D(L_15, (Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7*)NULL, NULL);
@@ -3445,14 +3445,14 @@ IL_0038:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:141>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:141>
 		int32_t L_17 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_17, 1));
 	}
 
 IL_0055:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:141>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:141>
 		int32_t L_18 = V_1;
 		List_1_tE7E36179A9D3C4E72F64C06CD94D5C27DC690F08* L_19;
 		L_19 = Path_get_components_m2175B7004024210CFF9479814652E73144748420_inline(__this, NULL);
@@ -3467,12 +3467,12 @@ IL_0055:
 
 IL_0063:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:157>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:157>
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_21 = V_0;
 		return L_21;
 	}
 }
-// Method Definition Index: 96139
+// Method Definition Index: 96145
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* Path_TryGetChildFromContext_m422034BAA43ADE6D750CAC3482BCB19481F4CC7A (Path_t45F133F0FD37FBD473A956AF05F18E1EB5BD54CC* __this, Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* ___0_context, String_t* ___1_childName, Nullable_1_tF3A63852D98AB80CE81E0997F1EB4A764E6B9BCC ___2_minimumLevel, bool ___3_forceDeepSearch, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3494,14 +3494,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98
 	bool V_5 = false;
 	int32_t G_B8_0 = 0;
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:167>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:167>
 		bool L_0;
 		L_0 = Nullable_1_get_HasValue_m45FF4EC1B2A358D173EBA31B28C7414D10F43861_inline((&___2_minimumLevel), Nullable_1_get_HasValue_m45FF4EC1B2A358D173EBA31B28C7414D10F43861_RuntimeMethod_var);
 		V_0 = (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:170>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:170>
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_1 = ___0_context;
 		V_1 = ((Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37*)IsInstClass((RuntimeObject*)L_1, Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37_il2cpp_TypeInfo_var));
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:171>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:171>
 		Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37* L_2 = V_1;
 		bool L_3;
 		L_3 = Object_op_Inequality_m6C3277742792FF570027EC4C9C13C8F9CA9382B5(L_2, (Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7*)NULL, NULL);
@@ -3534,7 +3534,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98
 
 IL_0038:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:172>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:172>
 		Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37* L_9 = V_1;
 		String_t* L_10 = ___1_childName;
 		NullCheck(L_9);
@@ -3545,10 +3545,10 @@ IL_0038:
 
 IL_0045:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:176>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:176>
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_12 = ___0_context;
 		V_2 = ((FlowBase_tC404CD82693644CCF6B95E73D16916F34439E822*)IsInstClass((RuntimeObject*)L_12, FlowBase_tC404CD82693644CCF6B95E73D16916F34439E822_il2cpp_TypeInfo_var));
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:177>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:177>
 		FlowBase_tC404CD82693644CCF6B95E73D16916F34439E822* L_13 = V_2;
 		bool L_14;
 		L_14 = Object_op_Inequality_m6C3277742792FF570027EC4C9C13C8F9CA9382B5(L_13, (Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7*)NULL, NULL);
@@ -3558,7 +3558,7 @@ IL_0045:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:182>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:182>
 		bool L_15 = ___3_forceDeepSearch;
 		if (L_15)
 		{
@@ -3582,7 +3582,7 @@ IL_0064:
 IL_0065:
 	{
 		V_5 = (bool)G_B8_0;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:183>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:183>
 		FlowBase_tC404CD82693644CCF6B95E73D16916F34439E822* L_18 = V_2;
 		String_t* L_19 = ___1_childName;
 		Nullable_1_tF3A63852D98AB80CE81E0997F1EB4A764E6B9BCC L_20 = ___2_minimumLevel;
@@ -3595,7 +3595,7 @@ IL_0065:
 
 IL_0072:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:186>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:186>
 		return (Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7*)NULL;
 	}
 }
@@ -3607,7 +3607,7 @@ IL_0072:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 96140
+// Method Definition Index: 96146
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m3B08CFA664FBB550E256991463586BE19499A5D1 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3624,7 +3624,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m3B08CFA664FBB550E2569914
 		return;
 	}
 }
-// Method Definition Index: 96141
+// Method Definition Index: 96147
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mE4EBAFCB6B7202F8F5E681C4DAD67E48363DEF47 (U3CU3Ec_t4DE2A1738C6795E49209FBEE47FB37511ECCC70E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3632,11 +3632,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mE4EBAFCB6B7202F8F5E681C4D
 		return;
 	}
 }
-// Method Definition Index: 96142
+// Method Definition Index: 96148
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* U3CU3Ec_U3Cget_dotSeparatedComponentsU3Eb__9_0_m9BC7727506544F0B56B8295AA627708D90796A9B (U3CU3Ec_t4DE2A1738C6795E49209FBEE47FB37511ECCC70E* __this, Identifier_t0F346C00621758823B8D81B08308C6B9C24089DD* ___0_c, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:42>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:42>
 		Identifier_t0F346C00621758823B8D81B08308C6B9C24089DD* L_0 = ___0_c;
 		if (L_0)
 		{
@@ -3663,27 +3663,27 @@ IL_0005:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 96143
+// Method Definition Index: 96149
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Expression_tA6C9FD368D7951E1A1470D0F749E376D800BAB0D* Return_get_returnedExpression_m0F3B090A66709E032F417E8046A3B5AA3990F4E6 (Return_tF820135B4E13C7AA4FB7A0BAB1EB362B26B6FC14* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Return.cs:5>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Return.cs:5>
 		Expression_tA6C9FD368D7951E1A1470D0F749E376D800BAB0D* L_0 = __this->___U3CreturnedExpressionU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 96144
+// Method Definition Index: 96150
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Return_set_returnedExpression_mCA02FC2F1D627F8DA28FB6A16D5F4BFE582BA17D (Return_tF820135B4E13C7AA4FB7A0BAB1EB362B26B6FC14* __this, Expression_tA6C9FD368D7951E1A1470D0F749E376D800BAB0D* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Return.cs:5>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Return.cs:5>
 		Expression_tA6C9FD368D7951E1A1470D0F749E376D800BAB0D* L_0 = ___0_value;
 		__this->___U3CreturnedExpressionU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CreturnedExpressionU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 96145
+// Method Definition Index: 96151
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Return__ctor_m26DF6DBE7B13BA4E4C564B85BC8895F7FB30780E (Return_tF820135B4E13C7AA4FB7A0BAB1EB362B26B6FC14* __this, Expression_tA6C9FD368D7951E1A1470D0F749E376D800BAB0D* ___0_returnedExpression, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3693,9 +3693,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Return__ctor_m26DF6DBE7B13BA4E4C564B85BC
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Return.cs:7>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Return.cs:7>
 		Object__ctor_m9A312B0CEE75C9285FDABFA4EB210AE1EE959A1A(__this, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Return.cs:9>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Return.cs:9>
 		Expression_tA6C9FD368D7951E1A1470D0F749E376D800BAB0D* L_0 = ___0_returnedExpression;
 		bool L_1;
 		L_1 = Object_op_Implicit_m9F097EFB17152A15AF84817F6B4AE720A6A6094E(L_0, NULL);
@@ -3705,7 +3705,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Return__ctor_m26DF6DBE7B13BA4E4C564B85BC
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Return.cs:10>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Return.cs:10>
 		Expression_tA6C9FD368D7951E1A1470D0F749E376D800BAB0D* L_2 = ___0_returnedExpression;
 		Expression_tA6C9FD368D7951E1A1470D0F749E376D800BAB0D* L_3;
 		L_3 = Object_AddContent_TisExpression_tA6C9FD368D7951E1A1470D0F749E376D800BAB0D_m050CFBBD924504CF14772AE2DEFF3C05A7CCA82F(__this, L_2, Object_AddContent_TisExpression_tA6C9FD368D7951E1A1470D0F749E376D800BAB0D_m050CFBBD924504CF14772AE2DEFF3C05A7CCA82F_RuntimeMethod_var);
@@ -3714,11 +3714,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Return__ctor_m26DF6DBE7B13BA4E4C564B85BC
 
 IL_001b:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Return.cs:12>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Return.cs:12>
 		return;
 	}
 }
-// Method Definition Index: 96146
+// Method Definition Index: 96152
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Object_t42A2989484E361AF6C41D21FD84B2F8EFD905CCB* Return_GenerateRuntimeObject_m121696E883A41C9102DD48FD3E7385CCE83D9AF7 (Return_tF820135B4E13C7AA4FB7A0BAB1EB362B26B6FC14* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3730,11 +3730,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Object_t42A2989484E361AF6C41D21FD84B2F8EFD905
 	}
 	Container_t74302BC1028974B0A346A43F334AECB681D79579* V_0 = NULL;
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Return.cs:16>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Return.cs:16>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_0 = (Container_t74302BC1028974B0A346A43F334AECB681D79579*)il2cpp_codegen_object_new(Container_t74302BC1028974B0A346A43F334AECB681D79579_il2cpp_TypeInfo_var);
 		Container__ctor_mE49EAAD4892EDEFFDA64A7A54823A021ECBF4F84(L_0, NULL);
 		V_0 = L_0;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Return.cs:19>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Return.cs:19>
 		Expression_tA6C9FD368D7951E1A1470D0F749E376D800BAB0D* L_1;
 		L_1 = Return_get_returnedExpression_m0F3B090A66709E032F417E8046A3B5AA3990F4E6_inline(__this, NULL);
 		bool L_2;
@@ -3745,7 +3745,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Object_t42A2989484E361AF6C41D21FD84B2F8EFD905
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Return.cs:20>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Return.cs:20>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_3 = V_0;
 		Expression_tA6C9FD368D7951E1A1470D0F749E376D800BAB0D* L_4;
 		L_4 = Return_get_returnedExpression_m0F3B090A66709E032F417E8046A3B5AA3990F4E6_inline(__this, NULL);
@@ -3759,19 +3759,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Object_t42A2989484E361AF6C41D21FD84B2F8EFD905
 
 IL_0026:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Return.cs:26>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Return.cs:26>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_6 = V_0;
 		ControlCommand_tECC2BE832A73AD5873667DCA691A43EF694E04C6* L_7;
 		L_7 = ControlCommand_EvalStart_mF134D17B2D15983A7CC67A8C45FCCD491EAF820D(NULL);
 		NullCheck(L_6);
 		Container_AddContent_m2F2BA6E71A20ABB416F17B6235345801A55FEA76(L_6, L_7, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Return.cs:27>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Return.cs:27>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_8 = V_0;
 		Void_tCAE0FF750A1F4451C4F4184BAB9CC4F5498B2FE0* L_9 = (Void_tCAE0FF750A1F4451C4F4184BAB9CC4F5498B2FE0*)il2cpp_codegen_object_new(Void_tCAE0FF750A1F4451C4F4184BAB9CC4F5498B2FE0_il2cpp_TypeInfo_var);
 		Void__ctor_mE6655AC1CDBDF3AEAF058E98834803EFA65A8886(L_9, NULL);
 		NullCheck(L_8);
 		Container_AddContent_m2F2BA6E71A20ABB416F17B6235345801A55FEA76(L_8, L_9, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Return.cs:28>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Return.cs:28>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_10 = V_0;
 		ControlCommand_tECC2BE832A73AD5873667DCA691A43EF694E04C6* L_11;
 		L_11 = ControlCommand_EvalEnd_m983DEF86B4D9A272399C49B67F20E8665FE9054A(NULL);
@@ -3781,13 +3781,13 @@ IL_0026:
 
 IL_0047:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Return.cs:33>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Return.cs:33>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_12 = V_0;
 		ControlCommand_tECC2BE832A73AD5873667DCA691A43EF694E04C6* L_13;
 		L_13 = ControlCommand_PopFunction_m1A9CC01E8D99E4E14B75FA128EE9B3A5EB7DF0C7(NULL);
 		NullCheck(L_12);
 		Container_AddContent_m2F2BA6E71A20ABB416F17B6235345801A55FEA76(L_12, L_13, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Return.cs:35>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Return.cs:35>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_14 = V_0;
 		return L_14;
 	}
@@ -3808,7 +3808,7 @@ IL_0047:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 96147
+// Method Definition Index: 96153
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Sequence__ctor_m1B01CC7F617FBAD2953A343BAB0C7217EF902BB1 (Sequence_tCB97594473EC8A4A93D541931AB94EFFD0971E85* __this, List_1_t7CAB48FCDDBB3C931F99DE4CEFE682DE8A6981DF* ___0_elementContentLists, int32_t ___1_sequenceType, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3832,17 +3832,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Sequence__ctor_m1B01CC7F617FBAD2953A343B
 	List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55* V_2 = NULL;
 	Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* V_3 = NULL;
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:20>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:20>
 		Object__ctor_m9A312B0CEE75C9285FDABFA4EB210AE1EE959A1A(__this, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:22>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:22>
 		int32_t L_0 = ___1_sequenceType;
 		__this->___sequenceType = L_0;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:23>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:23>
 		List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55* L_1 = (List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55*)il2cpp_codegen_object_new(List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55_il2cpp_TypeInfo_var);
 		List_1__ctor_mFBD5335DB80BD5C7F42356A6430C470A4D63CD72(L_1, List_1__ctor_mFBD5335DB80BD5C7F42356A6430C470A4D63CD72_RuntimeMethod_var);
 		__this->___sequenceElements = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___sequenceElements), (void*)L_1);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:25>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:25>
 		List_1_t7CAB48FCDDBB3C931F99DE4CEFE682DE8A6981DF* L_2 = ___0_elementContentLists;
 		NullCheck(L_2);
 		Enumerator_t01D3AE12B6AD2CBBD7748943A6EEE3E2D4143663 L_3;
@@ -3867,19 +3867,19 @@ FINALLY_0068:
 
 IL_0021_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:25>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:25>
 				ContentList_t588B8BAEA73B35C29EB1DA7FA0673DE7403A5C23* L_4;
 				L_4 = Enumerator_get_Current_mEE72C4D75A73C8C271D50350162CFE419F958D3B_inline((&V_0), Enumerator_get_Current_mEE72C4D75A73C8C271D50350162CFE419F958D3B_RuntimeMethod_var);
 				V_1 = L_4;
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:27>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:27>
 				ContentList_t588B8BAEA73B35C29EB1DA7FA0673DE7403A5C23* L_5 = V_1;
 				NullCheck(L_5);
 				List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55* L_6;
 				L_6 = Object_get_content_m88C0834BB81829EF344181750AB1DCEE3EF5924F_inline(L_5, NULL);
 				V_2 = L_6;
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:29>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:29>
 				V_3 = (Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7*)NULL;
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:33>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:33>
 				List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55* L_7 = V_2;
 				if (!L_7)
 				{
@@ -3899,7 +3899,7 @@ IL_0021_1:
 
 IL_003d_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:34>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:34>
 				ContentList_t588B8BAEA73B35C29EB1DA7FA0673DE7403A5C23* L_10 = V_1;
 				V_3 = L_10;
 				goto IL_0049_1;
@@ -3907,7 +3907,7 @@ IL_003d_1:
 
 IL_0041_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:36>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:36>
 				List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55* L_11 = V_2;
 				Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37* L_12 = (Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37*)il2cpp_codegen_object_new(Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37_il2cpp_TypeInfo_var);
 				Weave__ctor_mE804413D35CA9D86F034623450393D361FB63449(L_12, L_11, (-1), NULL);
@@ -3916,12 +3916,12 @@ IL_0041_1:
 
 IL_0049_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:38>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:38>
 				List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55* L_13 = __this->___sequenceElements;
 				Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_14 = V_3;
 				NullCheck(L_13);
 				List_1_Add_m5A9752318EEC93FA92913E63EE9368B1E51EE2F0_inline(L_13, L_14, List_1_Add_m5A9752318EEC93FA92913E63EE9368B1E51EE2F0_RuntimeMethod_var);
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:39>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:39>
 				Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_15 = V_3;
 				Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_16;
 				L_16 = Object_AddContent_TisObject_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7_m9D687DD3683A1F764C11223332FDE089739003CD(__this, L_15, Object_AddContent_TisObject_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7_m9D687DD3683A1F764C11223332FDE089739003CD_RuntimeMethod_var);
@@ -3929,7 +3929,7 @@ IL_0049_1:
 
 IL_005d_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:25>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:25>
 				bool L_17;
 				L_17 = Enumerator_MoveNext_m92606E59E1BC7E1DDC87C96B815D73FBB6BB6E58((&V_0), Enumerator_MoveNext_m92606E59E1BC7E1DDC87C96B815D73FBB6BB6E58_RuntimeMethod_var);
 				if (L_17)
@@ -3949,11 +3949,11 @@ IL_005d_1:
 
 IL_0076:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:41>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:41>
 		return;
 	}
 }
-// Method Definition Index: 96148
+// Method Definition Index: 96154
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Object_t42A2989484E361AF6C41D21FD84B2F8EFD905CCB* Sequence_GenerateRuntimeObject_m8B50EA6F7B73BA3426FAF45681C8565B6D76094C (Sequence_tCB97594473EC8A4A93D541931AB94EFFD0971E85* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3994,53 +3994,53 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Object_t42A2989484E361AF6C41D21FD84B2F8EFD905
 	int32_t G_B5_0 = 0;
 	int32_t G_B11_0 = 0;
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:63>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:63>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_0 = (Container_t74302BC1028974B0A346A43F334AECB681D79579*)il2cpp_codegen_object_new(Container_t74302BC1028974B0A346A43F334AECB681D79579_il2cpp_TypeInfo_var);
 		Container__ctor_mE49EAAD4892EDEFFDA64A7A54823A021ECBF4F84(L_0, NULL);
 		V_0 = L_0;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:64>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:64>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_1 = V_0;
 		NullCheck(L_1);
 		Container_set_visitsShouldBeCounted_mCA668E9A96F2D5B8F25801AE1169786E35B2091C_inline(L_1, (bool)1, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:65>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:65>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_2 = V_0;
 		NullCheck(L_2);
 		Container_set_countingAtStartOnly_m97E94EA0207E814538744AB785E0A71821257C2D_inline(L_2, (bool)1, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:67>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:67>
 		List_1_t790425294EA2A6F283208CCC3E6906D3E7986012* L_3 = (List_1_t790425294EA2A6F283208CCC3E6906D3E7986012*)il2cpp_codegen_object_new(List_1_t790425294EA2A6F283208CCC3E6906D3E7986012_il2cpp_TypeInfo_var);
 		List_1__ctor_mB6FCD13803E793F69359FB195161D2AFFED1C956(L_3, List_1__ctor_mB6FCD13803E793F69359FB195161D2AFFED1C956_RuntimeMethod_var);
 		__this->____sequenceDivertsToResove = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____sequenceDivertsToResove), (void*)L_3);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:70>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:70>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_4 = V_0;
 		ControlCommand_tECC2BE832A73AD5873667DCA691A43EF694E04C6* L_5;
 		L_5 = ControlCommand_EvalStart_mF134D17B2D15983A7CC67A8C45FCCD491EAF820D(NULL);
 		NullCheck(L_4);
 		Container_AddContent_m2F2BA6E71A20ABB416F17B6235345801A55FEA76(L_4, L_5, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:71>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:71>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_6 = V_0;
 		ControlCommand_tECC2BE832A73AD5873667DCA691A43EF694E04C6* L_7;
 		L_7 = ControlCommand_VisitIndex_mAD3BE91F6689290F12136DEC194A6C239FE862BE(NULL);
 		NullCheck(L_6);
 		Container_AddContent_m2F2BA6E71A20ABB416F17B6235345801A55FEA76(L_6, L_7, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:73>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:73>
 		int32_t L_8 = __this->___sequenceType;
 		V_1 = (bool)((((int32_t)((int32_t)((int32_t)L_8&8))) > ((int32_t)0))? 1 : 0);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:74>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:74>
 		int32_t L_9 = __this->___sequenceType;
 		V_2 = (bool)((((int32_t)((int32_t)((int32_t)L_9&2))) > ((int32_t)0))? 1 : 0);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:75>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:75>
 		int32_t L_10 = __this->___sequenceType;
 		V_3 = (bool)((((int32_t)((int32_t)((int32_t)L_10&1))) > ((int32_t)0))? 1 : 0);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:76>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:76>
 		int32_t L_11 = __this->___sequenceType;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:78>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:78>
 		List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55* L_12 = __this->___sequenceElements;
 		NullCheck(L_12);
 		int32_t L_13;
 		L_13 = List_1_get_Count_mC26CECECE98B9AF63D211033A4D1DCAC59B79E8D_inline(L_12, List_1_get_Count_mC26CECECE98B9AF63D211033A4D1DCAC59B79E8D_RuntimeMethod_var);
 		V_4 = L_13;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:79>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:79>
 		bool L_14 = V_1;
 		if (!L_14)
 		{
@@ -4050,7 +4050,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Object_t42A2989484E361AF6C41D21FD84B2F8EFD905
 		G_B1_0 = ((((int32_t)((int32_t)((int32_t)L_11&4))) > ((int32_t)0))? 1 : 0);
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:79>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:79>
 		int32_t L_15 = V_4;
 		V_4 = ((int32_t)il2cpp_codegen_add(L_15, 1));
 		G_B2_0 = G_B1_0;
@@ -4058,7 +4058,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Object_t42A2989484E361AF6C41D21FD84B2F8EFD905
 
 IL_007a:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:85>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:85>
 		bool L_16 = V_3;
 		bool L_17 = V_1;
 		if (!((int32_t)((int32_t)L_16|(int32_t)L_17)))
@@ -4069,14 +4069,14 @@ IL_007a:
 		G_B3_0 = G_B2_0;
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:87>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:87>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_18 = V_0;
 		int32_t L_19 = V_4;
 		IntValue_tC0948E5C349DCA9404A95108DBE50654C7C70358* L_20 = (IntValue_tC0948E5C349DCA9404A95108DBE50654C7C70358*)il2cpp_codegen_object_new(IntValue_tC0948E5C349DCA9404A95108DBE50654C7C70358_il2cpp_TypeInfo_var);
 		IntValue__ctor_m5E32D02EF5024D1A265F9296D640A8ECFB79C652(L_20, ((int32_t)il2cpp_codegen_subtract(L_19, 1)), NULL);
 		NullCheck(L_18);
 		Container_AddContent_m2F2BA6E71A20ABB416F17B6235345801A55FEA76(L_18, L_20, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:88>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:88>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_21 = V_0;
 		NativeFunctionCall_tE48D7B25FFE2719D67C09A104593781EA0FE60C5* L_22;
 		L_22 = NativeFunctionCall_CallWithName_m16F5E931FE616CA7FE4B8C8EEF667D100A6A0743(_stringLiteralE5CF365411A1923514E649FC7DC6B0FBEA3F8683, NULL);
@@ -4088,7 +4088,7 @@ IL_007a:
 
 IL_00a0:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:92>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:92>
 		bool L_23 = V_2;
 		if (!L_23)
 		{
@@ -4098,7 +4098,7 @@ IL_00a0:
 		G_B5_0 = G_B4_0;
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:93>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:93>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_24 = V_0;
 		List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55* L_25 = __this->___sequenceElements;
 		NullCheck(L_25);
@@ -4108,7 +4108,7 @@ IL_00a0:
 		IntValue__ctor_m5E32D02EF5024D1A265F9296D640A8ECFB79C652(L_27, L_26, NULL);
 		NullCheck(L_24);
 		Container_AddContent_m2F2BA6E71A20ABB416F17B6235345801A55FEA76(L_24, L_27, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:94>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:94>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_28 = V_0;
 		NativeFunctionCall_tE48D7B25FFE2719D67C09A104593781EA0FE60C5* L_29;
 		L_29 = NativeFunctionCall_CallWithName_m16F5E931FE616CA7FE4B8C8EEF667D100A6A0743(_stringLiteral6C066B34F4DB79023C0642AFBC43B25A5327F710, NULL);
@@ -4119,18 +4119,18 @@ IL_00a0:
 
 IL_00c9:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:98>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:98>
 		if (!G_B6_0)
 		{
 			goto IL_017d;
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:101>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:101>
 		ControlCommand_tECC2BE832A73AD5873667DCA691A43EF694E04C6* L_30;
 		L_30 = ControlCommand_NoOp_mAF47B41BD87954BE2333810847161140FE0F8FA2(NULL);
 		V_6 = L_30;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:104>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:104>
 		bool L_31 = V_1;
 		bool L_32 = V_3;
 		if (!((int32_t)((int32_t)L_31|(int32_t)L_32)))
@@ -4139,7 +4139,7 @@ IL_00c9:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:107>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:107>
 		bool L_33 = V_3;
 		if (L_33)
 		{
@@ -4167,39 +4167,39 @@ IL_00ea:
 IL_00f7:
 	{
 		V_8 = G_B11_0;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:108>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:108>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_38 = V_0;
 		ControlCommand_tECC2BE832A73AD5873667DCA691A43EF694E04C6* L_39;
 		L_39 = ControlCommand_Duplicate_mBBE6039F7683C0BBC7F291172339BC970C6B637A(NULL);
 		NullCheck(L_38);
 		Container_AddContent_m2F2BA6E71A20ABB416F17B6235345801A55FEA76(L_38, L_39, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:109>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:109>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_40 = V_0;
 		int32_t L_41 = V_8;
 		IntValue_tC0948E5C349DCA9404A95108DBE50654C7C70358* L_42 = (IntValue_tC0948E5C349DCA9404A95108DBE50654C7C70358*)il2cpp_codegen_object_new(IntValue_tC0948E5C349DCA9404A95108DBE50654C7C70358_il2cpp_TypeInfo_var);
 		IntValue__ctor_m5E32D02EF5024D1A265F9296D640A8ECFB79C652(L_42, L_41, NULL);
 		NullCheck(L_40);
 		Container_AddContent_m2F2BA6E71A20ABB416F17B6235345801A55FEA76(L_40, L_42, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:110>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:110>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_43 = V_0;
 		NativeFunctionCall_tE48D7B25FFE2719D67C09A104593781EA0FE60C5* L_44;
 		L_44 = NativeFunctionCall_CallWithName_m16F5E931FE616CA7FE4B8C8EEF667D100A6A0743(_stringLiteral7EF1829A378D66B1DD70A767729127A0DC5EDCAE, NULL);
 		NullCheck(L_43);
 		Container_AddContent_m2F2BA6E71A20ABB416F17B6235345801A55FEA76(L_43, L_44, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:112>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:112>
 		Divert_t74B807563B5BEDFB81EA404CC61CDC797ECD04CA* L_45 = (Divert_t74B807563B5BEDFB81EA404CC61CDC797ECD04CA*)il2cpp_codegen_object_new(Divert_t74B807563B5BEDFB81EA404CC61CDC797ECD04CA_il2cpp_TypeInfo_var);
 		Divert__ctor_m6EF2247FDA9554C19F47356ACDC569D214095A3A(L_45, NULL);
 		V_9 = L_45;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:113>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:113>
 		Divert_t74B807563B5BEDFB81EA404CC61CDC797ECD04CA* L_46 = V_9;
 		NullCheck(L_46);
 		Divert_set_isConditional_mDB631828EAA0091F708E2DA06B743FA3BD7BF33A_inline(L_46, (bool)1, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:114>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:114>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_47 = V_0;
 		Divert_t74B807563B5BEDFB81EA404CC61CDC797ECD04CA* L_48 = V_9;
 		NullCheck(L_47);
 		Container_AddContent_m2F2BA6E71A20ABB416F17B6235345801A55FEA76(L_47, L_48, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:116>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:116>
 		Divert_t74B807563B5BEDFB81EA404CC61CDC797ECD04CA* L_49 = V_9;
 		ControlCommand_tECC2BE832A73AD5873667DCA691A43EF694E04C6* L_50 = V_6;
 		Sequence_AddDivertToResolve_m5EC3A0BE4AF25B6A0EB2657D3061FDB8BEE5713A(__this, L_49, L_50, NULL);
@@ -4207,13 +4207,13 @@ IL_00f7:
 
 IL_0142:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:120>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:120>
 		List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55* L_51 = __this->___sequenceElements;
 		NullCheck(L_51);
 		int32_t L_52;
 		L_52 = List_1_get_Count_mC26CECECE98B9AF63D211033A4D1DCAC59B79E8D_inline(L_51, List_1_get_Count_mC26CECECE98B9AF63D211033A4D1DCAC59B79E8D_RuntimeMethod_var);
 		V_7 = L_52;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:121>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:121>
 		bool L_53 = V_3;
 		if (!L_53)
 		{
@@ -4221,27 +4221,27 @@ IL_0142:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:121>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:121>
 		int32_t L_54 = V_7;
 		V_7 = ((int32_t)il2cpp_codegen_subtract(L_54, 1));
 	}
 
 IL_0158:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:122>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:122>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_55 = V_0;
 		int32_t L_56 = V_7;
 		IntValue_tC0948E5C349DCA9404A95108DBE50654C7C70358* L_57 = (IntValue_tC0948E5C349DCA9404A95108DBE50654C7C70358*)il2cpp_codegen_object_new(IntValue_tC0948E5C349DCA9404A95108DBE50654C7C70358_il2cpp_TypeInfo_var);
 		IntValue__ctor_m5E32D02EF5024D1A265F9296D640A8ECFB79C652(L_57, L_56, NULL);
 		NullCheck(L_55);
 		Container_AddContent_m2F2BA6E71A20ABB416F17B6235345801A55FEA76(L_55, L_57, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:123>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:123>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_58 = V_0;
 		ControlCommand_tECC2BE832A73AD5873667DCA691A43EF694E04C6* L_59;
 		L_59 = ControlCommand_SequenceShuffleIndex_m4EFB66722F4E65B8257E50A5905B7984200E5BAF(NULL);
 		NullCheck(L_58);
 		Container_AddContent_m2F2BA6E71A20ABB416F17B6235345801A55FEA76(L_58, L_59, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:124>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:124>
 		bool L_60 = V_1;
 		bool L_61 = V_3;
 		if (!((int32_t)((int32_t)L_60|(int32_t)L_61)))
@@ -4250,7 +4250,7 @@ IL_0158:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:124>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:124>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_62 = V_0;
 		ControlCommand_tECC2BE832A73AD5873667DCA691A43EF694E04C6* L_63 = V_6;
 		NullCheck(L_62);
@@ -4259,68 +4259,68 @@ IL_0158:
 
 IL_017d:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:127>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:127>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_64 = V_0;
 		ControlCommand_tECC2BE832A73AD5873667DCA691A43EF694E04C6* L_65;
 		L_65 = ControlCommand_EvalEnd_m983DEF86B4D9A272399C49B67F20E8665FE9054A(NULL);
 		NullCheck(L_64);
 		Container_AddContent_m2F2BA6E71A20ABB416F17B6235345801A55FEA76(L_64, L_65, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:130>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:130>
 		ControlCommand_tECC2BE832A73AD5873667DCA691A43EF694E04C6* L_66;
 		L_66 = ControlCommand_NoOp_mAF47B41BD87954BE2333810847161140FE0F8FA2(NULL);
 		V_5 = L_66;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:134>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:134>
 		V_10 = 0;
 		goto IL_0274;
 	}
 
 IL_0197:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:139>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:139>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_67 = V_0;
 		ControlCommand_tECC2BE832A73AD5873667DCA691A43EF694E04C6* L_68;
 		L_68 = ControlCommand_EvalStart_mF134D17B2D15983A7CC67A8C45FCCD491EAF820D(NULL);
 		NullCheck(L_67);
 		Container_AddContent_m2F2BA6E71A20ABB416F17B6235345801A55FEA76(L_67, L_68, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:140>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:140>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_69 = V_0;
 		ControlCommand_tECC2BE832A73AD5873667DCA691A43EF694E04C6* L_70;
 		L_70 = ControlCommand_Duplicate_mBBE6039F7683C0BBC7F291172339BC970C6B637A(NULL);
 		NullCheck(L_69);
 		Container_AddContent_m2F2BA6E71A20ABB416F17B6235345801A55FEA76(L_69, L_70, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:141>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:141>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_71 = V_0;
 		int32_t L_72 = V_10;
 		IntValue_tC0948E5C349DCA9404A95108DBE50654C7C70358* L_73 = (IntValue_tC0948E5C349DCA9404A95108DBE50654C7C70358*)il2cpp_codegen_object_new(IntValue_tC0948E5C349DCA9404A95108DBE50654C7C70358_il2cpp_TypeInfo_var);
 		IntValue__ctor_m5E32D02EF5024D1A265F9296D640A8ECFB79C652(L_73, L_72, NULL);
 		NullCheck(L_71);
 		Container_AddContent_m2F2BA6E71A20ABB416F17B6235345801A55FEA76(L_71, L_73, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:142>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:142>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_74 = V_0;
 		NativeFunctionCall_tE48D7B25FFE2719D67C09A104593781EA0FE60C5* L_75;
 		L_75 = NativeFunctionCall_CallWithName_m16F5E931FE616CA7FE4B8C8EEF667D100A6A0743(_stringLiteral7EF1829A378D66B1DD70A767729127A0DC5EDCAE, NULL);
 		NullCheck(L_74);
 		Container_AddContent_m2F2BA6E71A20ABB416F17B6235345801A55FEA76(L_74, L_75, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:143>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:143>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_76 = V_0;
 		ControlCommand_tECC2BE832A73AD5873667DCA691A43EF694E04C6* L_77;
 		L_77 = ControlCommand_EvalEnd_m983DEF86B4D9A272399C49B67F20E8665FE9054A(NULL);
 		NullCheck(L_76);
 		Container_AddContent_m2F2BA6E71A20ABB416F17B6235345801A55FEA76(L_76, L_77, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:146>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:146>
 		Divert_t74B807563B5BEDFB81EA404CC61CDC797ECD04CA* L_78 = (Divert_t74B807563B5BEDFB81EA404CC61CDC797ECD04CA*)il2cpp_codegen_object_new(Divert_t74B807563B5BEDFB81EA404CC61CDC797ECD04CA_il2cpp_TypeInfo_var);
 		Divert__ctor_m6EF2247FDA9554C19F47356ACDC569D214095A3A(L_78, NULL);
 		V_11 = L_78;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:147>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:147>
 		Divert_t74B807563B5BEDFB81EA404CC61CDC797ECD04CA* L_79 = V_11;
 		NullCheck(L_79);
 		Divert_set_isConditional_mDB631828EAA0091F708E2DA06B743FA3BD7BF33A_inline(L_79, (bool)1, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:148>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:148>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_80 = V_0;
 		Divert_t74B807563B5BEDFB81EA404CC61CDC797ECD04CA* L_81 = V_11;
 		NullCheck(L_80);
 		Container_AddContent_m2F2BA6E71A20ABB416F17B6235345801A55FEA76(L_80, L_81, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:153>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:153>
 		int32_t L_82 = V_10;
 		List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55* L_83 = __this->___sequenceElements;
 		NullCheck(L_83);
@@ -4332,13 +4332,13 @@ IL_0197:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:154>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:154>
 		List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55* L_85 = __this->___sequenceElements;
 		int32_t L_86 = V_10;
 		NullCheck(L_85);
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_87;
 		L_87 = List_1_get_Item_mDF943B341CF138195ACC8377D45C1F3C700D9F11(L_85, L_86, List_1_get_Item_mDF943B341CF138195ACC8377D45C1F3C700D9F11_RuntimeMethod_var);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:155>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:155>
 		NullCheck(L_87);
 		Object_t42A2989484E361AF6C41D21FD84B2F8EFD905CCB* L_88;
 		L_88 = Object_get_runtimeObject_m9726F2EAF9D401D00BBA724D0DBD220BE4B81CC8(L_87, NULL);
@@ -4348,7 +4348,7 @@ IL_0197:
 
 IL_0216:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:160>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:160>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_89 = (Container_t74302BC1028974B0A346A43F334AECB681D79579*)il2cpp_codegen_object_new(Container_t74302BC1028974B0A346A43F334AECB681D79579_il2cpp_TypeInfo_var);
 		Container__ctor_mE49EAAD4892EDEFFDA64A7A54823A021ECBF4F84(L_89, NULL);
 		V_12 = L_89;
@@ -4356,7 +4356,7 @@ IL_0216:
 
 IL_021d:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:163>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:163>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_90 = V_12;
 		String_t* L_91;
 		L_91 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_10), NULL);
@@ -4364,42 +4364,42 @@ IL_021d:
 		L_92 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralDAF2BD03270A51BF9C135F3694DCAD2D3E66F465, L_91, NULL);
 		NullCheck(L_90);
 		Container_set_name_m8F5A2754D5F5B724CDB73F5754F75D179253D1B1_inline(L_90, L_92, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:164>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:164>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_93 = V_12;
 		ControlCommand_tECC2BE832A73AD5873667DCA691A43EF694E04C6* L_94;
 		L_94 = ControlCommand_PopEvaluatedValue_mDF001CA9376903645702BBA5725BF9D9A1C49BB7(NULL);
 		NullCheck(L_93);
 		Container_InsertContent_m844F5C9F5AF7856E920DFB5F17DBEC8A262B5144(L_93, L_94, 0, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:167>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:167>
 		Divert_t74B807563B5BEDFB81EA404CC61CDC797ECD04CA* L_95 = (Divert_t74B807563B5BEDFB81EA404CC61CDC797ECD04CA*)il2cpp_codegen_object_new(Divert_t74B807563B5BEDFB81EA404CC61CDC797ECD04CA_il2cpp_TypeInfo_var);
 		Divert__ctor_m6EF2247FDA9554C19F47356ACDC569D214095A3A(L_95, NULL);
 		V_13 = L_95;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:168>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:168>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_96 = V_12;
 		Divert_t74B807563B5BEDFB81EA404CC61CDC797ECD04CA* L_97 = V_13;
 		NullCheck(L_96);
 		Container_AddContent_m2F2BA6E71A20ABB416F17B6235345801A55FEA76(L_96, L_97, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:169>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:169>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_98 = V_0;
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_99 = V_12;
 		NullCheck(L_98);
 		Container_AddToNamedContentOnly_mE22F23FF9DA10C2E08C20DD7DFCF0B2A3C689461(L_98, L_99, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:172>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:172>
 		Divert_t74B807563B5BEDFB81EA404CC61CDC797ECD04CA* L_100 = V_11;
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_101 = V_12;
 		Sequence_AddDivertToResolve_m5EC3A0BE4AF25B6A0EB2657D3061FDB8BEE5713A(__this, L_100, L_101, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:173>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:173>
 		Divert_t74B807563B5BEDFB81EA404CC61CDC797ECD04CA* L_102 = V_13;
 		ControlCommand_tECC2BE832A73AD5873667DCA691A43EF694E04C6* L_103 = V_5;
 		Sequence_AddDivertToResolve_m5EC3A0BE4AF25B6A0EB2657D3061FDB8BEE5713A(__this, L_102, L_103, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:134>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:134>
 		int32_t L_104 = V_10;
 		V_10 = ((int32_t)il2cpp_codegen_add(L_104, 1));
 	}
 
 IL_0274:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:134>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:134>
 		int32_t L_105 = V_10;
 		int32_t L_106 = V_4;
 		if ((((int32_t)L_105) < ((int32_t)L_106)))
@@ -4408,17 +4408,17 @@ IL_0274:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:176>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:176>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_107 = V_0;
 		ControlCommand_tECC2BE832A73AD5873667DCA691A43EF694E04C6* L_108 = V_5;
 		NullCheck(L_107);
 		Container_AddContent_m2F2BA6E71A20ABB416F17B6235345801A55FEA76(L_107, L_108, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:178>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:178>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_109 = V_0;
 		return L_109;
 	}
 }
-// Method Definition Index: 96149
+// Method Definition Index: 96155
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Sequence_AddDivertToResolve_m5EC3A0BE4AF25B6A0EB2657D3061FDB8BEE5713A (Sequence_tCB97594473EC8A4A93D541931AB94EFFD0971E85* __this, Divert_t74B807563B5BEDFB81EA404CC61CDC797ECD04CA* ___0_divert, Object_t42A2989484E361AF6C41D21FD84B2F8EFD905CCB* ___1_targetContent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4429,10 +4429,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Sequence_AddDivertToResolve_m5EC3A0BE4AF
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:183>
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:184>
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:185>
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:186>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:183>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:184>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:185>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:186>
 		List_1_t790425294EA2A6F283208CCC3E6906D3E7986012* L_0 = __this->____sequenceDivertsToResove;
 		SequenceDivertToResolve_t37E4159370DD25778017F4CC7545576B876A5F88* L_1 = (SequenceDivertToResolve_t37E4159370DD25778017F4CC7545576B876A5F88*)il2cpp_codegen_object_new(SequenceDivertToResolve_t37E4159370DD25778017F4CC7545576B876A5F88_il2cpp_TypeInfo_var);
 		SequenceDivertToResolve__ctor_mAC464AB231B33607221F02499E124936E2FC760C(L_1, NULL);
@@ -4448,11 +4448,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Sequence_AddDivertToResolve_m5EC3A0BE4AF
 		Il2CppCodeGenWriteBarrier((void**)(&L_4->___targetContent), (void*)L_5);
 		NullCheck(L_0);
 		List_1_Add_m9D42F1337D5D751C33120AAABB9C59385A7CAA8A_inline(L_0, L_4, List_1_Add_m9D42F1337D5D751C33120AAABB9C59385A7CAA8A_RuntimeMethod_var);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:187>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:187>
 		return;
 	}
 }
-// Method Definition Index: 96150
+// Method Definition Index: 96156
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Sequence_ResolveReferences_mFE3D16CBB9F000E7C1ADC33289A64E478C8165B7 (Sequence_tCB97594473EC8A4A93D541931AB94EFFD0971E85* __this, Story_tEBE39AA9D821413F842FC1EA2FC7A087466078F7* ___0_context, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4468,10 +4468,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Sequence_ResolveReferences_mFE3D16CBB9F0
 	memset((&V_0), 0, sizeof(V_0));
 	SequenceDivertToResolve_t37E4159370DD25778017F4CC7545576B876A5F88* V_1 = NULL;
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:191>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:191>
 		Story_tEBE39AA9D821413F842FC1EA2FC7A087466078F7* L_0 = ___0_context;
 		Object_ResolveReferences_m8BC5DD701019191459A9CEF84D71FFBE2FEDFF8E(__this, L_0, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:193>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:193>
 		List_1_t790425294EA2A6F283208CCC3E6906D3E7986012* L_1 = __this->____sequenceDivertsToResove;
 		NullCheck(L_1);
 		Enumerator_tC11A5B12CF26B13BAD8CDCC5375367E670FBEA63 L_2;
@@ -4496,11 +4496,11 @@ FINALLY_003e:
 
 IL_0015_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:193>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:193>
 				SequenceDivertToResolve_t37E4159370DD25778017F4CC7545576B876A5F88* L_3;
 				L_3 = Enumerator_get_Current_m5ABBE55A689E904113FB50E82F51E9A8109800EE_inline((&V_0), Enumerator_get_Current_m5ABBE55A689E904113FB50E82F51E9A8109800EE_RuntimeMethod_var);
 				V_1 = L_3;
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:194>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:194>
 				SequenceDivertToResolve_t37E4159370DD25778017F4CC7545576B876A5F88* L_4 = V_1;
 				NullCheck(L_4);
 				Divert_t74B807563B5BEDFB81EA404CC61CDC797ECD04CA* L_5 = L_4->___divert;
@@ -4516,7 +4516,7 @@ IL_0015_1:
 
 IL_0033_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:193>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:193>
 				bool L_9;
 				L_9 = Enumerator_MoveNext_m514B4BBBE22D79C44A3955A2ABEE7ADFCCA68C68((&V_0), Enumerator_MoveNext_m514B4BBBE22D79C44A3955A2ABEE7ADFCCA68C68_RuntimeMethod_var);
 				if (L_9)
@@ -4536,7 +4536,7 @@ IL_0033_1:
 
 IL_004c:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:196>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Sequence.cs:196>
 		return;
 	}
 }
@@ -4548,7 +4548,7 @@ IL_004c:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 96151
+// Method Definition Index: 96157
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SequenceDivertToResolve__ctor_mAC464AB231B33607221F02499E124936E2FC760C (SequenceDivertToResolve_t37E4159370DD25778017F4CC7545576B876A5F88* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4564,25 +4564,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SequenceDivertToResolve__ctor_mAC464AB23
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 96152
+// Method Definition Index: 96158
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Stitch_get_flowLevel_m9B763778C291A4586174FF3F0565C854B3686E15 (Stitch_t681670B130517D97D8E480F375F9F27EB8D19E84* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Stitch.cs:7>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Stitch.cs:7>
 		return (int32_t)(2);
 	}
 }
-// Method Definition Index: 96153
+// Method Definition Index: 96159
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Stitch__ctor_m1939D9639A8B6837A816550D7D2C53EF196CF25A (Stitch_t681670B130517D97D8E480F375F9F27EB8D19E84* __this, Identifier_t0F346C00621758823B8D81B08308C6B9C24089DD* ___0_name, List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55* ___1_topLevelObjects, List_1_t5A7C284E404753F1786689E097CE59A152638444* ___2_arguments, bool ___3_isFunction, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Stitch.cs:9>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Stitch.cs:9>
 		Identifier_t0F346C00621758823B8D81B08308C6B9C24089DD* L_0 = ___0_name;
 		List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55* L_1 = ___1_topLevelObjects;
 		List_1_t5A7C284E404753F1786689E097CE59A152638444* L_2 = ___2_arguments;
 		bool L_3 = ___3_isFunction;
 		FlowBase__ctor_m9617379391C6CBF8E44705B74D16326088D2A916(__this, L_0, L_1, L_2, L_3, (bool)0, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Stitch.cs:11>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Stitch.cs:11>
 		return;
 	}
 }
@@ -4594,33 +4594,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Stitch__ctor_m1939D9639A8B6837A816550D7D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 96154
+// Method Definition Index: 96160
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Story_get_flowLevel_mCE16371E154C19AE5D4DD9D2CFF62BB150EE2BFF (Story_tEBE39AA9D821413F842FC1EA2FC7A087466078F7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:13>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:13>
 		return (int32_t)(0);
 	}
 }
-// Method Definition Index: 96155
+// Method Definition Index: 96161
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Story_get_hadError_mEF919AE10285FEF65A04B86A55656D8FFCB8E850 (Story_tEBE39AA9D821413F842FC1EA2FC7A087466078F7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:20>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:20>
 		bool L_0 = __this->____hadError;
 		return L_0;
 	}
 }
-// Method Definition Index: 96156
+// Method Definition Index: 96162
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Story_get_hadWarning_mCECC164DE20D2B6FF8FB0EE1C6E819C93751C381 (Story_tEBE39AA9D821413F842FC1EA2FC7A087466078F7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:21>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:21>
 		bool L_0 = __this->____hadWarning;
 		return L_0;
 	}
 }
-// Method Definition Index: 96157
+// Method Definition Index: 96163
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Story__ctor_mA1A58815473DAD128B1A45597543911FC2533D58 (Story_tEBE39AA9D821413F842FC1EA2FC7A087466078F7* __this, List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55* ___0_toplevelObjects, bool ___1_isInclude, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4631,20 +4631,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Story__ctor_mA1A58815473DAD128B1A4559754
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:503>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:503>
 		HashSet_1_tAF031AEBC83CBA64C37A89522097FD560F18B586* L_0 = (HashSet_1_tAF031AEBC83CBA64C37A89522097FD560F18B586*)il2cpp_codegen_object_new(HashSet_1_tAF031AEBC83CBA64C37A89522097FD560F18B586_il2cpp_TypeInfo_var);
 		HashSet_1__ctor_mBEA76E25FE25A85B1F140ED6C2D1F91A1E803DE2(L_0, HashSet_1__ctor_mBEA76E25FE25A85B1F140ED6C2D1F91A1E803DE2_RuntimeMethod_var);
 		__this->____dontFlattenContainers = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____dontFlattenContainers), (void*)L_0);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:36>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:36>
 		List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55* L_1 = ___0_toplevelObjects;
 		bool L_2 = ___1_isInclude;
 		FlowBase__ctor_m9617379391C6CBF8E44705B74D16326088D2A916(__this, (Identifier_t0F346C00621758823B8D81B08308C6B9C24089DD*)NULL, L_1, (List_1_t5A7C284E404753F1786689E097CE59A152638444*)NULL, (bool)0, L_2, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:40>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:40>
 		return;
 	}
 }
-// Method Definition Index: 96158
+// Method Definition Index: 96164
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Story_PreProcessTopLevelObjects_mF8131A2CD850A7C4C3F651EA017920BA1F7B1222 (Story_tEBE39AA9D821413F842FC1EA2FC7A087466078F7* __this, List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55* ___0_topLevelContent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4682,25 +4682,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Story_PreProcessTopLevelObjects_mF8131A2
 	memset((&V_6), 0, sizeof(V_6));
 	Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* V_7 = NULL;
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:55>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:55>
 		List_1_t8C592A35CEEA02FADE2642ADE3251FEC2C4819DB* L_0 = (List_1_t8C592A35CEEA02FADE2642ADE3251FEC2C4819DB*)il2cpp_codegen_object_new(List_1_t8C592A35CEEA02FADE2642ADE3251FEC2C4819DB_il2cpp_TypeInfo_var);
 		List_1__ctor_m96371535AE5960B20ADE8BDF8EF32073D976B889(L_0, List_1__ctor_m96371535AE5960B20ADE8BDF8EF32073D976B889_RuntimeMethod_var);
 		V_0 = L_0;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:58>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:58>
 		V_1 = 0;
 		goto IL_00d3;
 	}
 
 IL_000d:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:60>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:60>
 		List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55* L_1 = ___0_topLevelContent;
 		int32_t L_2 = V_1;
 		NullCheck(L_1);
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_3;
 		L_3 = List_1_get_Item_mDF943B341CF138195ACC8377D45C1F3C700D9F11(L_1, L_2, List_1_get_Item_mDF943B341CF138195ACC8377D45C1F3C700D9F11_RuntimeMethod_var);
 		V_2 = L_3;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:61>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:61>
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_4 = V_2;
 		if (!((IncludedFile_t07EBB7E7D0D110AD4DC162A7D7FD45F2F80036B0*)IsInstClass((RuntimeObject*)L_4, IncludedFile_t07EBB7E7D0D110AD4DC162A7D7FD45F2F80036B0_il2cpp_TypeInfo_var)))
 		{
@@ -4708,15 +4708,15 @@ IL_000d:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:63>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:63>
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_5 = V_2;
 		V_3 = ((IncludedFile_t07EBB7E7D0D110AD4DC162A7D7FD45F2F80036B0*)CastclassClass((RuntimeObject*)L_5, IncludedFile_t07EBB7E7D0D110AD4DC162A7D7FD45F2F80036B0_il2cpp_TypeInfo_var));
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:66>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:66>
 		List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55* L_6 = ___0_topLevelContent;
 		int32_t L_7 = V_1;
 		NullCheck(L_6);
 		List_1_RemoveAt_mF07CF701C047CD5DE92819D05FB0237F12923C48(L_6, L_7, List_1_RemoveAt_mF07CF701C047CD5DE92819D05FB0237F12923C48_RuntimeMethod_var);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:70>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:70>
 		IncludedFile_t07EBB7E7D0D110AD4DC162A7D7FD45F2F80036B0* L_8 = V_3;
 		NullCheck(L_8);
 		Story_tEBE39AA9D821413F842FC1EA2FC7A087466078F7* L_9;
@@ -4729,17 +4729,17 @@ IL_000d:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:72>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:72>
 		List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55* L_11 = (List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55*)il2cpp_codegen_object_new(List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55_il2cpp_TypeInfo_var);
 		List_1__ctor_mFBD5335DB80BD5C7F42356A6430C470A4D63CD72(L_11, List_1__ctor_mFBD5335DB80BD5C7F42356A6430C470A4D63CD72_RuntimeMethod_var);
 		V_4 = L_11;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:74>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:74>
 		IncludedFile_t07EBB7E7D0D110AD4DC162A7D7FD45F2F80036B0* L_12 = V_3;
 		NullCheck(L_12);
 		Story_tEBE39AA9D821413F842FC1EA2FC7A087466078F7* L_13;
 		L_13 = IncludedFile_get_includedStory_m0264E5FA6B7C163059E8BE7C769E55061D6E4C1D_inline(L_12, NULL);
 		V_5 = L_13;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:77>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:77>
 		Story_tEBE39AA9D821413F842FC1EA2FC7A087466078F7* L_14 = V_5;
 		NullCheck(L_14);
 		List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55* L_15;
@@ -4750,7 +4750,7 @@ IL_000d:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:79>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:79>
 		Story_tEBE39AA9D821413F842FC1EA2FC7A087466078F7* L_16 = V_5;
 		NullCheck(L_16);
 		List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55* L_17;
@@ -4778,11 +4778,11 @@ FINALLY_009b:
 
 IL_0066_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:79>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:79>
 				Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_19;
 				L_19 = Enumerator_get_Current_m1E21C02C0D7FEAFFD451F033D2E616D633A251D7_inline((&V_6), Enumerator_get_Current_m1E21C02C0D7FEAFFD451F033D2E616D633A251D7_RuntimeMethod_var);
 				V_7 = L_19;
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:80>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:80>
 				Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_20 = V_7;
 				if (!((FlowBase_tC404CD82693644CCF6B95E73D16916F34439E822*)IsInstClass((RuntimeObject*)L_20, FlowBase_tC404CD82693644CCF6B95E73D16916F34439E822_il2cpp_TypeInfo_var)))
 				{
@@ -4790,7 +4790,7 @@ IL_0066_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:81>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:81>
 				List_1_t8C592A35CEEA02FADE2642ADE3251FEC2C4819DB* L_21 = V_0;
 				Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_22 = V_7;
 				NullCheck(L_21);
@@ -4800,7 +4800,7 @@ IL_0066_1:
 
 IL_0087_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:83>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:83>
 				List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55* L_23 = V_4;
 				Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_24 = V_7;
 				NullCheck(L_23);
@@ -4809,7 +4809,7 @@ IL_0087_1:
 
 IL_0090_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:79>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:79>
 				bool L_25;
 				L_25 = Enumerator_MoveNext_mDAC08A52E00D45D4C8BB563D4A6462DA8C10CD89((&V_6), Enumerator_MoveNext_mDAC08A52E00D45D4C8BB563D4A6462DA8C10CD89_RuntimeMethod_var);
 				if (L_25)
@@ -4829,39 +4829,39 @@ IL_0090_1:
 
 IL_00a9:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:88>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:88>
 		List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55* L_26 = V_4;
 		Text_t2561CF2D715008D9C31C9382C40FE22ACA2010ED* L_27 = (Text_t2561CF2D715008D9C31C9382C40FE22ACA2010ED*)il2cpp_codegen_object_new(Text_t2561CF2D715008D9C31C9382C40FE22ACA2010ED_il2cpp_TypeInfo_var);
 		Text__ctor_mCC47ACBD825802241319B32E0BBAB28EEABD7BE0(L_27, _stringLiteral00B28FF06B788B9B67C6B259800F404F9F3761FD, NULL);
 		NullCheck(L_26);
 		List_1_Add_m5A9752318EEC93FA92913E63EE9368B1E51EE2F0_inline(L_26, L_27, List_1_Add_m5A9752318EEC93FA92913E63EE9368B1E51EE2F0_RuntimeMethod_var);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:91>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:91>
 		List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55* L_28 = ___0_topLevelContent;
 		int32_t L_29 = V_1;
 		List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55* L_30 = V_4;
 		NullCheck(L_28);
 		List_1_InsertRange_m81197082109732E9D071CD54E1D42B531AC0F3E1(L_28, L_29, L_30, List_1_InsertRange_m81197082109732E9D071CD54E1D42B531AC0F3E1_RuntimeMethod_var);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:96>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:96>
 		int32_t L_31 = V_1;
 		List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55* L_32 = V_4;
 		NullCheck(L_32);
 		int32_t L_33;
 		L_33 = List_1_get_Count_mC26CECECE98B9AF63D211033A4D1DCAC59B79E8D_inline(L_32, List_1_get_Count_mC26CECECE98B9AF63D211033A4D1DCAC59B79E8D_RuntimeMethod_var);
 		V_1 = ((int32_t)il2cpp_codegen_add(L_31, L_33));
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:103>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:103>
 		goto IL_00d3;
 	}
 
 IL_00cf:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:108>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:108>
 		int32_t L_34 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_34, 1));
 	}
 
 IL_00d3:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:59>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:59>
 		int32_t L_35 = V_1;
 		List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55* L_36 = ___0_topLevelContent;
 		NullCheck(L_36);
@@ -4873,7 +4873,7 @@ IL_00d3:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:114>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:114>
 		List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55* L_38 = ___0_topLevelContent;
 		List_1_t8C592A35CEEA02FADE2642ADE3251FEC2C4819DB* L_39 = V_0;
 		NullCheck(L_39);
@@ -4881,11 +4881,11 @@ IL_00d3:
 		L_40 = List_1_ToArray_mCBEBB6515D8558B4F63B567960F012CE96E33BB5(L_39, List_1_ToArray_mCBEBB6515D8558B4F63B567960F012CE96E33BB5_RuntimeMethod_var);
 		NullCheck(L_38);
 		List_1_AddRange_mBCEF5AADA8A0D29F430CC45EF1F72F25DA9726EF(L_38, (RuntimeObject*)L_40, List_1_AddRange_mBCEF5AADA8A0D29F430CC45EF1F72F25DA9726EF_RuntimeMethod_var);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:116>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:116>
 		return;
 	}
 }
-// Method Definition Index: 96159
+// Method Definition Index: 96165
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Story_t1FA227B6D8459FDD55218768DFAA17D93B2D057A* Story_ExportRuntime_mFF2C54C873E2718E88E4F2982E5AACC3A1B2324C (Story_tEBE39AA9D821413F842FC1EA2FC7A087466078F7* __this, ErrorHandler_tCD8B3F7247DF706204285C48B7801A7B60325728* ___0_errorHandler, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4953,16 +4953,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Story_t1FA227B6D8459FDD55218768DFAA17D93B2D05
 	String_t* G_B14_0 = NULL;
 	Dictionary_2_t5A97C79CF45D5BF10FF5B75F4D3F7F637A529398* G_B14_1 = NULL;
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:120>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:120>
 		ErrorHandler_tCD8B3F7247DF706204285C48B7801A7B60325728* L_0 = ___0_errorHandler;
 		__this->____errorHandler = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____errorHandler), (void*)L_0);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:124>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:124>
 		Dictionary_2_tCF6A8B10B39E2394A14ABA02E2B7D601BA4C6301* L_1 = (Dictionary_2_tCF6A8B10B39E2394A14ABA02E2B7D601BA4C6301*)il2cpp_codegen_object_new(Dictionary_2_tCF6A8B10B39E2394A14ABA02E2B7D601BA4C6301_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_mFAD28A4AD3D41F7430DD3C8AA00B50505D45B168(L_1, Dictionary_2__ctor_mFAD28A4AD3D41F7430DD3C8AA00B50505D45B168_RuntimeMethod_var);
 		__this->___constants = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___constants), (void*)L_1);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:125>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:125>
 		List_1_t67AAD19C0FFF8E5732D2ABD9BCF0AB17A6313BAF* L_2;
 		L_2 = Object_FindAll_TisConstantDeclaration_t166A3FE1F4854C2AF889D4A1A8F5674CF88DB1EA_m74BDB1CE93F756F937FB0BC1C18BA142CF0C5C2A(__this, (FindQueryFunc_1_t88DB34734FC78E98F67D0DD2A9EA542043B35D2A*)NULL, Object_FindAll_TisConstantDeclaration_t166A3FE1F4854C2AF889D4A1A8F5674CF88DB1EA_m74BDB1CE93F756F937FB0BC1C18BA142CF0C5C2A_RuntimeMethod_var);
 		NullCheck(L_2);
@@ -4988,13 +4988,13 @@ FINALLY_009d:
 
 IL_0022_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:125>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:125>
 				ConstantDeclaration_t166A3FE1F4854C2AF889D4A1A8F5674CF88DB1EA* L_4;
 				L_4 = Enumerator_get_Current_mC6ACA691B775B80C7B2AFFA23DF097D7EE70AF4C_inline((&V_4), Enumerator_get_Current_mC6ACA691B775B80C7B2AFFA23DF097D7EE70AF4C_RuntimeMethod_var);
 				V_5 = L_4;
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:128>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:128>
 				V_6 = (Expression_tA6C9FD368D7951E1A1470D0F749E376D800BAB0D*)NULL;
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:129>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:129>
 				Dictionary_2_tCF6A8B10B39E2394A14ABA02E2B7D601BA4C6301* L_5 = __this->___constants;
 				ConstantDeclaration_t166A3FE1F4854C2AF889D4A1A8F5674CF88DB1EA* L_6 = V_5;
 				NullCheck(L_6);
@@ -5009,7 +5009,7 @@ IL_0022_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:130>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:130>
 				Expression_tA6C9FD368D7951E1A1470D0F749E376D800BAB0D* L_9 = V_6;
 				ConstantDeclaration_t166A3FE1F4854C2AF889D4A1A8F5674CF88DB1EA* L_10 = V_5;
 				NullCheck(L_10);
@@ -5024,7 +5024,7 @@ IL_0022_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:131>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:131>
 				ConstantDeclaration_t166A3FE1F4854C2AF889D4A1A8F5674CF88DB1EA* L_13 = V_5;
 				NullCheck(L_13);
 				String_t* L_14;
@@ -5036,7 +5036,7 @@ IL_0022_1:
 				String_t* L_17;
 				L_17 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral18AE8E87420A5CC9A7FA0789118773C846F2CB8B, L_14, L_16, NULL);
 				V_7 = L_17;
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:132>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:132>
 				String_t* L_18 = V_7;
 				ConstantDeclaration_t166A3FE1F4854C2AF889D4A1A8F5674CF88DB1EA* L_19 = V_5;
 				VirtualActionInvoker3< String_t*, Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7*, bool >::Invoke(10, __this, L_18, L_19, (bool)0);
@@ -5044,7 +5044,7 @@ IL_0022_1:
 
 IL_0079_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:136>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:136>
 				Dictionary_2_tCF6A8B10B39E2394A14ABA02E2B7D601BA4C6301* L_20 = __this->___constants;
 				ConstantDeclaration_t166A3FE1F4854C2AF889D4A1A8F5674CF88DB1EA* L_21 = V_5;
 				NullCheck(L_21);
@@ -5060,7 +5060,7 @@ IL_0079_1:
 
 IL_0092_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:125>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:125>
 				bool L_25;
 				L_25 = Enumerator_MoveNext_m78DCAA6637B4AB25991AD72F32AB7F288C10B29D((&V_4), Enumerator_MoveNext_m78DCAA6637B4AB25991AD72F32AB7F288C10B29D_RuntimeMethod_var);
 				if (L_25)
@@ -5080,12 +5080,12 @@ IL_0092_1:
 
 IL_00ab:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:141>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:141>
 		Dictionary_2_t5A97C79CF45D5BF10FF5B75F4D3F7F637A529398* L_26 = (Dictionary_2_t5A97C79CF45D5BF10FF5B75F4D3F7F637A529398*)il2cpp_codegen_object_new(Dictionary_2_t5A97C79CF45D5BF10FF5B75F4D3F7F637A529398_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_m96701DAA09851839D795DBFFBE541AD7FDDBF39A(L_26, Dictionary_2__ctor_m96701DAA09851839D795DBFFBE541AD7FDDBF39A_RuntimeMethod_var);
 		__this->____listDefs = L_26;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____listDefs), (void*)L_26);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:142>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:142>
 		List_1_t2A94DBFCBC352D91C986BE84C30FEBFF0678BAD2* L_27;
 		L_27 = Object_FindAll_TisListDefinition_t79B40483F197DBBBADE985496F0220CEB1E99B65_mFFA3E83A3C6C3CC89AD0DC6F00460311015CD70A(__this, (FindQueryFunc_1_t10539BCA97AC966ED5258992D5E813042F7498C7*)NULL, Object_FindAll_TisListDefinition_t79B40483F197DBBBADE985496F0220CEB1E99B65_mFFA3E83A3C6C3CC89AD0DC6F00460311015CD70A_RuntimeMethod_var);
 		NullCheck(L_27);
@@ -5111,11 +5111,11 @@ FINALLY_00fa:
 
 IL_00c6_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:142>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:142>
 				ListDefinition_t79B40483F197DBBBADE985496F0220CEB1E99B65* L_29;
 				L_29 = Enumerator_get_Current_m26B937F5FF3C7B7320DCEB15714EA0288EFAA5BB_inline((&V_8), Enumerator_get_Current_m26B937F5FF3C7B7320DCEB15714EA0288EFAA5BB_RuntimeMethod_var);
 				V_9 = L_29;
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:143>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:143>
 				Dictionary_2_t5A97C79CF45D5BF10FF5B75F4D3F7F637A529398* L_30 = __this->____listDefs;
 				ListDefinition_t79B40483F197DBBBADE985496F0220CEB1E99B65* L_31 = V_9;
 				NullCheck(L_31);
@@ -5153,7 +5153,7 @@ IL_00e8_1:
 
 IL_00ef_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:142>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:142>
 				bool L_36;
 				L_36 = Enumerator_MoveNext_m0859E7EB111114970E0EEEE2F42B885680F4F344((&V_8), Enumerator_MoveNext_m0859E7EB111114970E0EEEE2F42B885680F4F344_RuntimeMethod_var);
 				if (L_36)
@@ -5173,32 +5173,32 @@ IL_00ef_1:
 
 IL_0108:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:146>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:146>
 		Dictionary_2_t23D1D45E825E760926864DB6F6CA95F2C6B82EA0* L_37 = (Dictionary_2_t23D1D45E825E760926864DB6F6CA95F2C6B82EA0*)il2cpp_codegen_object_new(Dictionary_2_t23D1D45E825E760926864DB6F6CA95F2C6B82EA0_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_m80237D55B3C8A89F91AEDF6EEA97E964CE793D22(L_37, Dictionary_2__ctor_m80237D55B3C8A89F91AEDF6EEA97E964CE793D22_RuntimeMethod_var);
 		__this->___externals = L_37;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___externals), (void*)L_37);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:152>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:152>
 		FlowBase_ResolveWeavePointNaming_m8F5BB832C501D3ABC6080126EAC9FC1305905693(__this, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:155>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:155>
 		Object_t42A2989484E361AF6C41D21FD84B2F8EFD905CCB* L_38;
 		L_38 = Object_get_runtimeObject_m9726F2EAF9D401D00BBA724D0DBD220BE4B81CC8(__this, NULL);
 		V_0 = ((Container_t74302BC1028974B0A346A43F334AECB681D79579*)IsInstClass((RuntimeObject*)L_38, Container_t74302BC1028974B0A346A43F334AECB681D79579_il2cpp_TypeInfo_var));
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:159>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:159>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_39 = (Container_t74302BC1028974B0A346A43F334AECB681D79579*)il2cpp_codegen_object_new(Container_t74302BC1028974B0A346A43F334AECB681D79579_il2cpp_TypeInfo_var);
 		Container__ctor_mE49EAAD4892EDEFFDA64A7A54823A021ECBF4F84(L_39, NULL);
 		V_1 = L_39;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:160>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:160>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_40 = V_1;
 		ControlCommand_tECC2BE832A73AD5873667DCA691A43EF694E04C6* L_41;
 		L_41 = ControlCommand_EvalStart_mF134D17B2D15983A7CC67A8C45FCCD491EAF820D(NULL);
 		NullCheck(L_40);
 		Container_AddContent_m2F2BA6E71A20ABB416F17B6235345801A55FEA76(L_40, L_41, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:163>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:163>
 		List_1_tEAA34814BB98964FD8B62D24AF030A7829378907* L_42 = (List_1_tEAA34814BB98964FD8B62D24AF030A7829378907*)il2cpp_codegen_object_new(List_1_tEAA34814BB98964FD8B62D24AF030A7829378907_il2cpp_TypeInfo_var);
 		List_1__ctor_mF74A80C08203240AA21DF548A75AA891A2BA9062(L_42, List_1__ctor_mF74A80C08203240AA21DF548A75AA891A2BA9062_RuntimeMethod_var);
 		V_2 = L_42;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:164>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:164>
 		Dictionary_2_tDF97A77A9FAB561C121F80094FE22706FC0C36B0* L_43 = ((FlowBase_tC404CD82693644CCF6B95E73D16916F34439E822*)__this)->___variableDeclarations;
 		NullCheck(L_43);
 		Enumerator_t67A9F5376E8773E1B1EA88376D61BA00993080A3 L_44;
@@ -5223,19 +5223,19 @@ FINALLY_01f0:
 
 IL_014e_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:164>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:164>
 				KeyValuePair_2_t44892EA16A995E68634C6E2AF928750976CA6D02 L_45;
 				L_45 = Enumerator_get_Current_m6A7426E8C116E2CD2DBAD408C3A01C2F0D394DE2_inline((&V_10), Enumerator_get_Current_m6A7426E8C116E2CD2DBAD408C3A01C2F0D394DE2_RuntimeMethod_var);
 				V_11 = L_45;
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:165>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:165>
 				String_t* L_46;
 				L_46 = KeyValuePair_2_get_Key_mD7DDCAFDD092A3FE66808181161A5CC59C32AC82_inline((&V_11), KeyValuePair_2_get_Key_mD7DDCAFDD092A3FE66808181161A5CC59C32AC82_RuntimeMethod_var);
 				V_12 = L_46;
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:166>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:166>
 				VariableAssignment_tD4DE7C66FEC35C64555CA2CB117AF682C9A48C82* L_47;
 				L_47 = KeyValuePair_2_get_Value_m648C3909C024CDF768979896869147D7419149F0_inline((&V_11), KeyValuePair_2_get_Value_m648C3909C024CDF768979896869147D7419149F0_RuntimeMethod_var);
 				V_13 = L_47;
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:167>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:167>
 				VariableAssignment_tD4DE7C66FEC35C64555CA2CB117AF682C9A48C82* L_48 = V_13;
 				NullCheck(L_48);
 				bool L_49;
@@ -5246,7 +5246,7 @@ IL_014e_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:169>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:169>
 				VariableAssignment_tD4DE7C66FEC35C64555CA2CB117AF682C9A48C82* L_50 = V_13;
 				NullCheck(L_50);
 				ListDefinition_t79B40483F197DBBBADE985496F0220CEB1E99B65* L_51;
@@ -5259,7 +5259,7 @@ IL_014e_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:170>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:170>
 				Dictionary_2_t5A97C79CF45D5BF10FF5B75F4D3F7F637A529398* L_53 = __this->____listDefs;
 				String_t* L_54 = V_12;
 				VariableAssignment_tD4DE7C66FEC35C64555CA2CB117AF682C9A48C82* L_55 = V_13;
@@ -5268,7 +5268,7 @@ IL_014e_1:
 				L_56 = VariableAssignment_get_listDefinition_m17FBBD9E9268937E32AEBDF0723017B2660A213A_inline(L_55, NULL);
 				NullCheck(L_53);
 				Dictionary_2_set_Item_m6C949EF2044C18D5BB5A889D60D195A11BE22B69(L_53, L_54, L_56, Dictionary_2_set_Item_m6C949EF2044C18D5BB5A889D60D195A11BE22B69_RuntimeMethod_var);
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:171>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:171>
 				Container_t74302BC1028974B0A346A43F334AECB681D79579* L_57 = V_1;
 				VariableAssignment_tD4DE7C66FEC35C64555CA2CB117AF682C9A48C82* L_58 = V_13;
 				NullCheck(L_58);
@@ -5279,7 +5279,7 @@ IL_014e_1:
 				L_60 = Object_get_runtimeObject_m9726F2EAF9D401D00BBA724D0DBD220BE4B81CC8(L_59, NULL);
 				NullCheck(L_57);
 				Container_AddContent_m2F2BA6E71A20ABB416F17B6235345801A55FEA76(L_57, L_60, NULL);
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:172>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:172>
 				List_1_tEAA34814BB98964FD8B62D24AF030A7829378907* L_61 = V_2;
 				VariableAssignment_tD4DE7C66FEC35C64555CA2CB117AF682C9A48C82* L_62 = V_13;
 				NullCheck(L_62);
@@ -5295,7 +5295,7 @@ IL_014e_1:
 
 IL_01bb_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:174>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:174>
 				VariableAssignment_tD4DE7C66FEC35C64555CA2CB117AF682C9A48C82* L_65 = V_13;
 				NullCheck(L_65);
 				Expression_tA6C9FD368D7951E1A1470D0F749E376D800BAB0D* L_66;
@@ -5307,16 +5307,16 @@ IL_01bb_1:
 
 IL_01c8_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:177>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:177>
 				String_t* L_68 = V_12;
 				VariableAssignment_t058919DAC79735A64C2F25B12A2A509D653022B9* L_69 = (VariableAssignment_t058919DAC79735A64C2F25B12A2A509D653022B9*)il2cpp_codegen_object_new(VariableAssignment_t058919DAC79735A64C2F25B12A2A509D653022B9_il2cpp_TypeInfo_var);
 				VariableAssignment__ctor_m34573492CA6DA1C98F74FD9F2F3ECCB2FCE7E1B6(L_69, L_68, (bool)1, NULL);
 				V_14 = L_69;
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:178>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:178>
 				VariableAssignment_t058919DAC79735A64C2F25B12A2A509D653022B9* L_70 = V_14;
 				NullCheck(L_70);
 				VariableAssignment_set_isGlobal_m7E2A5FFCF8C182807B5941792682A0A1D26535DE_inline(L_70, (bool)1, NULL);
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:179>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:179>
 				Container_t74302BC1028974B0A346A43F334AECB681D79579* L_71 = V_1;
 				VariableAssignment_t058919DAC79735A64C2F25B12A2A509D653022B9* L_72 = V_14;
 				NullCheck(L_71);
@@ -5325,7 +5325,7 @@ IL_01c8_1:
 
 IL_01e2_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:164>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:164>
 				bool L_73;
 				L_73 = Enumerator_MoveNext_m12335FB814C6C5B848D108D4A232E326FD1C2AFA((&V_10), Enumerator_MoveNext_m12335FB814C6C5B848D108D4A232E326FD1C2AFA_RuntimeMethod_var);
 				if (L_73)
@@ -5345,19 +5345,19 @@ IL_01e2_1:
 
 IL_01fe:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:183>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:183>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_74 = V_1;
 		ControlCommand_tECC2BE832A73AD5873667DCA691A43EF694E04C6* L_75;
 		L_75 = ControlCommand_EvalEnd_m983DEF86B4D9A272399C49B67F20E8665FE9054A(NULL);
 		NullCheck(L_74);
 		Container_AddContent_m2F2BA6E71A20ABB416F17B6235345801A55FEA76(L_74, L_75, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:184>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:184>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_76 = V_1;
 		ControlCommand_tECC2BE832A73AD5873667DCA691A43EF694E04C6* L_77;
 		L_77 = ControlCommand_End_m231425D8F9B528684964270BEB064EB72BDA9F90(NULL);
 		NullCheck(L_76);
 		Container_AddContent_m2F2BA6E71A20ABB416F17B6235345801A55FEA76(L_76, L_77, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:186>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:186>
 		Dictionary_2_tDF97A77A9FAB561C121F80094FE22706FC0C36B0* L_78 = ((FlowBase_tC404CD82693644CCF6B95E73D16916F34439E822*)__this)->___variableDeclarations;
 		NullCheck(L_78);
 		int32_t L_79;
@@ -5368,11 +5368,11 @@ IL_01fe:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:187>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:187>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_80 = V_1;
 		NullCheck(L_80);
 		Container_set_name_m8F5A2754D5F5B724CDB73F5754F75D179253D1B1_inline(L_80, _stringLiteral8636634916056B376E0921A5D119E8B11C100BB0, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:188>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:188>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_81 = V_0;
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_82 = V_1;
 		NullCheck(L_81);
@@ -5381,22 +5381,22 @@ IL_01fe:
 
 IL_0234:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:193>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:193>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_83 = V_0;
 		ControlCommand_tECC2BE832A73AD5873667DCA691A43EF694E04C6* L_84;
 		L_84 = ControlCommand_Done_m0CEE54D706460C49E7AEED32EF9D04B624189D5E(NULL);
 		NullCheck(L_83);
 		Container_AddContent_m2F2BA6E71A20ABB416F17B6235345801A55FEA76(L_83, L_84, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:196>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:196>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_85 = V_0;
 		List_1_tEAA34814BB98964FD8B62D24AF030A7829378907* L_86 = V_2;
 		Story_t1FA227B6D8459FDD55218768DFAA17D93B2D057A* L_87 = (Story_t1FA227B6D8459FDD55218768DFAA17D93B2D057A*)il2cpp_codegen_object_new(Story_t1FA227B6D8459FDD55218768DFAA17D93B2D057A_il2cpp_TypeInfo_var);
 		Story__ctor_m227850ACF45FE0868365FF3884EFB809BDE8434A(L_87, L_85, L_86, NULL);
 		V_3 = L_87;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:198>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:198>
 		Story_t1FA227B6D8459FDD55218768DFAA17D93B2D057A* L_88 = V_3;
 		Object_set_runtimeObject_m57463274E68C0F3DC1CB6788CD8DD795801B7FE8_inline(__this, L_88, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:200>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:200>
 		bool L_89 = __this->____hadError;
 		if (!L_89)
 		{
@@ -5404,18 +5404,18 @@ IL_0234:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:201>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:201>
 		return (Story_t1FA227B6D8459FDD55218768DFAA17D93B2D057A*)NULL;
 	}
 
 IL_0258:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:204>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:204>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_90 = V_0;
 		Story_FlattenContainersIn_m6831DB8B004021EA48FE64AF521F8FC72D28A64E(__this, L_90, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:214>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:214>
 		VirtualActionInvoker1< Story_tEBE39AA9D821413F842FC1EA2FC7A087466078F7* >::Invoke(9, __this, __this);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:216>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:216>
 		bool L_91 = __this->____hadError;
 		if (!L_91)
 		{
@@ -5423,22 +5423,22 @@ IL_0258:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:217>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:217>
 		return (Story_t1FA227B6D8459FDD55218768DFAA17D93B2D057A*)NULL;
 	}
 
 IL_0270:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:219>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:219>
 		Story_t1FA227B6D8459FDD55218768DFAA17D93B2D057A* L_92 = V_3;
 		NullCheck(L_92);
 		Story_ResetState_m35B852B571E1F3CB65A4CDD208CEE21D3E359C9B(L_92, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:221>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:221>
 		Story_t1FA227B6D8459FDD55218768DFAA17D93B2D057A* L_93 = V_3;
 		return L_93;
 	}
 }
-// Method Definition Index: 96160
+// Method Definition Index: 96166
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ListDefinition_t79B40483F197DBBBADE985496F0220CEB1E99B65* Story_ResolveList_m3BF53919891DB09B01026E81083C365F04F76AD6 (Story_tEBE39AA9D821413F842FC1EA2FC7A087466078F7* __this, String_t* ___0_listName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5449,7 +5449,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ListDefinition_t79B40483F197DBBBADE985496F022
 	}
 	ListDefinition_t79B40483F197DBBBADE985496F0220CEB1E99B65* V_0 = NULL;
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:227>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:227>
 		Dictionary_2_t5A97C79CF45D5BF10FF5B75F4D3F7F637A529398* L_0 = __this->____listDefs;
 		String_t* L_1 = ___0_listName;
 		NullCheck(L_0);
@@ -5461,18 +5461,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ListDefinition_t79B40483F197DBBBADE985496F022
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:228>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:228>
 		return (ListDefinition_t79B40483F197DBBBADE985496F0220CEB1E99B65*)NULL;
 	}
 
 IL_0012:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:229>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:229>
 		ListDefinition_t79B40483F197DBBBADE985496F0220CEB1E99B65* L_3 = V_0;
 		return L_3;
 	}
 }
-// Method Definition Index: 96161
+// Method Definition Index: 96167
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ListElementDefinition_t3F6CD3FE450322F15B1B639988E29B22BF99C8DD* Story_ResolveListItem_m857290E9E49BEC424C7D3A54E6171F11DE081302 (Story_tEBE39AA9D821413F842FC1EA2FC7A087466078F7* __this, String_t* ___0_listName, String_t* ___1_itemName, Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* ___2_source, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5530,9 +5530,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ListElementDefinition_t3F6CD3FE450322F15B1B63
 	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* G_B14_3 = NULL;
 	Story_tEBE39AA9D821413F842FC1EA2FC7A087466078F7* G_B14_4 = NULL;
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:234>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:234>
 		V_0 = (ListDefinition_t79B40483F197DBBBADE985496F0220CEB1E99B65*)NULL;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:237>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:237>
 		String_t* L_0 = ___0_listName;
 		if (!L_0)
 		{
@@ -5540,7 +5540,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ListElementDefinition_t3F6CD3FE450322F15B1B63
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:238>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:238>
 		Dictionary_2_t5A97C79CF45D5BF10FF5B75F4D3F7F637A529398* L_1 = __this->____listDefs;
 		String_t* L_2 = ___0_listName;
 		NullCheck(L_1);
@@ -5552,13 +5552,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ListElementDefinition_t3F6CD3FE450322F15B1B63
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:239>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:239>
 		return (ListElementDefinition_t3F6CD3FE450322F15B1B639988E29B22BF99C8DD*)NULL;
 	}
 
 IL_0017:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:241>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:241>
 		ListDefinition_t79B40483F197DBBBADE985496F0220CEB1E99B65* L_4 = V_0;
 		String_t* L_5 = ___1_itemName;
 		NullCheck(L_4);
@@ -5569,11 +5569,11 @@ IL_0017:
 
 IL_001f:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:247>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:247>
 		V_1 = (ListElementDefinition_t3F6CD3FE450322F15B1B639988E29B22BF99C8DD*)NULL;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:248>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:248>
 		V_2 = (ListDefinition_t79B40483F197DBBBADE985496F0220CEB1E99B65*)NULL;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:250>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:250>
 		Dictionary_2_t5A97C79CF45D5BF10FF5B75F4D3F7F637A529398* L_7 = __this->____listDefs;
 		NullCheck(L_7);
 		Enumerator_t10FB9ADF331F8B5D52A8E1747FEA46D4B9A6B844 L_8;
@@ -5598,22 +5598,22 @@ FINALLY_00d2:
 
 IL_0034_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:250>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:250>
 				KeyValuePair_2_tF6D8142A0F6DC48B7EC7A1321A329733A7B86266 L_9;
 				L_9 = Enumerator_get_Current_m711969C4E360FC0725DE03CBA64788D763F715B4_inline((&V_3), Enumerator_get_Current_m711969C4E360FC0725DE03CBA64788D763F715B4_RuntimeMethod_var);
 				V_4 = L_9;
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:251>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:251>
 				ListDefinition_t79B40483F197DBBBADE985496F0220CEB1E99B65* L_10;
 				L_10 = KeyValuePair_2_get_Value_mFD10793F7A8114D83CDAD42FA058A63DB117AB6F_inline((&V_4), KeyValuePair_2_get_Value_mFD10793F7A8114D83CDAD42FA058A63DB117AB6F_RuntimeMethod_var);
 				V_5 = L_10;
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:252>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:252>
 				ListDefinition_t79B40483F197DBBBADE985496F0220CEB1E99B65* L_11 = V_5;
 				String_t* L_12 = ___1_itemName;
 				NullCheck(L_11);
 				ListElementDefinition_t3F6CD3FE450322F15B1B639988E29B22BF99C8DD* L_13;
 				L_13 = ListDefinition_ItemNamed_mE935A909A9DC7F9063B349E85F9137234AA5031F(L_11, L_12, NULL);
 				V_6 = L_13;
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:253>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:253>
 				ListElementDefinition_t3F6CD3FE450322F15B1B639988E29B22BF99C8DD* L_14 = V_6;
 				bool L_15;
 				L_15 = Object_op_Implicit_m9F097EFB17152A15AF84817F6B4AE720A6A6094E(L_14, NULL);
@@ -5623,7 +5623,7 @@ IL_0034_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:254>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:254>
 				ListElementDefinition_t3F6CD3FE450322F15B1B639988E29B22BF99C8DD* L_16 = V_1;
 				bool L_17;
 				L_17 = Object_op_Inequality_m6C3277742792FF570027EC4C9C13C8F9CA9382B5(L_16, (Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7*)NULL, NULL);
@@ -5633,7 +5633,7 @@ IL_0034_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:255>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:255>
 				StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_18 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)6);
 				StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_19 = L_18;
 				NullCheck(L_19);
@@ -5748,17 +5748,17 @@ IL_00af_1:
 
 IL_00be_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:257>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:257>
 				ListElementDefinition_t3F6CD3FE450322F15B1B639988E29B22BF99C8DD* L_36 = V_6;
 				V_1 = L_36;
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:258>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:258>
 				ListDefinition_t79B40483F197DBBBADE985496F0220CEB1E99B65* L_37 = V_5;
 				V_2 = L_37;
 			}
 
 IL_00c4_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:250>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:250>
 				bool L_38;
 				L_38 = Enumerator_MoveNext_mCD8574B18EAD84CC0914D6D0C6D73F3BFC0D8E90((&V_3), Enumerator_MoveNext_mCD8574B18EAD84CC0914D6D0C6D73F3BFC0D8E90_RuntimeMethod_var);
 				if (L_38)
@@ -5778,12 +5778,12 @@ IL_00c4_1:
 
 IL_00e0:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:263>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:263>
 		ListElementDefinition_t3F6CD3FE450322F15B1B639988E29B22BF99C8DD* L_39 = V_1;
 		return L_39;
 	}
 }
-// Method Definition Index: 96162
+// Method Definition Index: 96168
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Story_FlattenContainersIn_m6831DB8B004021EA48FE64AF521F8FC72D28A64E (Story_tEBE39AA9D821413F842FC1EA2FC7A087466078F7* __this, Container_t74302BC1028974B0A346A43F334AECB681D79579* ___0_container, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5821,11 +5821,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Story_FlattenContainersIn_m6831DB8B00402
 	memset((&V_6), 0, sizeof(V_6));
 	Container_t74302BC1028974B0A346A43F334AECB681D79579* V_7 = NULL;
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:271>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:271>
 		HashSet_1_tAF031AEBC83CBA64C37A89522097FD560F18B586* L_0 = (HashSet_1_tAF031AEBC83CBA64C37A89522097FD560F18B586*)il2cpp_codegen_object_new(HashSet_1_tAF031AEBC83CBA64C37A89522097FD560F18B586_il2cpp_TypeInfo_var);
 		HashSet_1__ctor_mBEA76E25FE25A85B1F140ED6C2D1F91A1E803DE2(L_0, HashSet_1__ctor_mBEA76E25FE25A85B1F140ED6C2D1F91A1E803DE2_RuntimeMethod_var);
 		V_0 = L_0;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:273>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:273>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_1 = ___0_container;
 		NullCheck(L_1);
 		List_1_t2BC6A197CD71513743E4BF7350A3873D6C7B0F63* L_2;
@@ -5853,12 +5853,12 @@ FINALLY_003c:
 
 IL_0014_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:273>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:273>
 				Object_t42A2989484E361AF6C41D21FD84B2F8EFD905CCB* L_4;
 				L_4 = Enumerator_get_Current_mC575015244897CC52C360CCFCD80B4F917A2DC37_inline((&V_1), Enumerator_get_Current_mC575015244897CC52C360CCFCD80B4F917A2DC37_RuntimeMethod_var);
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:274>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:274>
 				V_2 = ((Container_t74302BC1028974B0A346A43F334AECB681D79579*)IsInstClass((RuntimeObject*)L_4, Container_t74302BC1028974B0A346A43F334AECB681D79579_il2cpp_TypeInfo_var));
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:275>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:275>
 				Container_t74302BC1028974B0A346A43F334AECB681D79579* L_5 = V_2;
 				bool L_6;
 				L_6 = Object_op_Implicit_m104371B3B40153BF3D5333B969CBFC900C10FCEE(L_5, NULL);
@@ -5868,7 +5868,7 @@ IL_0014_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:276>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:276>
 				HashSet_1_tAF031AEBC83CBA64C37A89522097FD560F18B586* L_7 = V_0;
 				Container_t74302BC1028974B0A346A43F334AECB681D79579* L_8 = V_2;
 				NullCheck(L_7);
@@ -5878,7 +5878,7 @@ IL_0014_1:
 
 IL_0031_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:273>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:273>
 				bool L_10;
 				L_10 = Enumerator_MoveNext_mDBC2140ABF4BFE23ACFEC8FC7084261C08F60DF6((&V_1), Enumerator_MoveNext_mDBC2140ABF4BFE23ACFEC8FC7084261C08F60DF6_RuntimeMethod_var);
 				if (L_10)
@@ -5898,7 +5898,7 @@ IL_0031_1:
 
 IL_004a:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:281>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:281>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_11 = ___0_container;
 		NullCheck(L_11);
 		Dictionary_2_t309FEDB822137B5A16AE94FF32C698C7E8B3CF49* L_12;
@@ -5909,7 +5909,7 @@ IL_004a:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:282>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:282>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_13 = ___0_container;
 		NullCheck(L_13);
 		Dictionary_2_t309FEDB822137B5A16AE94FF32C698C7E8B3CF49* L_14;
@@ -5937,15 +5937,15 @@ FINALLY_0094:
 
 IL_0060_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:282>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:282>
 				KeyValuePair_2_t5E4CC453E09A531E3B06120F018B9F3132190A81 L_16;
 				L_16 = Enumerator_get_Current_m32E970B18F5B70BFE0C4A1913DAA8875E50D8F7E_inline((&V_3), Enumerator_get_Current_m32E970B18F5B70BFE0C4A1913DAA8875E50D8F7E_RuntimeMethod_var);
 				V_4 = L_16;
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:283>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:283>
 				RuntimeObject* L_17;
 				L_17 = KeyValuePair_2_get_Value_mF2BDBBCCE3A7432DD1B1E16A68584F08AA0EB138_inline((&V_4), KeyValuePair_2_get_Value_mF2BDBBCCE3A7432DD1B1E16A68584F08AA0EB138_RuntimeMethod_var);
 				V_5 = ((Container_t74302BC1028974B0A346A43F334AECB681D79579*)IsInstClass((RuntimeObject*)L_17, Container_t74302BC1028974B0A346A43F334AECB681D79579_il2cpp_TypeInfo_var));
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:284>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:284>
 				Container_t74302BC1028974B0A346A43F334AECB681D79579* L_18 = V_5;
 				bool L_19;
 				L_19 = Object_op_Implicit_m104371B3B40153BF3D5333B969CBFC900C10FCEE(L_18, NULL);
@@ -5955,7 +5955,7 @@ IL_0060_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:285>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:285>
 				HashSet_1_tAF031AEBC83CBA64C37A89522097FD560F18B586* L_20 = V_0;
 				Container_t74302BC1028974B0A346A43F334AECB681D79579* L_21 = V_5;
 				NullCheck(L_20);
@@ -5965,7 +5965,7 @@ IL_0060_1:
 
 IL_0089_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:282>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:282>
 				bool L_23;
 				L_23 = Enumerator_MoveNext_m6B49178CB9527B57DB94E5731B3E3F92DFE48DDE((&V_3), Enumerator_MoveNext_m6B49178CB9527B57DB94E5731B3E3F92DFE48DDE_RuntimeMethod_var);
 				if (L_23)
@@ -5985,7 +5985,7 @@ IL_0089_1:
 
 IL_00a2:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:289>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:289>
 		HashSet_1_tAF031AEBC83CBA64C37A89522097FD560F18B586* L_24 = V_0;
 		NullCheck(L_24);
 		Enumerator_t2F1BB79EEB703736F808D627A13B5D97A1C96271 L_25;
@@ -6010,21 +6010,21 @@ FINALLY_00d0:
 
 IL_00ac_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:289>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:289>
 				Container_t74302BC1028974B0A346A43F334AECB681D79579* L_26;
 				L_26 = Enumerator_get_Current_m53028144BDF8B628A22F679031E7BCE3BBAB6078_inline((&V_6), Enumerator_get_Current_m53028144BDF8B628A22F679031E7BCE3BBAB6078_RuntimeMethod_var);
 				V_7 = L_26;
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:290>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:290>
 				Container_t74302BC1028974B0A346A43F334AECB681D79579* L_27 = V_7;
 				Story_TryFlattenContainer_m1ED5C4A74B839ADC1188F3526EAD7C219CE56F3B(__this, L_27, NULL);
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:291>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:291>
 				Container_t74302BC1028974B0A346A43F334AECB681D79579* L_28 = V_7;
 				Story_FlattenContainersIn_m6831DB8B004021EA48FE64AF521F8FC72D28A64E(__this, L_28, NULL);
 			}
 
 IL_00c5_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:289>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:289>
 				bool L_29;
 				L_29 = Enumerator_MoveNext_mFB93B9DD5E695BD31507F275338EA1AB8E0A17B8((&V_6), Enumerator_MoveNext_mFB93B9DD5E695BD31507F275338EA1AB8E0A17B8_RuntimeMethod_var);
 				if (L_29)
@@ -6044,11 +6044,11 @@ IL_00c5_1:
 
 IL_00de:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:293>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:293>
 		return;
 	}
 }
-// Method Definition Index: 96163
+// Method Definition Index: 96169
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Story_TryFlattenContainer_m1ED5C4A74B839ADC1188F3526EAD7C219CE56F3B (Story_tEBE39AA9D821413F842FC1EA2FC7A087466078F7* __this, Container_t74302BC1028974B0A346A43F334AECB681D79579* ___0_container, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6072,7 +6072,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Story_TryFlattenContainer_m1ED5C4A74B839
 	memset((&V_3), 0, sizeof(V_3));
 	Object_t42A2989484E361AF6C41D21FD84B2F8EFD905CCB* V_4 = NULL;
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:297>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:297>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_0 = ___0_container;
 		NullCheck(L_0);
 		Dictionary_2_t309FEDB822137B5A16AE94FF32C698C7E8B3CF49* L_1;
@@ -6109,19 +6109,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Story_TryFlattenContainer_m1ED5C4A74B839
 
 IL_0024:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:298>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:298>
 		return;
 	}
 
 IL_0025:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:301>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:301>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_8 = ___0_container;
 		NullCheck(L_8);
 		Object_t42A2989484E361AF6C41D21FD84B2F8EFD905CCB* L_9;
 		L_9 = Object_get_parent_m9AF0B36330B6034B93000874D98617B032E6183D_inline(L_8, NULL);
 		V_0 = ((Container_t74302BC1028974B0A346A43F334AECB681D79579*)IsInstClass((RuntimeObject*)L_9, Container_t74302BC1028974B0A346A43F334AECB681D79579_il2cpp_TypeInfo_var));
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:302>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:302>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_10 = V_0;
 		bool L_11;
 		L_11 = Object_op_Implicit_m104371B3B40153BF3D5333B969CBFC900C10FCEE(L_10, NULL);
@@ -6131,7 +6131,7 @@ IL_0025:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:304>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:304>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_12 = V_0;
 		NullCheck(L_12);
 		List_1_t2BC6A197CD71513743E4BF7350A3873D6C7B0F63* L_13;
@@ -6141,7 +6141,7 @@ IL_0025:
 		int32_t L_15;
 		L_15 = List_1_IndexOf_m1C061628DB61D0C27E07DC5E390C2117383F62D2(L_13, L_14, List_1_IndexOf_m1C061628DB61D0C27E07DC5E390C2117383F62D2_RuntimeMethod_var);
 		V_1 = L_15;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:305>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:305>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_16 = V_0;
 		NullCheck(L_16);
 		List_1_t2BC6A197CD71513743E4BF7350A3873D6C7B0F63* L_17;
@@ -6149,13 +6149,13 @@ IL_0025:
 		int32_t L_18 = V_1;
 		NullCheck(L_17);
 		List_1_RemoveAt_mDC57B7FA373AF75CDE1E30C27D41F0F530DE9D2D(L_17, L_18, List_1_RemoveAt_mDC57B7FA373AF75CDE1E30C27D41F0F530DE9D2D_RuntimeMethod_var);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:307>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:307>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_19 = ___0_container;
 		NullCheck(L_19);
 		DebugMetadata_t5435CB4374070B99B60193A2E4B468E94CE00C01* L_20;
 		L_20 = Object_get_ownDebugMetadata_m5C84AE212A83FD7AE37E573867BF6360281467EE_inline(L_19, NULL);
 		V_2 = L_20;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:309>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:309>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_21 = ___0_container;
 		NullCheck(L_21);
 		List_1_t2BC6A197CD71513743E4BF7350A3873D6C7B0F63* L_22;
@@ -6183,15 +6183,15 @@ FINALLY_00a4:
 
 IL_0067_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:309>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:309>
 				Object_t42A2989484E361AF6C41D21FD84B2F8EFD905CCB* L_24;
 				L_24 = Enumerator_get_Current_mC575015244897CC52C360CCFCD80B4F917A2DC37_inline((&V_3), Enumerator_get_Current_mC575015244897CC52C360CCFCD80B4F917A2DC37_RuntimeMethod_var);
 				V_4 = L_24;
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:310>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:310>
 				Object_t42A2989484E361AF6C41D21FD84B2F8EFD905CCB* L_25 = V_4;
 				NullCheck(L_25);
 				Object_set_parent_m313E7123FE19E7C089F5856A0B9AB83D092AF2FF_inline(L_25, (Object_t42A2989484E361AF6C41D21FD84B2F8EFD905CCB*)NULL, NULL);
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:311>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:311>
 				DebugMetadata_t5435CB4374070B99B60193A2E4B468E94CE00C01* L_26 = V_2;
 				if (!L_26)
 				{
@@ -6209,7 +6209,7 @@ IL_0067_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:312>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:312>
 				Object_t42A2989484E361AF6C41D21FD84B2F8EFD905CCB* L_29 = V_4;
 				DebugMetadata_t5435CB4374070B99B60193A2E4B468E94CE00C01* L_30 = V_2;
 				NullCheck(L_29);
@@ -6218,20 +6218,20 @@ IL_0067_1:
 
 IL_008c_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:313>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:313>
 				Container_t74302BC1028974B0A346A43F334AECB681D79579* L_31 = V_0;
 				Object_t42A2989484E361AF6C41D21FD84B2F8EFD905CCB* L_32 = V_4;
 				int32_t L_33 = V_1;
 				NullCheck(L_31);
 				Container_InsertContent_m844F5C9F5AF7856E920DFB5F17DBEC8A262B5144(L_31, L_32, L_33, NULL);
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:314>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:314>
 				int32_t L_34 = V_1;
 				V_1 = ((int32_t)il2cpp_codegen_add(L_34, 1));
 			}
 
 IL_0099_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:309>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:309>
 				bool L_35;
 				L_35 = Enumerator_MoveNext_mDBC2140ABF4BFE23ACFEC8FC7084261C08F60DF6((&V_3), Enumerator_MoveNext_mDBC2140ABF4BFE23ACFEC8FC7084261C08F60DF6_RuntimeMethod_var);
 				if (L_35)
@@ -6251,11 +6251,11 @@ IL_0099_1:
 
 IL_00b2:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:317>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:317>
 		return;
 	}
 }
-// Method Definition Index: 96164
+// Method Definition Index: 96170
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Story_Error_m07F65AEBFE75393B2F8ADB2A416CF1BD3ED8644E (Story_tEBE39AA9D821413F842FC1EA2FC7A087466078F7* __this, String_t* ___0_message, Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* ___1_source, bool ___2_isWarning, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6274,7 +6274,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Story_Error_m07F65AEBFE75393B2F8ADB2A416
 	StringBuilder_t* V_1 = NULL;
 	int32_t G_B3_0 = 0;
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:321>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:321>
 		bool L_0 = ___2_isWarning;
 		if (L_0)
 		{
@@ -6294,11 +6294,11 @@ IL_0006:
 IL_0007:
 	{
 		V_0 = G_B3_0;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:323>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:323>
 		StringBuilder_t* L_1 = (StringBuilder_t*)il2cpp_codegen_object_new(StringBuilder_t_il2cpp_TypeInfo_var);
 		StringBuilder__ctor_m1D99713357DE05DAFA296633639DB55F8C30587D(L_1, NULL);
 		V_1 = L_1;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:324>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:324>
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_2 = ___1_source;
 		if (!((AuthorWarning_t69F75016EA0D0EF598ED62AA7FB57104F63B3DAE*)IsInstClass((RuntimeObject*)L_2, AuthorWarning_t69F75016EA0D0EF598ED62AA7FB57104F63B3DAE_il2cpp_TypeInfo_var)))
 		{
@@ -6306,19 +6306,19 @@ IL_0007:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:325>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:325>
 		StringBuilder_t* L_3 = V_1;
 		NullCheck(L_3);
 		StringBuilder_t* L_4;
 		L_4 = StringBuilder_Append_m08904D74E0C78E5F36DCD9C9303BDD07886D9F7D(L_3, _stringLiteralAE96E999CE28460225F268D6B8C1BBCB581FDE4C, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:326>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:326>
 		V_0 = 0;
 		goto IL_0043;
 	}
 
 IL_0026:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:327>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:327>
 		bool L_5 = ___2_isWarning;
 		if (!L_5)
 		{
@@ -6326,7 +6326,7 @@ IL_0026:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:328>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:328>
 		StringBuilder_t* L_6 = V_1;
 		NullCheck(L_6);
 		StringBuilder_t* L_7;
@@ -6336,7 +6336,7 @@ IL_0026:
 
 IL_0037:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:330>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:330>
 		StringBuilder_t* L_8 = V_1;
 		NullCheck(L_8);
 		StringBuilder_t* L_9;
@@ -6345,7 +6345,7 @@ IL_0037:
 
 IL_0043:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:333>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:333>
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_10 = ___1_source;
 		bool L_11;
 		L_11 = Object_op_Implicit_m9F097EFB17152A15AF84817F6B4AE720A6A6094E(L_10, NULL);
@@ -6377,7 +6377,7 @@ IL_0043:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:335>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:335>
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_17 = ___1_source;
 		NullCheck(L_17);
 		DebugMetadata_t5435CB4374070B99B60193A2E4B468E94CE00C01* L_18;
@@ -6390,7 +6390,7 @@ IL_0043:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:336>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:336>
 		StringBuilder_t* L_20 = V_1;
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_21 = ___1_source;
 		NullCheck(L_21);
@@ -6405,7 +6405,7 @@ IL_0043:
 
 IL_0085:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:339>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:339>
 		StringBuilder_t* L_25 = V_1;
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_26 = ___1_source;
 		NullCheck(L_26);
@@ -6422,19 +6422,19 @@ IL_0085:
 
 IL_00a1:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:342>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:342>
 		StringBuilder_t* L_32 = V_1;
 		String_t* L_33 = ___0_message;
 		NullCheck(L_32);
 		StringBuilder_t* L_34;
 		L_34 = StringBuilder_Append_m08904D74E0C78E5F36DCD9C9303BDD07886D9F7D(L_32, L_33, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:344>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:344>
 		StringBuilder_t* L_35 = V_1;
 		NullCheck(L_35);
 		String_t* L_36;
 		L_36 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_35);
 		___0_message = L_36;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:346>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:346>
 		ErrorHandler_tCD8B3F7247DF706204285C48B7801A7B60325728* L_37 = __this->____errorHandler;
 		if (!L_37)
 		{
@@ -6442,13 +6442,13 @@ IL_00a1:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:347>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:347>
 		int32_t L_38 = V_0;
 		__this->____hadError = (bool)((((int32_t)L_38) == ((int32_t)2))? 1 : 0);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:348>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:348>
 		int32_t L_39 = V_0;
 		__this->____hadWarning = (bool)((((int32_t)L_39) == ((int32_t)1))? 1 : 0);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:349>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:349>
 		ErrorHandler_tCD8B3F7247DF706204285C48B7801A7B60325728* L_40 = __this->____errorHandler;
 		String_t* L_41 = ___0_message;
 		int32_t L_42 = V_0;
@@ -6459,26 +6459,26 @@ IL_00a1:
 
 IL_00db:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:351>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:351>
 		String_t* L_43 = ___0_message;
 		Exception_t* L_44 = (Exception_t*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)));
 		Exception__ctor_m9B2BD92CD68916245A75109105D9071C9D430E7F(L_44, L_43, NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_44, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Story_Error_m07F65AEBFE75393B2F8ADB2A416CF1BD3ED8644E_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 96165
+// Method Definition Index: 96171
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Story_ResetError_mFB31E14D49646A746EE937CE0007DB1574DCDCB1 (Story_tEBE39AA9D821413F842FC1EA2FC7A087466078F7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:357>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:357>
 		__this->____hadError = (bool)0;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:358>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:358>
 		__this->____hadWarning = (bool)0;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:359>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:359>
 		return;
 	}
 }
-// Method Definition Index: 96166
+// Method Definition Index: 96172
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Story_IsExternal_m0406222773013446CE46556B1109E84A673D972F (Story_tEBE39AA9D821413F842FC1EA2FC7A087466078F7* __this, String_t* ___0_namedFuncTarget, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6488,7 +6488,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Story_IsExternal_m0406222773013446CE4655
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:363>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:363>
 		Dictionary_2_t23D1D45E825E760926864DB6F6CA95F2C6B82EA0* L_0 = __this->___externals;
 		String_t* L_1 = ___0_namedFuncTarget;
 		NullCheck(L_0);
@@ -6497,7 +6497,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Story_IsExternal_m0406222773013446CE4655
 		return L_2;
 	}
 }
-// Method Definition Index: 96167
+// Method Definition Index: 96173
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Story_AddExternal_m9C142559C7CA06012E5F8DD472D3965769B41E23 (Story_tEBE39AA9D821413F842FC1EA2FC7A087466078F7* __this, ExternalDeclaration_t6A600B5552FFC2082997474D7E5256DFA8782367* ___0_decl, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6510,7 +6510,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Story_AddExternal_m9C142559C7CA06012E5F8
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:368>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:368>
 		Dictionary_2_t23D1D45E825E760926864DB6F6CA95F2C6B82EA0* L_0 = __this->___externals;
 		ExternalDeclaration_t6A600B5552FFC2082997474D7E5256DFA8782367* L_1 = ___0_decl;
 		NullCheck(L_1);
@@ -6525,7 +6525,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Story_AddExternal_m9C142559C7CA06012E5F8
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:369>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:369>
 		ExternalDeclaration_t6A600B5552FFC2082997474D7E5256DFA8782367* L_4 = ___0_decl;
 		NullCheck(L_4);
 		String_t* L_5;
@@ -6539,7 +6539,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Story_AddExternal_m9C142559C7CA06012E5F8
 
 IL_0031:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:371>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:371>
 		Dictionary_2_t23D1D45E825E760926864DB6F6CA95F2C6B82EA0* L_8 = __this->___externals;
 		ExternalDeclaration_t6A600B5552FFC2082997474D7E5256DFA8782367* L_9 = ___0_decl;
 		NullCheck(L_9);
@@ -6548,11 +6548,11 @@ IL_0031:
 		ExternalDeclaration_t6A600B5552FFC2082997474D7E5256DFA8782367* L_11 = ___0_decl;
 		NullCheck(L_8);
 		Dictionary_2_set_Item_mFFB77ACE82551B167A900FA09E9F5898B44F9D8D(L_8, L_10, L_11, Dictionary_2_set_Item_mFFB77ACE82551B167A900FA09E9F5898B44F9D8D_RuntimeMethod_var);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:373>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:373>
 		return;
 	}
 }
-// Method Definition Index: 96168
+// Method Definition Index: 96174
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Story_DontFlattenContainer_m38E2485B7F6BAC07CD426713CC23E98FB069BD48 (Story_tEBE39AA9D821413F842FC1EA2FC7A087466078F7* __this, Container_t74302BC1028974B0A346A43F334AECB681D79579* ___0_container, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6562,17 +6562,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Story_DontFlattenContainer_m38E2485B7F6B
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:377>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:377>
 		HashSet_1_tAF031AEBC83CBA64C37A89522097FD560F18B586* L_0 = __this->____dontFlattenContainers;
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_1 = ___0_container;
 		NullCheck(L_0);
 		bool L_2;
 		L_2 = HashSet_1_Add_mB13C4C374F94EB008D025E53507C435EEB66B255(L_0, L_1, HashSet_1_Add_mB13C4C374F94EB008D025E53507C435EEB66B255_RuntimeMethod_var);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:378>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:378>
 		return;
 	}
 }
-// Method Definition Index: 96169
+// Method Definition Index: 96175
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Story_NameConflictError_mC11E05EB554082B930A521510DC1F3CF6390361B (Story_tEBE39AA9D821413F842FC1EA2FC7A087466078F7* __this, Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* ___0_obj, String_t* ___1_name, Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* ___2_existingObj, String_t* ___3_typeNameToPrint, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6600,7 +6600,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Story_NameConflictError_mC11E05EB554082B
 	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* G_B3_3 = NULL;
 	Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* G_B3_4 = NULL;
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:384>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:384>
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_0 = ___0_obj;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)7);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_2 = L_1;
@@ -6680,11 +6680,11 @@ IL_004a:
 		L_18 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(G_B3_3, NULL);
 		NullCheck(G_B3_4);
 		VirtualActionInvoker3< String_t*, Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7*, bool >::Invoke(10, G_B3_4, L_18, (Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7*)NULL, (bool)0);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:385>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:385>
 		return;
 	}
 }
-// Method Definition Index: 96170
+// Method Definition Index: 96176
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Story_IsReservedKeyword_mC0F1CBCB89A952B923AAD026ED8D9BA384977BB8 (String_t* ___0_name, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6956,17 +6956,17 @@ IL_011c:
 
 IL_0129:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:400>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:400>
 		return (bool)1;
 	}
 
 IL_012b:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:403>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:403>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 96171
+// Method Definition Index: 96177
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Story_CheckForNamingCollisions_m13238A42D40F53489354F276C303D64C2D2AA2F6 (Story_tEBE39AA9D821413F842FC1EA2FC7A087466078F7* __this, Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* ___0_obj, Identifier_t0F346C00621758823B8D81B08308C6B9C24089DD* ___1_identifier, uint32_t ___2_symbolType, String_t* ___3_typeNameOverride, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7104,7 +7104,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Story_CheckForNamingCollisions_m13238A42
 	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* G_B96_3 = NULL;
 	Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* G_B96_4 = NULL;
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:421>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:421>
 		String_t* L_0 = ___3_typeNameOverride;
 		String_t* L_1 = L_0;
 		if (L_1)
@@ -7125,7 +7125,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Story_CheckForNamingCollisions_m13238A42
 IL_000c:
 	{
 		V_0 = G_B2_0;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:422>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:422>
 		Identifier_t0F346C00621758823B8D81B08308C6B9C24089DD* L_4 = ___1_identifier;
 		if (L_4)
 		{
@@ -7155,7 +7155,7 @@ IL_0019:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:423>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:423>
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_8 = ___0_obj;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_9 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)5);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_10 = L_9;
@@ -7183,13 +7183,13 @@ IL_0019:
 		L_18 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_17, NULL);
 		NullCheck(L_8);
 		VirtualActionInvoker3< String_t*, Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7*, bool >::Invoke(10, L_8, L_18, (Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7*)NULL, (bool)0);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:424>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:424>
 		return;
 	}
 
 IL_005e:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:427>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:427>
 		Identifier_t0F346C00621758823B8D81B08308C6B9C24089DD* L_19 = ___1_identifier;
 		if (L_19)
 		{
@@ -7219,7 +7219,7 @@ IL_006a:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:428>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:428>
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_23 = ___0_obj;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_24 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)5);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_25 = L_24;
@@ -7247,13 +7247,13 @@ IL_006a:
 		L_33 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_32, NULL);
 		NullCheck(L_23);
 		VirtualActionInvoker3< String_t*, Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7*, bool >::Invoke(10, L_23, L_33, (Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7*)NULL, (bool)0);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:429>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:429>
 		return;
 	}
 
 IL_00af:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:433>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:433>
 		Identifier_t0F346C00621758823B8D81B08308C6B9C24089DD* L_34 = ___1_identifier;
 		if (L_34)
 		{
@@ -7286,7 +7286,7 @@ IL_00bc:
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_38;
 		L_38 = FlowBase_ContentWithNameAtLevel_mBEA01AF67EC82BAF3485DEB39E7C5F6EB95DCE42(G_B15_1, G_B15_0, L_37, (bool)0, NULL);
 		V_1 = ((FlowBase_tC404CD82693644CCF6B95E73D16916F34439E822*)IsInstClass((RuntimeObject*)L_38, FlowBase_tC404CD82693644CCF6B95E73D16916F34439E822_il2cpp_TypeInfo_var));
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:434>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:434>
 		FlowBase_tC404CD82693644CCF6B95E73D16916F34439E822* L_39 = V_1;
 		bool L_40;
 		L_40 = Object_op_Implicit_m9F097EFB17152A15AF84817F6B4AE720A6A6094E(L_39, NULL);
@@ -7315,7 +7315,7 @@ IL_00bc:
 
 IL_00e3:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:435>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:435>
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_45 = ___0_obj;
 		Identifier_t0F346C00621758823B8D81B08308C6B9C24089DD* L_46 = ___1_identifier;
 		if (L_46)
@@ -7350,13 +7350,13 @@ IL_00f1:
 		String_t* L_50 = V_0;
 		NullCheck(G_B21_2);
 		Story_NameConflictError_mC11E05EB554082B930A521510DC1F3CF6390361B(G_B21_2, G_B21_1, G_B21_0, L_49, L_50, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:436>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:436>
 		return;
 	}
 
 IL_00f9:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:439>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:439>
 		uint32_t L_51 = ___2_symbolType;
 		if ((!(((uint32_t)L_51) < ((uint32_t)1))))
 		{
@@ -7364,13 +7364,13 @@ IL_00f9:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:439>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:439>
 		return;
 	}
 
 IL_00fe:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:442>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:442>
 		Dictionary_2_t5A97C79CF45D5BF10FF5B75F4D3F7F637A529398* L_52 = __this->____listDefs;
 		NullCheck(L_52);
 		Enumerator_t10FB9ADF331F8B5D52A8E1747FEA46D4B9A6B844 L_53;
@@ -7395,19 +7395,19 @@ FINALLY_01e7:
 
 IL_0110_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:442>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:442>
 				KeyValuePair_2_tF6D8142A0F6DC48B7EC7A1321A329733A7B86266 L_54;
 				L_54 = Enumerator_get_Current_m711969C4E360FC0725DE03CBA64788D763F715B4_inline((&V_4), Enumerator_get_Current_m711969C4E360FC0725DE03CBA64788D763F715B4_RuntimeMethod_var);
 				V_5 = L_54;
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:443>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:443>
 				String_t* L_55;
 				L_55 = KeyValuePair_2_get_Key_mC2DE5CEAAF0F24570A1BA7E14675B32B40526360_inline((&V_5), KeyValuePair_2_get_Key_mC2DE5CEAAF0F24570A1BA7E14675B32B40526360_RuntimeMethod_var);
 				V_6 = L_55;
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:444>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:444>
 				ListDefinition_t79B40483F197DBBBADE985496F0220CEB1E99B65* L_56;
 				L_56 = KeyValuePair_2_get_Value_mFD10793F7A8114D83CDAD42FA058A63DB117AB6F_inline((&V_5), KeyValuePair_2_get_Value_mFD10793F7A8114D83CDAD42FA058A63DB117AB6F_RuntimeMethod_var);
 				V_7 = L_56;
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:445>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:445>
 				Identifier_t0F346C00621758823B8D81B08308C6B9C24089DD* L_57 = ___1_identifier;
 				if (L_57)
 				{
@@ -7460,7 +7460,7 @@ IL_0137_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:446>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:446>
 				Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_69 = ___0_obj;
 				Identifier_t0F346C00621758823B8D81B08308C6B9C24089DD* L_70 = ___1_identifier;
 				if (L_70)
@@ -7499,7 +7499,7 @@ IL_0167_1:
 
 IL_016f_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:451>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:451>
 				Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_75 = ___0_obj;
 				if (((ListElementDefinition_t3F6CD3FE450322F15B1B639988E29B22BF99C8DD*)IsInstClass((RuntimeObject*)L_75, ListElementDefinition_t3F6CD3FE450322F15B1B639988E29B22BF99C8DD_il2cpp_TypeInfo_var)))
 				{
@@ -7507,7 +7507,7 @@ IL_016f_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:452>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:452>
 				ListDefinition_t79B40483F197DBBBADE985496F0220CEB1E99B65* L_76 = V_7;
 				NullCheck(L_76);
 				List_1_t5616402C899551039E0CA5216EA28E3B5E8B4010* L_77 = L_76->___itemDefinitions;
@@ -7534,11 +7534,11 @@ FINALLY_01cb_1:
 
 IL_0187_2:
 					{
-						//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:452>
+						//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:452>
 						ListElementDefinition_t3F6CD3FE450322F15B1B639988E29B22BF99C8DD* L_79;
 						L_79 = Enumerator_get_Current_m9630323BCC31A88964106965722CCA1FDA4DC22F_inline((&V_8), Enumerator_get_Current_m9630323BCC31A88964106965722CCA1FDA4DC22F_RuntimeMethod_var);
 						V_9 = L_79;
-						//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:453>
+						//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:453>
 						Identifier_t0F346C00621758823B8D81B08308C6B9C24089DD* L_80 = ___1_identifier;
 						if (L_80)
 						{
@@ -7572,7 +7572,7 @@ IL_019c_2:
 						}
 					}
 					{
-						//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:454>
+						//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:454>
 						Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_86 = ___0_obj;
 						Identifier_t0F346C00621758823B8D81B08308C6B9C24089DD* L_87 = ___1_identifier;
 						if (L_87)
@@ -7611,7 +7611,7 @@ IL_01b8_2:
 
 IL_01c0_2:
 					{
-						//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:452>
+						//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:452>
 						bool L_92;
 						L_92 = Enumerator_MoveNext_mC647D2F1D2FCB04ABCC6E2C49C34DA886A411FFB((&V_8), Enumerator_MoveNext_mC647D2F1D2FCB04ABCC6E2C49C34DA886A411FFB_RuntimeMethod_var);
 						if (L_92)
@@ -7631,7 +7631,7 @@ IL_01c0_2:
 
 IL_01d9_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:442>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:442>
 				bool L_93;
 				L_93 = Enumerator_MoveNext_mCD8574B18EAD84CC0914D6D0C6D73F3BFC0D8E90((&V_4), Enumerator_MoveNext_mCD8574B18EAD84CC0914D6D0C6D73F3BFC0D8E90_RuntimeMethod_var);
 				if (L_93)
@@ -7651,7 +7651,7 @@ IL_01d9_1:
 
 IL_01f5:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:462>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:462>
 		uint32_t L_94 = ___2_symbolType;
 		if ((!(((uint32_t)L_94) <= ((uint32_t)3))))
 		{
@@ -7659,15 +7659,15 @@ IL_01f5:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:462>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:462>
 		return;
 	}
 
 IL_01fa:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:465>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:465>
 		V_2 = (VariableAssignment_tD4DE7C66FEC35C64555CA2CB117AF682C9A48C82*)NULL;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:466>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:466>
 		Dictionary_2_tDF97A77A9FAB561C121F80094FE22706FC0C36B0* L_95 = ((FlowBase_tC404CD82693644CCF6B95E73D16916F34439E822*)__this)->___variableDeclarations;
 		Identifier_t0F346C00621758823B8D81B08308C6B9C24089DD* L_96 = ___1_identifier;
 		if (L_96)
@@ -7703,7 +7703,7 @@ IL_020e:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:467>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:467>
 		VariableAssignment_tD4DE7C66FEC35C64555CA2CB117AF682C9A48C82* L_100 = V_2;
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_101 = ___0_obj;
 		bool L_102;
@@ -7736,7 +7736,7 @@ IL_020e:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:468>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:468>
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_108 = ___0_obj;
 		Identifier_t0F346C00621758823B8D81B08308C6B9C24089DD* L_109 = ___1_identifier;
 		if (L_109)
@@ -7775,7 +7775,7 @@ IL_0244:
 
 IL_024b:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:472>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:472>
 		uint32_t L_114 = ___2_symbolType;
 		if ((!(((uint32_t)L_114) < ((uint32_t)4))))
 		{
@@ -7783,23 +7783,23 @@ IL_024b:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:472>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:472>
 		return;
 	}
 
 IL_0250:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:475>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:475>
 		Identifier_t0F346C00621758823B8D81B08308C6B9C24089DD* L_115 = ___1_identifier;
 		Path_t45F133F0FD37FBD473A956AF05F18E1EB5BD54CC* L_116 = (Path_t45F133F0FD37FBD473A956AF05F18E1EB5BD54CC*)il2cpp_codegen_object_new(Path_t45F133F0FD37FBD473A956AF05F18E1EB5BD54CC_il2cpp_TypeInfo_var);
 		Path__ctor_m628CF348ABC9C3AB26F4D235A5E212BB05233A47(L_116, L_115, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:476>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:476>
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_117 = ___0_obj;
 		NullCheck(L_116);
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_118;
 		L_118 = Path_ResolveFromContext_m2E7745228A2131E2474943DDB9BE94219BE1AF60(L_116, L_117, NULL);
 		V_3 = L_118;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:477>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:477>
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_119 = V_3;
 		bool L_120;
 		L_120 = Object_op_Implicit_m9F097EFB17152A15AF84817F6B4AE720A6A6094E(L_119, NULL);
@@ -7819,7 +7819,7 @@ IL_0250:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:478>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:478>
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_124 = ___0_obj;
 		Identifier_t0F346C00621758823B8D81B08308C6B9C24089DD* L_125 = ___1_identifier;
 		if (L_125)
@@ -7854,13 +7854,13 @@ IL_027c:
 		String_t* L_129 = V_0;
 		NullCheck(G_B73_2);
 		Story_NameConflictError_mC11E05EB554082B930A521510DC1F3CF6390361B(G_B73_2, G_B73_1, G_B73_0, L_128, L_129, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:479>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:479>
 		return;
 	}
 
 IL_0284:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:482>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:482>
 		uint32_t L_130 = ___2_symbolType;
 		if ((!(((uint32_t)L_130) < ((uint32_t)5))))
 		{
@@ -7868,13 +7868,13 @@ IL_0284:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:482>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:482>
 		return;
 	}
 
 IL_0289:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:485>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:485>
 		uint32_t L_131 = ___2_symbolType;
 		if ((((int32_t)L_131) == ((int32_t)5)))
 		{
@@ -7882,10 +7882,10 @@ IL_0289:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:486>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:486>
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_132 = ___0_obj;
 		V_10 = ((FlowBase_tC404CD82693644CCF6B95E73D16916F34439E822*)IsInstClass((RuntimeObject*)L_132, FlowBase_tC404CD82693644CCF6B95E73D16916F34439E822_il2cpp_TypeInfo_var));
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:487>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:487>
 		FlowBase_tC404CD82693644CCF6B95E73D16916F34439E822* L_133 = V_10;
 		bool L_134;
 		L_134 = Object_op_Equality_m109E112ACAA3627F5E1EF2BD8C13110F2493CB4D(L_133, (Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7*)NULL, NULL);
@@ -7895,7 +7895,7 @@ IL_0289:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:487>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:487>
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_135 = ___0_obj;
 		NullCheck(L_135);
 		FlowBase_tC404CD82693644CCF6B95E73D16916F34439E822* L_136;
@@ -7905,7 +7905,7 @@ IL_0289:
 
 IL_02aa:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:488>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:488>
 		FlowBase_tC404CD82693644CCF6B95E73D16916F34439E822* L_137 = V_10;
 		bool L_138;
 		L_138 = Object_op_Implicit_m9F097EFB17152A15AF84817F6B4AE720A6A6094E(L_137, NULL);
@@ -7925,7 +7925,7 @@ IL_02aa:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:489>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:489>
 		FlowBase_tC404CD82693644CCF6B95E73D16916F34439E822* L_141 = V_10;
 		NullCheck(L_141);
 		List_1_t5A7C284E404753F1786689E097CE59A152638444* L_142;
@@ -7953,10 +7953,10 @@ FINALLY_0374:
 
 IL_02d5_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:489>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:489>
 				Argument_t57F624390C64DEA5183C13B31DE384F707B17021* L_144;
 				L_144 = Enumerator_get_Current_m9153940C6F59F062F69715809C71D5A3D40A1D0E_inline((&V_11), Enumerator_get_Current_m9153940C6F59F062F69715809C71D5A3D40A1D0E_RuntimeMethod_var);
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:490>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:490>
 				NullCheck(L_144);
 				Identifier_t0F346C00621758823B8D81B08308C6B9C24089DD* L_145 = L_144->___identifier;
 				Identifier_t0F346C00621758823B8D81B08308C6B9C24089DD* L_146 = L_145;
@@ -8014,7 +8014,7 @@ IL_02f9_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:491>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:491>
 				Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_152 = ___0_obj;
 				StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_153 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)7);
 				StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_154 = L_153;
@@ -8131,13 +8131,13 @@ IL_0357_1:
 				L_171 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(G_B96_3, NULL);
 				NullCheck(G_B96_4);
 				VirtualActionInvoker3< String_t*, Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7*, bool >::Invoke(10, G_B96_4, L_171, (Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7*)NULL, (bool)0);
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:492>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:492>
 				goto IL_0382;
 			}
 
 IL_0366_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:489>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:489>
 				bool L_172;
 				L_172 = Enumerator_MoveNext_m592DA1580FDC9900A7E27B34AB105B28CCAEAE37((&V_11), Enumerator_MoveNext_m592DA1580FDC9900A7E27B34AB105B28CCAEAE37_RuntimeMethod_var);
 				if (L_172)
@@ -8157,7 +8157,7 @@ IL_0366_1:
 
 IL_0382:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:497>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Story.cs:497>
 		return;
 	}
 }
@@ -8177,7 +8177,7 @@ IL_0382:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 96172
+// Method Definition Index: 96178
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool StringExpression_get_isSingleString_m7A6128F11CA9543349BD832F63FC453C02242AF7 (StringExpression_tE1058617CD97C053B40F01FD20B244A4595D2678* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8189,7 +8189,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool StringExpression_get_isSingleString_m7A6
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs:11>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs:11>
 		List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55* L_0;
 		L_0 = Object_get_content_m88C0834BB81829EF344181750AB1DCEE3EF5924F_inline(__this, NULL);
 		NullCheck(L_0);
@@ -8201,36 +8201,36 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool StringExpression_get_isSingleString_m7A6
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs:12>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs:12>
 		return (bool)0;
 	}
 
 IL_0010:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs:14>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs:14>
 		List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55* L_2;
 		L_2 = Object_get_content_m88C0834BB81829EF344181750AB1DCEE3EF5924F_inline(__this, NULL);
 		NullCheck(L_2);
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_3;
 		L_3 = List_1_get_Item_mDF943B341CF138195ACC8377D45C1F3C700D9F11(L_2, 0, List_1_get_Item_mDF943B341CF138195ACC8377D45C1F3C700D9F11_RuntimeMethod_var);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs:15>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs:15>
 		if (((Text_t2561CF2D715008D9C31C9382C40FE22ACA2010ED*)IsInstClass((RuntimeObject*)L_3, Text_t2561CF2D715008D9C31C9382C40FE22ACA2010ED_il2cpp_TypeInfo_var)))
 		{
 			goto IL_0025;
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs:16>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs:16>
 		return (bool)0;
 	}
 
 IL_0025:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs:18>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs:18>
 		return (bool)1;
 	}
 }
-// Method Definition Index: 96173
+// Method Definition Index: 96179
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StringExpression__ctor_mC6C0C3D15D6BDF83C370A52DE73E4C55939CF21A (StringExpression_tE1058617CD97C053B40F01FD20B244A4595D2678* __this, List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55* ___0_content, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8240,16 +8240,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StringExpression__ctor_mC6C0C3D15D6BDF83
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs:22>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs:22>
 		Expression__ctor_mBA2907DB4D7FEA90D9A52A1C9820CDBC72DFB2AD(__this, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs:24>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs:24>
 		List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55* L_0 = ___0_content;
 		Object_AddContent_TisObject_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7_m46029874508E8FCA8592AD1521D1251361301280(__this, L_0, Object_AddContent_TisObject_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7_m46029874508E8FCA8592AD1521D1251361301280_RuntimeMethod_var);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs:25>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs:25>
 		return;
 	}
 }
-// Method Definition Index: 96174
+// Method Definition Index: 96180
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StringExpression_GenerateIntoContainer_m4601A0FF9F20609E19320C04CCF3A9343F768A57 (StringExpression_tE1058617CD97C053B40F01FD20B244A4595D2678* __this, Container_t74302BC1028974B0A346A43F334AECB681D79579* ___0_container, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8265,13 +8265,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StringExpression_GenerateIntoContainer_m
 	memset((&V_0), 0, sizeof(V_0));
 	Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* V_1 = NULL;
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs:29>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs:29>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_0 = ___0_container;
 		ControlCommand_tECC2BE832A73AD5873667DCA691A43EF694E04C6* L_1;
 		L_1 = ControlCommand_BeginString_mAF5F64F652E24493C96771078B30A260F321E492(NULL);
 		NullCheck(L_0);
 		Container_AddContent_m2F2BA6E71A20ABB416F17B6235345801A55FEA76(L_0, L_1, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs:31>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs:31>
 		List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55* L_2;
 		L_2 = Object_get_content_m88C0834BB81829EF344181750AB1DCEE3EF5924F_inline(__this, NULL);
 		NullCheck(L_2);
@@ -8297,11 +8297,11 @@ FINALLY_0038:
 
 IL_0019_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs:31>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs:31>
 				Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_4;
 				L_4 = Enumerator_get_Current_m1E21C02C0D7FEAFFD451F033D2E616D633A251D7_inline((&V_0), Enumerator_get_Current_m1E21C02C0D7FEAFFD451F033D2E616D633A251D7_RuntimeMethod_var);
 				V_1 = L_4;
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs:32>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs:32>
 				Container_t74302BC1028974B0A346A43F334AECB681D79579* L_5 = ___0_container;
 				Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_6 = V_1;
 				NullCheck(L_6);
@@ -8313,7 +8313,7 @@ IL_0019_1:
 
 IL_002d_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs:31>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs:31>
 				bool L_8;
 				L_8 = Enumerator_MoveNext_mDAC08A52E00D45D4C8BB563D4A6462DA8C10CD89((&V_0), Enumerator_MoveNext_mDAC08A52E00D45D4C8BB563D4A6462DA8C10CD89_RuntimeMethod_var);
 				if (L_8)
@@ -8333,17 +8333,17 @@ IL_002d_1:
 
 IL_0046:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs:35>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs:35>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_9 = ___0_container;
 		ControlCommand_tECC2BE832A73AD5873667DCA691A43EF694E04C6* L_10;
 		L_10 = ControlCommand_EndString_m05E7FDE33614880F368A0971828EA25B8168D007(NULL);
 		NullCheck(L_9);
 		Container_AddContent_m2F2BA6E71A20ABB416F17B6235345801A55FEA76(L_9, L_10, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs:36>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs:36>
 		return;
 	}
 }
-// Method Definition Index: 96175
+// Method Definition Index: 96181
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* StringExpression_ToString_m7CEB62354FBF1109D96152E2C728FB8A58495F7E (StringExpression_tE1058617CD97C053B40F01FD20B244A4595D2678* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8361,11 +8361,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* StringExpression_ToString_m7CEB6235
 	memset((&V_1), 0, sizeof(V_1));
 	Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* V_2 = NULL;
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs:40>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs:40>
 		StringBuilder_t* L_0 = (StringBuilder_t*)il2cpp_codegen_object_new(StringBuilder_t_il2cpp_TypeInfo_var);
 		StringBuilder__ctor_m1D99713357DE05DAFA296633639DB55F8C30587D(L_0, NULL);
 		V_0 = L_0;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs:41>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs:41>
 		List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55* L_1;
 		L_1 = Object_get_content_m88C0834BB81829EF344181750AB1DCEE3EF5924F_inline(__this, NULL);
 		NullCheck(L_1);
@@ -8391,11 +8391,11 @@ FINALLY_0034:
 
 IL_0014_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs:41>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs:41>
 				Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_3;
 				L_3 = Enumerator_get_Current_m1E21C02C0D7FEAFFD451F033D2E616D633A251D7_inline((&V_1), Enumerator_get_Current_m1E21C02C0D7FEAFFD451F033D2E616D633A251D7_RuntimeMethod_var);
 				V_2 = L_3;
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs:42>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs:42>
 				StringBuilder_t* L_4 = V_0;
 				Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_5 = V_2;
 				NullCheck(L_5);
@@ -8408,7 +8408,7 @@ IL_0014_1:
 
 IL_0029_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs:41>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs:41>
 				bool L_8;
 				L_8 = Enumerator_MoveNext_mDAC08A52E00D45D4C8BB563D4A6462DA8C10CD89((&V_1), Enumerator_MoveNext_mDAC08A52E00D45D4C8BB563D4A6462DA8C10CD89_RuntimeMethod_var);
 				if (L_8)
@@ -8428,7 +8428,7 @@ IL_0029_1:
 
 IL_0042:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs:44>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs:44>
 		StringBuilder_t* L_9 = V_0;
 		NullCheck(L_9);
 		String_t* L_10;
@@ -8436,7 +8436,7 @@ IL_0042:
 		return L_10;
 	}
 }
-// Method Definition Index: 96176
+// Method Definition Index: 96182
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool StringExpression_Equals_m7AE9C83E2B234A8F564CDC7779235B22E55F0FE8 (StringExpression_tE1058617CD97C053B40F01FD20B244A4595D2678* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8448,10 +8448,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool StringExpression_Equals_m7AE9C83E2B234A8
 	StringExpression_tE1058617CD97C053B40F01FD20B244A4595D2678* V_0 = NULL;
 	String_t* V_1 = NULL;
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs:50>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs:50>
 		RuntimeObject* L_0 = ___0_obj;
 		V_0 = ((StringExpression_tE1058617CD97C053B40F01FD20B244A4595D2678*)IsInstClass((RuntimeObject*)L_0, StringExpression_tE1058617CD97C053B40F01FD20B244A4595D2678_il2cpp_TypeInfo_var));
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs:51>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs:51>
 		StringExpression_tE1058617CD97C053B40F01FD20B244A4595D2678* L_1 = V_0;
 		bool L_2;
 		L_2 = Object_op_Equality_m109E112ACAA3627F5E1EF2BD8C13110F2493CB4D(L_1, (Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7*)NULL, NULL);
@@ -8461,13 +8461,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool StringExpression_Equals_m7AE9C83E2B234A8
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs:51>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs:51>
 		return (bool)0;
 	}
 
 IL_0012:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs:55>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs:55>
 		bool L_3;
 		L_3 = StringExpression_get_isSingleString_m7A6128F11CA9543349BD832F63FC453C02242AF7(__this, NULL);
 		if (!L_3)
@@ -8488,22 +8488,22 @@ IL_0012:
 
 IL_0022:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs:56>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs:56>
 		return (bool)0;
 	}
 
 IL_0024:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs:59>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs:59>
 		String_t* L_6;
 		L_6 = VirtualFuncInvoker0< String_t* >::Invoke(3, __this);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs:60>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs:60>
 		StringExpression_tE1058617CD97C053B40F01FD20B244A4595D2678* L_7 = V_0;
 		NullCheck(L_7);
 		String_t* L_8;
 		L_8 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_7);
 		V_1 = L_8;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs:61>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs:61>
 		String_t* L_9 = V_1;
 		NullCheck(L_6);
 		bool L_10;
@@ -8511,11 +8511,11 @@ IL_0024:
 		return L_10;
 	}
 }
-// Method Definition Index: 96177
+// Method Definition Index: 96183
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t StringExpression_GetHashCode_m70A333635EA213059CF55EBBFA8F274A6042EDB0 (StringExpression_tE1058617CD97C053B40F01FD20B244A4595D2678* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs:66>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/StringExpression.cs:66>
 		String_t* L_0;
 		L_0 = VirtualFuncInvoker0< String_t* >::Invoke(3, __this);
 		NullCheck(L_0);
@@ -8532,11 +8532,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t StringExpression_GetHashCode_m70A3336
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 96178
+// Method Definition Index: 96184
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Object_t42A2989484E361AF6C41D21FD84B2F8EFD905CCB* Tag_GenerateRuntimeObject_m636D06921ECA70894672D5B6D937571A2E3EB36A (Tag_tAB0A2B0822AC49777B0EF88C69DFC2D2A203DFF9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Tag.cs:12>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Tag.cs:12>
 		bool L_0 = __this->___isStart;
 		if (!L_0)
 		{
@@ -8544,7 +8544,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Object_t42A2989484E361AF6C41D21FD84B2F8EFD905
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Tag.cs:13>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Tag.cs:13>
 		ControlCommand_tECC2BE832A73AD5873667DCA691A43EF694E04C6* L_1;
 		L_1 = ControlCommand_BeginTag_m37A9ACB7719492A1A0018CA05935A9FF4A09BA94(NULL);
 		return L_1;
@@ -8552,13 +8552,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Object_t42A2989484E361AF6C41D21FD84B2F8EFD905
 
 IL_000e:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Tag.cs:15>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Tag.cs:15>
 		ControlCommand_tECC2BE832A73AD5873667DCA691A43EF694E04C6* L_2;
 		L_2 = ControlCommand_EndTag_m7D52A9054C2E466DE56F27116C701F3AB8FC6FF5(NULL);
 		return L_2;
 	}
 }
-// Method Definition Index: 96179
+// Method Definition Index: 96185
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Tag_ToString_m7A6F07EF1D8FD5382CD111E9057425A6D325A099 (Tag_tAB0A2B0822AC49777B0EF88C69DFC2D2A203DFF9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8569,7 +8569,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Tag_ToString_m7A6F07EF1D8FD5382CD11
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Tag.cs:20>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Tag.cs:20>
 		bool L_0 = __this->___isStart;
 		if (!L_0)
 		{
@@ -8577,17 +8577,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Tag_ToString_m7A6F07EF1D8FD5382CD11
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Tag.cs:21>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Tag.cs:21>
 		return _stringLiteral6E638CF212B5B361920334F3C5F7A0BA8D5A595A;
 	}
 
 IL_000e:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Tag.cs:23>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Tag.cs:23>
 		return _stringLiteral3ED15D09B55BBD3FEAB3536DB1D49E5F01A02AA2;
 	}
 }
-// Method Definition Index: 96180
+// Method Definition Index: 96186
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tag__ctor_mBEB321BC69DBC6C9C9FAFB126463B02C28D9FFAD (Tag_tAB0A2B0822AC49777B0EF88C69DFC2D2A203DFF9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8603,40 +8603,40 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tag__ctor_mBEB321BC69DBC6C9C9FAFB126463B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 96181
+// Method Definition Index: 96187
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Text_get_text_m14F6F4C8E14BAD266FF794A86DCFA15E89964103 (Text_t2561CF2D715008D9C31C9382C40FE22ACA2010ED* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Text.cs:6>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Text.cs:6>
 		String_t* L_0 = __this->___U3CtextU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 96182
+// Method Definition Index: 96188
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Text_set_text_m174E6D93DD8C69932A47F52A61E8A97CAD231058 (Text_t2561CF2D715008D9C31C9382C40FE22ACA2010ED* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Text.cs:6>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Text.cs:6>
 		String_t* L_0 = ___0_value;
 		__this->___U3CtextU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CtextU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 96183
+// Method Definition Index: 96189
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Text__ctor_mCC47ACBD825802241319B32E0BBAB28EEABD7BE0 (Text_t2561CF2D715008D9C31C9382C40FE22ACA2010ED* __this, String_t* ___0_str, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Text.cs:8>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Text.cs:8>
 		Object__ctor_m9A312B0CEE75C9285FDABFA4EB210AE1EE959A1A(__this, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Text.cs:10>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Text.cs:10>
 		String_t* L_0 = ___0_str;
 		Text_set_text_m174E6D93DD8C69932A47F52A61E8A97CAD231058_inline(__this, L_0, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Text.cs:11>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Text.cs:11>
 		return;
 	}
 }
-// Method Definition Index: 96184
+// Method Definition Index: 96190
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Object_t42A2989484E361AF6C41D21FD84B2F8EFD905CCB* Text_GenerateRuntimeObject_m37E96A22AD4FE182CB416A70DC5D878558861C7C (Text_t2561CF2D715008D9C31C9382C40FE22ACA2010ED* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8646,7 +8646,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Object_t42A2989484E361AF6C41D21FD84B2F8EFD905
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Text.cs:15>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Text.cs:15>
 		String_t* L_0;
 		L_0 = Text_get_text_m14F6F4C8E14BAD266FF794A86DCFA15E89964103_inline(__this, NULL);
 		StringValue_tFBC5F37C3A8E14475BC21BED0BACA3FD68482FD2* L_1 = (StringValue_tFBC5F37C3A8E14475BC21BED0BACA3FD68482FD2*)il2cpp_codegen_object_new(StringValue_tFBC5F37C3A8E14475BC21BED0BACA3FD68482FD2_il2cpp_TypeInfo_var);
@@ -8654,11 +8654,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Object_t42A2989484E361AF6C41D21FD84B2F8EFD905
 		return L_1;
 	}
 }
-// Method Definition Index: 96185
+// Method Definition Index: 96191
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Text_ToString_mFF93259357C991A6C2765C6B47C06314139CFE81 (Text_t2561CF2D715008D9C31C9382C40FE22ACA2010ED* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Text.cs:20>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Text.cs:20>
 		String_t* L_0;
 		L_0 = Text_get_text_m14F6F4C8E14BAD266FF794A86DCFA15E89964103_inline(__this, NULL);
 		return L_0;
@@ -8672,16 +8672,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Text_ToString_mFF93259357C991A6C276
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 96186
+// Method Definition Index: 96192
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Divert_tE272DF3F0AABF09ED4E25477B45C8185D59C5186* TunnelOnwards_get_divertAfter_mB10E1405320A4D7DA07ED66C82387FC658F9CBB8 (TunnelOnwards_tCF30E723E7791A1C048BC095DAC9278CFFD1D450* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:9>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:9>
 		Divert_tE272DF3F0AABF09ED4E25477B45C8185D59C5186* L_0 = __this->____divertAfter;
 		return L_0;
 	}
 }
-// Method Definition Index: 96187
+// Method Definition Index: 96193
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TunnelOnwards_set_divertAfter_m01C473CFA45AFDDB1D43767B0EB0E759A3866220 (TunnelOnwards_tCF30E723E7791A1C048BC095DAC9278CFFD1D450* __this, Divert_tE272DF3F0AABF09ED4E25477B45C8185D59C5186* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8691,11 +8691,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TunnelOnwards_set_divertAfter_m01C473CFA
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:12>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:12>
 		Divert_tE272DF3F0AABF09ED4E25477B45C8185D59C5186* L_0 = ___0_value;
 		__this->____divertAfter = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____divertAfter), (void*)L_0);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:13>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:13>
 		Divert_tE272DF3F0AABF09ED4E25477B45C8185D59C5186* L_1 = __this->____divertAfter;
 		bool L_2;
 		L_2 = Object_op_Implicit_m9F097EFB17152A15AF84817F6B4AE720A6A6094E(L_1, NULL);
@@ -8705,7 +8705,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TunnelOnwards_set_divertAfter_m01C473CFA
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:13>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:13>
 		Divert_tE272DF3F0AABF09ED4E25477B45C8185D59C5186* L_3 = __this->____divertAfter;
 		Divert_tE272DF3F0AABF09ED4E25477B45C8185D59C5186* L_4;
 		L_4 = Object_AddContent_TisDivert_tE272DF3F0AABF09ED4E25477B45C8185D59C5186_mBC95D48BAC65CC876001759F3105E180FAC26E32(__this, L_3, Object_AddContent_TisDivert_tE272DF3F0AABF09ED4E25477B45C8185D59C5186_mBC95D48BAC65CC876001759F3105E180FAC26E32_RuntimeMethod_var);
@@ -8713,11 +8713,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TunnelOnwards_set_divertAfter_m01C473CFA
 
 IL_0021:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:14>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:14>
 		return;
 	}
 }
-// Method Definition Index: 96188
+// Method Definition Index: 96194
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Object_t42A2989484E361AF6C41D21FD84B2F8EFD905CCB* TunnelOnwards_GenerateRuntimeObject_m6905BF11D1F7CE4BADD2B5856F96E355F2C4F1FC (TunnelOnwards_tCF30E723E7791A1C048BC095DAC9278CFFD1D450* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8746,17 +8746,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Object_t42A2989484E361AF6C41D21FD84B2F8EFD905
 	int32_t V_9 = 0;
 	VariableReference_t6DBE40073F3B791D54C0BB2443D9049B65836819* V_10 = NULL;
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:20>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:20>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_0 = (Container_t74302BC1028974B0A346A43F334AECB681D79579*)il2cpp_codegen_object_new(Container_t74302BC1028974B0A346A43F334AECB681D79579_il2cpp_TypeInfo_var);
 		Container__ctor_mE49EAAD4892EDEFFDA64A7A54823A021ECBF4F84(L_0, NULL);
 		V_0 = L_0;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:23>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:23>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_1 = V_0;
 		ControlCommand_tECC2BE832A73AD5873667DCA691A43EF694E04C6* L_2;
 		L_2 = ControlCommand_EvalStart_mF134D17B2D15983A7CC67A8C45FCCD491EAF820D(NULL);
 		NullCheck(L_1);
 		Container_AddContent_m2F2BA6E71A20ABB416F17B6235345801A55FEA76(L_1, L_2, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:25>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:25>
 		Divert_tE272DF3F0AABF09ED4E25477B45C8185D59C5186* L_3;
 		L_3 = TunnelOnwards_get_divertAfter_mB10E1405320A4D7DA07ED66C82387FC658F9CBB8_inline(__this, NULL);
 		bool L_4;
@@ -8767,17 +8767,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Object_t42A2989484E361AF6C41D21FD84B2F8EFD905
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:28>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:28>
 		Divert_tE272DF3F0AABF09ED4E25477B45C8185D59C5186* L_5;
 		L_5 = TunnelOnwards_get_divertAfter_mB10E1405320A4D7DA07ED66C82387FC658F9CBB8_inline(__this, NULL);
 		NullCheck(L_5);
 		Object_t42A2989484E361AF6C41D21FD84B2F8EFD905CCB* L_6;
 		L_6 = VirtualFuncInvoker0< Object_t42A2989484E361AF6C41D21FD84B2F8EFD905CCB* >::Invoke(8, L_5);
 		V_1 = L_6;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:29>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:29>
 		Object_t42A2989484E361AF6C41D21FD84B2F8EFD905CCB* L_7 = V_1;
 		V_2 = ((Container_t74302BC1028974B0A346A43F334AECB681D79579*)IsInstClass((RuntimeObject*)L_7, Container_t74302BC1028974B0A346A43F334AECB681D79579_il2cpp_TypeInfo_var));
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:30>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:30>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_8 = V_2;
 		bool L_9;
 		L_9 = Object_op_Implicit_m104371B3B40153BF3D5333B969CBFC900C10FCEE(L_8, NULL);
@@ -8787,14 +8787,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Object_t42A2989484E361AF6C41D21FD84B2F8EFD905
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:33>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:33>
 		Divert_tE272DF3F0AABF09ED4E25477B45C8185D59C5186* L_10;
 		L_10 = TunnelOnwards_get_divertAfter_mB10E1405320A4D7DA07ED66C82387FC658F9CBB8_inline(__this, NULL);
 		NullCheck(L_10);
 		List_1_tD3E001C32948A6DD125E6901AC81E86BE69FBE9F* L_11;
 		L_11 = Divert_get_arguments_m835B3FA82AB94C9D96B4472519BE0C4776F6FD5B_inline(L_10, NULL);
 		V_4 = L_11;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:34>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:34>
 		List_1_tD3E001C32948A6DD125E6901AC81E86BE69FBE9F* L_12 = V_4;
 		if (!L_12)
 		{
@@ -8812,18 +8812,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Object_t42A2989484E361AF6C41D21FD84B2F8EFD905
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:37>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:37>
 		V_5 = (-1);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:38>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:38>
 		V_6 = (-1);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:39>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:39>
 		V_7 = 0;
 		goto IL_00b0;
 	}
 
 IL_006b:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:40>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:40>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_15 = V_2;
 		NullCheck(L_15);
 		List_1_t2BC6A197CD71513743E4BF7350A3873D6C7B0F63* L_16;
@@ -8833,7 +8833,7 @@ IL_006b:
 		Object_t42A2989484E361AF6C41D21FD84B2F8EFD905CCB* L_18;
 		L_18 = List_1_get_Item_m3C3F22715654DE8C42400613AF9E28276BD46D37(L_16, L_17, List_1_get_Item_m3C3F22715654DE8C42400613AF9E28276BD46D37_RuntimeMethod_var);
 		V_8 = ((ControlCommand_tECC2BE832A73AD5873667DCA691A43EF694E04C6*)IsInstClass((RuntimeObject*)L_18, ControlCommand_tECC2BE832A73AD5873667DCA691A43EF694E04C6_il2cpp_TypeInfo_var));
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:41>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:41>
 		ControlCommand_tECC2BE832A73AD5873667DCA691A43EF694E04C6* L_19 = V_8;
 		bool L_20;
 		L_20 = Object_op_Implicit_m104371B3B40153BF3D5333B969CBFC900C10FCEE(L_19, NULL);
@@ -8843,7 +8843,7 @@ IL_006b:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:42>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:42>
 		int32_t L_21 = V_5;
 		if ((!(((uint32_t)L_21) == ((uint32_t)(-1)))))
 		{
@@ -8861,7 +8861,7 @@ IL_006b:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:43>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:43>
 		int32_t L_24 = V_7;
 		V_5 = L_24;
 		goto IL_00aa;
@@ -8869,7 +8869,7 @@ IL_006b:
 
 IL_009c:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:44>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:44>
 		ControlCommand_tECC2BE832A73AD5873667DCA691A43EF694E04C6* L_25 = V_8;
 		NullCheck(L_25);
 		int32_t L_26;
@@ -8880,21 +8880,21 @@ IL_009c:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:45>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:45>
 		int32_t L_27 = V_7;
 		V_6 = L_27;
 	}
 
 IL_00aa:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:39>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:39>
 		int32_t L_28 = V_7;
 		V_7 = ((int32_t)il2cpp_codegen_add(L_28, 1));
 	}
 
 IL_00b0:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:39>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:39>
 		int32_t L_29 = V_7;
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_30 = V_2;
 		NullCheck(L_30);
@@ -8909,7 +8909,7 @@ IL_00b0:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:49>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:49>
 		int32_t L_33 = V_5;
 		V_9 = ((int32_t)il2cpp_codegen_add(L_33, 1));
 		goto IL_00f3;
@@ -8917,7 +8917,7 @@ IL_00b0:
 
 IL_00c7:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:50>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:50>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_34 = V_2;
 		NullCheck(L_34);
 		List_1_t2BC6A197CD71513743E4BF7350A3873D6C7B0F63* L_35;
@@ -8926,10 +8926,10 @@ IL_00c7:
 		NullCheck(L_35);
 		Object_t42A2989484E361AF6C41D21FD84B2F8EFD905CCB* L_37;
 		L_37 = List_1_get_Item_m3C3F22715654DE8C42400613AF9E28276BD46D37(L_35, L_36, List_1_get_Item_m3C3F22715654DE8C42400613AF9E28276BD46D37_RuntimeMethod_var);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:51>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:51>
 		NullCheck(L_37);
 		Object_set_parent_m313E7123FE19E7C089F5856A0B9AB83D092AF2FF_inline(L_37, (Object_t42A2989484E361AF6C41D21FD84B2F8EFD905CCB*)NULL, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:52>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:52>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_38 = V_0;
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_39 = V_2;
 		NullCheck(L_39);
@@ -8941,14 +8941,14 @@ IL_00c7:
 		L_42 = List_1_get_Item_m3C3F22715654DE8C42400613AF9E28276BD46D37(L_40, L_41, List_1_get_Item_m3C3F22715654DE8C42400613AF9E28276BD46D37_RuntimeMethod_var);
 		NullCheck(L_38);
 		Container_AddContent_m2F2BA6E71A20ABB416F17B6235345801A55FEA76(L_38, L_42, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:49>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:49>
 		int32_t L_43 = V_9;
 		V_9 = ((int32_t)il2cpp_codegen_add(L_43, 1));
 	}
 
 IL_00f3:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:49>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:49>
 		int32_t L_44 = V_9;
 		int32_t L_45 = V_6;
 		if ((((int32_t)L_44) < ((int32_t)L_45)))
@@ -8959,10 +8959,10 @@ IL_00f3:
 
 IL_00f9:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:58>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:58>
 		Object_t42A2989484E361AF6C41D21FD84B2F8EFD905CCB* L_46 = V_1;
 		V_3 = ((Divert_t74B807563B5BEDFB81EA404CC61CDC797ECD04CA*)IsInstClass((RuntimeObject*)L_46, Divert_t74B807563B5BEDFB81EA404CC61CDC797ECD04CA_il2cpp_TypeInfo_var));
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:59>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:59>
 		Divert_t74B807563B5BEDFB81EA404CC61CDC797ECD04CA* L_47 = V_3;
 		bool L_48;
 		L_48 = Object_op_Inequality_m5A3D926C60E6D42C9B95670417A6F0E60040FEF4(L_47, (Object_t42A2989484E361AF6C41D21FD84B2F8EFD905CCB*)NULL, NULL);
@@ -8982,7 +8982,7 @@ IL_00f9:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:60>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:60>
 		Divert_t74B807563B5BEDFB81EA404CC61CDC797ECD04CA* L_51 = V_3;
 		NullCheck(L_51);
 		String_t* L_52;
@@ -8990,7 +8990,7 @@ IL_00f9:
 		VariableReference_t6DBE40073F3B791D54C0BB2443D9049B65836819* L_53 = (VariableReference_t6DBE40073F3B791D54C0BB2443D9049B65836819*)il2cpp_codegen_object_new(VariableReference_t6DBE40073F3B791D54C0BB2443D9049B65836819_il2cpp_TypeInfo_var);
 		VariableReference__ctor_mEFCD8F4CFF06B6A3F076B4688E09AC5DE0786718(L_53, L_52, NULL);
 		V_10 = L_53;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:61>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:61>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_54 = V_0;
 		VariableReference_t6DBE40073F3B791D54C0BB2443D9049B65836819* L_55 = V_10;
 		NullCheck(L_54);
@@ -9000,12 +9000,12 @@ IL_00f9:
 
 IL_0128:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:63>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:63>
 		DivertTargetValue_t14F5A07B60FE4AC786213C9B6457C1920EB09D7B* L_56 = (DivertTargetValue_t14F5A07B60FE4AC786213C9B6457C1920EB09D7B*)il2cpp_codegen_object_new(DivertTargetValue_t14F5A07B60FE4AC786213C9B6457C1920EB09D7B_il2cpp_TypeInfo_var);
 		DivertTargetValue__ctor_m1214D460147B45F9850424DA9BF5D34306720F06(L_56, NULL);
 		__this->____overrideDivertTarget = L_56;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____overrideDivertTarget), (void*)L_56);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:64>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:64>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_57 = V_0;
 		DivertTargetValue_t14F5A07B60FE4AC786213C9B6457C1920EB09D7B* L_58 = __this->____overrideDivertTarget;
 		NullCheck(L_57);
@@ -9015,7 +9015,7 @@ IL_0128:
 
 IL_0141:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:71>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:71>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_59 = V_0;
 		Void_tCAE0FF750A1F4451C4F4184BAB9CC4F5498B2FE0* L_60 = (Void_tCAE0FF750A1F4451C4F4184BAB9CC4F5498B2FE0*)il2cpp_codegen_object_new(Void_tCAE0FF750A1F4451C4F4184BAB9CC4F5498B2FE0_il2cpp_TypeInfo_var);
 		Void__ctor_mE6655AC1CDBDF3AEAF058E98834803EFA65A8886(L_60, NULL);
@@ -9025,31 +9025,31 @@ IL_0141:
 
 IL_014c:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:74>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:74>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_61 = V_0;
 		ControlCommand_tECC2BE832A73AD5873667DCA691A43EF694E04C6* L_62;
 		L_62 = ControlCommand_EvalEnd_m983DEF86B4D9A272399C49B67F20E8665FE9054A(NULL);
 		NullCheck(L_61);
 		Container_AddContent_m2F2BA6E71A20ABB416F17B6235345801A55FEA76(L_61, L_62, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:76>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:76>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_63 = V_0;
 		ControlCommand_tECC2BE832A73AD5873667DCA691A43EF694E04C6* L_64;
 		L_64 = ControlCommand_PopTunnel_m67685FC32D1FAAF3F6DF9D5CFA18C7A6D1C2995C(NULL);
 		NullCheck(L_63);
 		Container_AddContent_m2F2BA6E71A20ABB416F17B6235345801A55FEA76(L_63, L_64, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:78>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:78>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_65 = V_0;
 		return L_65;
 	}
 }
-// Method Definition Index: 96189
+// Method Definition Index: 96195
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TunnelOnwards_ResolveReferences_mB2C6394CF5BDC3F3F73F0C3C613F72ADA223DE84 (TunnelOnwards_tCF30E723E7791A1C048BC095DAC9278CFFD1D450* __this, Story_tEBE39AA9D821413F842FC1EA2FC7A087466078F7* ___0_context, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:83>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:83>
 		Story_tEBE39AA9D821413F842FC1EA2FC7A087466078F7* L_0 = ___0_context;
 		Object_ResolveReferences_m8BC5DD701019191459A9CEF84D71FFBE2FEDFF8E(__this, L_0, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:85>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:85>
 		Divert_tE272DF3F0AABF09ED4E25477B45C8185D59C5186* L_1;
 		L_1 = TunnelOnwards_get_divertAfter_mB10E1405320A4D7DA07ED66C82387FC658F9CBB8_inline(__this, NULL);
 		bool L_2;
@@ -9073,7 +9073,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TunnelOnwards_ResolveReferences_mB2C6394
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:86>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:86>
 		DivertTargetValue_t14F5A07B60FE4AC786213C9B6457C1920EB09D7B* L_6 = __this->____overrideDivertTarget;
 		Divert_tE272DF3F0AABF09ED4E25477B45C8185D59C5186* L_7;
 		L_7 = TunnelOnwards_get_divertAfter_mB10E1405320A4D7DA07ED66C82387FC658F9CBB8_inline(__this, NULL);
@@ -9089,11 +9089,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TunnelOnwards_ResolveReferences_mB2C6394
 
 IL_0041:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:87>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:87>
 		return;
 	}
 }
-// Method Definition Index: 96190
+// Method Definition Index: 96196
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TunnelOnwards__ctor_m7750D4F7987935B853D06036AC4FDEC3BF930048 (TunnelOnwards_tCF30E723E7791A1C048BC095DAC9278CFFD1D450* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9109,11 +9109,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TunnelOnwards__ctor_m7750D4F7987935B853D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 96191
+// Method Definition Index: 96197
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* VariableAssignment_get_variableName_m2587033C9344C676A5974DC17EE9BD060783E53B (VariableAssignment_tD4DE7C66FEC35C64555CA2CB117AF682C9A48C82* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:9>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:9>
 		Identifier_t0F346C00621758823B8D81B08308C6B9C24089DD* L_0;
 		L_0 = VariableAssignment_get_variableIdentifier_m5E36193B2BC86B48D2567C6EA389B4C5FE67CB9A_inline(__this, NULL);
 		NullCheck(L_0);
@@ -9121,109 +9121,109 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* VariableAssignment_get_variableName
 		return L_1;
 	}
 }
-// Method Definition Index: 96192
+// Method Definition Index: 96198
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Identifier_t0F346C00621758823B8D81B08308C6B9C24089DD* VariableAssignment_get_variableIdentifier_m5E36193B2BC86B48D2567C6EA389B4C5FE67CB9A (VariableAssignment_tD4DE7C66FEC35C64555CA2CB117AF682C9A48C82* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:11>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:11>
 		Identifier_t0F346C00621758823B8D81B08308C6B9C24089DD* L_0 = __this->___U3CvariableIdentifierU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 96193
+// Method Definition Index: 96199
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VariableAssignment_set_variableIdentifier_m16684EEAA53B0C8C0A31B1072977CC5C115A35E3 (VariableAssignment_tD4DE7C66FEC35C64555CA2CB117AF682C9A48C82* __this, Identifier_t0F346C00621758823B8D81B08308C6B9C24089DD* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:11>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:11>
 		Identifier_t0F346C00621758823B8D81B08308C6B9C24089DD* L_0 = ___0_value;
 		__this->___U3CvariableIdentifierU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CvariableIdentifierU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 96194
+// Method Definition Index: 96200
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Expression_tA6C9FD368D7951E1A1470D0F749E376D800BAB0D* VariableAssignment_get_expression_m13D8156A0B8D39005C6DACD9D998E15FB3F1B831 (VariableAssignment_tD4DE7C66FEC35C64555CA2CB117AF682C9A48C82* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:12>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:12>
 		Expression_tA6C9FD368D7951E1A1470D0F749E376D800BAB0D* L_0 = __this->___U3CexpressionU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 96195
+// Method Definition Index: 96201
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VariableAssignment_set_expression_m4CE2FDFCA9A76FEF3E8C76E0B93FE7CE9705AD48 (VariableAssignment_tD4DE7C66FEC35C64555CA2CB117AF682C9A48C82* __this, Expression_tA6C9FD368D7951E1A1470D0F749E376D800BAB0D* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:12>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:12>
 		Expression_tA6C9FD368D7951E1A1470D0F749E376D800BAB0D* L_0 = ___0_value;
 		__this->___U3CexpressionU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CexpressionU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 96196
+// Method Definition Index: 96202
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ListDefinition_t79B40483F197DBBBADE985496F0220CEB1E99B65* VariableAssignment_get_listDefinition_m17FBBD9E9268937E32AEBDF0723017B2660A213A (VariableAssignment_tD4DE7C66FEC35C64555CA2CB117AF682C9A48C82* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:13>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:13>
 		ListDefinition_t79B40483F197DBBBADE985496F0220CEB1E99B65* L_0 = __this->___U3ClistDefinitionU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 96197
+// Method Definition Index: 96203
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VariableAssignment_set_listDefinition_m7675DC40AF4DAFF3918BE94FF4DD9190955AF87A (VariableAssignment_tD4DE7C66FEC35C64555CA2CB117AF682C9A48C82* __this, ListDefinition_t79B40483F197DBBBADE985496F0220CEB1E99B65* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:13>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:13>
 		ListDefinition_t79B40483F197DBBBADE985496F0220CEB1E99B65* L_0 = ___0_value;
 		__this->___U3ClistDefinitionU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3ClistDefinitionU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 96198
+// Method Definition Index: 96204
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VariableAssignment_get_isGlobalDeclaration_mE9B8A59B6DD76E3618AC70239902234592DE4E3E (VariableAssignment_tD4DE7C66FEC35C64555CA2CB117AF682C9A48C82* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:15>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:15>
 		bool L_0 = __this->___U3CisGlobalDeclarationU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 96199
+// Method Definition Index: 96205
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VariableAssignment_set_isGlobalDeclaration_m3B705D1B9A8EC0FB9C5AB5B2B80B690ACD50D86D (VariableAssignment_tD4DE7C66FEC35C64555CA2CB117AF682C9A48C82* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:15>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:15>
 		bool L_0 = ___0_value;
 		__this->___U3CisGlobalDeclarationU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 96200
+// Method Definition Index: 96206
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VariableAssignment_get_isNewTemporaryDeclaration_mACF69876ACD56361BDC05A612795D2616FF6DF46 (VariableAssignment_tD4DE7C66FEC35C64555CA2CB117AF682C9A48C82* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:16>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:16>
 		bool L_0 = __this->___U3CisNewTemporaryDeclarationU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 96201
+// Method Definition Index: 96207
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VariableAssignment_set_isNewTemporaryDeclaration_mC9E125F33848004DC457829CA7F325FE7036E650 (VariableAssignment_tD4DE7C66FEC35C64555CA2CB117AF682C9A48C82* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:16>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:16>
 		bool L_0 = ___0_value;
 		__this->___U3CisNewTemporaryDeclarationU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 96202
+// Method Definition Index: 96208
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VariableAssignment_get_isDeclaration_m303120F48FE6770B5B59269240F63F40631554C5 (VariableAssignment_tD4DE7C66FEC35C64555CA2CB117AF682C9A48C82* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:20>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:20>
 		bool L_0;
 		L_0 = VariableAssignment_get_isGlobalDeclaration_mE9B8A59B6DD76E3618AC70239902234592DE4E3E_inline(__this, NULL);
 		if (L_0)
@@ -9242,7 +9242,7 @@ IL_000f:
 		return (bool)1;
 	}
 }
-// Method Definition Index: 96203
+// Method Definition Index: 96209
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VariableAssignment__ctor_m576B18F74098B06A9C0E950EEB598428DD8C4980 (VariableAssignment_tD4DE7C66FEC35C64555CA2CB117AF682C9A48C82* __this, Identifier_t0F346C00621758823B8D81B08308C6B9C24089DD* ___0_identifier, Expression_tA6C9FD368D7951E1A1470D0F749E376D800BAB0D* ___1_assignedExpression, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9252,12 +9252,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VariableAssignment__ctor_m576B18F74098B0
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:24>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:24>
 		Object__ctor_m9A312B0CEE75C9285FDABFA4EB210AE1EE959A1A(__this, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:26>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:26>
 		Identifier_t0F346C00621758823B8D81B08308C6B9C24089DD* L_0 = ___0_identifier;
 		VariableAssignment_set_variableIdentifier_m16684EEAA53B0C8C0A31B1072977CC5C115A35E3_inline(__this, L_0, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:29>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:29>
 		Expression_tA6C9FD368D7951E1A1470D0F749E376D800BAB0D* L_1 = ___1_assignedExpression;
 		bool L_2;
 		L_2 = Object_op_Implicit_m9F097EFB17152A15AF84817F6B4AE720A6A6094E(L_1, NULL);
@@ -9267,7 +9267,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VariableAssignment__ctor_m576B18F74098B0
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:30>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:30>
 		Expression_tA6C9FD368D7951E1A1470D0F749E376D800BAB0D* L_3 = ___1_assignedExpression;
 		Expression_tA6C9FD368D7951E1A1470D0F749E376D800BAB0D* L_4;
 		L_4 = Object_AddContent_TisExpression_tA6C9FD368D7951E1A1470D0F749E376D800BAB0D_m050CFBBD924504CF14772AE2DEFF3C05A7CCA82F(__this, L_3, Object_AddContent_TisExpression_tA6C9FD368D7951E1A1470D0F749E376D800BAB0D_m050CFBBD924504CF14772AE2DEFF3C05A7CCA82F_RuntimeMethod_var);
@@ -9276,11 +9276,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VariableAssignment__ctor_m576B18F74098B0
 
 IL_0022:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:31>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:31>
 		return;
 	}
 }
-// Method Definition Index: 96204
+// Method Definition Index: 96210
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VariableAssignment__ctor_m8EEA71A8AADA69439C198FFACDEDA4B781B1670A (VariableAssignment_tD4DE7C66FEC35C64555CA2CB117AF682C9A48C82* __this, Identifier_t0F346C00621758823B8D81B08308C6B9C24089DD* ___0_identifier, ListDefinition_t79B40483F197DBBBADE985496F0220CEB1E99B65* ___1_listDef, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9290,12 +9290,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VariableAssignment__ctor_m8EEA71A8AADA69
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:33>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:33>
 		Object__ctor_m9A312B0CEE75C9285FDABFA4EB210AE1EE959A1A(__this, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:35>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:35>
 		Identifier_t0F346C00621758823B8D81B08308C6B9C24089DD* L_0 = ___0_identifier;
 		VariableAssignment_set_variableIdentifier_m16684EEAA53B0C8C0A31B1072977CC5C115A35E3_inline(__this, L_0, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:37>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:37>
 		ListDefinition_t79B40483F197DBBBADE985496F0220CEB1E99B65* L_1 = ___1_listDef;
 		bool L_2;
 		L_2 = Object_op_Implicit_m9F097EFB17152A15AF84817F6B4AE720A6A6094E(L_1, NULL);
@@ -9305,12 +9305,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VariableAssignment__ctor_m8EEA71A8AADA69
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:38>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:38>
 		ListDefinition_t79B40483F197DBBBADE985496F0220CEB1E99B65* L_3 = ___1_listDef;
 		ListDefinition_t79B40483F197DBBBADE985496F0220CEB1E99B65* L_4;
 		L_4 = Object_AddContent_TisListDefinition_t79B40483F197DBBBADE985496F0220CEB1E99B65_m6169C2A2781ABFF41FF6C9D08702D6F37EC74523(__this, L_3, Object_AddContent_TisListDefinition_t79B40483F197DBBBADE985496F0220CEB1E99B65_m6169C2A2781ABFF41FF6C9D08702D6F37EC74523_RuntimeMethod_var);
 		VariableAssignment_set_listDefinition_m7675DC40AF4DAFF3918BE94FF4DD9190955AF87A_inline(__this, L_4, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:39>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:39>
 		ListDefinition_t79B40483F197DBBBADE985496F0220CEB1E99B65* L_5;
 		L_5 = VariableAssignment_get_listDefinition_m17FBBD9E9268937E32AEBDF0723017B2660A213A_inline(__this, NULL);
 		NullCheck(L_5);
@@ -9320,13 +9320,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VariableAssignment__ctor_m8EEA71A8AADA69
 
 IL_002e:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:43>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:43>
 		VariableAssignment_set_isGlobalDeclaration_m3B705D1B9A8EC0FB9C5AB5B2B80B690ACD50D86D_inline(__this, (bool)1, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:44>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:44>
 		return;
 	}
 }
-// Method Definition Index: 96205
+// Method Definition Index: 96211
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Object_t42A2989484E361AF6C41D21FD84B2F8EFD905CCB* VariableAssignment_GenerateRuntimeObject_m664EBA0F32D405C0D7D400536E60B272B6EDCC4A (VariableAssignment_tD4DE7C66FEC35C64555CA2CB117AF682C9A48C82* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9339,9 +9339,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Object_t42A2989484E361AF6C41D21FD84B2F8EFD905
 	FlowBase_tC404CD82693644CCF6B95E73D16916F34439E822* V_0 = NULL;
 	Container_t74302BC1028974B0A346A43F334AECB681D79579* V_1 = NULL;
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:48>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:48>
 		V_0 = (FlowBase_tC404CD82693644CCF6B95E73D16916F34439E822*)NULL;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:49>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:49>
 		bool L_0;
 		L_0 = VariableAssignment_get_isGlobalDeclaration_mE9B8A59B6DD76E3618AC70239902234592DE4E3E_inline(__this, NULL);
 		if (!L_0)
@@ -9350,7 +9350,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Object_t42A2989484E361AF6C41D21FD84B2F8EFD905
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:50>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:50>
 		Story_tEBE39AA9D821413F842FC1EA2FC7A087466078F7* L_1;
 		L_1 = Object_get_story_mC48C490DCCF22AEC1CC28FEA37BDD22AA31C8B1C(__this, NULL);
 		V_0 = L_1;
@@ -9359,7 +9359,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Object_t42A2989484E361AF6C41D21FD84B2F8EFD905
 
 IL_0013:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:51>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:51>
 		bool L_2;
 		L_2 = VariableAssignment_get_isNewTemporaryDeclaration_mACF69876ACD56361BDC05A612795D2616FF6DF46_inline(__this, NULL);
 		if (!L_2)
@@ -9368,7 +9368,7 @@ IL_0013:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:52>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:52>
 		FlowBase_tC404CD82693644CCF6B95E73D16916F34439E822* L_3;
 		L_3 = Object_ClosestFlowBase_mFBB185F20F260315B894395561CE129F351600AC(__this, NULL);
 		V_0 = L_3;
@@ -9376,7 +9376,7 @@ IL_0013:
 
 IL_0022:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:55>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:55>
 		FlowBase_tC404CD82693644CCF6B95E73D16916F34439E822* L_4 = V_0;
 		bool L_5;
 		L_5 = Object_op_Implicit_m9F097EFB17152A15AF84817F6B4AE720A6A6094E(L_4, NULL);
@@ -9386,7 +9386,7 @@ IL_0022:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:56>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:56>
 		FlowBase_tC404CD82693644CCF6B95E73D16916F34439E822* L_6 = V_0;
 		NullCheck(L_6);
 		FlowBase_TryAddNewVariableDeclaration_mC160F28B3C771CE96BFF6AD1F0DA0DB41D5B2F0B(L_6, __this, NULL);
@@ -9394,7 +9394,7 @@ IL_0022:
 
 IL_0031:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:61>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:61>
 		bool L_7;
 		L_7 = VariableAssignment_get_isGlobalDeclaration_mE9B8A59B6DD76E3618AC70239902234592DE4E3E_inline(__this, NULL);
 		if (!L_7)
@@ -9403,17 +9403,17 @@ IL_0031:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:62>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:62>
 		return (Object_t42A2989484E361AF6C41D21FD84B2F8EFD905CCB*)NULL;
 	}
 
 IL_003b:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:64>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:64>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_8 = (Container_t74302BC1028974B0A346A43F334AECB681D79579*)il2cpp_codegen_object_new(Container_t74302BC1028974B0A346A43F334AECB681D79579_il2cpp_TypeInfo_var);
 		Container__ctor_mE49EAAD4892EDEFFDA64A7A54823A021ECBF4F84(L_8, NULL);
 		V_1 = L_8;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:67>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:67>
 		Expression_tA6C9FD368D7951E1A1470D0F749E376D800BAB0D* L_9;
 		L_9 = VariableAssignment_get_expression_m13D8156A0B8D39005C6DACD9D998E15FB3F1B831_inline(__this, NULL);
 		bool L_10;
@@ -9424,7 +9424,7 @@ IL_003b:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:68>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:68>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_11 = V_1;
 		Expression_tA6C9FD368D7951E1A1470D0F749E376D800BAB0D* L_12;
 		L_12 = VariableAssignment_get_expression_m13D8156A0B8D39005C6DACD9D998E15FB3F1B831_inline(__this, NULL);
@@ -9438,7 +9438,7 @@ IL_003b:
 
 IL_0062:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:69>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:69>
 		ListDefinition_t79B40483F197DBBBADE985496F0220CEB1E99B65* L_14;
 		L_14 = VariableAssignment_get_listDefinition_m17FBBD9E9268937E32AEBDF0723017B2660A213A_inline(__this, NULL);
 		bool L_15;
@@ -9449,7 +9449,7 @@ IL_0062:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:70>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:70>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_16 = V_1;
 		ListDefinition_t79B40483F197DBBBADE985496F0220CEB1E99B65* L_17;
 		L_17 = VariableAssignment_get_listDefinition_m17FBBD9E9268937E32AEBDF0723017B2660A213A_inline(__this, NULL);
@@ -9462,7 +9462,7 @@ IL_0062:
 
 IL_0081:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:72>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:72>
 		String_t* L_19;
 		L_19 = VariableAssignment_get_variableName_m2587033C9344C676A5974DC17EE9BD060783E53B(__this, NULL);
 		bool L_20;
@@ -9471,17 +9471,17 @@ IL_0081:
 		VariableAssignment__ctor_m34573492CA6DA1C98F74FD9F2F3ECCB2FCE7E1B6(L_21, L_19, L_20, NULL);
 		__this->____runtimeAssignment = L_21;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____runtimeAssignment), (void*)L_21);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:73>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:73>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_22 = V_1;
 		VariableAssignment_t058919DAC79735A64C2F25B12A2A509D653022B9* L_23 = __this->____runtimeAssignment;
 		NullCheck(L_22);
 		Container_AddContent_m2F2BA6E71A20ABB416F17B6235345801A55FEA76(L_22, L_23, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:75>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:75>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_24 = V_1;
 		return L_24;
 	}
 }
-// Method Definition Index: 96206
+// Method Definition Index: 96212
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VariableAssignment_ResolveReferences_m37501252D5701FF31348F73522385B7C3485DE21 (VariableAssignment_tD4DE7C66FEC35C64555CA2CB117AF682C9A48C82* __this, Story_tEBE39AA9D821413F842FC1EA2FC7A087466078F7* ___0_context, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9510,10 +9510,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VariableAssignment_ResolveReferences_m37
 	VariableAssignment_tD4DE7C66FEC35C64555CA2CB117AF682C9A48C82* G_B5_2 = NULL;
 	Story_tEBE39AA9D821413F842FC1EA2FC7A087466078F7* G_B5_3 = NULL;
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:80>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:80>
 		Story_tEBE39AA9D821413F842FC1EA2FC7A087466078F7* L_0 = ___0_context;
 		Object_ResolveReferences_m8BC5DD701019191459A9CEF84D71FFBE2FEDFF8E(__this, L_0, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:83>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:83>
 		bool L_1;
 		L_1 = VariableAssignment_get_isDeclaration_m303120F48FE6770B5B59269240F63F40631554C5(__this, NULL);
 		if (!L_1)
@@ -9532,7 +9532,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VariableAssignment_ResolveReferences_m37
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:84>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:84>
 		Story_tEBE39AA9D821413F842FC1EA2FC7A087466078F7* L_4 = ___0_context;
 		Identifier_t0F346C00621758823B8D81B08308C6B9C24089DD* L_5;
 		L_5 = VariableAssignment_get_variableIdentifier_m5E36193B2BC86B48D2567C6EA389B4C5FE67CB9A_inline(__this, NULL);
@@ -9573,7 +9573,7 @@ IL_0031:
 
 IL_0037:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:87>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:87>
 		bool L_7;
 		L_7 = VariableAssignment_get_isGlobalDeclaration_mE9B8A59B6DD76E3618AC70239902234592DE4E3E_inline(__this, NULL);
 		if (!L_7)
@@ -9582,11 +9582,11 @@ IL_0037:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:88>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:88>
 		Expression_tA6C9FD368D7951E1A1470D0F749E376D800BAB0D* L_8;
 		L_8 = VariableAssignment_get_expression_m13D8156A0B8D39005C6DACD9D998E15FB3F1B831_inline(__this, NULL);
 		V_0 = ((VariableReference_tB87C62204639CBB2363DC6DC4A5974869787F049*)IsInstClass((RuntimeObject*)L_8, VariableReference_tB87C62204639CBB2363DC6DC4A5974869787F049_il2cpp_TypeInfo_var));
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:89>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:89>
 		VariableReference_tB87C62204639CBB2363DC6DC4A5974869787F049* L_9 = V_0;
 		bool L_10;
 		L_10 = Object_op_Implicit_m9F097EFB17152A15AF84817F6B4AE720A6A6094E(L_9, NULL);
@@ -9614,13 +9614,13 @@ IL_0037:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:90>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:90>
 		VirtualActionInvoker3< String_t*, Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7*, bool >::Invoke(10, __this, _stringLiteralA871E06BD04BA167F0121D2D4D2A6C4C82D64CE6, (Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7*)NULL, (bool)0);
 	}
 
 IL_0070:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:94>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:94>
 		bool L_15;
 		L_15 = VariableAssignment_get_isNewTemporaryDeclaration_mACF69876ACD56361BDC05A612795D2616FF6DF46_inline(__this, NULL);
 		if (L_15)
@@ -9629,7 +9629,7 @@ IL_0070:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:95>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:95>
 		Story_tEBE39AA9D821413F842FC1EA2FC7A087466078F7* L_16 = ___0_context;
 		String_t* L_17;
 		L_17 = VariableAssignment_get_variableName_m2587033C9344C676A5974DC17EE9BD060783E53B(__this, NULL);
@@ -9637,7 +9637,7 @@ IL_0070:
 		VariableResolveResult_t99D1D81240E93D5ADA4FE994AFF5E37D5199D1B2 L_18;
 		L_18 = FlowBase_ResolveVariableWithName_m017DF795D3DA6FF4644793B10ED8B6386171E2C0(L_16, L_17, __this, NULL);
 		V_1 = L_18;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:96>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:96>
 		VariableResolveResult_t99D1D81240E93D5ADA4FE994AFF5E37D5199D1B2 L_19 = V_1;
 		bool L_20 = L_19.___found;
 		if (L_20)
@@ -9646,7 +9646,7 @@ IL_0070:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:97>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:97>
 		Story_tEBE39AA9D821413F842FC1EA2FC7A087466078F7* L_21;
 		L_21 = Object_get_story_mC48C490DCCF22AEC1CC28FEA37BDD22AA31C8B1C(__this, NULL);
 		NullCheck(L_21);
@@ -9662,7 +9662,7 @@ IL_0070:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:98>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:98>
 		String_t* L_25;
 		L_25 = VariableAssignment_get_variableName_m2587033C9344C676A5974DC17EE9BD060783E53B(__this, NULL);
 		String_t* L_26;
@@ -9673,7 +9673,7 @@ IL_0070:
 
 IL_00c8:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:100>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:100>
 		String_t* L_27;
 		L_27 = VariableAssignment_get_variableName_m2587033C9344C676A5974DC17EE9BD060783E53B(__this, NULL);
 		String_t* L_28;
@@ -9683,7 +9683,7 @@ IL_00c8:
 
 IL_00e5:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:106>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:106>
 		VariableAssignment_t058919DAC79735A64C2F25B12A2A509D653022B9* L_29 = __this->____runtimeAssignment;
 		bool L_30;
 		L_30 = Object_op_Inequality_m5A3D926C60E6D42C9B95670417A6F0E60040FEF4(L_29, (Object_t42A2989484E361AF6C41D21FD84B2F8EFD905CCB*)NULL, NULL);
@@ -9693,7 +9693,7 @@ IL_00e5:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:107>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:107>
 		VariableAssignment_t058919DAC79735A64C2F25B12A2A509D653022B9* L_31 = __this->____runtimeAssignment;
 		VariableResolveResult_t99D1D81240E93D5ADA4FE994AFF5E37D5199D1B2 L_32 = V_1;
 		bool L_33 = L_32.___isGlobal;
@@ -9703,11 +9703,11 @@ IL_00e5:
 
 IL_0104:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:109>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:109>
 		return;
 	}
 }
-// Method Definition Index: 96207
+// Method Definition Index: 96213
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* VariableAssignment_get_typeName_m46F99307B242EA5D12AAB2B59A01F0FA37727C41 (VariableAssignment_tD4DE7C66FEC35C64555CA2CB117AF682C9A48C82* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9719,7 +9719,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* VariableAssignment_get_typeName_m46
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:114>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:114>
 		bool L_0;
 		L_0 = VariableAssignment_get_isNewTemporaryDeclaration_mACF69876ACD56361BDC05A612795D2616FF6DF46_inline(__this, NULL);
 		if (!L_0)
@@ -9728,13 +9728,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* VariableAssignment_get_typeName_m46
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:114>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:114>
 		return _stringLiteralA8C33B2C3FF3E4462FC219B3B38E8DDD1832BDE5;
 	}
 
 IL_000e:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:115>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:115>
 		bool L_1;
 		L_1 = VariableAssignment_get_isGlobalDeclaration_mE9B8A59B6DD76E3618AC70239902234592DE4E3E_inline(__this, NULL);
 		if (!L_1)
@@ -9743,13 +9743,13 @@ IL_000e:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:115>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:115>
 		return _stringLiteral24D3FA9EF9027D38088033AD06B49AC53ACB4ADB;
 	}
 
 IL_001c:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:116>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:116>
 		return _stringLiteral4A5EAECA242025908B1BA2BDB34B2296B923397E;
 	}
 }
@@ -9761,27 +9761,27 @@ IL_001c:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 96208
+// Method Definition Index: 96214
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* VariableReference_get_name_mE6D2556C23D83C040F82E27DE755F7D6FBD90E0F (VariableReference_tB87C62204639CBB2363DC6DC4A5974869787F049* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:12>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:12>
 		String_t* L_0 = __this->___U3CnameU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 96209
+// Method Definition Index: 96215
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VariableReference_set_name_mCA878128BFBEF54B19531F832CD1FB62A617ED65 (VariableReference_tB87C62204639CBB2363DC6DC4A5974869787F049* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:12>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:12>
 		String_t* L_0 = ___0_value;
 		__this->___U3CnameU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CnameU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 96210
+// Method Definition Index: 96216
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Identifier_t0F346C00621758823B8D81B08308C6B9C24089DD* VariableReference_get_identifier_m71B144F925B5BAED06D65235AEE694141E0824C5 (VariableReference_tB87C62204639CBB2363DC6DC4A5974869787F049* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9808,7 +9808,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Identifier_t0F346C00621758823B8D81B08308C6B9C
 	DebugMetadata_t5435CB4374070B99B60193A2E4B468E94CE00C01* G_B5_1 = NULL;
 	List_1_tE7E36179A9D3C4E72F64C06CD94D5C27DC690F08* G_B5_2 = NULL;
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:18>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:18>
 		List_1_tE7E36179A9D3C4E72F64C06CD94D5C27DC690F08* L_0 = __this->___pathIdentifiers;
 		if (!L_0)
 		{
@@ -9828,13 +9828,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Identifier_t0F346C00621758823B8D81B08308C6B9C
 
 IL_0015:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:19>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:19>
 		return (Identifier_t0F346C00621758823B8D81B08308C6B9C24089DD*)NULL;
 	}
 
 IL_0017:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:22>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:22>
 		Identifier_t0F346C00621758823B8D81B08308C6B9C24089DD* L_3 = __this->____singleIdentifier;
 		if (L_3)
 		{
@@ -9842,7 +9842,7 @@ IL_0017:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:23>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:23>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_4;
 		L_4 = VariableReference_get_path_m4D5B8D343718045E48C7BE308F7C45E2384CCF74_inline(__this, NULL);
 		NullCheck(L_4);
@@ -9851,14 +9851,14 @@ IL_0017:
 		String_t* L_6;
 		L_6 = String_Join_m557B6B554B87C1742FA0B128500073B421ED0BFD(_stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D, L_5, NULL);
 		V_0 = L_6;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:24>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:24>
 		List_1_tE7E36179A9D3C4E72F64C06CD94D5C27DC690F08* L_7 = __this->___pathIdentifiers;
 		Identifier_t0F346C00621758823B8D81B08308C6B9C24089DD* L_8;
 		L_8 = Enumerable_First_TisIdentifier_t0F346C00621758823B8D81B08308C6B9C24089DD_m5E6C1D3887D8BFD12F97E4CDC6DC381E20067DB8(L_7, Enumerable_First_TisIdentifier_t0F346C00621758823B8D81B08308C6B9C24089DD_m5E6C1D3887D8BFD12F97E4CDC6DC381E20067DB8_RuntimeMethod_var);
 		NullCheck(L_8);
 		DebugMetadata_t5435CB4374070B99B60193A2E4B468E94CE00C01* L_9 = L_8->___debugMetadata;
 		V_1 = L_9;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:25>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:25>
 		List_1_tE7E36179A9D3C4E72F64C06CD94D5C27DC690F08* L_10 = __this->___pathIdentifiers;
 		DebugMetadata_t5435CB4374070B99B60193A2E4B468E94CE00C01* L_11 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t594A25AEA7A9E3FEF1771F2037025E0FFBBD6CC0_il2cpp_TypeInfo_var);
@@ -9893,7 +9893,7 @@ IL_006c:
 		DebugMetadata_t5435CB4374070B99B60193A2E4B468E94CE00C01* L_17;
 		L_17 = Enumerable_Aggregate_TisIdentifier_t0F346C00621758823B8D81B08308C6B9C24089DD_TisDebugMetadata_t5435CB4374070B99B60193A2E4B468E94CE00C01_mA9F2FF61E598534C443A817B94DC20D9CD4E8BDF(G_B6_2, G_B6_1, G_B6_0, Enumerable_Aggregate_TisIdentifier_t0F346C00621758823B8D81B08308C6B9C24089DD_TisDebugMetadata_t5435CB4374070B99B60193A2E4B468E94CE00C01_mA9F2FF61E598534C443A817B94DC20D9CD4E8BDF_RuntimeMethod_var);
 		V_2 = L_17;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:26>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:26>
 		Identifier_t0F346C00621758823B8D81B08308C6B9C24089DD* L_18 = (Identifier_t0F346C00621758823B8D81B08308C6B9C24089DD*)il2cpp_codegen_object_new(Identifier_t0F346C00621758823B8D81B08308C6B9C24089DD_il2cpp_TypeInfo_var);
 		Identifier__ctor_m9005D97AF26A8FF60030DE8B472F085F4FABEE84(L_18, NULL);
 		Identifier_t0F346C00621758823B8D81B08308C6B9C24089DD* L_19 = L_18;
@@ -9912,41 +9912,41 @@ IL_006c:
 
 IL_008b:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:29>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:29>
 		Identifier_t0F346C00621758823B8D81B08308C6B9C24089DD* L_23 = __this->____singleIdentifier;
 		return L_23;
 	}
 }
-// Method Definition Index: 96211
+// Method Definition Index: 96217
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* VariableReference_get_path_m4D5B8D343718045E48C7BE308F7C45E2384CCF74 (VariableReference_tB87C62204639CBB2363DC6DC4A5974869787F049* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:35>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:35>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_0 = __this->___U3CpathU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 96212
+// Method Definition Index: 96218
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VariableReference_set_path_m2987340812E384B0F12578542E50B0CEFABDEAB0 (VariableReference_tB87C62204639CBB2363DC6DC4A5974869787F049* __this, List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:35>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:35>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_0 = ___0_value;
 		__this->___U3CpathU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CpathU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 96213
+// Method Definition Index: 96219
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VariableReference_t6DBE40073F3B791D54C0BB2443D9049B65836819* VariableReference_get_runtimeVarRef_m802153B4D5D754E71AE064AF13DD35E46F6D825E (VariableReference_tB87C62204639CBB2363DC6DC4A5974869787F049* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:41>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:41>
 		VariableReference_t6DBE40073F3B791D54C0BB2443D9049B65836819* L_0 = __this->____runtimeVarRef;
 		return L_0;
 	}
 }
-// Method Definition Index: 96214
+// Method Definition Index: 96220
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VariableReference__ctor_mCFEE6DDD4D463CD4A455E64DCFAFE3906504CB77 (VariableReference_tB87C62204639CBB2363DC6DC4A5974869787F049* __this, List_1_tE7E36179A9D3C4E72F64C06CD94D5C27DC690F08* ___0_pathIdentifiers, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9968,13 +9968,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VariableReference__ctor_mCFEE6DDD4D463CD
 	List_1_tE7E36179A9D3C4E72F64C06CD94D5C27DC690F08* G_B1_1 = NULL;
 	VariableReference_tB87C62204639CBB2363DC6DC4A5974869787F049* G_B1_2 = NULL;
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:43>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:43>
 		Expression__ctor_mBA2907DB4D7FEA90D9A52A1C9820CDBC72DFB2AD(__this, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:45>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:45>
 		List_1_tE7E36179A9D3C4E72F64C06CD94D5C27DC690F08* L_0 = ___0_pathIdentifiers;
 		__this->___pathIdentifiers = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___pathIdentifiers), (void*)L_0);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:46>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:46>
 		List_1_tE7E36179A9D3C4E72F64C06CD94D5C27DC690F08* L_1 = ___0_pathIdentifiers;
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t594A25AEA7A9E3FEF1771F2037025E0FFBBD6CC0_il2cpp_TypeInfo_var);
 		Func_2_t1ACDA394BC7B56E49AF9E08FD88FE968A98C3875* L_2 = ((U3CU3Ec_t594A25AEA7A9E3FEF1771F2037025E0FFBBD6CC0_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t594A25AEA7A9E3FEF1771F2037025E0FFBBD6CC0_il2cpp_TypeInfo_var))->___U3CU3E9__16_0;
@@ -10011,16 +10011,16 @@ IL_002e:
 		L_8 = Enumerable_ToList_TisString_t_m86360148F90DE6EA1A8363F38B7C2A88FD139131(L_7, Enumerable_ToList_TisString_t_m86360148F90DE6EA1A8363F38B7C2A88FD139131_RuntimeMethod_var);
 		NullCheck(G_B2_2);
 		VariableReference_set_path_m2987340812E384B0F12578542E50B0CEFABDEAB0_inline(G_B2_2, L_8, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:47>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:47>
 		List_1_tE7E36179A9D3C4E72F64C06CD94D5C27DC690F08* L_9 = ___0_pathIdentifiers;
 		String_t* L_10;
 		L_10 = String_Join_TisIdentifier_t0F346C00621758823B8D81B08308C6B9C24089DD_m62A16EB289D19DA69C6517D41C16DB6DA21A7414(_stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D, L_9, String_Join_TisIdentifier_t0F346C00621758823B8D81B08308C6B9C24089DD_m62A16EB289D19DA69C6517D41C16DB6DA21A7414_RuntimeMethod_var);
 		VariableReference_set_name_mCA878128BFBEF54B19531F832CD1FB62A617ED65_inline(__this, L_10, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:48>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:48>
 		return;
 	}
 }
-// Method Definition Index: 96215
+// Method Definition Index: 96221
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VariableReference_GenerateIntoContainer_m126D090D46BE94232CB78DD566AEEB871910099B (VariableReference_tB87C62204639CBB2363DC6DC4A5974869787F049* __this, Container_t74302BC1028974B0A346A43F334AECB681D79579* ___0_container, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10036,9 +10036,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VariableReference_GenerateIntoContainer_
 	String_t* V_1 = NULL;
 	String_t* V_2 = NULL;
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:52>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:52>
 		V_0 = (Expression_tA6C9FD368D7951E1A1470D0F749E376D800BAB0D*)NULL;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:58>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:58>
 		Story_tEBE39AA9D821413F842FC1EA2FC7A087466078F7* L_0;
 		L_0 = Object_get_story_mC48C490DCCF22AEC1CC28FEA37BDD22AA31C8B1C(__this, NULL);
 		NullCheck(L_0);
@@ -10054,27 +10054,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VariableReference_GenerateIntoContainer_
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:59>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:59>
 		Expression_tA6C9FD368D7951E1A1470D0F749E376D800BAB0D* L_4 = V_0;
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_5 = ___0_container;
 		NullCheck(L_4);
 		Expression_GenerateConstantIntoContainer_mEC1F77A0C77E93571A23830C1AFFC661A5FD1354(L_4, L_5, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:60>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:60>
 		__this->___isConstantReference = (bool)1;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:61>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:61>
 		return;
 	}
 
 IL_002b:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:64>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:64>
 		String_t* L_6;
 		L_6 = VariableReference_get_name_mE6D2556C23D83C040F82E27DE755F7D6FBD90E0F_inline(__this, NULL);
 		VariableReference_t6DBE40073F3B791D54C0BB2443D9049B65836819* L_7 = (VariableReference_t6DBE40073F3B791D54C0BB2443D9049B65836819*)il2cpp_codegen_object_new(VariableReference_t6DBE40073F3B791D54C0BB2443D9049B65836819_il2cpp_TypeInfo_var);
 		VariableReference__ctor_mEFCD8F4CFF06B6A3F076B4688E09AC5DE0786718(L_7, L_6, NULL);
 		__this->____runtimeVarRef = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____runtimeVarRef), (void*)L_7);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:68>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:68>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_8;
 		L_8 = VariableReference_get_path_m4D5B8D343718045E48C7BE308F7C45E2384CCF74_inline(__this, NULL);
 		NullCheck(L_8);
@@ -10099,11 +10099,11 @@ IL_002b:
 
 IL_0058:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:69>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:69>
 		V_1 = (String_t*)NULL;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:70>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:70>
 		V_2 = (String_t*)NULL;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:72>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:72>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_12;
 		L_12 = VariableReference_get_path_m4D5B8D343718045E48C7BE308F7C45E2384CCF74_inline(__this, NULL);
 		NullCheck(L_12);
@@ -10115,7 +10115,7 @@ IL_0058:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:72>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:72>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_14;
 		L_14 = VariableReference_get_path_m4D5B8D343718045E48C7BE308F7C45E2384CCF74_inline(__this, NULL);
 		NullCheck(L_14);
@@ -10127,14 +10127,14 @@ IL_0058:
 
 IL_0079:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:74>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:74>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_16;
 		L_16 = VariableReference_get_path_m4D5B8D343718045E48C7BE308F7C45E2384CCF74_inline(__this, NULL);
 		NullCheck(L_16);
 		String_t* L_17;
 		L_17 = List_1_get_Item_m21AEC50E791371101DC22ABCF96A2E46800811F8(L_16, 0, List_1_get_Item_m21AEC50E791371101DC22ABCF96A2E46800811F8_RuntimeMethod_var);
 		V_2 = L_17;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:75>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:75>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_18;
 		L_18 = VariableReference_get_path_m4D5B8D343718045E48C7BE308F7C45E2384CCF74_inline(__this, NULL);
 		NullCheck(L_18);
@@ -10145,7 +10145,7 @@ IL_0079:
 
 IL_0093:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:78>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:78>
 		Story_tEBE39AA9D821413F842FC1EA2FC7A087466078F7* L_20;
 		L_20 = Object_get_story_mC48C490DCCF22AEC1CC28FEA37BDD22AA31C8B1C(__this, NULL);
 		String_t* L_21 = V_2;
@@ -10153,7 +10153,7 @@ IL_0093:
 		NullCheck(L_20);
 		ListElementDefinition_t3F6CD3FE450322F15B1B639988E29B22BF99C8DD* L_23;
 		L_23 = Story_ResolveListItem_m857290E9E49BEC424C7D3A54E6171F11DE081302(L_20, L_21, L_22, __this, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:79>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:79>
 		bool L_24;
 		L_24 = Object_op_Implicit_m9F097EFB17152A15AF84817F6B4AE720A6A6094E(L_23, NULL);
 		if (!L_24)
@@ -10162,22 +10162,22 @@ IL_0093:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:80>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:80>
 		__this->___isListItemReference = (bool)1;
 	}
 
 IL_00af:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:84>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:84>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_25 = ___0_container;
 		VariableReference_t6DBE40073F3B791D54C0BB2443D9049B65836819* L_26 = __this->____runtimeVarRef;
 		NullCheck(L_25);
 		Container_AddContent_m2F2BA6E71A20ABB416F17B6235345801A55FEA76(L_25, L_26, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:85>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:85>
 		return;
 	}
 }
-// Method Definition Index: 96216
+// Method Definition Index: 96222
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VariableReference_ResolveReferences_m7DED9D840E481E81329DE7A5FAA9F82344B934CD (VariableReference_tB87C62204639CBB2363DC6DC4A5974869787F049* __this, Story_tEBE39AA9D821413F842FC1EA2FC7A087466078F7* ___0_context, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10225,10 +10225,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VariableReference_ResolveReferences_m7DE
 	String_t* G_B20_0 = NULL;
 	String_t* G_B20_1 = NULL;
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:89>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:89>
 		Story_tEBE39AA9D821413F842FC1EA2FC7A087466078F7* L_0 = ___0_context;
 		Object_ResolveReferences_m8BC5DD701019191459A9CEF84D71FFBE2FEDFF8E(__this, L_0, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:92>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:92>
 		bool L_1 = __this->___isConstantReference;
 		if (L_1)
 		{
@@ -10245,24 +10245,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VariableReference_ResolveReferences_m7DE
 
 IL_0017:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:93>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:93>
 		return;
 	}
 
 IL_0018:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:97>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:97>
 		List_1_tE7E36179A9D3C4E72F64C06CD94D5C27DC690F08* L_3 = __this->___pathIdentifiers;
 		Path_t45F133F0FD37FBD473A956AF05F18E1EB5BD54CC* L_4 = (Path_t45F133F0FD37FBD473A956AF05F18E1EB5BD54CC*)il2cpp_codegen_object_new(Path_t45F133F0FD37FBD473A956AF05F18E1EB5BD54CC_il2cpp_TypeInfo_var);
 		Path__ctor_m1FA0634AFC2CCF3487EE1E3F27F2236655C8AB25(L_4, L_3, NULL);
 		V_0 = L_4;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:98>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:98>
 		Path_t45F133F0FD37FBD473A956AF05F18E1EB5BD54CC* L_5 = V_0;
 		NullCheck(L_5);
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_6;
 		L_6 = Path_ResolveFromContext_m2E7745228A2131E2474943DDB9BE94219BE1AF60(L_5, __this, NULL);
 		V_1 = L_6;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:99>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:99>
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_7 = V_1;
 		bool L_8;
 		L_8 = Object_op_Implicit_m9F097EFB17152A15AF84817F6B4AE720A6A6094E(L_7, NULL);
@@ -10272,14 +10272,14 @@ IL_0018:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:101>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:101>
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_9 = V_1;
 		NullCheck(L_9);
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_10;
 		L_10 = VirtualFuncInvoker0< Container_t74302BC1028974B0A346A43F334AECB681D79579* >::Invoke(7, L_9);
 		NullCheck(L_10);
 		Container_set_visitsShouldBeCounted_mCA668E9A96F2D5B8F25801AE1169786E35B2091C_inline(L_10, (bool)1, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:109>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:109>
 		VariableReference_t6DBE40073F3B791D54C0BB2443D9049B65836819* L_11 = __this->____runtimeVarRef;
 		bool L_12;
 		L_12 = Object_op_Equality_m2AE832318622C516D0CF2C77418FD85DD162DE62(L_11, (Object_t42A2989484E361AF6C41D21FD84B2F8EFD905CCB*)NULL, NULL);
@@ -10289,13 +10289,13 @@ IL_0018:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:109>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:109>
 		return;
 	}
 
 IL_0052:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:111>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:111>
 		VariableReference_t6DBE40073F3B791D54C0BB2443D9049B65836819* L_13 = __this->____runtimeVarRef;
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_14 = V_1;
 		NullCheck(L_14);
@@ -10303,14 +10303,14 @@ IL_0052:
 		L_15 = VirtualFuncInvoker0< Path_tCC1F1626DB60711735401EA8FA76A191D9014600* >::Invoke(6, L_14);
 		NullCheck(L_13);
 		VariableReference_set_pathForCount_m3488741E05F86E09B7A082704610A095EF0C7016_inline(L_13, L_15, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:112>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:112>
 		VariableReference_t6DBE40073F3B791D54C0BB2443D9049B65836819* L_16 = __this->____runtimeVarRef;
 		NullCheck(L_16);
 		VariableReference_set_name_mD0F82FBF6521B061476F855E565D665D03BADF29_inline(L_16, (String_t*)NULL, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:117>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:117>
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_17 = V_1;
 		V_2 = ((FlowBase_tC404CD82693644CCF6B95E73D16916F34439E822*)IsInstClass((RuntimeObject*)L_17, FlowBase_tC404CD82693644CCF6B95E73D16916F34439E822_il2cpp_TypeInfo_var));
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:118>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:118>
 		FlowBase_tC404CD82693644CCF6B95E73D16916F34439E822* L_18 = V_2;
 		bool L_19;
 		L_19 = Object_op_Implicit_m9F097EFB17152A15AF84817F6B4AE720A6A6094E(L_18, NULL);
@@ -10330,7 +10330,7 @@ IL_0052:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:121>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:121>
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_22;
 		L_22 = Object_get_parent_mD76D8371EC8C6B3B64B43B1FCECFEB2F8F4FD31A_inline(__this, NULL);
 		if (((Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37*)IsInstClass((RuntimeObject*)L_22, Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37_il2cpp_TypeInfo_var)))
@@ -10357,7 +10357,7 @@ IL_0052:
 
 IL_00ad:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:122>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:122>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_25 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)5);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_26 = L_25;
 		NullCheck(L_26);
@@ -10429,13 +10429,13 @@ IL_00d0:
 
 IL_00f5:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:126>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:126>
 		return;
 	}
 
 IL_00f6:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:131>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:131>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_38;
 		L_38 = VariableReference_get_path_m4D5B8D343718045E48C7BE308F7C45E2384CCF74_inline(__this, NULL);
 		NullCheck(L_38);
@@ -10447,7 +10447,7 @@ IL_00f6:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:132>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:132>
 		Path_t45F133F0FD37FBD473A956AF05F18E1EB5BD54CC* L_40 = V_0;
 		Path_t45F133F0FD37FBD473A956AF05F18E1EB5BD54CC* L_41 = L_40;
 		if (L_41)
@@ -10479,7 +10479,7 @@ IL_0116:
 		String_t* L_43;
 		L_43 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(G_B20_1, G_B20_0, NULL);
 		V_3 = L_43;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:133>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:133>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_44;
 		L_44 = VariableReference_get_path_m4D5B8D343718045E48C7BE308F7C45E2384CCF74_inline(__this, NULL);
 		NullCheck(L_44);
@@ -10491,7 +10491,7 @@ IL_0116:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:134>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:134>
 		String_t* L_46 = V_3;
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_47;
 		L_47 = VariableReference_get_path_m4D5B8D343718045E48C7BE308F7C45E2384CCF74_inline(__this, NULL);
@@ -10507,16 +10507,16 @@ IL_0116:
 
 IL_014b:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:135>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:135>
 		String_t* L_51 = V_3;
 		VirtualActionInvoker3< String_t*, Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7*, bool >::Invoke(10, __this, L_51, (Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7*)NULL, (bool)0);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:136>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:136>
 		return;
 	}
 
 IL_0155:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:139>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:139>
 		Story_tEBE39AA9D821413F842FC1EA2FC7A087466078F7* L_52 = ___0_context;
 		String_t* L_53;
 		L_53 = VariableReference_get_name_mE6D2556C23D83C040F82E27DE755F7D6FBD90E0F_inline(__this, NULL);
@@ -10530,7 +10530,7 @@ IL_0155:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:140>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:140>
 		String_t* L_56;
 		L_56 = VirtualFuncInvoker0< String_t* >::Invoke(3, __this);
 		String_t* L_57;
@@ -10540,11 +10540,11 @@ IL_0155:
 
 IL_0181:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:142>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:142>
 		return;
 	}
 }
-// Method Definition Index: 96217
+// Method Definition Index: 96223
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* VariableReference_ToString_m236EBA5F727CBDC3619DF24EE8FF979DD2B60948 (VariableReference_tB87C62204639CBB2363DC6DC4A5974869787F049* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10555,7 +10555,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* VariableReference_ToString_m236EBA5
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:146>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:146>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_0;
 		L_0 = VariableReference_get_path_m4D5B8D343718045E48C7BE308F7C45E2384CCF74_inline(__this, NULL);
 		NullCheck(L_0);
@@ -10574,7 +10574,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* VariableReference_ToString_m236EBA5
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 96218
+// Method Definition Index: 96224
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_mEAE5176A9D2A9382D0158BBAAF988FDEF09CF082 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10591,7 +10591,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_mEAE5176A9D2A9382D0158BBA
 		return;
 	}
 }
-// Method Definition Index: 96219
+// Method Definition Index: 96225
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m99983106CE4D2AC262F8BD9DC13B7823049F8684 (U3CU3Ec_t594A25AEA7A9E3FEF1771F2037025E0FFBBD6CC0* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10599,11 +10599,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m99983106CE4D2AC262F8BD9DC
 		return;
 	}
 }
-// Method Definition Index: 96220
+// Method Definition Index: 96226
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DebugMetadata_t5435CB4374070B99B60193A2E4B468E94CE00C01* U3CU3Ec_U3Cget_identifierU3Eb__5_0_m3F93841E2FC7D9D434FE11EC13DC12E0706B2C1A (U3CU3Ec_t594A25AEA7A9E3FEF1771F2037025E0FFBBD6CC0* __this, DebugMetadata_t5435CB4374070B99B60193A2E4B468E94CE00C01* ___0_acc, Identifier_t0F346C00621758823B8D81B08308C6B9C24089DD* ___1_id, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:25>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:25>
 		DebugMetadata_t5435CB4374070B99B60193A2E4B468E94CE00C01* L_0 = ___0_acc;
 		Identifier_t0F346C00621758823B8D81B08308C6B9C24089DD* L_1 = ___1_id;
 		NullCheck(L_1);
@@ -10614,11 +10614,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DebugMetadata_t5435CB4374070B99B60193A2E4B468
 		return L_3;
 	}
 }
-// Method Definition Index: 96221
+// Method Definition Index: 96227
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* U3CU3Ec_U3C_ctorU3Eb__16_0_m100F96F238BA9E462A570C4DD891720F6EBC3FC8 (U3CU3Ec_t594A25AEA7A9E3FEF1771F2037025E0FFBBD6CC0* __this, Identifier_t0F346C00621758823B8D81B08308C6B9C24089DD* ___0_id, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:46>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:46>
 		Identifier_t0F346C00621758823B8D81B08308C6B9C24089DD* L_0 = ___0_id;
 		if (L_0)
 		{
@@ -10645,11 +10645,11 @@ IL_0005:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 96222
+// Method Definition Index: 96228
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Container_t74302BC1028974B0A346A43F334AECB681D79579* Weave_get_rootContainer_mF7051B9D57FAE9724FFA81B7760DABEE4A7330E5 (Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:15>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:15>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_0 = __this->____rootContainer;
 		bool L_1;
 		L_1 = Object_op_Equality_m2AE832318622C516D0CF2C77418FD85DD162DE62(L_0, (Object_t42A2989484E361AF6C41D21FD84B2F8EFD905CCB*)NULL, NULL);
@@ -10659,58 +10659,58 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Container_t74302BC1028974B0A346A43F334AECB681
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:16>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:16>
 		Object_t42A2989484E361AF6C41D21FD84B2F8EFD905CCB* L_2;
 		L_2 = VirtualFuncInvoker0< Object_t42A2989484E361AF6C41D21FD84B2F8EFD905CCB* >::Invoke(8, __this);
 	}
 
 IL_0015:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:19>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:19>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_3 = __this->____rootContainer;
 		return L_3;
 	}
 }
-// Method Definition Index: 96223
+// Method Definition Index: 96229
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Container_t74302BC1028974B0A346A43F334AECB681D79579* Weave_get_currentContainer_mB0B00A3DCFD6945E5EFF414D3D64D13D856820F2 (Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:22>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:22>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_0 = __this->___U3CcurrentContainerU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 96224
+// Method Definition Index: 96230
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Weave_set_currentContainer_m726341F02CE4FBBF970874A494486A48190F7C23 (Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37* __this, Container_t74302BC1028974B0A346A43F334AECB681D79579* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:22>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:22>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_0 = ___0_value;
 		__this->___U3CcurrentContainerU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CcurrentContainerU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 96225
+// Method Definition Index: 96231
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Weave_get_baseIndentIndex_m98068082F6788CEF08908CCDF9E62F4C4938839D (Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:24>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:24>
 		int32_t L_0 = __this->___U3CbaseIndentIndexU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 96226
+// Method Definition Index: 96232
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Weave_set_baseIndentIndex_m6F3D26B4F215BB48218CFE3E84BD0B26532B98B1 (Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:24>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:24>
 		int32_t L_0 = ___0_value;
 		__this->___U3CbaseIndentIndexU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 96227
+// Method Definition Index: 96233
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* Weave_get_lastParsedSignificantObject_m1B04EDF689CE2860594576D416B2EBC60C55423B (Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10728,7 +10728,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98
 	int32_t V_2 = 0;
 	Text_t2561CF2D715008D9C31C9382C40FE22ACA2010ED* V_3 = NULL;
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:41>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:41>
 		List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55* L_0;
 		L_0 = Object_get_content_m88C0834BB81829EF344181750AB1DCEE3EF5924F_inline(__this, NULL);
 		NullCheck(L_0);
@@ -10740,15 +10740,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:41>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:41>
 		return (Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7*)NULL;
 	}
 
 IL_000f:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:45>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:45>
 		V_0 = (Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7*)NULL;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:46>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:46>
 		List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55* L_2;
 		L_2 = Object_get_content_m88C0834BB81829EF344181750AB1DCEE3EF5924F_inline(__this, NULL);
 		NullCheck(L_2);
@@ -10760,7 +10760,7 @@ IL_000f:
 
 IL_0021:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:47>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:47>
 		List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55* L_4;
 		L_4 = Object_get_content_m88C0834BB81829EF344181750AB1DCEE3EF5924F_inline(__this, NULL);
 		int32_t L_5 = V_2;
@@ -10768,10 +10768,10 @@ IL_0021:
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_6;
 		L_6 = List_1_get_Item_mDF943B341CF138195ACC8377D45C1F3C700D9F11(L_4, L_5, List_1_get_Item_mDF943B341CF138195ACC8377D45C1F3C700D9F11_RuntimeMethod_var);
 		V_0 = L_6;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:49>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:49>
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_7 = V_0;
 		V_3 = ((Text_t2561CF2D715008D9C31C9382C40FE22ACA2010ED*)IsInstClass((RuntimeObject*)L_7, Text_t2561CF2D715008D9C31C9382C40FE22ACA2010ED_il2cpp_TypeInfo_var));
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:50>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:50>
 		Text_t2561CF2D715008D9C31C9382C40FE22ACA2010ED* L_8 = V_3;
 		bool L_9;
 		L_9 = Object_op_Implicit_m9F097EFB17152A15AF84817F6B4AE720A6A6094E(L_8, NULL);
@@ -10795,7 +10795,7 @@ IL_0021:
 
 IL_004f:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:54>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:54>
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_13 = V_0;
 		bool L_14;
 		L_14 = Weave_IsGlobalDeclaration_m2F27AA5E1B93C4B938128743ECD736C5C69F43A3(__this, L_13, NULL);
@@ -10807,14 +10807,14 @@ IL_004f:
 
 IL_0058:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:46>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:46>
 		int32_t L_15 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_subtract(L_15, 1));
 	}
 
 IL_005c:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:46>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:46>
 		int32_t L_16 = V_2;
 		if ((((int32_t)L_16) >= ((int32_t)0)))
 		{
@@ -10824,10 +10824,10 @@ IL_005c:
 
 IL_0060:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:60>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:60>
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_17 = V_0;
 		V_1 = ((Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37*)IsInstClass((RuntimeObject*)L_17, Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37_il2cpp_TypeInfo_var));
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:61>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:61>
 		Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37* L_18 = V_1;
 		bool L_19;
 		L_19 = Object_op_Implicit_m9F097EFB17152A15AF84817F6B4AE720A6A6094E(L_18, NULL);
@@ -10837,7 +10837,7 @@ IL_0060:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:62>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:62>
 		Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37* L_20 = V_1;
 		NullCheck(L_20);
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_21;
@@ -10847,12 +10847,12 @@ IL_0060:
 
 IL_0076:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:64>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:64>
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_22 = V_0;
 		return L_22;
 	}
 }
-// Method Definition Index: 96228
+// Method Definition Index: 96234
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Weave__ctor_mE804413D35CA9D86F034623450393D361FB63449 (Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37* __this, List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55* ___0_cont, int32_t ___1_indentIndex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10862,9 +10862,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Weave__ctor_mE804413D35CA9D86F0346234503
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:68>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:68>
 		Object__ctor_m9A312B0CEE75C9285FDABFA4EB210AE1EE959A1A(__this, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:70>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:70>
 		int32_t L_0 = ___1_indentIndex;
 		if ((!(((uint32_t)L_0) == ((uint32_t)(-1)))))
 		{
@@ -10872,7 +10872,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Weave__ctor_mE804413D35CA9D86F0346234503
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:71>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:71>
 		List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55* L_1 = ___0_cont;
 		int32_t L_2;
 		L_2 = Weave_DetermineBaseIndentationFromContent_m938BFF91272784586BFBB6F194284632D19CD604(__this, L_1, NULL);
@@ -10882,23 +10882,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Weave__ctor_mE804413D35CA9D86F0346234503
 
 IL_0019:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:73>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:73>
 		int32_t L_3 = ___1_indentIndex;
 		Weave_set_baseIndentIndex_m6F3D26B4F215BB48218CFE3E84BD0B26532B98B1_inline(__this, L_3, NULL);
 	}
 
 IL_0020:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:76>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:76>
 		List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55* L_4 = ___0_cont;
 		Object_AddContent_TisObject_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7_m46029874508E8FCA8592AD1521D1251361301280(__this, L_4, Object_AddContent_TisObject_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7_m46029874508E8FCA8592AD1521D1251361301280_RuntimeMethod_var);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:78>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:78>
 		Weave_ConstructWeaveHierarchyFromIndentation_m347CCA2577E3B2907C247FAD50CB1DD71E5C259D(__this, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:79>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:79>
 		return;
 	}
 }
-// Method Definition Index: 96229
+// Method Definition Index: 96235
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Weave_ResolveWeavePointNaming_m0250E06BC9A7314A58C67D74692535A9E0032BF1 (Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10939,7 +10939,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Weave_ResolveWeavePointNaming_m0250E06BC
 	Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37* G_B1_1 = NULL;
 	String_t* G_B8_0 = NULL;
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:83>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:83>
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tDD44F57D526100A3920F06EE0EFBC0DA9D3C6807_il2cpp_TypeInfo_var);
 		FindQueryFunc_1_t128BD661DD7120F24B2A7CB763271EDE1D5A0F40* L_0 = ((U3CU3Ec_tDD44F57D526100A3920F06EE0EFBC0DA9D3C6807_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tDD44F57D526100A3920F06EE0EFBC0DA9D3C6807_il2cpp_TypeInfo_var))->___U3CU3E9__16_0;
 		FindQueryFunc_1_t128BD661DD7120F24B2A7CB763271EDE1D5A0F40* L_1 = L_0;
@@ -10969,12 +10969,12 @@ IL_0020:
 		NullCheck(G_B2_1);
 		List_1_t68D1E6534966FC4E15D0908695CED890CFD8987A* L_5;
 		L_5 = Object_FindAll_TisIWeavePoint_t990C67A4ECD21D8B8079B5C926273F012EA3F5DE_m7F252A913726163DB529A7C7F372736A522BD2A6(G_B2_1, G_B2_0, Object_FindAll_TisIWeavePoint_t990C67A4ECD21D8B8079B5C926273F012EA3F5DE_m7F252A913726163DB529A7C7F372736A522BD2A6_RuntimeMethod_var);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:85>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:85>
 		Dictionary_2_t5D65C7CF98A47724B51D341E32C367B484A4286F* L_6 = (Dictionary_2_t5D65C7CF98A47724B51D341E32C367B484A4286F*)il2cpp_codegen_object_new(Dictionary_2_t5D65C7CF98A47724B51D341E32C367B484A4286F_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_m09D0B05560B270A9FADCF6E5D9C0736FA6CB8BAC(L_6, Dictionary_2__ctor_m09D0B05560B270A9FADCF6E5D9C0736FA6CB8BAC_RuntimeMethod_var);
 		__this->____namedWeavePoints = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____namedWeavePoints), (void*)L_6);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:87>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:87>
 		NullCheck(L_5);
 		Enumerator_t8DB366085E0E2372928AD6C58D17472E9A63BE18 L_7;
 		L_7 = List_1_GetEnumerator_mE667178EC85476B0B060B04C58AA1808DA0DBE87(L_5, List_1_GetEnumerator_mE667178EC85476B0B060B04C58AA1808DA0DBE87_RuntimeMethod_var);
@@ -10998,11 +10998,11 @@ FINALLY_00e6:
 
 IL_003b_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:87>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:87>
 				RuntimeObject* L_8;
 				L_8 = Enumerator_get_Current_mEC3CDE10C91DEA58B38AEF9542C069027075B43F_inline((&V_0), Enumerator_get_Current_mEC3CDE10C91DEA58B38AEF9542C069027075B43F_RuntimeMethod_var);
 				V_1 = L_8;
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:91>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:91>
 				Dictionary_2_t5D65C7CF98A47724B51D341E32C367B484A4286F* L_9 = __this->____namedWeavePoints;
 				RuntimeObject* L_10 = V_1;
 				NullCheck(L_10);
@@ -11017,7 +11017,7 @@ IL_003b_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:92>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:92>
 				RuntimeObject* L_13 = V_2;
 				if (((Gather_t4D4449D7F4F457FE8C02998391783920F1D2459B*)IsInstClass((RuntimeObject*)L_13, Gather_t4D4449D7F4F457FE8C02998391783920F1D2459B_il2cpp_TypeInfo_var)))
 				{
@@ -11037,10 +11037,10 @@ IL_0067_1:
 IL_006c_1:
 			{
 				V_3 = G_B8_0;
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:93>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:93>
 				RuntimeObject* L_14 = V_2;
 				V_4 = ((Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7*)CastclassClass((RuntimeObject*)L_14, Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7_il2cpp_TypeInfo_var));
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:95>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:95>
 				StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_15 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)6);
 				StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_16 = L_15;
 				NullCheck(L_16);
@@ -11081,7 +11081,7 @@ IL_006c_1:
 
 IL_00c6_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:98>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:98>
 				Dictionary_2_t5D65C7CF98A47724B51D341E32C367B484A4286F* L_31 = __this->____namedWeavePoints;
 				RuntimeObject* L_32 = V_1;
 				NullCheck(L_32);
@@ -11094,7 +11094,7 @@ IL_00c6_1:
 
 IL_00d8_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:87>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:87>
 				bool L_35;
 				L_35 = Enumerator_MoveNext_m355D754EF36202EF15F3EBEBB40965BEED75EE39((&V_0), Enumerator_MoveNext_m355D754EF36202EF15F3EBEBB40965BEED75EE39_RuntimeMethod_var);
 				if (L_35)
@@ -11114,11 +11114,11 @@ IL_00d8_1:
 
 IL_00f4:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:100>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:100>
 		return;
 	}
 }
-// Method Definition Index: 96230
+// Method Definition Index: 96236
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Weave_ConstructWeaveHierarchyFromIndentation_m347CCA2577E3B2907C247FAD50CB1DD71E5C259D (Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11141,14 +11141,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Weave_ConstructWeaveHierarchyFromIndenta
 	Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37* V_5 = NULL;
 	RuntimeObject* V_6 = NULL;
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:107>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:107>
 		V_0 = 0;
 		goto IL_00ad;
 	}
 
 IL_0007:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:110>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:110>
 		List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55* L_0;
 		L_0 = Object_get_content_m88C0834BB81829EF344181750AB1DCEE3EF5924F_inline(__this, NULL);
 		int32_t L_1 = V_0;
@@ -11156,7 +11156,7 @@ IL_0007:
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_2;
 		L_2 = List_1_get_Item_mDF943B341CF138195ACC8377D45C1F3C700D9F11(L_0, L_1, List_1_get_Item_mDF943B341CF138195ACC8377D45C1F3C700D9F11_RuntimeMethod_var);
 		V_1 = L_2;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:113>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:113>
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_3 = V_1;
 		if (!((RuntimeObject*)IsInst((RuntimeObject*)L_3, IWeavePoint_t990C67A4ECD21D8B8079B5C926273F012EA3F5DE_il2cpp_TypeInfo_var)))
 		{
@@ -11164,14 +11164,14 @@ IL_0007:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:114>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:114>
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_4 = V_1;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:115>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:115>
 		NullCheck(((RuntimeObject*)Castclass((RuntimeObject*)L_4, IWeavePoint_t990C67A4ECD21D8B8079B5C926273F012EA3F5DE_il2cpp_TypeInfo_var)));
 		int32_t L_5;
 		L_5 = InterfaceFuncInvoker0< int32_t >::Invoke(0, IWeavePoint_t990C67A4ECD21D8B8079B5C926273F012EA3F5DE_il2cpp_TypeInfo_var, ((RuntimeObject*)Castclass((RuntimeObject*)L_4, IWeavePoint_t990C67A4ECD21D8B8079B5C926273F012EA3F5DE_il2cpp_TypeInfo_var)));
 		V_2 = ((int32_t)il2cpp_codegen_subtract(L_5, 1));
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:118>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:118>
 		int32_t L_6 = V_2;
 		int32_t L_7;
 		L_7 = Weave_get_baseIndentIndex_m98068082F6788CEF08908CCDF9E62F4C4938839D_inline(__this, NULL);
@@ -11181,7 +11181,7 @@ IL_0007:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:121>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:121>
 		int32_t L_8 = V_0;
 		V_3 = L_8;
 		goto IL_0066;
@@ -11189,7 +11189,7 @@ IL_0007:
 
 IL_003a:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:123>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:123>
 		List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55* L_9;
 		L_9 = Object_get_content_m88C0834BB81829EF344181750AB1DCEE3EF5924F_inline(__this, NULL);
 		int32_t L_10 = V_0;
@@ -11197,7 +11197,7 @@ IL_003a:
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_11;
 		L_11 = List_1_get_Item_mDF943B341CF138195ACC8377D45C1F3C700D9F11(L_9, L_10, List_1_get_Item_mDF943B341CF138195ACC8377D45C1F3C700D9F11_RuntimeMethod_var);
 		V_6 = ((RuntimeObject*)IsInst((RuntimeObject*)L_11, IWeavePoint_t990C67A4ECD21D8B8079B5C926273F012EA3F5DE_il2cpp_TypeInfo_var));
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:124>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:124>
 		RuntimeObject* L_12 = V_6;
 		if (!L_12)
 		{
@@ -11205,12 +11205,12 @@ IL_003a:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:125>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:125>
 		RuntimeObject* L_13 = V_6;
 		NullCheck(L_13);
 		int32_t L_14;
 		L_14 = InterfaceFuncInvoker0< int32_t >::Invoke(0, IWeavePoint_t990C67A4ECD21D8B8079B5C926273F012EA3F5DE_il2cpp_TypeInfo_var, L_13);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:126>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:126>
 		int32_t L_15;
 		L_15 = Weave_get_baseIndentIndex_m98068082F6788CEF08908CCDF9E62F4C4938839D_inline(__this, NULL);
 		if ((((int32_t)((int32_t)il2cpp_codegen_subtract(L_14, 1))) <= ((int32_t)L_15)))
@@ -11221,14 +11221,14 @@ IL_003a:
 
 IL_0062:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:131>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:131>
 		int32_t L_16 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_16, 1));
 	}
 
 IL_0066:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:122>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:122>
 		int32_t L_17 = V_0;
 		List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55* L_18;
 		L_18 = Object_get_content_m88C0834BB81829EF344181750AB1DCEE3EF5924F_inline(__this, NULL);
@@ -11243,11 +11243,11 @@ IL_0066:
 
 IL_0074:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:134>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:134>
 		int32_t L_20 = V_0;
 		int32_t L_21 = V_3;
 		V_4 = ((int32_t)il2cpp_codegen_subtract(L_20, L_21));
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:136>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:136>
 		List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55* L_22;
 		L_22 = Object_get_content_m88C0834BB81829EF344181750AB1DCEE3EF5924F_inline(__this, NULL);
 		int32_t L_23 = V_3;
@@ -11255,38 +11255,38 @@ IL_0074:
 		NullCheck(L_22);
 		List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55* L_25;
 		L_25 = List_1_GetRange_mEBA06D625B0F423AB20F3D64D0494EBB300C103D(L_22, L_23, L_24, List_1_GetRange_mEBA06D625B0F423AB20F3D64D0494EBB300C103D_RuntimeMethod_var);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:137>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:137>
 		List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55* L_26;
 		L_26 = Object_get_content_m88C0834BB81829EF344181750AB1DCEE3EF5924F_inline(__this, NULL);
 		int32_t L_27 = V_3;
 		int32_t L_28 = V_4;
 		NullCheck(L_26);
 		List_1_RemoveRange_m5CF433B308EA5F7DBC3D30C53F2536C2F47F8067(L_26, L_27, L_28, List_1_RemoveRange_m5CF433B308EA5F7DBC3D30C53F2536C2F47F8067_RuntimeMethod_var);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:139>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:139>
 		int32_t L_29 = V_2;
 		Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37* L_30 = (Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37*)il2cpp_codegen_object_new(Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37_il2cpp_TypeInfo_var);
 		Weave__ctor_mE804413D35CA9D86F034623450393D361FB63449(L_30, L_25, L_29, NULL);
 		V_5 = L_30;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:140>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:140>
 		int32_t L_31 = V_3;
 		Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37* L_32 = V_5;
 		Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37* L_33;
 		L_33 = Object_InsertContent_TisWeave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37_m2F8400F9F5E13FE2D2EF334CA9462E8CE3F86715(__this, L_31, L_32, Object_InsertContent_TisWeave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37_m2F8400F9F5E13FE2D2EF334CA9462E8CE3F86715_RuntimeMethod_var);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:143>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:143>
 		int32_t L_34 = V_3;
 		V_0 = L_34;
 	}
 
 IL_00a9:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:148>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:148>
 		int32_t L_35 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_35, 1));
 	}
 
 IL_00ad:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:108>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:108>
 		int32_t L_36 = V_0;
 		List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55* L_37;
 		L_37 = Object_get_content_m88C0834BB81829EF344181750AB1DCEE3EF5924F_inline(__this, NULL);
@@ -11299,11 +11299,11 @@ IL_00ad:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:150>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:150>
 		return;
 	}
 }
-// Method Definition Index: 96231
+// Method Definition Index: 96237
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Weave_DetermineBaseIndentationFromContent_m938BFF91272784586BFBB6F194284632D19CD604 (Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37* __this, List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55* ___0_contentList, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11321,7 +11321,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Weave_DetermineBaseIndentationFromCon
 	Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* V_1 = NULL;
 	int32_t V_2 = 0;
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:157>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:157>
 		List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55* L_0 = ___0_contentList;
 		NullCheck(L_0);
 		Enumerator_t24762F0E4493651E6A987495FA0DAF1B929C7D2C L_1;
@@ -11346,11 +11346,11 @@ FINALLY_0034:
 
 IL_0009_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:157>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:157>
 				Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_2;
 				L_2 = Enumerator_get_Current_m1E21C02C0D7FEAFFD451F033D2E616D633A251D7_inline((&V_0), Enumerator_get_Current_m1E21C02C0D7FEAFFD451F033D2E616D633A251D7_RuntimeMethod_var);
 				V_1 = L_2;
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:158>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:158>
 				Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_3 = V_1;
 				if (!((RuntimeObject*)IsInst((RuntimeObject*)L_3, IWeavePoint_t990C67A4ECD21D8B8079B5C926273F012EA3F5DE_il2cpp_TypeInfo_var)))
 				{
@@ -11358,7 +11358,7 @@ IL_0009_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:159>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:159>
 				Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_4 = V_1;
 				NullCheck(((RuntimeObject*)Castclass((RuntimeObject*)L_4, IWeavePoint_t990C67A4ECD21D8B8079B5C926273F012EA3F5DE_il2cpp_TypeInfo_var)));
 				int32_t L_5;
@@ -11369,7 +11369,7 @@ IL_0009_1:
 
 IL_0029_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:157>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:157>
 				bool L_6;
 				L_6 = Enumerator_MoveNext_mDAC08A52E00D45D4C8BB563D4A6462DA8C10CD89((&V_0), Enumerator_MoveNext_mDAC08A52E00D45D4C8BB563D4A6462DA8C10CD89_RuntimeMethod_var);
 				if (L_6)
@@ -11389,18 +11389,18 @@ IL_0029_1:
 
 IL_0042:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:164>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:164>
 		return 0;
 	}
 
 IL_0044:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:165>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:165>
 		int32_t L_7 = V_2;
 		return L_7;
 	}
 }
-// Method Definition Index: 96232
+// Method Definition Index: 96238
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Object_t42A2989484E361AF6C41D21FD84B2F8EFD905CCB* Weave_GenerateRuntimeObject_mAF0E7F0D6BD39321E73075FC4CC8B7C5E78C5ACB (Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11426,7 +11426,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Object_t42A2989484E361AF6C41D21FD84B2F8EFD905
 	Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* V_2 = NULL;
 	Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37* V_3 = NULL;
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:169>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:169>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_0 = (Container_t74302BC1028974B0A346A43F334AECB681D79579*)il2cpp_codegen_object_new(Container_t74302BC1028974B0A346A43F334AECB681D79579_il2cpp_TypeInfo_var);
 		Container__ctor_mE49EAAD4892EDEFFDA64A7A54823A021ECBF4F84(L_0, NULL);
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_1 = L_0;
@@ -11435,17 +11435,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Object_t42A2989484E361AF6C41D21FD84B2F8EFD905
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_2 = V_0;
 		__this->____rootContainer = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____rootContainer), (void*)L_2);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:170>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:170>
 		List_1_t68D1E6534966FC4E15D0908695CED890CFD8987A* L_3 = (List_1_t68D1E6534966FC4E15D0908695CED890CFD8987A*)il2cpp_codegen_object_new(List_1_t68D1E6534966FC4E15D0908695CED890CFD8987A_il2cpp_TypeInfo_var);
 		List_1__ctor_m60A33E724150BD07A6081520E30BCBB4D524DFF8(L_3, List_1__ctor_m60A33E724150BD07A6081520E30BCBB4D524DFF8_RuntimeMethod_var);
 		__this->___looseEnds = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___looseEnds), (void*)L_3);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:172>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:172>
 		List_1_tA7383995CB6636153484C17B150C3B16C85C49B7* L_4 = (List_1_tA7383995CB6636153484C17B150C3B16C85C49B7*)il2cpp_codegen_object_new(List_1_tA7383995CB6636153484C17B150C3B16C85C49B7_il2cpp_TypeInfo_var);
 		List_1__ctor_mE857C294F1FDC1B1EB7A48BD4C4B118802AD68F8(L_4, List_1__ctor_mE857C294F1FDC1B1EB7A48BD4C4B118802AD68F8_RuntimeMethod_var);
 		__this->___gatherPointsToResolve = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___gatherPointsToResolve), (void*)L_4);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:178>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:178>
 		List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55* L_5;
 		L_5 = Object_get_content_m88C0834BB81829EF344181750AB1DCEE3EF5924F_inline(__this, NULL);
 		NullCheck(L_5);
@@ -11471,11 +11471,11 @@ FINALLY_0096:
 
 IL_0038_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:178>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:178>
 				Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_7;
 				L_7 = Enumerator_get_Current_m1E21C02C0D7FEAFFD451F033D2E616D633A251D7_inline((&V_1), Enumerator_get_Current_m1E21C02C0D7FEAFFD451F033D2E616D633A251D7_RuntimeMethod_var);
 				V_2 = L_7;
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:181>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:181>
 				Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_8 = V_2;
 				if (!((RuntimeObject*)IsInst((RuntimeObject*)L_8, IWeavePoint_t990C67A4ECD21D8B8079B5C926273F012EA3F5DE_il2cpp_TypeInfo_var)))
 				{
@@ -11483,7 +11483,7 @@ IL_0038_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:182>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:182>
 				Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_9 = V_2;
 				Weave_AddRuntimeForWeavePoint_m6DEEC1E96DDB0A13DBF6DB29CEAF545C28CEDB08(__this, ((RuntimeObject*)Castclass((RuntimeObject*)L_9, IWeavePoint_t990C67A4ECD21D8B8079B5C926273F012EA3F5DE_il2cpp_TypeInfo_var)), NULL);
 				goto IL_008b_1;
@@ -11491,7 +11491,7 @@ IL_0038_1:
 
 IL_0056_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:189>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:189>
 				Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_10 = V_2;
 				if (!((Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37*)IsInstClass((RuntimeObject*)L_10, Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37_il2cpp_TypeInfo_var)))
 				{
@@ -11499,13 +11499,13 @@ IL_0056_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:190>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:190>
 				Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_11 = V_2;
 				V_3 = ((Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37*)CastclassClass((RuntimeObject*)L_11, Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37_il2cpp_TypeInfo_var));
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:191>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:191>
 				Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37* L_12 = V_3;
 				Weave_AddRuntimeForNestedWeave_m92A81F04518DC007BED67ACD094084B91BCC1F06(__this, L_12, NULL);
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:192>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:192>
 				List_1_tA7383995CB6636153484C17B150C3B16C85C49B7* L_13 = __this->___gatherPointsToResolve;
 				Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37* L_14 = V_3;
 				NullCheck(L_14);
@@ -11517,7 +11517,7 @@ IL_0056_1:
 
 IL_007f_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:198>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:198>
 				Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_16 = V_2;
 				NullCheck(L_16);
 				Object_t42A2989484E361AF6C41D21FD84B2F8EFD905CCB* L_17;
@@ -11527,7 +11527,7 @@ IL_007f_1:
 
 IL_008b_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:178>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:178>
 				bool L_18;
 				L_18 = Enumerator_MoveNext_mDAC08A52E00D45D4C8BB563D4A6462DA8C10CD89((&V_1), Enumerator_MoveNext_mDAC08A52E00D45D4C8BB563D4A6462DA8C10CD89_RuntimeMethod_var);
 				if (L_18)
@@ -11547,14 +11547,14 @@ IL_008b_1:
 
 IL_00a4:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:204>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:204>
 		Weave_PassLooseEndsToAncestors_m839B4E4D82628F01520F428FD2012F1F87D969AC(__this, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:206>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:206>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_19 = __this->____rootContainer;
 		return L_19;
 	}
 }
-// Method Definition Index: 96233
+// Method Definition Index: 96239
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Weave_AddRuntimeForGather_m4CE16001900F51C5A06C0AE87C5284C903B0AEEF (Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37* __this, Gather_t4D4449D7F4F457FE8C02998391783920F1D2459B* ___0_gather, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11583,17 +11583,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Weave_AddRuntimeForGather_m4CE16001900F5
 	int32_t G_B2_0 = 0;
 	int32_t G_B1_0 = 0;
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:217>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:217>
 		bool L_0 = __this->___hasSeenChoiceInSection;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:218>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:218>
 		__this->___hasSeenChoiceInSection = (bool)0;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:220>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:220>
 		Gather_t4D4449D7F4F457FE8C02998391783920F1D2459B* L_1 = ___0_gather;
 		NullCheck(L_1);
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_2;
 		L_2 = Gather_get_runtimeContainer_m13E079CEF8E544DF6A4B0C0B6241E5DD120FB715(L_1, NULL);
 		V_0 = L_2;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:222>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:222>
 		Gather_t4D4449D7F4F457FE8C02998391783920F1D2459B* L_3 = ___0_gather;
 		NullCheck(L_3);
 		String_t* L_4;
@@ -11606,7 +11606,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Weave_AddRuntimeForGather_m4CE16001900F5
 		G_B1_0 = ((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:224>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:224>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_5 = V_0;
 		int32_t* L_6 = (int32_t*)(&__this->____unnamedGatherCount);
 		String_t* L_7;
@@ -11615,7 +11615,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Weave_AddRuntimeForGather_m4CE16001900F5
 		L_8 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralB5EA60EDD2142984A91D0AB523AFEF5F0038056E, L_7, NULL);
 		NullCheck(L_5);
 		Container_set_name_m8F5A2754D5F5B724CDB73F5754F75D179253D1B1_inline(L_5, L_8, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:225>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:225>
 		int32_t L_9 = __this->____unnamedGatherCount;
 		__this->____unnamedGatherCount = ((int32_t)il2cpp_codegen_add(L_9, 1));
 		G_B2_0 = G_B1_0;
@@ -11623,14 +11623,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Weave_AddRuntimeForGather_m4CE16001900F5
 
 IL_0048:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:229>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:229>
 		if (!G_B2_0)
 		{
 			goto IL_0058;
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:230>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:230>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_10;
 		L_10 = Weave_get_currentContainer_mB0B00A3DCFD6945E5EFF414D3D64D13D856820F2_inline(__this, NULL);
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_11 = V_0;
@@ -11641,7 +11641,7 @@ IL_0048:
 
 IL_0058:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:238>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:238>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_12 = __this->____rootContainer;
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_13 = V_0;
 		NullCheck(L_12);
@@ -11650,7 +11650,7 @@ IL_0058:
 
 IL_0064:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:242>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:242>
 		List_1_t68D1E6534966FC4E15D0908695CED890CFD8987A* L_14 = __this->___looseEnds;
 		NullCheck(L_14);
 		Enumerator_t8DB366085E0E2372928AD6C58D17472E9A63BE18 L_15;
@@ -11675,12 +11675,12 @@ FINALLY_00f2:
 
 IL_0072_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:242>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:242>
 				RuntimeObject* L_16;
 				L_16 = Enumerator_get_Current_mEC3CDE10C91DEA58B38AEF9542C069027075B43F_inline((&V_1), Enumerator_get_Current_mEC3CDE10C91DEA58B38AEF9542C069027075B43F_RuntimeMethod_var);
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:244>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:244>
 				V_2 = ((Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7*)CastclassClass((RuntimeObject*)L_16, Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7_il2cpp_TypeInfo_var));
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:249>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:249>
 				Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_17 = V_2;
 				if (!((Gather_t4D4449D7F4F457FE8C02998391783920F1D2459B*)IsInstClass((RuntimeObject*)L_17, Gather_t4D4449D7F4F457FE8C02998391783920F1D2459B_il2cpp_TypeInfo_var)))
 				{
@@ -11688,9 +11688,9 @@ IL_0072_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:250>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:250>
 				Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_18 = V_2;
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:251>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:251>
 				NullCheck(((Gather_t4D4449D7F4F457FE8C02998391783920F1D2459B*)CastclassClass((RuntimeObject*)L_18, Gather_t4D4449D7F4F457FE8C02998391783920F1D2459B_il2cpp_TypeInfo_var)));
 				int32_t L_19;
 				L_19 = Gather_get_indentationDepth_m40F76E3F69111BE1085CFE0B79370156045C94E4_inline(((Gather_t4D4449D7F4F457FE8C02998391783920F1D2459B*)CastclassClass((RuntimeObject*)L_18, Gather_t4D4449D7F4F457FE8C02998391783920F1D2459B_il2cpp_TypeInfo_var)), NULL);
@@ -11706,9 +11706,9 @@ IL_0072_1:
 
 IL_009a_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:256>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:256>
 				V_3 = (Divert_t74B807563B5BEDFB81EA404CC61CDC797ECD04CA*)NULL;
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:258>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:258>
 				Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_22 = V_2;
 				if (!((Divert_tE272DF3F0AABF09ED4E25477B45C8185D59C5186*)IsInstClass((RuntimeObject*)L_22, Divert_tE272DF3F0AABF09ED4E25477B45C8185D59C5186_il2cpp_TypeInfo_var)))
 				{
@@ -11716,7 +11716,7 @@ IL_009a_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:259>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:259>
 				Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_23 = V_2;
 				NullCheck(L_23);
 				Object_t42A2989484E361AF6C41D21FD84B2F8EFD905CCB* L_24;
@@ -11727,13 +11727,13 @@ IL_009a_1:
 
 IL_00b2_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:261>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:261>
 				Divert_t74B807563B5BEDFB81EA404CC61CDC797ECD04CA* L_25 = (Divert_t74B807563B5BEDFB81EA404CC61CDC797ECD04CA*)il2cpp_codegen_object_new(Divert_t74B807563B5BEDFB81EA404CC61CDC797ECD04CA_il2cpp_TypeInfo_var);
 				Divert__ctor_m6EF2247FDA9554C19F47356ACDC569D214095A3A(L_25, NULL);
 				V_3 = L_25;
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:262>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:262>
 				Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_26 = V_2;
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:263>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:263>
 				NullCheck(((RuntimeObject*)IsInst((RuntimeObject*)L_26, IWeavePoint_t990C67A4ECD21D8B8079B5C926273F012EA3F5DE_il2cpp_TypeInfo_var)));
 				Container_t74302BC1028974B0A346A43F334AECB681D79579* L_27;
 				L_27 = InterfaceFuncInvoker0< Container_t74302BC1028974B0A346A43F334AECB681D79579* >::Invoke(1, IWeavePoint_t990C67A4ECD21D8B8079B5C926273F012EA3F5DE_il2cpp_TypeInfo_var, ((RuntimeObject*)IsInst((RuntimeObject*)L_26, IWeavePoint_t990C67A4ECD21D8B8079B5C926273F012EA3F5DE_il2cpp_TypeInfo_var)));
@@ -11744,7 +11744,7 @@ IL_00b2_1:
 
 IL_00c9_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:269>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:269>
 				List_1_tA7383995CB6636153484C17B150C3B16C85C49B7* L_29 = __this->___gatherPointsToResolve;
 				GatherPointToResolve_t5BCA4AD8A1FFAD15432026F412C3551D4794AD14* L_30 = (GatherPointToResolve_t5BCA4AD8A1FFAD15432026F412C3551D4794AD14*)il2cpp_codegen_object_new(GatherPointToResolve_t5BCA4AD8A1FFAD15432026F412C3551D4794AD14_il2cpp_TypeInfo_var);
 				GatherPointToResolve__ctor_mFFE076E7B088D6AF79E86D10264A6E2387C69ED2(L_30, NULL);
@@ -11764,7 +11764,7 @@ IL_00c9_1:
 
 IL_00e7_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:242>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:242>
 				bool L_35;
 				L_35 = Enumerator_MoveNext_m355D754EF36202EF15F3EBEBB40965BEED75EE39((&V_1), Enumerator_MoveNext_m355D754EF36202EF15F3EBEBB40965BEED75EE39_RuntimeMethod_var);
 				if (L_35)
@@ -11784,18 +11784,18 @@ IL_00e7_1:
 
 IL_0100:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:271>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:271>
 		List_1_t68D1E6534966FC4E15D0908695CED890CFD8987A* L_36 = __this->___looseEnds;
 		NullCheck(L_36);
 		List_1_Clear_mB11A36DC9CB485BE0C7EA0E338F61ED2F4907E00_inline(L_36, List_1_Clear_mB11A36DC9CB485BE0C7EA0E338F61ED2F4907E00_RuntimeMethod_var);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:274>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:274>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_37 = V_0;
 		Weave_set_currentContainer_m726341F02CE4FBBF970874A494486A48190F7C23_inline(__this, L_37, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:275>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:275>
 		return;
 	}
 }
-// Method Definition Index: 96234
+// Method Definition Index: 96240
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Weave_AddRuntimeForWeavePoint_m6DEEC1E96DDB0A13DBF6DB29CEAF545C28CEDB08 (Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37* __this, RuntimeObject* ___0_weavePoint, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11810,7 +11810,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Weave_AddRuntimeForWeavePoint_m6DEEC1E96
 	}
 	Choice_t36174EC808231C52E43CE7768134739559499893* V_0 = NULL;
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:280>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:280>
 		RuntimeObject* L_0 = ___0_weavePoint;
 		if (!((Gather_t4D4449D7F4F457FE8C02998391783920F1D2459B*)IsInstClass((RuntimeObject*)L_0, Gather_t4D4449D7F4F457FE8C02998391783920F1D2459B_il2cpp_TypeInfo_var)))
 		{
@@ -11818,7 +11818,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Weave_AddRuntimeForWeavePoint_m6DEEC1E96
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:281>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:281>
 		RuntimeObject* L_1 = ___0_weavePoint;
 		Weave_AddRuntimeForGather_m4CE16001900F51C5A06C0AE87C5284C903B0AEEF(__this, ((Gather_t4D4449D7F4F457FE8C02998391783920F1D2459B*)CastclassClass((RuntimeObject*)L_1, Gather_t4D4449D7F4F457FE8C02998391783920F1D2459B_il2cpp_TypeInfo_var)), NULL);
 		goto IL_009e;
@@ -11826,7 +11826,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Weave_AddRuntimeForWeavePoint_m6DEEC1E96
 
 IL_0019:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:285>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:285>
 		RuntimeObject* L_2 = ___0_weavePoint;
 		if (!((Choice_t36174EC808231C52E43CE7768134739559499893*)IsInstClass((RuntimeObject*)L_2, Choice_t36174EC808231C52E43CE7768134739559499893_il2cpp_TypeInfo_var)))
 		{
@@ -11834,7 +11834,7 @@ IL_0019:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:289>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:289>
 		RuntimeObject* L_3 = __this->___previousWeavePoint;
 		if (!((Gather_t4D4449D7F4F457FE8C02998391783920F1D2459B*)IsInstClass((RuntimeObject*)L_3, Gather_t4D4449D7F4F457FE8C02998391783920F1D2459B_il2cpp_TypeInfo_var)))
 		{
@@ -11842,7 +11842,7 @@ IL_0019:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:290>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:290>
 		List_1_t68D1E6534966FC4E15D0908695CED890CFD8987A* L_4 = __this->___looseEnds;
 		RuntimeObject* L_5 = __this->___previousWeavePoint;
 		NullCheck(L_4);
@@ -11852,10 +11852,10 @@ IL_0019:
 
 IL_0040:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:294>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:294>
 		RuntimeObject* L_7 = ___0_weavePoint;
 		V_0 = ((Choice_t36174EC808231C52E43CE7768134739559499893*)CastclassClass((RuntimeObject*)L_7, Choice_t36174EC808231C52E43CE7768134739559499893_il2cpp_TypeInfo_var));
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:295>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:295>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_8;
 		L_8 = Weave_get_currentContainer_mB0B00A3DCFD6945E5EFF414D3D64D13D856820F2_inline(__this, NULL);
 		Choice_t36174EC808231C52E43CE7768134739559499893* L_9 = V_0;
@@ -11864,7 +11864,7 @@ IL_0040:
 		L_10 = Object_get_runtimeObject_m9726F2EAF9D401D00BBA724D0DBD220BE4B81CC8(L_9, NULL);
 		NullCheck(L_8);
 		Container_AddContent_m2F2BA6E71A20ABB416F17B6235345801A55FEA76(L_8, L_10, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:298>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:298>
 		Choice_t36174EC808231C52E43CE7768134739559499893* L_11 = V_0;
 		NullCheck(L_11);
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_12;
@@ -11876,7 +11876,7 @@ IL_0040:
 		L_15 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralF42442CA83AE953CBF0C9F2D7BD30697A2BCCE58, L_14, NULL);
 		NullCheck(L_12);
 		Container_set_name_m8F5A2754D5F5B724CDB73F5754F75D179253D1B1_inline(L_12, L_15, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:299>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:299>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_16;
 		L_16 = Weave_get_currentContainer_mB0B00A3DCFD6945E5EFF414D3D64D13D856820F2_inline(__this, NULL);
 		Choice_t36174EC808231C52E43CE7768134739559499893* L_17 = V_0;
@@ -11885,18 +11885,18 @@ IL_0040:
 		L_18 = Choice_get_innerContentContainer_m9C30F03A0EFE2BEE3AC920D6F39B50E84127C3F3_inline(L_17, NULL);
 		NullCheck(L_16);
 		Container_AddToNamedContentOnly_mE22F23FF9DA10C2E08C20DD7DFCF0B2A3C689461(L_16, L_18, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:300>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:300>
 		int32_t L_19 = __this->____choiceCount;
 		__this->____choiceCount = ((int32_t)il2cpp_codegen_add(L_19, 1));
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:302>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:302>
 		__this->___hasSeenChoiceInSection = (bool)1;
 	}
 
 IL_009e:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:306>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:306>
 		__this->___addContentToPreviousWeavePoint = (bool)0;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:307>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:307>
 		RuntimeObject* L_20 = ___0_weavePoint;
 		bool L_21;
 		L_21 = Weave_WeavePointHasLooseEnd_m86BFC84415A3BB79B512FA7B60845FE92D80C03C(__this, L_20, NULL);
@@ -11906,14 +11906,14 @@ IL_009e:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:308>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:308>
 		List_1_t68D1E6534966FC4E15D0908695CED890CFD8987A* L_22 = __this->___looseEnds;
 		RuntimeObject* L_23 = ___0_weavePoint;
 		NullCheck(L_22);
 		List_1_Add_mE731A800FB19135328BDEB3004A0C19FFF955AB6_inline(L_22, L_23, List_1_Add_mE731A800FB19135328BDEB3004A0C19FFF955AB6_RuntimeMethod_var);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:311>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:311>
 		RuntimeObject* L_24 = ___0_weavePoint;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:312>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:312>
 		bool L_25;
 		L_25 = Object_op_Implicit_m9F097EFB17152A15AF84817F6B4AE720A6A6094E(((Choice_t36174EC808231C52E43CE7768134739559499893*)IsInstClass((RuntimeObject*)L_24, Choice_t36174EC808231C52E43CE7768134739559499893_il2cpp_TypeInfo_var)), NULL);
 		if (!L_25)
@@ -11922,21 +11922,21 @@ IL_009e:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:313>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:313>
 		__this->___addContentToPreviousWeavePoint = (bool)1;
 	}
 
 IL_00ce:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:316>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:316>
 		RuntimeObject* L_26 = ___0_weavePoint;
 		__this->___previousWeavePoint = L_26;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___previousWeavePoint), (void*)L_26);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:317>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:317>
 		return;
 	}
 }
-// Method Definition Index: 96235
+// Method Definition Index: 96241
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Weave_AddRuntimeForNestedWeave_m92A81F04518DC007BED67ACD094084B91BCC1F06 (Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37* __this, Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37* ___0_nestedResult, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11946,13 +11946,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Weave_AddRuntimeForNestedWeave_m92A81F04
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:324>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:324>
 		Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37* L_0 = ___0_nestedResult;
 		NullCheck(L_0);
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_1;
 		L_1 = Weave_get_rootContainer_mF7051B9D57FAE9724FFA81B7760DABEE4A7330E5(L_0, NULL);
 		Weave_AddGeneralRuntimeContent_mFCCE215692B86EC17515E4331F2B7ED81042BBC6(__this, L_1, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:328>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:328>
 		RuntimeObject* L_2 = __this->___previousWeavePoint;
 		if (!L_2)
 		{
@@ -11960,23 +11960,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Weave_AddRuntimeForNestedWeave_m92A81F04
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:329>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:329>
 		List_1_t68D1E6534966FC4E15D0908695CED890CFD8987A* L_3 = __this->___looseEnds;
 		RuntimeObject* L_4 = __this->___previousWeavePoint;
 		NullCheck(L_3);
 		bool L_5;
 		L_5 = List_1_Remove_m73CFAF298BE8CF17918741C4C65E19E334805C22(L_3, L_4, List_1_Remove_m73CFAF298BE8CF17918741C4C65E19E334805C22_RuntimeMethod_var);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:330>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:330>
 		__this->___addContentToPreviousWeavePoint = (bool)0;
 	}
 
 IL_002d:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:332>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:332>
 		return;
 	}
 }
-// Method Definition Index: 96236
+// Method Definition Index: 96242
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Weave_AddGeneralRuntimeContent_mFCCE215692B86EC17515E4331F2B7ED81042BBC6 (Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37* __this, Object_t42A2989484E361AF6C41D21FD84B2F8EFD905CCB* ___0_content, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11986,7 +11986,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Weave_AddGeneralRuntimeContent_mFCCE2156
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:340>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:340>
 		Object_t42A2989484E361AF6C41D21FD84B2F8EFD905CCB* L_0 = ___0_content;
 		bool L_1;
 		L_1 = Object_op_Equality_m2AE832318622C516D0CF2C77418FD85DD162DE62(L_0, (Object_t42A2989484E361AF6C41D21FD84B2F8EFD905CCB*)NULL, NULL);
@@ -11996,13 +11996,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Weave_AddGeneralRuntimeContent_mFCCE2156
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:341>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:341>
 		return;
 	}
 
 IL_000a:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:343>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:343>
 		bool L_2 = __this->___addContentToPreviousWeavePoint;
 		if (!L_2)
 		{
@@ -12010,7 +12010,7 @@ IL_000a:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:344>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:344>
 		RuntimeObject* L_3 = __this->___previousWeavePoint;
 		NullCheck(L_3);
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_4;
@@ -12023,17 +12023,17 @@ IL_000a:
 
 IL_0024:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:346>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:346>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_6;
 		L_6 = Weave_get_currentContainer_mB0B00A3DCFD6945E5EFF414D3D64D13D856820F2_inline(__this, NULL);
 		Object_t42A2989484E361AF6C41D21FD84B2F8EFD905CCB* L_7 = ___0_content;
 		NullCheck(L_6);
 		Container_AddContent_m2F2BA6E71A20ABB416F17B6235345801A55FEA76(L_6, L_7, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:348>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:348>
 		return;
 	}
 }
-// Method Definition Index: 96237
+// Method Definition Index: 96243
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Weave_PassLooseEndsToAncestors_m839B4E4D82628F01520F428FD2012F1F87D969AC (Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12060,7 +12060,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Weave_PassLooseEndsToAncestors_m839B4E4D
 	Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37* G_B26_0 = NULL;
 	Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37* G_B25_0 = NULL;
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:352>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:352>
 		List_1_t68D1E6534966FC4E15D0908695CED890CFD8987A* L_0 = __this->___looseEnds;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -12071,19 +12071,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Weave_PassLooseEndsToAncestors_m839B4E4D
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:352>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:352>
 		return;
 	}
 
 IL_000e:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:378>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:378>
 		V_0 = (Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37*)NULL;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:379>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:379>
 		V_1 = (Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37*)NULL;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:382>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:382>
 		V_2 = (bool)0;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:383>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:383>
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_2;
 		L_2 = Object_get_parent_mD76D8371EC8C6B3B64B43B1FCECFEB2F8F4FD31A_inline(__this, NULL);
 		V_3 = L_2;
@@ -12092,10 +12092,10 @@ IL_000e:
 
 IL_001d:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:387>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:387>
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_3 = V_3;
 		V_4 = ((Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37*)IsInstClass((RuntimeObject*)L_3, Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37_il2cpp_TypeInfo_var));
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:388>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:388>
 		Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37* L_4 = V_4;
 		bool L_5;
 		L_5 = Object_op_Inequality_m6C3277742792FF570027EC4C9C13C8F9CA9382B5(L_4, (Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7*)NULL, NULL);
@@ -12105,7 +12105,7 @@ IL_001d:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:390>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:390>
 		bool L_6 = V_2;
 		if (L_6)
 		{
@@ -12122,14 +12122,14 @@ IL_001d:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:391>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:391>
 		Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37* L_9 = V_4;
 		V_0 = L_9;
 	}
 
 IL_003e:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:393>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:393>
 		bool L_10 = V_2;
 		if (!L_10)
 		{
@@ -12146,14 +12146,14 @@ IL_003e:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:394>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:394>
 		Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37* L_13 = V_4;
 		V_1 = L_13;
 	}
 
 IL_004d:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:400>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:400>
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_14 = V_3;
 		if (((Sequence_tCB97594473EC8A4A93D541931AB94EFFD0971E85*)IsInstClass((RuntimeObject*)L_14, Sequence_tCB97594473EC8A4A93D541931AB94EFFD0971E85_il2cpp_TypeInfo_var)))
 		{
@@ -12170,13 +12170,13 @@ IL_004d:
 
 IL_005d:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:401>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:401>
 		V_2 = (bool)1;
 	}
 
 IL_005f:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:383>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:383>
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_16 = V_3;
 		NullCheck(L_16);
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_17;
@@ -12186,7 +12186,7 @@ IL_005f:
 
 IL_0066:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:383>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:383>
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_18 = V_3;
 		bool L_19;
 		L_19 = Object_op_Inequality_m6C3277742792FF570027EC4C9C13C8F9CA9382B5(L_18, (Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7*)NULL, NULL);
@@ -12196,7 +12196,7 @@ IL_0066:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:405>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:405>
 		Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37* L_20 = V_0;
 		bool L_21;
 		L_21 = Object_op_Equality_m109E112ACAA3627F5E1EF2BD8C13110F2493CB4D(L_20, (Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7*)NULL, NULL);
@@ -12215,13 +12215,13 @@ IL_0066:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:406>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:406>
 		return;
 	}
 
 IL_0082:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:409>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:409>
 		List_1_t68D1E6534966FC4E15D0908695CED890CFD8987A* L_24 = __this->___looseEnds;
 		NullCheck(L_24);
 		int32_t L_25;
@@ -12232,16 +12232,16 @@ IL_0082:
 
 IL_0093:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:410>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:410>
 		List_1_t68D1E6534966FC4E15D0908695CED890CFD8987A* L_26 = __this->___looseEnds;
 		int32_t L_27 = V_5;
 		NullCheck(L_26);
 		RuntimeObject* L_28;
 		L_28 = List_1_get_Item_mD7C86426165B299E1AF57E1CC3ADF4B9B0EDB97D(L_26, L_27, List_1_get_Item_mD7C86426165B299E1AF57E1CC3ADF4B9B0EDB97D_RuntimeMethod_var);
 		V_6 = L_28;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:412>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:412>
 		V_7 = (bool)0;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:418>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:418>
 		bool L_29 = V_2;
 		if (!L_29)
 		{
@@ -12249,7 +12249,7 @@ IL_0093:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:419>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:419>
 		RuntimeObject* L_30 = V_6;
 		if (!((Choice_t36174EC808231C52E43CE7768134739559499893*)IsInstClass((RuntimeObject*)L_30, Choice_t36174EC808231C52E43CE7768134739559499893_il2cpp_TypeInfo_var)))
 		{
@@ -12266,19 +12266,19 @@ IL_0093:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:420>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:420>
 		Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37* L_33 = V_0;
 		RuntimeObject* L_34 = V_6;
 		NullCheck(L_33);
 		Weave_ReceiveLooseEnd_mCAAB5B4208181C3DFFA3FBC9CD8E7D11F23A3256(L_33, L_34, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:421>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:421>
 		V_7 = (bool)1;
 		goto IL_00fb;
 	}
 
 IL_00c7:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:424>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:424>
 		RuntimeObject* L_35 = V_6;
 		if (((Choice_t36174EC808231C52E43CE7768134739559499893*)IsInstClass((RuntimeObject*)L_35, Choice_t36174EC808231C52E43CE7768134739559499893_il2cpp_TypeInfo_var)))
 		{
@@ -12286,7 +12286,7 @@ IL_00c7:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:425>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:425>
 		Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37* L_36 = V_0;
 		Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37* L_37 = L_36;
 		if (L_37)
@@ -12304,7 +12304,7 @@ IL_00c7:
 IL_00d6:
 	{
 		V_8 = G_B26_0;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:426>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:426>
 		Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37* L_39 = V_8;
 		bool L_40;
 		L_40 = Object_op_Inequality_m6C3277742792FF570027EC4C9C13C8F9CA9382B5(L_39, (Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7*)NULL, NULL);
@@ -12314,30 +12314,30 @@ IL_00d6:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:427>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:427>
 		Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37* L_41 = V_8;
 		RuntimeObject* L_42 = V_6;
 		NullCheck(L_41);
 		Weave_ReceiveLooseEnd_mCAAB5B4208181C3DFFA3FBC9CD8E7D11F23A3256(L_41, L_42, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:428>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:428>
 		V_7 = (bool)1;
 		goto IL_00fb;
 	}
 
 IL_00f0:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:435>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:435>
 		Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37* L_43 = V_0;
 		RuntimeObject* L_44 = V_6;
 		NullCheck(L_43);
 		Weave_ReceiveLooseEnd_mCAAB5B4208181C3DFFA3FBC9CD8E7D11F23A3256(L_43, L_44, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:436>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:436>
 		V_7 = (bool)1;
 	}
 
 IL_00fb:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:439>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:439>
 		bool L_45 = V_7;
 		if (!L_45)
 		{
@@ -12345,7 +12345,7 @@ IL_00fb:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:439>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:439>
 		List_1_t68D1E6534966FC4E15D0908695CED890CFD8987A* L_46 = __this->___looseEnds;
 		int32_t L_47 = V_5;
 		NullCheck(L_46);
@@ -12354,14 +12354,14 @@ IL_00fb:
 
 IL_010c:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:409>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:409>
 		int32_t L_48 = V_5;
 		V_5 = ((int32_t)il2cpp_codegen_subtract(L_48, 1));
 	}
 
 IL_0112:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:409>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:409>
 		int32_t L_49 = V_5;
 		if ((((int32_t)L_49) >= ((int32_t)0)))
 		{
@@ -12369,11 +12369,11 @@ IL_0112:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:441>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:441>
 		return;
 	}
 }
-// Method Definition Index: 96238
+// Method Definition Index: 96244
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Weave_ReceiveLooseEnd_mCAAB5B4208181C3DFFA3FBC9CD8E7D11F23A3256 (Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37* __this, RuntimeObject* ___0_childWeaveLooseEnd, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12383,16 +12383,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Weave_ReceiveLooseEnd_mCAAB5B4208181C3DF
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:445>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:445>
 		List_1_t68D1E6534966FC4E15D0908695CED890CFD8987A* L_0 = __this->___looseEnds;
 		RuntimeObject* L_1 = ___0_childWeaveLooseEnd;
 		NullCheck(L_0);
 		List_1_Add_mE731A800FB19135328BDEB3004A0C19FFF955AB6_inline(L_0, L_1, List_1_Add_mE731A800FB19135328BDEB3004A0C19FFF955AB6_RuntimeMethod_var);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:446>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:446>
 		return;
 	}
 }
-// Method Definition Index: 96239
+// Method Definition Index: 96245
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Weave_ResolveReferences_mD1EAFE177313051E7B2EC4046ED890CFDC120D41 (Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37* __this, Story_tEBE39AA9D821413F842FC1EA2FC7A087466078F7* ___0_context, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12415,10 +12415,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Weave_ResolveReferences_mD1EAFE177313051
 	memset((&V_2), 0, sizeof(V_2));
 	GatherPointToResolve_t5BCA4AD8A1FFAD15432026F412C3551D4794AD14* V_3 = NULL;
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:450>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:450>
 		Story_tEBE39AA9D821413F842FC1EA2FC7A087466078F7* L_0 = ___0_context;
 		Object_ResolveReferences_m8BC5DD701019191459A9CEF84D71FFBE2FEDFF8E(__this, L_0, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:453>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:453>
 		List_1_t68D1E6534966FC4E15D0908695CED890CFD8987A* L_1 = __this->___looseEnds;
 		if (!L_1)
 		{
@@ -12436,9 +12436,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Weave_ResolveReferences_mD1EAFE177313051
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:454>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:454>
 		V_0 = (bool)0;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:455>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:455>
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_4;
 		L_4 = Object_get_parent_mD76D8371EC8C6B3B64B43B1FCECFEB2F8F4FD31A_inline(__this, NULL);
 		V_1 = L_4;
@@ -12447,7 +12447,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Weave_ResolveReferences_mD1EAFE177313051
 
 IL_0028:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:457>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:457>
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_5 = V_1;
 		if (((Sequence_tCB97594473EC8A4A93D541931AB94EFFD0971E85*)IsInstClass((RuntimeObject*)L_5, Sequence_tCB97594473EC8A4A93D541931AB94EFFD0971E85_il2cpp_TypeInfo_var)))
 		{
@@ -12464,15 +12464,15 @@ IL_0028:
 
 IL_0038:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:459>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:459>
 		V_0 = (bool)1;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:460>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:460>
 		goto IL_004c;
 	}
 
 IL_003c:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:455>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:455>
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_7 = V_1;
 		NullCheck(L_7);
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_8;
@@ -12482,7 +12482,7 @@ IL_003c:
 
 IL_0043:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:455>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:455>
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_9 = V_1;
 		bool L_10;
 		L_10 = Object_op_Inequality_m6C3277742792FF570027EC4C9C13C8F9CA9382B5(L_9, (Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7*)NULL, NULL);
@@ -12494,7 +12494,7 @@ IL_0043:
 
 IL_004c:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:463>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:463>
 		bool L_11 = V_0;
 		if (!L_11)
 		{
@@ -12502,7 +12502,7 @@ IL_004c:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:465>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:465>
 		BadTerminationHandler_t38227A0D50C73B21589BBEF3F43731475F7566EC* L_12 = (BadTerminationHandler_t38227A0D50C73B21589BBEF3F43731475F7566EC*)il2cpp_codegen_object_new(BadTerminationHandler_t38227A0D50C73B21589BBEF3F43731475F7566EC_il2cpp_TypeInfo_var);
 		BadTerminationHandler__ctor_mAD3499682FC2CD65E716A6714C8EBD32F3C0C1D1(L_12, __this, (intptr_t)((void*)Weave_BadNestedTerminationHandler_m4531FCF23C4DAE2724AC2E1483B94C4FB23F97E7_RuntimeMethod_var), NULL);
 		Weave_ValidateTermination_mC042A95722BFF6A02755640F589BA1487AE94849(__this, L_12, NULL);
@@ -12510,7 +12510,7 @@ IL_004c:
 
 IL_0061:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:469>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:469>
 		List_1_tA7383995CB6636153484C17B150C3B16C85C49B7* L_13 = __this->___gatherPointsToResolve;
 		NullCheck(L_13);
 		Enumerator_t3181272E3D8283B1DCC73C3D6D8C3736A14BA453 L_14;
@@ -12535,11 +12535,11 @@ FINALLY_0098:
 
 IL_006f_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:469>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:469>
 				GatherPointToResolve_t5BCA4AD8A1FFAD15432026F412C3551D4794AD14* L_15;
 				L_15 = Enumerator_get_Current_mAE2D0F63AC021CDF331A873DB4D4D07C212C86FC_inline((&V_2), Enumerator_get_Current_mAE2D0F63AC021CDF331A873DB4D4D07C212C86FC_RuntimeMethod_var);
 				V_3 = L_15;
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:470>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:470>
 				GatherPointToResolve_t5BCA4AD8A1FFAD15432026F412C3551D4794AD14* L_16 = V_3;
 				NullCheck(L_16);
 				Divert_t74B807563B5BEDFB81EA404CC61CDC797ECD04CA* L_17 = L_16->___divert;
@@ -12555,7 +12555,7 @@ IL_006f_1:
 
 IL_008d_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:469>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:469>
 				bool L_21;
 				L_21 = Enumerator_MoveNext_mA226D5AC035B8AA46A1A5B0AD87D66B4747F85C6((&V_2), Enumerator_MoveNext_mA226D5AC035B8AA46A1A5B0AD87D66B4747F85C6_RuntimeMethod_var);
 				if (L_21)
@@ -12575,13 +12575,13 @@ IL_008d_1:
 
 IL_00a6:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:473>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:473>
 		Weave_CheckForWeavePointNamingCollisions_m3E4BA051D8AD9D9B38568439E424B6C562FA61CE(__this, NULL);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:474>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:474>
 		return;
 	}
 }
-// Method Definition Index: 96240
+// Method Definition Index: 96246
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Weave_WeavePointNamed_mB6BBB582A93BE2C68059F5642F3CCCA6446648F0 (Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37* __this, String_t* ___0_name, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12592,7 +12592,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Weave_WeavePointNamed_mB6BBB58
 	}
 	RuntimeObject* V_0 = NULL;
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:478>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:478>
 		Dictionary_2_t5D65C7CF98A47724B51D341E32C367B484A4286F* L_0 = __this->____namedWeavePoints;
 		if (L_0)
 		{
@@ -12600,15 +12600,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Weave_WeavePointNamed_mB6BBB58
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:479>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:479>
 		return (RuntimeObject*)NULL;
 	}
 
 IL_000a:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:481>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:481>
 		V_0 = (RuntimeObject*)NULL;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:482>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:482>
 		Dictionary_2_t5D65C7CF98A47724B51D341E32C367B484A4286F* L_1 = __this->____namedWeavePoints;
 		String_t* L_2 = ___0_name;
 		NullCheck(L_1);
@@ -12620,18 +12620,18 @@ IL_000a:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:483>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:483>
 		RuntimeObject* L_4 = V_0;
 		return L_4;
 	}
 
 IL_001e:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:485>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:485>
 		return (RuntimeObject*)NULL;
 	}
 }
-// Method Definition Index: 96241
+// Method Definition Index: 96247
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Weave_IsGlobalDeclaration_m2F27AA5E1B93C4B938128743ECD736C5C69F43A3 (Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37* __this, Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* ___0_obj, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12643,10 +12643,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Weave_IsGlobalDeclaration_m2F27AA5E1B93C
 	}
 	VariableAssignment_tD4DE7C66FEC35C64555CA2CB117AF682C9A48C82* V_0 = NULL;
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:493>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:493>
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_0 = ___0_obj;
 		V_0 = ((VariableAssignment_tD4DE7C66FEC35C64555CA2CB117AF682C9A48C82*)IsInstClass((RuntimeObject*)L_0, VariableAssignment_tD4DE7C66FEC35C64555CA2CB117AF682C9A48C82_il2cpp_TypeInfo_var));
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:494>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:494>
 		VariableAssignment_tD4DE7C66FEC35C64555CA2CB117AF682C9A48C82* L_1 = V_0;
 		bool L_2;
 		L_2 = Object_op_Implicit_m9F097EFB17152A15AF84817F6B4AE720A6A6094E(L_1, NULL);
@@ -12676,15 +12676,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Weave_IsGlobalDeclaration_m2F27AA5E1B93C
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:495>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:495>
 		return (bool)1;
 	}
 
 IL_0021:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:497>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:497>
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_7 = ___0_obj;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:498>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:498>
 		bool L_8;
 		L_8 = Object_op_Implicit_m9F097EFB17152A15AF84817F6B4AE720A6A6094E(((ConstantDeclaration_t166A3FE1F4854C2AF889D4A1A8F5674CF88DB1EA*)IsInstClass((RuntimeObject*)L_7, ConstantDeclaration_t166A3FE1F4854C2AF889D4A1A8F5674CF88DB1EA_il2cpp_TypeInfo_var)), NULL);
 		if (!L_8)
@@ -12693,17 +12693,17 @@ IL_0021:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:499>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:499>
 		return (bool)1;
 	}
 
 IL_0030:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:501>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:501>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 96242
+// Method Definition Index: 96248
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Weave_ContentThatFollowsWeavePoint_m2CB425112D0A7BA7FC3E83215F095C70A98B9273 (Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37* __this, RuntimeObject* ___0_weavePoint, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12727,7 +12727,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Weave_ContentThatFollowsWeaveP
 		return L_2;
 	}
 }
-// Method Definition Index: 96243
+// Method Definition Index: 96249
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Weave_ValidateTermination_mC042A95722BFF6A02755640F589BA1487AE94849 (Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37* __this, BadTerminationHandler_t38227A0D50C73B21589BBEF3F43731475F7566EC* ___0_badTerminationHandler, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12755,7 +12755,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Weave_ValidateTermination_mC042A95722BFF
 	memset((&V_3), 0, sizeof(V_3));
 	int32_t G_B5_0 = 0;
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:552>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:552>
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_0;
 		L_0 = Weave_get_lastParsedSignificantObject_m1B04EDF689CE2860594576D416B2EBC60C55423B(__this, NULL);
 		if (!((AuthorWarning_t69F75016EA0D0EF598ED62AA7FB57104F63B3DAE*)IsInstClass((RuntimeObject*)L_0, AuthorWarning_t69F75016EA0D0EF598ED62AA7FB57104F63B3DAE_il2cpp_TypeInfo_var)))
@@ -12764,13 +12764,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Weave_ValidateTermination_mC042A95722BFF
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:553>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:553>
 		return;
 	}
 
 IL_000e:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:565>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:565>
 		List_1_t68D1E6534966FC4E15D0908695CED890CFD8987A* L_1 = __this->___looseEnds;
 		if (!L_1)
 		{
@@ -12793,14 +12793,14 @@ IL_0026:
 
 IL_0027:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:567>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:567>
 		if (!G_B5_0)
 		{
 			goto IL_006e;
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:568>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:568>
 		List_1_t68D1E6534966FC4E15D0908695CED890CFD8987A* L_4 = __this->___looseEnds;
 		NullCheck(L_4);
 		Enumerator_t8DB366085E0E2372928AD6C58D17472E9A63BE18 L_5;
@@ -12825,16 +12825,16 @@ FINALLY_0060:
 
 IL_0037_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:568>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:568>
 				RuntimeObject* L_6;
 				L_6 = Enumerator_get_Current_mEC3CDE10C91DEA58B38AEF9542C069027075B43F_inline((&V_0), Enumerator_get_Current_mEC3CDE10C91DEA58B38AEF9542C069027075B43F_RuntimeMethod_var);
 				V_1 = L_6;
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:569>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:569>
 				RuntimeObject* L_7 = V_1;
 				RuntimeObject* L_8;
 				L_8 = Weave_ContentThatFollowsWeavePoint_m2CB425112D0A7BA7FC3E83215F095C70A98B9273(__this, L_7, NULL);
 				V_2 = L_8;
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:570>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:570>
 				RuntimeObject* L_9 = V_2;
 				RuntimeObject* L_10 = V_1;
 				BadTerminationHandler_t38227A0D50C73B21589BBEF3F43731475F7566EC* L_11 = ___0_badTerminationHandler;
@@ -12843,7 +12843,7 @@ IL_0037_1:
 
 IL_0055_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:568>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:568>
 				bool L_12;
 				L_12 = Enumerator_MoveNext_m355D754EF36202EF15F3EBEBB40965BEED75EE39((&V_0), Enumerator_MoveNext_m355D754EF36202EF15F3EBEBB40965BEED75EE39_RuntimeMethod_var);
 				if (L_12)
@@ -12863,7 +12863,7 @@ IL_0055_1:
 
 IL_006e:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:580>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:580>
 		List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55* L_13;
 		L_13 = Object_get_content_m88C0834BB81829EF344181750AB1DCEE3EF5924F_inline(__this, NULL);
 		NullCheck(L_13);
@@ -12889,23 +12889,23 @@ FINALLY_0097:
 
 IL_007c_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:580>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:580>
 				Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_15;
 				L_15 = Enumerator_get_Current_m1E21C02C0D7FEAFFD451F033D2E616D633A251D7_inline((&V_3), Enumerator_get_Current_m1E21C02C0D7FEAFFD451F033D2E616D633A251D7_RuntimeMethod_var);
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:581>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:581>
 				if (!((RuntimeObject*)IsInst((RuntimeObject*)L_15, IWeavePoint_t990C67A4ECD21D8B8079B5C926273F012EA3F5DE_il2cpp_TypeInfo_var)))
 				{
 					goto IL_008c_1;
 				}
 			}
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:581>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:581>
 				goto IL_00b3;
 			}
 
 IL_008c_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:580>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:580>
 				bool L_16;
 				L_16 = Enumerator_MoveNext_mDAC08A52E00D45D4C8BB563D4A6462DA8C10CD89((&V_3), Enumerator_MoveNext_mDAC08A52E00D45D4C8BB563D4A6462DA8C10CD89_RuntimeMethod_var);
 				if (L_16)
@@ -12925,7 +12925,7 @@ IL_008c_1:
 
 IL_00a5:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:585>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:585>
 		List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55* L_17;
 		L_17 = Object_get_content_m88C0834BB81829EF344181750AB1DCEE3EF5924F_inline(__this, NULL);
 		BadTerminationHandler_t38227A0D50C73B21589BBEF3F43731475F7566EC* L_18 = ___0_badTerminationHandler;
@@ -12934,11 +12934,11 @@ IL_00a5:
 
 IL_00b3:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:587>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:587>
 		return;
 	}
 }
-// Method Definition Index: 96244
+// Method Definition Index: 96250
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Weave_BadNestedTerminationHandler_m4531FCF23C4DAE2724AC2E1483B94C4FB23F97E7 (Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37* __this, Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* ___0_terminatingObj, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12956,9 +12956,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Weave_BadNestedTerminationHandler_m4531F
 	String_t* V_1 = NULL;
 	Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* V_2 = NULL;
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:591>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:591>
 		V_0 = (Conditional_tB77DD193DE5ED0630FD7364DF76675476646ADFE*)NULL;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:592>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:592>
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_0 = ___0_terminatingObj;
 		NullCheck(L_0);
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_1;
@@ -12969,7 +12969,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Weave_BadNestedTerminationHandler_m4531F
 
 IL_000b:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:593>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:593>
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_2 = V_2;
 		if (((Sequence_tCB97594473EC8A4A93D541931AB94EFFD0971E85*)IsInstClass((RuntimeObject*)L_2, Sequence_tCB97594473EC8A4A93D541931AB94EFFD0971E85_il2cpp_TypeInfo_var)))
 		{
@@ -12986,16 +12986,16 @@ IL_000b:
 
 IL_001b:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:594>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:594>
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_4 = V_2;
 		V_0 = ((Conditional_tB77DD193DE5ED0630FD7364DF76675476646ADFE*)IsInstClass((RuntimeObject*)L_4, Conditional_tB77DD193DE5ED0630FD7364DF76675476646ADFE_il2cpp_TypeInfo_var));
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:595>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:595>
 		goto IL_0034;
 	}
 
 IL_0024:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:592>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:592>
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_5 = V_2;
 		NullCheck(L_5);
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_6;
@@ -13005,7 +13005,7 @@ IL_0024:
 
 IL_002b:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:592>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:592>
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_7 = V_2;
 		bool L_8;
 		L_8 = Object_op_Inequality_m6C3277742792FF570027EC4C9C13C8F9CA9382B5(L_7, (Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7*)NULL, NULL);
@@ -13017,9 +13017,9 @@ IL_002b:
 
 IL_0034:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:599>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:599>
 		V_1 = _stringLiteral21F29DAD0A8FD7E88D981478E32D509D5426BBC7;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:605>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:605>
 		Conditional_tB77DD193DE5ED0630FD7364DF76675476646ADFE* L_9 = V_0;
 		bool L_10;
 		L_10 = Object_op_Inequality_m6C3277742792FF570027EC4C9C13C8F9CA9382B5(L_9, (Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7*)NULL, NULL);
@@ -13029,7 +13029,7 @@ IL_0034:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:606>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:606>
 		Conditional_tB77DD193DE5ED0630FD7364DF76675476646ADFE* L_11 = V_0;
 		NullCheck(L_11);
 		List_1_tA3404605665EC0FC0FFAB9752768CB531C08687C* L_12;
@@ -13037,14 +13037,14 @@ IL_0034:
 		NullCheck(L_12);
 		int32_t L_13;
 		L_13 = List_1_get_Count_m3729CD7808E34BFD9068F3A791D9D00B90282588_inline(L_12, List_1_get_Count_m3729CD7808E34BFD9068F3A791D9D00B90282588_RuntimeMethod_var);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:607>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:607>
 		if ((!(((uint32_t)L_13) == ((uint32_t)1))))
 		{
 			goto IL_0063;
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:608>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:608>
 		String_t* L_14 = V_1;
 		NullCheck(L_14);
 		String_t* L_15;
@@ -13056,15 +13056,15 @@ IL_0034:
 
 IL_0063:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:612>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:612>
 		String_t* L_17 = V_1;
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_18 = ___0_terminatingObj;
 		VirtualActionInvoker3< String_t*, Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7*, bool >::Invoke(10, __this, L_17, L_18, (bool)0);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:613>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:613>
 		return;
 	}
 }
-// Method Definition Index: 96245
+// Method Definition Index: 96251
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Weave_ValidateFlowOfObjectsTerminates_m7239B14D782F7304DD3D0726A3A8BDB972101757 (Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37* __this, RuntimeObject* ___0_objFlow, Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* ___1_defaultObj, BadTerminationHandler_t38227A0D50C73B21589BBEF3F43731475F7566EC* ___2_badTerminationHandler, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13091,12 +13091,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Weave_ValidateFlowOfObjectsTerminates_m7
 	FindQueryFunc_1_t5B4CFCAF8A9A138759489943408A394C5D5F1911* G_B3_0 = NULL;
 	Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* G_B3_1 = NULL;
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:617>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:617>
 		V_0 = (bool)0;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:618>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:618>
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_0 = ___1_defaultObj;
 		V_1 = L_0;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:619>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:619>
 		RuntimeObject* L_1 = ___0_objFlow;
 		NullCheck(L_1);
 		RuntimeObject* L_2;
@@ -13136,13 +13136,13 @@ IL_006b:
 
 IL_000d_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:619>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:619>
 				RuntimeObject* L_5 = V_2;
 				NullCheck(L_5);
 				Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_6;
 				L_6 = InterfaceFuncInvoker0< Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* >::Invoke(0, IEnumerator_1_t0D3F6B72AD03CC8C65B4782F8C2DA9E2EFAEBCD7_il2cpp_TypeInfo_var, L_5);
 				V_3 = L_6;
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:621>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:621>
 				Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_7 = V_3;
 				il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tDD44F57D526100A3920F06EE0EFBC0DA9D3C6807_il2cpp_TypeInfo_var);
 				FindQueryFunc_1_t5B4CFCAF8A9A138759489943408A394C5D5F1911* L_8 = ((U3CU3Ec_tDD44F57D526100A3920F06EE0EFBC0DA9D3C6807_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tDD44F57D526100A3920F06EE0EFBC0DA9D3C6807_il2cpp_TypeInfo_var))->___U3CU3E9__33_0;
@@ -13173,7 +13173,7 @@ IL_0034_1:
 				NullCheck(G_B4_1);
 				Divert_tE272DF3F0AABF09ED4E25477B45C8185D59C5186* L_13;
 				L_13 = Object_Find_TisDivert_tE272DF3F0AABF09ED4E25477B45C8185D59C5186_m745B0DEECFF6B651C7BC919A569845794345ED5B(G_B4_1, G_B4_0, Object_Find_TisDivert_tE272DF3F0AABF09ED4E25477B45C8185D59C5186_m745B0DEECFF6B651C7BC919A569845794345ED5B_RuntimeMethod_var);
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:622>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:622>
 				bool L_14;
 				L_14 = Object_op_Inequality_m6C3277742792FF570027EC4C9C13C8F9CA9382B5(L_13, (Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7*)NULL, NULL);
 				if (!L_14)
@@ -13182,13 +13182,13 @@ IL_0034_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:623>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:623>
 				V_0 = (bool)1;
 			}
 
 IL_0043_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:626>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:626>
 				Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_15 = V_3;
 				NullCheck(L_15);
 				TunnelOnwards_tCF30E723E7791A1C048BC095DAC9278CFFD1D450* L_16;
@@ -13201,22 +13201,22 @@ IL_0043_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:627>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:627>
 				V_0 = (bool)1;
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:628>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:628>
 				goto IL_006c;
 			}
 
 IL_0056_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:631>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:631>
 				Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_18 = V_3;
 				V_1 = L_18;
 			}
 
 IL_0058_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:619>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:619>
 				RuntimeObject* L_19 = V_2;
 				NullCheck(L_19);
 				bool L_20;
@@ -13238,7 +13238,7 @@ IL_0058_1:
 
 IL_006c:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:635>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:635>
 		bool L_21 = V_0;
 		if (L_21)
 		{
@@ -13246,7 +13246,7 @@ IL_006c:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:639>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:639>
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_22 = V_1;
 		if (!((AuthorWarning_t69F75016EA0D0EF598ED62AA7FB57104F63B3DAE*)IsInstClass((RuntimeObject*)L_22, AuthorWarning_t69F75016EA0D0EF598ED62AA7FB57104F63B3DAE_il2cpp_TypeInfo_var)))
 		{
@@ -13254,13 +13254,13 @@ IL_006c:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:640>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:640>
 		return;
 	}
 
 IL_0078:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:643>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:643>
 		BadTerminationHandler_t38227A0D50C73B21589BBEF3F43731475F7566EC* L_23 = ___2_badTerminationHandler;
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_24 = V_1;
 		NullCheck(L_23);
@@ -13269,11 +13269,11 @@ IL_0078:
 
 IL_007f:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:645>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:645>
 		return;
 	}
 }
-// Method Definition Index: 96246
+// Method Definition Index: 96252
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Weave_WeavePointHasLooseEnd_m86BFC84415A3BB79B512FA7B60845FE92D80C03C (Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37* __this, RuntimeObject* ___0_weavePoint, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13289,7 +13289,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Weave_WeavePointHasLooseEnd_m86BFC84415A
 	Divert_tE272DF3F0AABF09ED4E25477B45C8185D59C5186* V_1 = NULL;
 	int32_t G_B8_0 = 0;
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:650>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:650>
 		RuntimeObject* L_0 = ___0_weavePoint;
 		NullCheck(L_0);
 		List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55* L_1;
@@ -13300,13 +13300,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Weave_WeavePointHasLooseEnd_m86BFC84415A
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:650>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:650>
 		return (bool)1;
 	}
 
 IL_000a:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:657>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:657>
 		RuntimeObject* L_2 = ___0_weavePoint;
 		NullCheck(L_2);
 		List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55* L_3;
@@ -13320,7 +13320,7 @@ IL_000a:
 
 IL_001a:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:658>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:658>
 		RuntimeObject* L_5 = ___0_weavePoint;
 		NullCheck(L_5);
 		List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55* L_6;
@@ -13330,7 +13330,7 @@ IL_001a:
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_8;
 		L_8 = List_1_get_Item_mDF943B341CF138195ACC8377D45C1F3C700D9F11(L_6, L_7, List_1_get_Item_mDF943B341CF138195ACC8377D45C1F3C700D9F11_RuntimeMethod_var);
 		V_1 = ((Divert_tE272DF3F0AABF09ED4E25477B45C8185D59C5186*)IsInstClass((RuntimeObject*)L_8, Divert_tE272DF3F0AABF09ED4E25477B45C8185D59C5186_il2cpp_TypeInfo_var));
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:659>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:659>
 		Divert_tE272DF3F0AABF09ED4E25477B45C8185D59C5186* L_9 = V_1;
 		bool L_10;
 		L_10 = Object_op_Implicit_m9F097EFB17152A15AF84817F6B4AE720A6A6094E(L_9, NULL);
@@ -13340,7 +13340,7 @@ IL_001a:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:660>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:660>
 		Divert_tE272DF3F0AABF09ED4E25477B45C8185D59C5186* L_11 = V_1;
 		NullCheck(L_11);
 		bool L_12;
@@ -13376,27 +13376,27 @@ IL_004c:
 
 IL_004d:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:661>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:661>
 		if (G_B8_0)
 		{
 			goto IL_0051;
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:661>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:661>
 		return (bool)0;
 	}
 
 IL_0051:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:657>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:657>
 		int32_t L_17 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_17, 1));
 	}
 
 IL_0055:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:657>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:657>
 		int32_t L_18 = V_0;
 		if ((((int32_t)L_18) >= ((int32_t)0)))
 		{
@@ -13404,11 +13404,11 @@ IL_0055:
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:665>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:665>
 		return (bool)1;
 	}
 }
-// Method Definition Index: 96247
+// Method Definition Index: 96253
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Weave_CheckForWeavePointNamingCollisions_m3E4BA051D8AD9D9B38568439E424B6C562FA61CE (Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13454,7 +13454,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Weave_CheckForWeavePointNamingCollisions
 	memset((&V_9), 0, sizeof(V_9));
 	String_t* V_10 = NULL;
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:672>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:672>
 		Dictionary_2_t5D65C7CF98A47724B51D341E32C367B484A4286F* L_0 = __this->____namedWeavePoints;
 		if (L_0)
 		{
@@ -13462,17 +13462,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Weave_CheckForWeavePointNamingCollisions
 		}
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:673>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:673>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:675>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:675>
 		List_1_t8C592A35CEEA02FADE2642ADE3251FEC2C4819DB* L_1 = (List_1_t8C592A35CEEA02FADE2642ADE3251FEC2C4819DB*)il2cpp_codegen_object_new(List_1_t8C592A35CEEA02FADE2642ADE3251FEC2C4819DB_il2cpp_TypeInfo_var);
 		List_1__ctor_m96371535AE5960B20ADE8BDF8EF32073D976B889(L_1, List_1__ctor_m96371535AE5960B20ADE8BDF8EF32073D976B889_RuntimeMethod_var);
 		V_0 = L_1;
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:676>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:676>
 		List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55* L_2;
 		L_2 = Object_get_ancestry_m8C64142AFC7746A69D598AE036ADB55C1CC560D4(__this, NULL);
 		NullCheck(L_2);
@@ -13498,12 +13498,12 @@ FINALLY_0044:
 
 IL_001d_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:676>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:676>
 				Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_4;
 				L_4 = Enumerator_get_Current_m1E21C02C0D7FEAFFD451F033D2E616D633A251D7_inline((&V_1), Enumerator_get_Current_m1E21C02C0D7FEAFFD451F033D2E616D633A251D7_RuntimeMethod_var);
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:677>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:677>
 				V_2 = ((FlowBase_tC404CD82693644CCF6B95E73D16916F34439E822*)IsInstClass((RuntimeObject*)L_4, FlowBase_tC404CD82693644CCF6B95E73D16916F34439E822_il2cpp_TypeInfo_var));
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:678>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:678>
 				FlowBase_tC404CD82693644CCF6B95E73D16916F34439E822* L_5 = V_2;
 				bool L_6;
 				L_6 = Object_op_Implicit_m9F097EFB17152A15AF84817F6B4AE720A6A6094E(L_5, NULL);
@@ -13513,7 +13513,7 @@ IL_001d_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:679>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:679>
 				List_1_t8C592A35CEEA02FADE2642ADE3251FEC2C4819DB* L_7 = V_0;
 				FlowBase_tC404CD82693644CCF6B95E73D16916F34439E822* L_8 = V_2;
 				NullCheck(L_7);
@@ -13522,7 +13522,7 @@ IL_001d_1:
 
 IL_0039_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:676>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:676>
 				bool L_9;
 				L_9 = Enumerator_MoveNext_mDAC08A52E00D45D4C8BB563D4A6462DA8C10CD89((&V_1), Enumerator_MoveNext_mDAC08A52E00D45D4C8BB563D4A6462DA8C10CD89_RuntimeMethod_var);
 				if (L_9)
@@ -13544,7 +13544,7 @@ IL_0042_1:
 
 IL_0052:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:685>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:685>
 		Dictionary_2_t5D65C7CF98A47724B51D341E32C367B484A4286F* L_10 = __this->____namedWeavePoints;
 		NullCheck(L_10);
 		Enumerator_tA8CEB7C241AFFE254617EF8542A78DB94C9FD4E1 L_11;
@@ -13569,19 +13569,19 @@ FINALLY_0130:
 
 IL_0063_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:685>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:685>
 				KeyValuePair_2_tFCD0B203000F32813ECA77E85C59E0F768A2C349 L_12;
 				L_12 = Enumerator_get_Current_m987ADC83E21F27DE3A5E98DA01634843FCA83551_inline((&V_3), Enumerator_get_Current_m987ADC83E21F27DE3A5E98DA01634843FCA83551_RuntimeMethod_var);
 				V_4 = L_12;
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:686>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:686>
 				String_t* L_13;
 				L_13 = KeyValuePair_2_get_Key_mD222AD5CAEECD12BE8311BAC449090BBC57EF1DA_inline((&V_4), KeyValuePair_2_get_Key_mD222AD5CAEECD12BE8311BAC449090BBC57EF1DA_RuntimeMethod_var);
 				V_5 = L_13;
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:687>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:687>
 				RuntimeObject* L_14;
 				L_14 = KeyValuePair_2_get_Value_m7919590FC8730088240AC8626E9A64EA1F12CC6B_inline((&V_4), KeyValuePair_2_get_Value_m7919590FC8730088240AC8626E9A64EA1F12CC6B_RuntimeMethod_var);
 				V_6 = ((Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7*)CastclassClass((RuntimeObject*)L_14, Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7_il2cpp_TypeInfo_var));
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:689>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:689>
 				List_1_t8C592A35CEEA02FADE2642ADE3251FEC2C4819DB* L_15 = V_0;
 				NullCheck(L_15);
 				Enumerator_tB1D0AD9114A8E6C731DF0D3A0C6122E4CDE7A1CA L_16;
@@ -13606,10 +13606,10 @@ FINALLY_0114_1:
 
 IL_008d_2:
 					{
-						//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:689>
+						//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:689>
 						FlowBase_tC404CD82693644CCF6B95E73D16916F34439E822* L_17;
 						L_17 = Enumerator_get_Current_m1FB39938CFD6138E1234BE2B1290025DF3D47AD5_inline((&V_7), Enumerator_get_Current_m1FB39938CFD6138E1234BE2B1290025DF3D47AD5_RuntimeMethod_var);
-						//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:692>
+						//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:692>
 						String_t* L_18 = V_5;
 						il2cpp_codegen_initobj((&V_9), sizeof(Nullable_1_tF3A63852D98AB80CE81E0997F1EB4A764E6B9BCC));
 						Nullable_1_tF3A63852D98AB80CE81E0997F1EB4A764E6B9BCC L_19 = V_9;
@@ -13617,7 +13617,7 @@ IL_008d_2:
 						Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_20;
 						L_20 = FlowBase_ContentWithNameAtLevel_mBEA01AF67EC82BAF3485DEB39E7C5F6EB95DCE42(L_17, L_18, L_19, (bool)0, NULL);
 						V_8 = L_20;
-						//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:694>
+						//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:694>
 						Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_21 = V_8;
 						bool L_22;
 						L_22 = Object_op_Implicit_m9F097EFB17152A15AF84817F6B4AE720A6A6094E(L_21, NULL);
@@ -13637,11 +13637,11 @@ IL_008d_2:
 						}
 					}
 					{
-						//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:695>
-						//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:696>
-						//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:697>
-						//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:698>
-						//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:699>
+						//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:695>
+						//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:696>
+						//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:697>
+						//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:698>
+						//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:699>
 						ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_26 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)4);
 						ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_27 = L_26;
 						Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_28 = V_6;
@@ -13681,7 +13681,7 @@ IL_008d_2:
 						String_t* L_40;
 						L_40 = String_Format_m918500C1EFB475181349A79989BB79BB36102894(_stringLiteral55CFC3484E2E301297CB8C75443E10F75CBF9517, L_37, NULL);
 						V_10 = L_40;
-						//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:701>
+						//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:701>
 						String_t* L_41 = V_10;
 						Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_42 = V_6;
 						VirtualActionInvoker3< String_t*, Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7*, bool >::Invoke(10, __this, L_41, L_42, (bool)0);
@@ -13689,7 +13689,7 @@ IL_008d_2:
 
 IL_0106_2:
 					{
-						//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:689>
+						//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:689>
 						bool L_43;
 						L_43 = Enumerator_MoveNext_m3E6779FD1F45D3506C88709EDFA61A7FBABF497A((&V_7), Enumerator_MoveNext_m3E6779FD1F45D3506C88709EDFA61A7FBABF497A_RuntimeMethod_var);
 						if (L_43)
@@ -13709,7 +13709,7 @@ IL_0106_2:
 
 IL_0122_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:685>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:685>
 				bool L_44;
 				L_44 = Enumerator_MoveNext_m0E266551F3F19E392882EA2ADC18A12F7F76FE4F((&V_3), Enumerator_MoveNext_m0E266551F3F19E392882EA2ADC18A12F7F76FE4F_RuntimeMethod_var);
 				if (L_44)
@@ -13729,7 +13729,7 @@ IL_0122_1:
 
 IL_013e:
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:706>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:706>
 		return;
 	}
 }
@@ -13741,7 +13741,7 @@ IL_013e:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 96248
+// Method Definition Index: 96254
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GatherPointToResolve__ctor_mFFE076E7B088D6AF79E86D10264A6E2387C69ED2 (GatherPointToResolve_t5BCA4AD8A1FFAD15432026F412C3551D4794AD14* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13799,7 +13799,7 @@ void BadTerminationHandler_Invoke_m514669E211AB86F6F77667C526E42DE881D3AAD6_Open
 	NullCheck(___0_terminatingObj);
 	GenericInterfaceActionInvoker0::Invoke(method, ___0_terminatingObj);
 }
-// Method Definition Index: 96249
+// Method Definition Index: 96255
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BadTerminationHandler__ctor_mAD3499682FC2CD65E716A6714C8EBD32F3C0C1D1 (BadTerminationHandler_t38227A0D50C73B21589BBEF3F43731475F7566EC* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -13852,20 +13852,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BadTerminationHandler__ctor_mAD3499682FC
 	}
 	__this->___extra_arg = (intptr_t)&BadTerminationHandler_Invoke_m514669E211AB86F6F77667C526E42DE881D3AAD6_Multicast;
 }
-// Method Definition Index: 96250
+// Method Definition Index: 96256
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BadTerminationHandler_Invoke_m514669E211AB86F6F77667C526E42DE881D3AAD6 (BadTerminationHandler_t38227A0D50C73B21589BBEF3F43731475F7566EC* __this, Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* ___0_terminatingObj, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_terminatingObj, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 96251
+// Method Definition Index: 96257
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* BadTerminationHandler_BeginInvoke_m4C2F80139C761C895EABB9E15BBD9B7AAB5E05B9 (BadTerminationHandler_t38227A0D50C73B21589BBEF3F43731475F7566EC* __this, Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* ___0_terminatingObj, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___1_callback, RuntimeObject* ___2_object, const RuntimeMethod* method) 
 {
 	void *__d_args[2] = {0};
 	__d_args[0] = ___0_terminatingObj;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___1_callback, (RuntimeObject*)___2_object);
 }
-// Method Definition Index: 96252
+// Method Definition Index: 96258
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BadTerminationHandler_EndInvoke_m8557352A7C826A5335957B9054AB284B02C46B13 (BadTerminationHandler_t38227A0D50C73B21589BBEF3F43731475F7566EC* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -13878,7 +13878,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BadTerminationHandler_EndInvoke_m8557352
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 96253
+// Method Definition Index: 96259
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_mC628F4320C7E8A2D09F55FB4618B17834A56ED1E (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13895,7 +13895,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_mC628F4320C7E8A2D09F55FB4
 		return;
 	}
 }
-// Method Definition Index: 96254
+// Method Definition Index: 96260
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m73A5A4115E280FF369CFFC6C27BEDD0B00B1E75D (U3CU3Ec_tDD44F57D526100A3920F06EE0EFBC0DA9D3C6807* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13903,7 +13903,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m73A5A4115E280FF369CFFC6C2
 		return;
 	}
 }
-// Method Definition Index: 96255
+// Method Definition Index: 96261
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CResolveWeavePointNamingU3Eb__16_0_mD2E1AE17D456275345755805605BAB67AD659C93 (U3CU3Ec_tDD44F57D526100A3920F06EE0EFBC0DA9D3C6807* __this, RuntimeObject* ___0_w, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13913,7 +13913,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CResolveWeavePointNamingU3Eb__
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:83>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:83>
 		RuntimeObject* L_0 = ___0_w;
 		NullCheck(L_0);
 		String_t* L_1;
@@ -13923,7 +13923,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CResolveWeavePointNamingU3Eb__
 		return (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 96256
+// Method Definition Index: 96262
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CValidateFlowOfObjectsTerminatesU3Eb__33_0_mA29EFEC2C9F28D2F9138006B50AA65EB411F911E (U3CU3Ec_tDD44F57D526100A3920F06EE0EFBC0DA9D3C6807* __this, Divert_tE272DF3F0AABF09ED4E25477B45C8185D59C5186* ___0_d, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13933,7 +13933,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CValidateFlowOfObjectsTerminat
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:621>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:621>
 		Divert_tE272DF3F0AABF09ED4E25477B45C8185D59C5186* L_0 = ___0_d;
 		NullCheck(L_0);
 		bool L_1;
@@ -13984,7 +13984,7 @@ IL_002a:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 96257
+// Method Definition Index: 96263
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CContentThatFollowsWeavePointU3Ed__29__ctor_mE1960E7B1C2FB83975604BBA11B328B6279E88F5 (U3CContentThatFollowsWeavePointU3Ed__29_t9AA3310C9C2DFB7E274B80472DA5E288A8ED8E9C* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -13997,7 +13997,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CContentThatFollowsWeavePointU3Ed__29_
 		return;
 	}
 }
-// Method Definition Index: 96258
+// Method Definition Index: 96264
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CContentThatFollowsWeavePointU3Ed__29_System_IDisposable_Dispose_mBD65DB5199FA7CE6895F65C4F1AE28DEDF669AAF (U3CContentThatFollowsWeavePointU3Ed__29_t9AA3310C9C2DFB7E274B80472DA5E288A8ED8E9C* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -14046,7 +14046,7 @@ IL_001a:
 		return;
 	}
 }
-// Method Definition Index: 96259
+// Method Definition Index: 96265
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CContentThatFollowsWeavePointU3Ed__29_MoveNext_mFA2F28A62D5039FC397153C696FFBCE1D580918A (U3CContentThatFollowsWeavePointU3Ed__29_t9AA3310C9C2DFB7E274B80472DA5E288A8ED8E9C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14112,11 +14112,11 @@ FAULT_018d:
 IL_0027_1:
 			{
 				__this->___U3CU3E1__state = (-1);
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:508>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:508>
 				RuntimeObject* L_3 = __this->___weavePoint;
 				__this->___U3CobjU3E5__2 = ((Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7*)CastclassClass((RuntimeObject*)L_3, Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7_il2cpp_TypeInfo_var));
 				Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CobjU3E5__2), (void*)((Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7*)CastclassClass((RuntimeObject*)L_3, Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7_il2cpp_TypeInfo_var)));
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:511>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:511>
 				Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_4 = __this->___U3CobjU3E5__2;
 				NullCheck(L_4);
 				List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55* L_5;
@@ -14127,7 +14127,7 @@ IL_0027_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:512>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:512>
 				Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_6 = __this->___U3CobjU3E5__2;
 				NullCheck(L_6);
 				List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55* L_7;
@@ -14146,12 +14146,12 @@ IL_0027_1:
 
 IL_006c_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:512>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:512>
 				Enumerator_t24762F0E4493651E6A987495FA0DAF1B929C7D2C* L_9 = (Enumerator_t24762F0E4493651E6A987495FA0DAF1B929C7D2C*)(&__this->___U3CU3E7__wrap3);
 				Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_10;
 				L_10 = Enumerator_get_Current_m1E21C02C0D7FEAFFD451F033D2E616D633A251D7_inline(L_9, Enumerator_get_Current_m1E21C02C0D7FEAFFD451F033D2E616D633A251D7_RuntimeMethod_var);
 				V_4 = L_10;
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:515>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:515>
 				Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37* L_11 = V_2;
 				Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_12 = V_4;
 				NullCheck(L_11);
@@ -14163,7 +14163,7 @@ IL_006c_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:517>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:517>
 				Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_14 = V_4;
 				__this->___U3CU3E2__current = L_14;
 				Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_14);
@@ -14179,7 +14179,7 @@ IL_0099_1:
 
 IL_00a1_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:512>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:512>
 				Enumerator_t24762F0E4493651E6A987495FA0DAF1B929C7D2C* L_15 = (Enumerator_t24762F0E4493651E6A987495FA0DAF1B929C7D2C*)(&__this->___U3CU3E7__wrap3);
 				bool L_16;
 				L_16 = Enumerator_MoveNext_mDAC08A52E00D45D4C8BB563D4A6462DA8C10CD89(L_15, Enumerator_MoveNext_mDAC08A52E00D45D4C8BB563D4A6462DA8C10CD89_RuntimeMethod_var);
@@ -14196,14 +14196,14 @@ IL_00a1_1:
 
 IL_00c0_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:522>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:522>
 				Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_18 = __this->___U3CobjU3E5__2;
 				NullCheck(L_18);
 				Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_19;
 				L_19 = Object_get_parent_mD76D8371EC8C6B3B64B43B1FCECFEB2F8F4FD31A_inline(L_18, NULL);
 				__this->___U3CparentWeaveU3E5__3 = ((Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37*)IsInstClass((RuntimeObject*)L_19, Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37_il2cpp_TypeInfo_var));
 				Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CparentWeaveU3E5__3), (void*)((Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37*)IsInstClass((RuntimeObject*)L_19, Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37_il2cpp_TypeInfo_var)));
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:523>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:523>
 				Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37* L_20 = __this->___U3CparentWeaveU3E5__3;
 				bool L_21;
 				L_21 = Object_op_Equality_m109E112ACAA3627F5E1EF2BD8C13110F2493CB4D(L_20, (Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7*)NULL, NULL);
@@ -14213,7 +14213,7 @@ IL_00c0_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:524>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:524>
 				Exception_t* L_22 = (Exception_t*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)));
 				Exception__ctor_m9B2BD92CD68916245A75109105D9071C9D430E7F(L_22, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralBDCE5AC3929E9CA18E1A0EDD397BC9C4E7B2382C)), NULL);
 				IL2CPP_RAISE_MANAGED_EXCEPTION(L_22, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CContentThatFollowsWeavePointU3Ed__29_MoveNext_mFA2F28A62D5039FC397153C696FFBCE1D580918A_RuntimeMethod_var)));
@@ -14221,7 +14221,7 @@ IL_00c0_1:
 
 IL_00ef_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:527>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:527>
 				Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37* L_23 = __this->___U3CparentWeaveU3E5__3;
 				NullCheck(L_23);
 				List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55* L_24;
@@ -14231,7 +14231,7 @@ IL_00ef_1:
 				int32_t L_26;
 				L_26 = List_1_IndexOf_m549CA9389C0FF54CE448A6557816E0F0E7B58CE2(L_24, L_25, List_1_IndexOf_m549CA9389C0FF54CE448A6557816E0F0E7B58CE2_RuntimeMethod_var);
 				V_3 = L_26;
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:529>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:529>
 				int32_t L_27 = V_3;
 				__this->___U3CiU3E5__5 = ((int32_t)il2cpp_codegen_add(L_27, 1));
 				goto IL_0171_1;
@@ -14239,7 +14239,7 @@ IL_00ef_1:
 
 IL_0111_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:530>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:530>
 				Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37* L_28 = __this->___U3CparentWeaveU3E5__3;
 				NullCheck(L_28);
 				List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55* L_29;
@@ -14249,7 +14249,7 @@ IL_0111_1:
 				Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_31;
 				L_31 = List_1_get_Item_mDF943B341CF138195ACC8377D45C1F3C700D9F11(L_29, L_30, List_1_get_Item_mDF943B341CF138195ACC8377D45C1F3C700D9F11_RuntimeMethod_var);
 				V_5 = L_31;
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:533>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:533>
 				Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37* L_32 = V_2;
 				Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_33 = V_5;
 				NullCheck(L_32);
@@ -14261,7 +14261,7 @@ IL_0111_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:536>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:536>
 				Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_35 = V_5;
 				if (((RuntimeObject*)IsInst((RuntimeObject*)L_35, IWeavePoint_t990C67A4ECD21D8B8079B5C926273F012EA3F5DE_il2cpp_TypeInfo_var)))
 				{
@@ -14269,7 +14269,7 @@ IL_0111_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:540>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:540>
 				Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_36 = V_5;
 				if (((Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37*)IsInstClass((RuntimeObject*)L_36, Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37_il2cpp_TypeInfo_var)))
 				{
@@ -14277,7 +14277,7 @@ IL_0111_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:543>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:543>
 				Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_37 = V_5;
 				__this->___U3CU3E2__current = L_37;
 				Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_37);
@@ -14293,7 +14293,7 @@ IL_0158_1:
 
 IL_015f_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:529>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:529>
 				int32_t L_38 = __this->___U3CiU3E5__5;
 				V_6 = L_38;
 				int32_t L_39 = V_6;
@@ -14302,7 +14302,7 @@ IL_015f_1:
 
 IL_0171_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:529>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:529>
 				int32_t L_40 = __this->___U3CiU3E5__5;
 				Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37* L_41 = __this->___U3CparentWeaveU3E5__3;
 				NullCheck(L_41);
@@ -14319,7 +14319,7 @@ IL_0171_1:
 
 IL_0189_1:
 			{
-				//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:545>
+				//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:545>
 				V_0 = (bool)0;
 				goto IL_0194;
 			}
@@ -14336,7 +14336,7 @@ IL_0194:
 		return L_44;
 	}
 }
-// Method Definition Index: 96260
+// Method Definition Index: 96266
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CContentThatFollowsWeavePointU3Ed__29_U3CU3Em__Finally1_m64AF3C259A537D1E769580D6CBEB4C8C78B15B93 (U3CContentThatFollowsWeavePointU3Ed__29_t9AA3310C9C2DFB7E274B80472DA5E288A8ED8E9C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14352,7 +14352,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CContentThatFollowsWeavePointU3Ed__29_
 		return;
 	}
 }
-// Method Definition Index: 96261
+// Method Definition Index: 96267
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* U3CContentThatFollowsWeavePointU3Ed__29_System_Collections_Generic_IEnumeratorU3CInk_Parsed_ObjectU3E_get_Current_mCC8D4D3C12B7C4F90BB464C648C91629F0480C68 (U3CContentThatFollowsWeavePointU3Ed__29_t9AA3310C9C2DFB7E274B80472DA5E288A8ED8E9C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14360,7 +14360,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98
 		return L_0;
 	}
 }
-// Method Definition Index: 96262
+// Method Definition Index: 96268
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CContentThatFollowsWeavePointU3Ed__29_System_Collections_IEnumerator_Reset_m115B11CD324347AE797625EACD51442CA8267AE7 (U3CContentThatFollowsWeavePointU3Ed__29_t9AA3310C9C2DFB7E274B80472DA5E288A8ED8E9C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14369,7 +14369,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CContentThatFollowsWeavePointU3Ed__29_
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CContentThatFollowsWeavePointU3Ed__29_System_Collections_IEnumerator_Reset_m115B11CD324347AE797625EACD51442CA8267AE7_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 96263
+// Method Definition Index: 96269
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CContentThatFollowsWeavePointU3Ed__29_System_Collections_IEnumerator_get_Current_m9B1DAE861970D55F8EECB85EBD14D77A1F1B2465 (U3CContentThatFollowsWeavePointU3Ed__29_t9AA3310C9C2DFB7E274B80472DA5E288A8ED8E9C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14377,7 +14377,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CContentThatFollowsWeavePoin
 		return L_0;
 	}
 }
-// Method Definition Index: 96264
+// Method Definition Index: 96270
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CContentThatFollowsWeavePointU3Ed__29_System_Collections_Generic_IEnumerableU3CInk_Parsed_ObjectU3E_GetEnumerator_m8C4B5A788E923234DA9A3E586E88D149165EA3AD (U3CContentThatFollowsWeavePointU3Ed__29_t9AA3310C9C2DFB7E274B80472DA5E288A8ED8E9C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14432,7 +14432,7 @@ IL_0035:
 		return L_8;
 	}
 }
-// Method Definition Index: 96265
+// Method Definition Index: 96271
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CContentThatFollowsWeavePointU3Ed__29_System_Collections_IEnumerable_GetEnumerator_mBB795C8F494960D4FC07D09C799A6B4B1E449E51 (U3CContentThatFollowsWeavePointU3Ed__29_t9AA3310C9C2DFB7E274B80472DA5E288A8ED8E9C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14449,7 +14449,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CContentThatFollowsWeavePoin
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 96268
+// Method Definition Index: 96274
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Glue__ctor_mBF07823C75D752905A0243DD511F00F917A8D220 (Glue_t1B0423D93951017DCD923A001EEEE15092EF1D2A* __this, Glue_t1ABC4440B857DC58A1B713DCC64EDB38F087F70D* ___0_glue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14459,10 +14459,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Glue__ctor_mBF07823C75D752905A0243DD511F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Wrap.cs:21>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Wrap.cs:21>
 		Glue_t1ABC4440B857DC58A1B713DCC64EDB38F087F70D* L_0 = ___0_glue;
 		Wrap_1__ctor_m55E3265081F6A8406F0C3A7A7D3B2ABBC0311B0E(__this, L_0, Wrap_1__ctor_m55E3265081F6A8406F0C3A7A7D3B2ABBC0311B0E_RuntimeMethod_var);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Wrap.cs:21>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Wrap.cs:21>
 		return;
 	}
 }
@@ -14474,7 +14474,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Glue__ctor_mBF07823C75D752905A0243DD511F
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 96269
+// Method Definition Index: 96275
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LegacyTag__ctor_mBB4E94E0232275974405FBDC38CB84D372EA4BBF (LegacyTag_t2805F2100377959EB988E6A71DDB4922C3667DF5* __this, Tag_tB2EA975EE48B1D6D2E411751AC61B5737F43FA29* ___0_tag, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14484,10 +14484,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LegacyTag__ctor_mBB4E94E0232275974405FBD
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Wrap.cs:24>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Wrap.cs:24>
 		Tag_tB2EA975EE48B1D6D2E411751AC61B5737F43FA29* L_0 = ___0_tag;
 		Wrap_1__ctor_mC7A871A14C44F022C311E215DA575CE02DBA3A62(__this, L_0, Wrap_1__ctor_mC7A871A14C44F022C311E215DA575CE02DBA3A62_RuntimeMethod_var);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Wrap.cs:24>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Wrap.cs:24>
 		return;
 	}
 }
@@ -14499,7 +14499,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LegacyTag__ctor_mBB4E94E0232275974405FBD
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 96270
+// Method Definition Index: 96276
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t U3CPrivateImplementationDetailsU3E_ComputeStringHash_mC2A36457615E5A2F88ABAB2B23B56023AED26598 (String_t* ___0_s, const RuntimeMethod* method) 
 {
 	uint32_t V_0 = 0;
@@ -14568,527 +14568,527 @@ IL_002a:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 96131
+// Method Definition Index: 96137
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_tE7E36179A9D3C4E72F64C06CD94D5C27DC690F08* Path_get_components_m2175B7004024210CFF9479814652E73144748420_inline (Path_t45F133F0FD37FBD473A956AF05F18E1EB5BD54CC* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:50>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Path.cs:50>
 		List_1_tE7E36179A9D3C4E72F64C06CD94D5C27DC690F08* L_0 = __this->___U3CcomponentsU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 96093
+// Method Definition Index: 96099
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* Object_get_parent_mD76D8371EC8C6B3B64B43B1FCECFEB2F8F4FD31A_inline (Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Object.cs:37>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Object.cs:37>
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_0 = __this->___U3CparentU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 96144
+// Method Definition Index: 96150
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Return_set_returnedExpression_mCA02FC2F1D627F8DA28FB6A16D5F4BFE582BA17D_inline (Return_tF820135B4E13C7AA4FB7A0BAB1EB362B26B6FC14* __this, Expression_tA6C9FD368D7951E1A1470D0F749E376D800BAB0D* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Return.cs:5>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Return.cs:5>
 		Expression_tA6C9FD368D7951E1A1470D0F749E376D800BAB0D* L_0 = ___0_value;
 		__this->___U3CreturnedExpressionU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CreturnedExpressionU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 96143
+// Method Definition Index: 96149
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Expression_tA6C9FD368D7951E1A1470D0F749E376D800BAB0D* Return_get_returnedExpression_m0F3B090A66709E032F417E8046A3B5AA3990F4E6_inline (Return_tF820135B4E13C7AA4FB7A0BAB1EB362B26B6FC14* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Return.cs:5>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Return.cs:5>
 		Expression_tA6C9FD368D7951E1A1470D0F749E376D800BAB0D* L_0 = __this->___U3CreturnedExpressionU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 96095
+// Method Definition Index: 96101
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55* Object_get_content_m88C0834BB81829EF344181750AB1DCEE3EF5924F_inline (Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Object.cs:38>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Object.cs:38>
 		List_1_tF6FEED1606F8C2033F3CE018B0A571CC30419F55* L_0 = __this->___U3CcontentU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 95068
+// Method Definition Index: 95074
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Container_set_visitsShouldBeCounted_mCA668E9A96F2D5B8F25801AE1169786E35B2091C_inline (Container_t74302BC1028974B0A346A43F334AECB681D79579* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Container.cs:64>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Container.cs:64>
 		bool L_0 = ___0_value;
 		__this->___U3CvisitsShouldBeCountedU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 95072
+// Method Definition Index: 95078
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Container_set_countingAtStartOnly_m97E94EA0207E814538744AB785E0A71821257C2D_inline (Container_t74302BC1028974B0A346A43F334AECB681D79579* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Container.cs:66>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Container.cs:66>
 		bool L_0 = ___0_value;
 		__this->___U3CcountingAtStartOnlyU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 95141
+// Method Definition Index: 95147
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Divert_set_isConditional_mDB631828EAA0091F708E2DA06B743FA3BD7BF33A_inline (Divert_t74B807563B5BEDFB81EA404CC61CDC797ECD04CA* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Divert.cs:68>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Divert.cs:68>
 		bool L_0 = ___0_value;
 		__this->___U3CisConditionalU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 95060
+// Method Definition Index: 95066
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Container_set_name_m8F5A2754D5F5B724CDB73F5754F75D179253D1B1_inline (Container_t74302BC1028974B0A346A43F334AECB681D79579* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Container.cs:12>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Container.cs:12>
 		String_t* L_0 = ___0_value;
 		__this->___U3CnameU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CnameU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 96058
+// Method Definition Index: 96064
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Story_tEBE39AA9D821413F842FC1EA2FC7A087466078F7* IncludedFile_get_includedStory_m0264E5FA6B7C163059E8BE7C769E55061D6E4C1D_inline (IncludedFile_t07EBB7E7D0D110AD4DC162A7D7FD45F2F80036B0* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/IncludedFile.cs:6>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/IncludedFile.cs:6>
 		Story_tEBE39AA9D821413F842FC1EA2FC7A087466078F7* L_0 = __this->___U3CincludedStoryU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 95920
+// Method Definition Index: 95926
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Expression_tA6C9FD368D7951E1A1470D0F749E376D800BAB0D* ConstantDeclaration_get_expression_mDD0F91B64454035715A6CC71941060766DB4BCDD_inline (ConstantDeclaration_t166A3FE1F4854C2AF889D4A1A8F5674CF88DB1EA* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/ConstantDeclaration.cs:12>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/ConstantDeclaration.cs:12>
 		Expression_tA6C9FD368D7951E1A1470D0F749E376D800BAB0D* L_0 = __this->___U3CexpressionU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 96198
+// Method Definition Index: 96204
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool VariableAssignment_get_isGlobalDeclaration_mE9B8A59B6DD76E3618AC70239902234592DE4E3E_inline (VariableAssignment_tD4DE7C66FEC35C64555CA2CB117AF682C9A48C82* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:15>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:15>
 		bool L_0 = __this->___U3CisGlobalDeclarationU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 96196
+// Method Definition Index: 96202
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ListDefinition_t79B40483F197DBBBADE985496F0220CEB1E99B65* VariableAssignment_get_listDefinition_m17FBBD9E9268937E32AEBDF0723017B2660A213A_inline (VariableAssignment_tD4DE7C66FEC35C64555CA2CB117AF682C9A48C82* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:13>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:13>
 		ListDefinition_t79B40483F197DBBBADE985496F0220CEB1E99B65* L_0 = __this->___U3ClistDefinitionU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 96194
+// Method Definition Index: 96200
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Expression_tA6C9FD368D7951E1A1470D0F749E376D800BAB0D* VariableAssignment_get_expression_m13D8156A0B8D39005C6DACD9D998E15FB3F1B831_inline (VariableAssignment_tD4DE7C66FEC35C64555CA2CB117AF682C9A48C82* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:12>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:12>
 		Expression_tA6C9FD368D7951E1A1470D0F749E376D800BAB0D* L_0 = __this->___U3CexpressionU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 95817
+// Method Definition Index: 95823
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void VariableAssignment_set_isGlobal_m7E2A5FFCF8C182807B5941792682A0A1D26535DE_inline (VariableAssignment_t058919DAC79735A64C2F25B12A2A509D653022B9* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/VariableAssignment.cs:10>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/VariableAssignment.cs:10>
 		bool L_0 = ___0_value;
 		__this->___U3CisGlobalU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 96099
+// Method Definition Index: 96105
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Object_set_runtimeObject_m57463274E68C0F3DC1CB6788CD8DD795801B7FE8_inline (Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* __this, Object_t42A2989484E361AF6C41D21FD84B2F8EFD905CCB* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Object.cs:63>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Object.cs:63>
 		Object_t42A2989484E361AF6C41D21FD84B2F8EFD905CCB* L_0 = ___0_value;
 		__this->____runtimeObject = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____runtimeObject), (void*)L_0);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Object.cs:64>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Object.cs:64>
 		return;
 	}
 }
-// Method Definition Index: 95061
+// Method Definition Index: 95067
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_t2BC6A197CD71513743E4BF7350A3873D6C7B0F63* Container_get_content_m09433BA345697554D8FFCBBAA43B35F60AF2F3DD_inline (Container_t74302BC1028974B0A346A43F334AECB681D79579* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Container.cs:16>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Container.cs:16>
 		List_1_t2BC6A197CD71513743E4BF7350A3873D6C7B0F63* L_0 = __this->____content;
 		return L_0;
 	}
 }
-// Method Definition Index: 95063
+// Method Definition Index: 95069
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Dictionary_2_t309FEDB822137B5A16AE94FF32C698C7E8B3CF49* Container_get_namedContent_m887ECF350132F5C92388DCC11BDD9BF07267C86A_inline (Container_t74302BC1028974B0A346A43F334AECB681D79579* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Container.cs:24>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Container.cs:24>
 		Dictionary_2_t309FEDB822137B5A16AE94FF32C698C7E8B3CF49* L_0 = __this->___U3CnamedContentU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 95338
+// Method Definition Index: 95344
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Object_t42A2989484E361AF6C41D21FD84B2F8EFD905CCB* Object_get_parent_m9AF0B36330B6034B93000874D98617B032E6183D_inline (Object_t42A2989484E361AF6C41D21FD84B2F8EFD905CCB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Object.cs:17>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Object.cs:17>
 		Object_t42A2989484E361AF6C41D21FD84B2F8EFD905CCB* L_0 = __this->___U3CparentU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 95342
+// Method Definition Index: 95348
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DebugMetadata_t5435CB4374070B99B60193A2E4B468E94CE00C01* Object_get_ownDebugMetadata_m5C84AE212A83FD7AE37E573867BF6360281467EE_inline (Object_t42A2989484E361AF6C41D21FD84B2F8EFD905CCB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Object.cs:37>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Object.cs:37>
 		DebugMetadata_t5435CB4374070B99B60193A2E4B468E94CE00C01* L_0 = __this->____debugMetadata;
 		return L_0;
 	}
 }
-// Method Definition Index: 95339
+// Method Definition Index: 95345
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Object_set_parent_m313E7123FE19E7C089F5856A0B9AB83D092AF2FF_inline (Object_t42A2989484E361AF6C41D21FD84B2F8EFD905CCB* __this, Object_t42A2989484E361AF6C41D21FD84B2F8EFD905CCB* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Object.cs:17>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Object.cs:17>
 		Object_t42A2989484E361AF6C41D21FD84B2F8EFD905CCB* L_0 = ___0_value;
 		__this->___U3CparentU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CparentU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 95341
+// Method Definition Index: 95347
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Object_set_debugMetadata_mEF4D1395140C148FF2206F19E4A2AB9DB0A6F825_inline (Object_t42A2989484E361AF6C41D21FD84B2F8EFD905CCB* __this, DebugMetadata_t5435CB4374070B99B60193A2E4B468E94CE00C01* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Object.cs:31>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Object.cs:31>
 		DebugMetadata_t5435CB4374070B99B60193A2E4B468E94CE00C01* L_0 = ___0_value;
 		__this->____debugMetadata = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____debugMetadata), (void*)L_0);
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Object.cs:32>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Object.cs:32>
 		return;
 	}
 }
-// Method Definition Index: 94991
+// Method Definition Index: 94997
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ErrorHandler_Invoke_m79D2EBC45964D545F88193253C28EB1C67FEB2E2_inline (ErrorHandler_tCD8B3F7247DF706204285C48B7801A7B60325728* __this, String_t* ___0_message, int32_t ___1_type, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, String_t*, int32_t, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_message, ___1_type, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 96005
+// Method Definition Index: 96011
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_t5A7C284E404753F1786689E097CE59A152638444* FlowBase_get_arguments_m1EF87837594B7A14507C461AE7EB4B685F61EB47_inline (FlowBase_tC404CD82693644CCF6B95E73D16916F34439E822* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/FlowBase.cs:20>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/FlowBase.cs:20>
 		List_1_t5A7C284E404753F1786689E097CE59A152638444* L_0 = __this->___U3CargumentsU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 96003
+// Method Definition Index: 96009
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Identifier_t0F346C00621758823B8D81B08308C6B9C24089DD* FlowBase_get_identifier_m4690D9A6AAB405E233688C9261A4F0BB19BFC105_inline (FlowBase_tC404CD82693644CCF6B95E73D16916F34439E822* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/FlowBase.cs:19>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/FlowBase.cs:19>
 		Identifier_t0F346C00621758823B8D81B08308C6B9C24089DD* L_0 = __this->___U3CidentifierU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 96182
+// Method Definition Index: 96188
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Text_set_text_m174E6D93DD8C69932A47F52A61E8A97CAD231058_inline (Text_t2561CF2D715008D9C31C9382C40FE22ACA2010ED* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Text.cs:6>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Text.cs:6>
 		String_t* L_0 = ___0_value;
 		__this->___U3CtextU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CtextU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 96181
+// Method Definition Index: 96187
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* Text_get_text_m14F6F4C8E14BAD266FF794A86DCFA15E89964103_inline (Text_t2561CF2D715008D9C31C9382C40FE22ACA2010ED* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Text.cs:6>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Text.cs:6>
 		String_t* L_0 = __this->___U3CtextU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 96186
+// Method Definition Index: 96192
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Divert_tE272DF3F0AABF09ED4E25477B45C8185D59C5186* TunnelOnwards_get_divertAfter_mB10E1405320A4D7DA07ED66C82387FC658F9CBB8_inline (TunnelOnwards_tCF30E723E7791A1C048BC095DAC9278CFFD1D450* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:9>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/TunnelOnwards.cs:9>
 		Divert_tE272DF3F0AABF09ED4E25477B45C8185D59C5186* L_0 = __this->____divertAfter;
 		return L_0;
 	}
 }
-// Method Definition Index: 95939
+// Method Definition Index: 95945
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_tD3E001C32948A6DD125E6901AC81E86BE69FBE9F* Divert_get_arguments_m835B3FA82AB94C9D96B4472519BE0C4776F6FD5B_inline (Divert_tE272DF3F0AABF09ED4E25477B45C8185D59C5186* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Divert.cs:10>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Divert.cs:10>
 		List_1_tD3E001C32948A6DD125E6901AC81E86BE69FBE9F* L_0 = __this->___U3CargumentsU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 95091
+// Method Definition Index: 95097
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ControlCommand_get_commandType_mF43D077F555FA63FF4A1146790A56346647DBE8A_inline (ControlCommand_tECC2BE832A73AD5873667DCA691A43EF694E04C6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/ControlCommand.cs:40>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/ControlCommand.cs:40>
 		int32_t L_0 = __this->___U3CcommandTypeU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 95131
+// Method Definition Index: 95137
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* Divert_get_variableDivertName_m4E55D6948C84E485629FF14086D04F13B1BE8EA7_inline (Divert_t74B807563B5BEDFB81EA404CC61CDC797ECD04CA* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Divert.cs:59>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/Divert.cs:59>
 		String_t* L_0 = __this->___U3CvariableDivertNameU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 95937
+// Method Definition Index: 95943
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* Divert_get_targetContent_m2A18F6F480779045E0B34983F78C0ADFE635D21C_inline (Divert_tE272DF3F0AABF09ED4E25477B45C8185D59C5186* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Divert.cs:9>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Divert.cs:9>
 		Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* L_0 = __this->___U3CtargetContentU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 96192
+// Method Definition Index: 96198
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Identifier_t0F346C00621758823B8D81B08308C6B9C24089DD* VariableAssignment_get_variableIdentifier_m5E36193B2BC86B48D2567C6EA389B4C5FE67CB9A_inline (VariableAssignment_tD4DE7C66FEC35C64555CA2CB117AF682C9A48C82* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:11>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:11>
 		Identifier_t0F346C00621758823B8D81B08308C6B9C24089DD* L_0 = __this->___U3CvariableIdentifierU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 96200
+// Method Definition Index: 96206
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool VariableAssignment_get_isNewTemporaryDeclaration_mACF69876ACD56361BDC05A612795D2616FF6DF46_inline (VariableAssignment_tD4DE7C66FEC35C64555CA2CB117AF682C9A48C82* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:16>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:16>
 		bool L_0 = __this->___U3CisNewTemporaryDeclarationU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 96193
+// Method Definition Index: 96199
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void VariableAssignment_set_variableIdentifier_m16684EEAA53B0C8C0A31B1072977CC5C115A35E3_inline (VariableAssignment_tD4DE7C66FEC35C64555CA2CB117AF682C9A48C82* __this, Identifier_t0F346C00621758823B8D81B08308C6B9C24089DD* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:11>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:11>
 		Identifier_t0F346C00621758823B8D81B08308C6B9C24089DD* L_0 = ___0_value;
 		__this->___U3CvariableIdentifierU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CvariableIdentifierU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 96195
+// Method Definition Index: 96201
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void VariableAssignment_set_expression_m4CE2FDFCA9A76FEF3E8C76E0B93FE7CE9705AD48_inline (VariableAssignment_tD4DE7C66FEC35C64555CA2CB117AF682C9A48C82* __this, Expression_tA6C9FD368D7951E1A1470D0F749E376D800BAB0D* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:12>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:12>
 		Expression_tA6C9FD368D7951E1A1470D0F749E376D800BAB0D* L_0 = ___0_value;
 		__this->___U3CexpressionU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CexpressionU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 96197
+// Method Definition Index: 96203
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void VariableAssignment_set_listDefinition_m7675DC40AF4DAFF3918BE94FF4DD9190955AF87A_inline (VariableAssignment_tD4DE7C66FEC35C64555CA2CB117AF682C9A48C82* __this, ListDefinition_t79B40483F197DBBBADE985496F0220CEB1E99B65* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:13>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:13>
 		ListDefinition_t79B40483F197DBBBADE985496F0220CEB1E99B65* L_0 = ___0_value;
 		__this->___U3ClistDefinitionU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3ClistDefinitionU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 96199
+// Method Definition Index: 96205
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void VariableAssignment_set_isGlobalDeclaration_m3B705D1B9A8EC0FB9C5AB5B2B80B690ACD50D86D_inline (VariableAssignment_tD4DE7C66FEC35C64555CA2CB117AF682C9A48C82* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:15>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableAssignment.cs:15>
 		bool L_0 = ___0_value;
 		__this->___U3CisGlobalDeclarationU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 96211
+// Method Definition Index: 96217
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* VariableReference_get_path_m4D5B8D343718045E48C7BE308F7C45E2384CCF74_inline (VariableReference_tB87C62204639CBB2363DC6DC4A5974869787F049* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:35>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:35>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_0 = __this->___U3CpathU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 96212
+// Method Definition Index: 96218
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void VariableReference_set_path_m2987340812E384B0F12578542E50B0CEFABDEAB0_inline (VariableReference_tB87C62204639CBB2363DC6DC4A5974869787F049* __this, List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:35>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:35>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_0 = ___0_value;
 		__this->___U3CpathU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CpathU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 96209
+// Method Definition Index: 96215
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void VariableReference_set_name_mCA878128BFBEF54B19531F832CD1FB62A617ED65_inline (VariableReference_tB87C62204639CBB2363DC6DC4A5974869787F049* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:12>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:12>
 		String_t* L_0 = ___0_value;
 		__this->___U3CnameU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CnameU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 96208
+// Method Definition Index: 96214
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* VariableReference_get_name_mE6D2556C23D83C040F82E27DE755F7D6FBD90E0F_inline (VariableReference_tB87C62204639CBB2363DC6DC4A5974869787F049* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:12>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/VariableReference.cs:12>
 		String_t* L_0 = __this->___U3CnameU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 95824
+// Method Definition Index: 95830
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void VariableReference_set_pathForCount_m3488741E05F86E09B7A082704610A095EF0C7016_inline (VariableReference_t6DBE40073F3B791D54C0BB2443D9049B65836819* __this, Path_tCC1F1626DB60711735401EA8FA76A191D9014600* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/VariableReference.cs:9>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/VariableReference.cs:9>
 		Path_tCC1F1626DB60711735401EA8FA76A191D9014600* L_0 = ___0_value;
 		__this->___U3CpathForCountU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CpathForCountU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 95822
+// Method Definition Index: 95828
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void VariableReference_set_name_mD0F82FBF6521B061476F855E565D665D03BADF29_inline (VariableReference_t6DBE40073F3B791D54C0BB2443D9049B65836819* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkRuntime/VariableReference.cs:6>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkRuntime/VariableReference.cs:6>
 		String_t* L_0 = ___0_value;
 		__this->___U3CnameU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CnameU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 96009
+// Method Definition Index: 96015
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool FlowBase_get_isFunction_m89BD3D4FC104434B4EB5091C121C29C3E817D30F_inline (FlowBase_tC404CD82693644CCF6B95E73D16916F34439E822* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/FlowBase.cs:25>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/FlowBase.cs:25>
 		bool L_0 = __this->___U3CisFunctionU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 96226
+// Method Definition Index: 96232
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Weave_set_baseIndentIndex_m6F3D26B4F215BB48218CFE3E84BD0B26532B98B1_inline (Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:24>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:24>
 		int32_t L_0 = ___0_value;
 		__this->___U3CbaseIndentIndexU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 96225
+// Method Definition Index: 96231
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Weave_get_baseIndentIndex_m98068082F6788CEF08908CCDF9E62F4C4938839D_inline (Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:24>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:24>
 		int32_t L_0 = __this->___U3CbaseIndentIndexU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 96224
+// Method Definition Index: 96230
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Weave_set_currentContainer_m726341F02CE4FBBF970874A494486A48190F7C23_inline (Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37* __this, Container_t74302BC1028974B0A346A43F334AECB681D79579* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:22>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:22>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_0 = ___0_value;
 		__this->___U3CcurrentContainerU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CcurrentContainerU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 96223
+// Method Definition Index: 96229
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Container_t74302BC1028974B0A346A43F334AECB681D79579* Weave_get_currentContainer_mB0B00A3DCFD6945E5EFF414D3D64D13D856820F2_inline (Weave_t1E56124304AA6519E5BDDCD8792ABB26A7066E37* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:22>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Weave.cs:22>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_0 = __this->___U3CcurrentContainerU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 96048
+// Method Definition Index: 96054
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Gather_get_indentationDepth_m40F76E3F69111BE1085CFE0B79370156045C94E4_inline (Gather_t4D4449D7F4F457FE8C02998391783920F1D2459B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Gather.cs:11>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Gather.cs:11>
 		int32_t L_0 = __this->___U3CindentationDepthU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 95887
+// Method Definition Index: 95893
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Container_t74302BC1028974B0A346A43F334AECB681D79579* Choice_get_innerContentContainer_m9C30F03A0EFE2BEE3AC920D6F39B50E84127C3F3_inline (Choice_t36174EC808231C52E43CE7768134739559499893* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Choice.cs:42>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Choice.cs:42>
 		Container_t74302BC1028974B0A346A43F334AECB681D79579* L_0 = __this->____innerContentContainer;
 		return L_0;
 	}
 }
-// Method Definition Index: 96250
+// Method Definition Index: 96256
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void BadTerminationHandler_Invoke_m514669E211AB86F6F77667C526E42DE881D3AAD6_inline (BadTerminationHandler_t38227A0D50C73B21589BBEF3F43731475F7566EC* __this, Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7* ___0_terminatingObj, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, Object_tDB66D25C07C7A36ED0B21A5AE91F1DBA64B98EB7*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_terminatingObj, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 95949
+// Method Definition Index: 95955
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Divert_get_isThread_m5AF57D150FA6189A096F00149ED4BB4ADC1D3F73_inline (Divert_tE272DF3F0AABF09ED4E25477B45C8185D59C5186* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Divert.cs:15>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Divert.cs:15>
 		bool L_0 = __this->___U3CisThreadU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 95947
+// Method Definition Index: 95953
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Divert_get_isTunnel_m5F0B18A5D8A9CF7F751CCAE63840442D64E78EF0_inline (Divert_tE272DF3F0AABF09ED4E25477B45C8185D59C5186* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Divert.cs:14>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Divert.cs:14>
 		bool L_0 = __this->___U3CisTunnelU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 95943
+// Method Definition Index: 95949
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Divert_get_isFunctionCall_m795B07F1FA11C85E330D67D0C5E93157BEC3BB13_inline (Divert_tE272DF3F0AABF09ED4E25477B45C8185D59C5186* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/juand/Documents/Proyectos Unity/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Divert.cs:12>
+		//<source_info:C:/Users/juand/Documents/BackstageVR/Assets/Ink/InkLibs/InkCompiler/ParsedHierarchy/Divert.cs:12>
 		bool L_0 = __this->___U3CisFunctionCallU3Ek__BackingField;
 		return L_0;
 	}
@@ -15195,7 +15195,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* KeyValuePair_2_get
 		return L_0;
 	}
 }
-// Method Definition Index: 88223
+// Method Definition Index: 88229
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Current_m139A176CD271A0532D75BE08DA7831C8C45CE28F_gshared_inline (Enumerator_t72556E98D7DDBE118A973D782D523D15A96461C8* __this, const RuntimeMethod* method) 
 {
 	{
