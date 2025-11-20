@@ -9,29 +9,30 @@ using UnityEngine.XR.Interaction.Toolkit.Interactors;
 public class InstrumentHitZone : MonoBehaviour
 {
     [Tooltip("Debe coincidir con InstrumentCheck.id en el InspectableInstrument padre")]
-    public string checkId;
+    public string checkId = "mic_hit";
 
     [Header("Condiciones")]
-    // ⬇ IMPORTANTE:
-    // Por defecto se puede probar sin agarrar; si lo activas en el inspector,
-    // exige que el instrumento esté agarrado para disparar la prueba.
-    public bool requireInstrumentGrabbed = false;
+    [Tooltip("Solo ejecutar la prueba cuando el instrumento esté agarrado.")]
+    public bool requireInstrumentGrabbed = true;
 
-    public bool useSelect = true;                  // disparar al seleccionar con el ray
-    public bool useTriggerEnter = true;            // disparar al golpear físicamente
-    public LayerMask collisionLayers = ~0;         // capas que cuentan como golpe
+    [Tooltip("Disparar al seleccionar esta zona con el ray (Select).")]
+    public bool useSelect = true;
+
+    [Tooltip("Disparar al golpear físicamente el collider (OnTriggerEnter).")]
+    public bool useTriggerEnter = true;
+
+    [Tooltip("Capas que cuentan como golpe válido.")]
+    public LayerMask allowedLayers = ~0;
+
+    [Tooltip("Ignorar golpes de la MISMA mano que sostiene el instrumento.")]
+    public bool ignoreSameHandAsGrab = true;
 
     InspectableInstrument instrument;
     XRGrabInteractable grab;
     XRSimpleInteractable interactable;
-    Collider hitCollider;
 
     void Awake()
     {
-        hitCollider = GetComponent<Collider>();
-        if (!hitCollider.isTrigger)
-            hitCollider.isTrigger = true;          // esta zona se usa como trigger
-
         instrument = GetComponentInParent<InspectableInstrument>();
         if (!instrument)
         {
@@ -43,50 +44,36 @@ public class InstrumentHitZone : MonoBehaviour
         }
 
         interactable = GetComponent<XRSimpleInteractable>();
-        if (interactable)
+        if (useSelect && interactable != null)
         {
-            interactable.selectEntered.AddListener(OnSelectEntered);
+            interactable.selectEntered.AddListener(OnSelect);
+        }
+
+        var col = GetComponent<Collider>();
+        if (useTriggerEnter)
+        {
+            col.isTrigger = true;
         }
     }
 
     void OnDestroy()
     {
-        if (interactable)
-        {
-            interactable.selectEntered.RemoveListener(OnSelectEntered);
-        }
-    }
-
-    bool LayerAllowed(GameObject go)
-    {
-        return (collisionLayers.value & (1 << go.layer)) != 0;
+        if (interactable && useSelect)
+            interactable.selectEntered.RemoveListener(OnSelect);
     }
 
     // ---------- SELECT CON RAY ----------
-    void OnSelectEntered(SelectEnterEventArgs args)
+    void OnSelect(SelectEnterEventArgs args)
     {
-        if (!useSelect || !instrument)
-            return;
+        if (!instrument) return;
 
-        // Si se exige que esté agarrado y no lo está, no disparar
-        if (requireInstrumentGrabbed && (!grab || !grab.isSelected))
+        if (requireInstrumentGrabbed && grab && !grab.isSelected)
         {
-            Debug.Log($"[InstrumentHitZone:{name}] Ignorado select: instrumento no está agarrado.");
+            Debug.Log($"[InstrumentHitZone:{name}] Ignora Select: instrumento no está agarrado.");
             return;
         }
 
-        // Ignorar si es la misma mano que está sosteniendo el instrumento
-        if (grab != null && grab.isSelected)
-        {
-            var interactor = args.interactorObject as IXRSelectInteractor;
-            if (interactor != null && grab.interactorsSelecting.Contains(interactor))
-            {
-                Debug.Log($"[InstrumentHitZone:{name}] Ignorado select: misma mano que sostiene el instrumento.");
-                return;
-            }
-        }
-
-        string reason = $"selectEntered por {args.interactorObject}";
+        string reason = $"Select con {args.interactorObject}";
         Debug.Log($"[InstrumentHitZone:{name}] Test por SELECT. Motivo: {reason}");
         instrument.RunTest(checkId, reason);
     }
@@ -94,21 +81,14 @@ public class InstrumentHitZone : MonoBehaviour
     // ---------- GOLPE FÍSICO ----------
     void OnTriggerEnter(Collider other)
     {
-        if (!useTriggerEnter || !instrument)
+        if (!useTriggerEnter || !instrument) return;
+
+        if (((1 << other.gameObject.layer) & allowedLayers) == 0)
             return;
 
-        if (!LayerAllowed(other.gameObject))
-            return;
-
-        // Opcional: ignorar colisión con el propio instrumento
-        var otherInstrument = other.GetComponentInParent<InspectableInstrument>();
-        if (otherInstrument == instrument)
-            return;
-
-        // Ignorar si es la misma mano que está agarrando el instrumento
-        if (grab != null && grab.isSelected)
+        if (ignoreSameHandAsGrab && grab && grab.isSelected)
         {
-            var otherInteractor = other.GetComponentInParent<IXRSelectInteractor>();
+            var otherInteractor = other.GetComponentInParent<XRBaseInteractor>();
             if (otherInteractor != null && grab.interactorsSelecting.Contains(otherInteractor))
             {
                 Debug.Log($"[InstrumentHitZone:{name}] Ignorado golpe: misma mano que sostiene el instrumento.");
@@ -116,7 +96,6 @@ public class InstrumentHitZone : MonoBehaviour
             }
         }
 
-        // Si se exige que esté agarrado y no lo está, no disparar
         if (requireInstrumentGrabbed && grab && !grab.isSelected)
             return;
 

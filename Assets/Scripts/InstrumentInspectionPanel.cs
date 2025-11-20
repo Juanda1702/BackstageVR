@@ -104,7 +104,6 @@ public class InstrumentInspectionPanel : MonoBehaviour
         {
             target.OnStateChanged -= OnTargetStateChanged;
             target.OnChecklistChanged -= OnTargetChecklistChanged;
-            // Avisar al instrumento que este panel ya no existe
             target.NotifyInspectionPanelClosed();
         }
 
@@ -142,6 +141,9 @@ public class InstrumentInspectionPanel : MonoBehaviour
 
         foreach (var check in target.checks)
         {
+            if (!check.active)
+                continue; // solo mostramos los checks activos tras randomización
+
             var go = Instantiate(checklistItemPrefab, checklistContainer);
 
             // 1) Texto: usamos TMP_Text para cubrir TextMeshPro/TextMeshProUGUI
@@ -150,7 +152,7 @@ public class InstrumentInspectionPanel : MonoBehaviour
             {
                 tmpLabel.text = check.displayName;
                 tmpLabel.enableCulling = false;
-                // Pequeño offset en Z para evitar z-fighting
+                // Pequeño offset en Z para evitar z-fighting / desapariciones raras en VR
                 var t = tmpLabel.transform;
                 t.localPosition += new Vector3(0f, 0f, -0.001f);
             }
@@ -167,8 +169,27 @@ public class InstrumentInspectionPanel : MonoBehaviour
             if (toggle)
             {
                 toggle.isOn = check.done;
-                toggle.interactable = false; // los marca la simulación, no el jugador
+
+                // Las tareas visuales/manuales se marcan con el toggle del jugador
+                toggle.interactable = check.isManualVisualCheck;
+
                 uiChecks[check.id] = toggle;
+
+                if (check.isManualVisualCheck)
+                {
+                    string localId = check.id;
+
+                    // Cuando el jugador marca el toggle, damos por hecha la tarea visual
+                    toggle.onValueChanged.AddListener(isOn =>
+                    {
+                        if (target == null) return;
+                        if (isOn)
+                        {
+                            target.MarkCheckDone(localId);
+                        }
+                        // Si quisieras permitir desmarcar, aquí se podría revertir.
+                    });
+                }
             }
         }
 
@@ -242,12 +263,6 @@ public class InstrumentInspectionPanel : MonoBehaviour
 
     // --------------------------------------------------------------------
     // COLOCACIÓN EN EL MUNDO
-    /// <summary>
-    /// Calcula una pose inicial en el mundo para el panel:
-    /// - Usa el uiAnchor (o el instrumento) como base.
-    /// - Le aplica el offset local definido en el InspectableInstrument.
-    /// - Opcionalmente aplica un desplazamiento lateral y vertical en función de la cámara.
-    /// </summary>
     void SetupWorldAnchor(Transform anchor)
     {
         var camTransform = GetCameraTransform();
@@ -332,7 +347,7 @@ public class InstrumentInspectionPanel : MonoBehaviour
         }
 
         // Si permitimos reposicionamiento pero el usuario todavía no lo ha movido,
-        // mantenemos el panel en la posición inicial para que no se desplace solo.
+        // mantenemos el panel en la posición inicial
         if (!userHasRepositioned)
         {
             transform.position = anchoredPosition;
