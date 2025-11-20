@@ -70,6 +70,7 @@
     <Compile Include="Assets\Scripts\InstrumentHitZone.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\XRPokeFollowAffordanceFill.cs" />
     <Compile Include="Assets\Scripts\InstrumentDefs.cs" />
+    <Compile Include="Assets\Scripts\PlayerActivityTracker.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\BezierCurve.cs" />
     <Compile Include="Assets\Scripts\RoleManager.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\LaunchProjectile.cs" />

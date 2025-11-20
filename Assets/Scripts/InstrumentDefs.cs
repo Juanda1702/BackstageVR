@@ -18,12 +18,12 @@ public enum InstrumentType
 // Lo que ve / declara el jugador
 public enum ReportedState
 {
-    Unknown,        // aún no se ha tomado decisión
+    Unknown,        // aï¿½n no se ha tomado decisiï¿½n
     Good,           // aprobado
-    ReportedDamaged // reportado como dañado
+    ReportedDamaged // reportado como daï¿½ado
 }
 
-// Condición real (no se muestra en la UI)
+// Condiciï¿½n real (no se muestra en la UI)
 public enum ActualCondition
 {
     Good,
@@ -37,11 +37,15 @@ public class InstrumentCheck
     public string displayName;  // texto en el panel
     public bool required = true;
 
-    [Tooltip("Si está activo, esta tarea se marca manualmente desde el toggle del panel (normalmente visual).")]
+    [Tooltip("Si estï¿½ activo, esta tarea se marca manualmente desde el toggle del panel (normalmente visual).")]
     public bool isManualVisualCheck = false;
 
     [NonSerialized] public bool done;   // se marca solo en runtime
-    [NonSerialized] public bool active = true; // randomizador decide si esta prueba aparece o no
+    [NonSerialized] public bool active = true; // mantiene la prueba en la checklist (siempre true ahora)
+
+    [NonSerialized]
+    [Tooltip("En runtime: si true, y el instrumento real estÃ¡ DEFECTUOSO, esta prueba manifestarÃ¡ el defecto (sonarÃ¡/a visiblemente fallarÃ¡). Si false, la prueba se comportarÃ¡ como si el instrumento estuviera bueno.)")]
+    public bool simulatedDefective = false; // si el defecto se manifiesta para esta prueba
 }
 
 [Serializable]
@@ -50,13 +54,13 @@ public class InstrumentTestSound
     [Tooltip("Debe coincidir con InstrumentCheck.id")]
     public string checkId;           // debe coincidir con InstrumentCheck.id
 
-    [Tooltip("Sonido cuando el instrumento está en BUEN estado.")]
-    public AudioClip goodClip;       // sonido si el instrumento está bueno
+    [Tooltip("Sonido cuando el instrumento estï¿½ en BUEN estado.")]
+    public AudioClip goodClip;       // sonido si el instrumento estï¿½ bueno
 
-    [Tooltip("Sonido cuando el instrumento está DEFECTUOSO.")]
-    public AudioClip defectiveClip;  // sonido si el instrumento está dañado
+    [Tooltip("Sonido cuando el instrumento estï¿½ DEFECTUOSO.")]
+    public AudioClip defectiveClip;  // sonido si el instrumento estï¿½ daï¿½ado
 
-    [Tooltip("Si el instrumento está DEFECTUOSO, ¿esta prueba suena como si estuviera BIEN?")]
+    [Tooltip("Si el instrumento estï¿½ DEFECTUOSO, ï¿½esta prueba suena como si estuviera BIEN?")]
     public bool defectiveSoundsGood = false;
 }
 
@@ -66,9 +70,9 @@ public class InstrumentTestVisual
     [Tooltip("Debe coincidir con InstrumentCheck.id de la tarea visual asociada.")]
     public string checkId;
 
-    [Tooltip("Parte del instrumento (GameObject hijo) que se verá o desaparecerá según la condición real.")]
+    [Tooltip("Parte del instrumento (GameObject hijo) que se verï¿½ o desaparecerï¿½ segï¿½n la condiciï¿½n real.")]
     public GameObject partObject;
 
-    [Tooltip("Si el instrumento está DEFECTUOSO, ¿esta parte desaparece?")]
+    [Tooltip("Si el instrumento estï¿½ DEFECTUOSO, ï¿½esta parte desaparece?")]
     public bool hideIfDefective = true;
 }

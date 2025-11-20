@@ -167,32 +167,36 @@ public class InspectableInstrument : MonoBehaviour
         if (!randomizeTestsOnStart || checks == null || checks.Count == 0)
             return;
 
+        // Nota: ahora la checklist mantiene todas las pruebas (c.active = true).
+        // Lo que aleatorizamos es si el defecto se "manifiesta" para cada prueba
+        // (para sonidos: si suena defectuoso; para visuales: si la parte falta).
         foreach (var c in checks)
         {
-            // Visual/manual o de sonido
+            c.active = true; // siempre aparece en la lista de revisión
+            c.simulatedDefective = false;
+
             bool isVisual = c.isManualVisualCheck;
             float chance = isVisual ? visualTestAppearChance : soundTestAppearChance;
 
-            // Si la probabilidad es 1, no hace falta Random
             if (chance >= 1f)
             {
-                c.active = true;
+                c.simulatedDefective = true;
                 continue;
             }
 
             if (chance <= 0f)
             {
-                c.active = false;
+                c.simulatedDefective = false;
                 continue;
             }
 
-            c.active = (Random.value <= chance);
+            c.simulatedDefective = (Random.value <= chance);
         }
 
         // Log opcional
         foreach (var c in checks)
         {
-            Debug.Log($"[InspectableInstrument:{name}] Check '{c.id}' activo={c.active}, visual={c.isManualVisualCheck}");
+            Debug.Log($"[InspectableInstrument:{name}] Check '{c.id}' simulatedDefective={c.simulatedDefective}, visual={c.isManualVisualCheck}");
         }
     }
 
@@ -271,11 +275,23 @@ public class InspectableInstrument : MonoBehaviour
 
         if (panel != null)
             panel.Bind(this, anchor, interactorTf);
+
+        // Registrar inicio de inspección en el tracker (si existe)
+        try
+        {
+            PlayerActivityTracker.Instance?.BeginInstrumentInspection(type);
+        }
+        catch { }
     }
 
     public void NotifyInspectionPanelClosed()
     {
         uiInstance = null;
+        try
+        {
+            PlayerActivityTracker.Instance?.EndInstrumentInspection(type);
+        }
+        catch { }
     }
 
     // ---------------- VISUALES (PARTES PRESENTES/FALTANTES) ----------------
@@ -302,7 +318,8 @@ public class InspectableInstrument : MonoBehaviour
                 check = checks.FirstOrDefault(c => c.id == vis.checkId);
 
             // Si el check existe y está inactivo, no queremos simular el defecto → parte visible
-            if (check != null && !check.active)
+            // Si el check existe y NO se simuló el defecto para esta prueba, tratamos la parte como normal (visible)
+            if (check != null && !check.simulatedDefective)
             {
                 vis.partObject.SetActive(true);
                 continue;
@@ -330,7 +347,6 @@ public class InspectableInstrument : MonoBehaviour
         if (checks == null) return;
         var c = checks.Find(ch => ch.id == id);
         if (c == null) return;
-        if (!c.active) return; // si la prueba no está activa en este escenario, no hacemos nada
         if (c.done) return;
 
         c.done = true;
@@ -352,20 +368,21 @@ public class InspectableInstrument : MonoBehaviour
         if (string.IsNullOrEmpty(checkId))
             return;
 
-        // Si existe un check asociado y está inactivo, ignoramos esta prueba
+        // Referencia al check (si existe). Ya no ignoramos tests basados en active: la checklist
+        // contiene todas las pruebas; en su lugar usamos check.simulatedDefective para decidir
+        // si el defecto se manifiesta para esta prueba.
         InstrumentCheck checkRef = null;
         if (checks != null)
             checkRef = checks.FirstOrDefault(c => c.id == checkId);
 
-        if (checkRef != null && !checkRef.active)
-        {
-            Debug.Log($"[InspectableInstrument:{name}] RunTest '{checkId}' ignorado: check está inactivo por randomización.");
-            return;
-        }
-
         Debug.Log($"[InspectableInstrument:{name}] RunTest '{checkId}'. Motivo: {reason}");
 
         bool defective = IsActuallyDefective();
+
+        // Para esta ejecución de la prueba, el defecto se considera efectivo sólo si:
+        // - el instrumento REAL está defectuoso
+        // - Y la prueba en cuestión fue seleccionada para manifestar el defecto
+        bool effectiveDefect = defective && (checkRef == null || checkRef.simulatedDefective);
 
         // ---------- 1. Feedback de audio según estado ----------
         InstrumentTestSound ts = null;
@@ -376,16 +393,15 @@ public class InspectableInstrument : MonoBehaviour
         {
             AudioClip clipToPlay = null;
 
-            if (!defective)
+            if (!effectiveDefect)
             {
-                // Instrumento BUENO → siempre usamos goodClip (si existe)
+                // Tratamos la prueba como si el instrumento estuviera BUENO → usamos goodClip
                 clipToPlay = ts.goodClip;
             }
             else
             {
-                // Instrumento DEFECTUOSO:
-                // - Si defectiveSoundsGood == true → suena como bueno
-                // - Si defectiveSoundsGood == false → suena el clip defectuoso
+                // La prueba manifiesta el defecto → si el descriptor indica que incluso en
+                // estado defectuoso suena como bueno, entonces usamos goodClip; si no, defectiveClip
                 if (ts.defectiveSoundsGood)
                     clipToPlay = ts.goodClip;
                 else
